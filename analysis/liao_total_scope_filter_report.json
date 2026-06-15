@@ -1,0 +1,69 @@
+{
+  "generatedDate": "2026-06-15",
+  "books": [
+    {
+      "fileName": "李敖自传与回忆_诗词名言引用.csv",
+      "book": "李敖自传与回忆",
+      "originalRows": 85,
+      "keptRows": 83,
+      "removedRows": 2
+    },
+    {
+      "fileName": "李敖自传与回忆续集_诗词名言引用.csv",
+      "book": "李敖自传与回忆续集",
+      "originalRows": 85,
+      "keptRows": 73,
+      "removedRows": 12
+    },
+    {
+      "fileName": "我最难忘的事和人_诗词名言引用.csv",
+      "book": "我最难忘的事和人",
+      "originalRows": 111,
+      "keptRows": 70,
+      "removedRows": 41
+    },
+    {
+      "fileName": "李敖回忆录_诗文格言歌谣引用.csv",
+      "book": "李敖回忆录",
+      "originalRows": 111,
+      "keptRows": 111,
+      "removedRows": 0
+    }
+  ],
+  "rows": 337,
+  "removedRows": 55,
+  "uniqueIds": 337,
+  "removedByCategory": {
+    "现代政治语录": 13,
+    "现代人物语录": 10,
+    "现代教育语录": 3,
+    "现代讽刺语录": 2,
+    "现代批评语": 2,
+    "现代评论语": 2,
+    "现代史论警句": 2,
+    "现代政治名言": 2,
+    "出版原则语": 1,
+    "反讽口号": 1,
+    "古典法理名句": 1,
+    "军中语录": 1,
+    "历史口号": 1,
+    "外国政治名言": 1,
+    "西方政治名言": 1,
+    "西方政治学名言": 1,
+    "现代国际语录": 1,
+    "现代教育名言": 1,
+    "现代教育主张": 1,
+    "现代人权语录": 1,
+    "现代人物赠语": 1,
+    "现代史料判断": 1,
+    "现代史学论断": 1,
+    "现代政治格言": 1,
+    "学生刊物宣言": 1,
+    "政治口号/套语": 1,
+    "政治套语/讽刺语": 1
+  },
+  "csvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗文格言歌谣引用.csv",
+  "txtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗文格言歌谣引用.txt",
+  "legacyCsvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗词名言引用.csv",
+  "legacyTxtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗词名言引用.txt"
+}
