@@ -1003,7 +1003,21 @@ const columns = [
   "notes",
 ];
 
-const outputRows = [...rows].sort(
+const excludedSelfAuthoredIds = new Set([
+  "LAZHXJ-001",
+  "LAZHXJ-002",
+  "LAZHXJ-014",
+  "LAZHXJ-025",
+  "LAZHXJ-043",
+  "LAZHXJ-047",
+  "LAZHXJ-058",
+  "LAZHXJ-059",
+  "LAZHXJ-064",
+]);
+
+const outputRows = rows
+  .filter((record) => !excludedSelfAuthoredIds.has(record.id))
+  .sort(
   (a, b) =>
     a.source_file.localeCompare(b.source_file, "zh-Hans-CN") ||
     Number(a.line_start) - Number(b.line_start) ||
@@ -1054,4 +1068,15 @@ for (const record of outputRows) {
 const txtPath = path.join(outDir, "李敖自传与回忆续集_诗词名言引用.txt");
 fs.writeFileSync(txtPath, `\uFEFF${txt.join("\r\n")}\r\n`, "utf8");
 
-console.log(JSON.stringify({ rows: rows.length, csvPath, txtPath }, null, 2));
+console.log(
+  JSON.stringify(
+    {
+      rows: outputRows.length,
+      excludedSelfAuthoredRows: rows.length - outputRows.length,
+      csvPath,
+      txtPath,
+    },
+    null,
+    2,
+  ),
+);

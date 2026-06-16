@@ -1,0 +1,42 @@
+《李敖议坛哀思录》初提取报告
+生成日期：2026-06-15
+
+一、扫描范围
+- 源目录：大李敖全集6.0/001.自传回忆类/006.李敖议坛哀思录
+- 源文件：143 个 txt（含目录与立法院公报附录）
+- 候选扫描：quoteCandidates=1901，uniqueQuoteTexts=1207，keywordLines=359
+- 复核辅助：reviewCandidates=634，keywordLines=141，triggerCandidates=150，plausibleQuotes=116
+
+二、当前结果
+- 单书导出：54 条
+- 单书回源校验：records=54，uniqueIds=54，errors=[]
+- 总表重建：rows=468，uniqueIds=468，按分类过滤政论等 49 条
+- 本书进入总表：54 条
+
+三、本书口径
+- 收：古典文句、唐宋诗句、联语、俗谚、英语/西方格言、宗教经典句、歌词/儿歌改编、明确标明出处的现代人物格言。
+- 不收：普通议场发言、公文条文、政策判断、政论口号、李敖自作诗、李敖自写竞选文案和宣言式句子。
+- 本书政治发言密度高，初提取优先保守：只收有明确“俗话/古话/名言/诗人/格言/出处”或可确认经典来源的项目。
+
+四、已排除的典型项
+- 003 章“贺林彭小两口儿”等为李敖自作题诗，不收。
+- 061、070 等章节的反军购打油诗为李敖自作，不收。
+- 119 章列宁议会政治长段属于政治理论语录，不收。
+- 107、109 章公投/国号/国旗等条文式政治口号，不收。
+- 136-142 附录中的普通质询、公报问答和政策论断，不收。
+
+五、输出文件
+- exports/李敖议坛哀思录_诗文格言歌谣引用.csv
+- exports/李敖议坛哀思录_诗文格言歌谣引用.txt
+- exports/总_诗文格言歌谣引用.csv
+- exports/总_诗文格言歌谣引用.txt
+- exports/总_诗词名言引用.csv
+- exports/总_诗词名言引用.txt
+
+六、校验记录
+- node --check tools/create_liao_forum_mourning_review_aids.js：通过。
+- node --check tools/build_liao_forum_mourning_exports.js：通过。
+- node tools/build_liao_forum_mourning_exports.js：rows=54，uniqueIds=54，duplicateIds=[]。
+- node tools/validate_liao_book_exports.js：records=54，uniqueIds=54，errors=[]。
+- node tools/build_liao_total_exports.js：rows=468，removedRows=49，uniqueIds=468。
+- 总表结构检查：rows=468，uniqueIds=468，duplicateIds=[]，李敖议坛哀思录=54。

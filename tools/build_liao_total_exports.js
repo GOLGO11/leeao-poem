@@ -1,13 +1,16 @@
 const fs = require("fs");
 const path = require("path");
 
-const generatedDate = "2026-06-15";
+const generatedDate = "2026-06-16";
 
 const bookExports = [
   "李敖自传与回忆_诗词名言引用.csv",
   "李敖自传与回忆续集_诗词名言引用.csv",
   "我最难忘的事和人_诗词名言引用.csv",
   "李敖回忆录_诗文格言歌谣引用.csv",
+  "李敖快意恩仇录_诗文格言歌谣引用.csv",
+  "李敖议坛哀思录_诗文格言歌谣引用.csv",
+  "李敖风流自传_诗文格言歌谣引用.csv",
 ];
 
 const columns = [
@@ -181,7 +184,7 @@ for (const stat of stats) {
   txt.push(`- 《${stat.book}》：保留 ${stat.keptRows} 条，原表 ${stat.originalRows} 条，剔除 ${stat.removedRows} 条`);
 }
 txt.push("");
-txt.push("口径说明：普通政论语录、公文审讯语句、政治/教育/人权主张类不进入总表；主收诗文、古文名句、格言、俗谚、歌谣、歌词、联语及宗教/哲学经典句。");
+txt.push("口径说明：普通政论语录、公文审讯语句、政治/教育/人权主张类、李敖自作诗不进入总表；主收诗文、古文名句、格言、俗谚、歌谣、歌词、联语及宗教/哲学经典句。");
 txt.push("");
 
 let currentBook = "";

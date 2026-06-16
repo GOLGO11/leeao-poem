@@ -1,0 +1,48 @@
+《李敖快意恩仇录》校对轮报告
+生成日期：2026-06-15
+
+一、校对口径
+- 本轮沿用新口径：主收诗文、格言、俗谚、歌谣/歌词、联语、典故、宗教/哲学经典句。
+- 不收普通政论语录、公文审讯语句、政策判断、临场政治表态。
+- 不收李敖自己的诗、歌词、题句和自我名言。
+- 过短、不能独立构成有效引用的片段不收。
+
+二、数量变化
+- 初提取单书条目：71 条。
+- 校对补入：23 条，编号 LAKYEC-072 至 LAKYEC-094。
+- 校对剔除：2 条，编号 LAKYEC-049、LAKYEC-050。
+- 校对后单书导出：92 条。
+- 当前总表导出：414 条。
+- 总表中按新口径过滤的明显政论/政治语录类：49 条。
+
+三、剔除项
+- LAKYEC-049：quote_text 为“愉快”，只是 Browning 译句中的单词级片段，不能独立作为诗文格言条目。
+- LAKYEC-050：quote_text 为“玫瑰网眼”，只是 Browning 译句中的局部比喻，信息量过短；完整 Browning 译句已保留为 LAKYEC-048。
+
+四、补入范围
+- 005.大寒纪：补《小桃红》歌词、《闻奇录》真真故事、《拾遗记》刘备玩玉人典故。
+- 007.委蜕纪：补胡适个人主义格言、李恕谷交友求士格言。
+- 009.白露纪：补拉斯金读书格言、萧伯纳“纸上罗曼史”、贾岛“云深不知处”。
+- 010.根株纪：补陶渊明《拟古》《归园田居》诗、鬼谷子河边树/崇岱松柏之喻、弗洛斯特《预防》诗意。
+- 011.殷鉴纪：补“义不食周粟”典故。
+- 015.三叠纪：补《水浒传》热血/赴水火俗语、杜月笙“被利用”格言。
+- 016.梦遗纪：补王安石“不畏浮云遮望眼”。
+- 017.猪猡纪：补伍子胥鞭尸典故、爱默生进攻国王格言、“贤者识其大者”古话。
+- 018.闹衙纪：补“丑媳妇总要见公婆”俗话。
+- 020.志留纪：补陶运猷赠诗、亚历山大与狄阿杰尼斯典故格言。
+
+五、导出文件
+- exports/李敖快意恩仇录_诗文格言歌谣引用.csv
+- exports/李敖快意恩仇录_诗文格言歌谣引用.txt
+- exports/总_诗文格言歌谣引用.csv
+- exports/总_诗文格言歌谣引用.txt
+- exports/总_诗词名言引用.csv
+- exports/总_诗词名言引用.txt
+
+六、校验记录
+- node --check tools/build_liao_pleasure_revenge_exports.js：通过。
+- node tools/build_liao_pleasure_revenge_exports.js：rows=92，sourceRows=94，excludedProofreadRows=2，uniqueIds=92，duplicateIds=[]。
+- node tools/validate_liao_book_exports.js：records=92，uniqueIds=92，errors=[]。
+- node tools/build_liao_total_exports.js：rows=414，removedRows=49，uniqueIds=414。
+- 总表结构校验：rows=414，uniqueIds=414，duplicateIds=[]，LAKYEC-049/LAKYEC-050 均未进入总表。
+- 校对 audit 文件已刷新：analysis/liao_pleasure_revenge_proofread_audit.tsv，covered=50，uncovered=278。
