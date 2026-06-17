@@ -1,0 +1,46 @@
+《李敖文存》诗文格言歌谣引用初提取报告
+
+生成日期：2026-06-16
+
+一、源文本
+- 目录：.\《大李敖全集6.0》分章节\002.精品散文类\004.李敖文存
+- 文件数：21
+- 正文行数：2006
+
+二、候选与辅助文件
+- 原始候选：analysis/liao_wencun_quote_candidates.json
+  - quoteCandidates: 1231
+  - uniqueQuoteTexts: 960
+  - keywordLines: 154
+- 复核候选：analysis/liao_wencun_review_candidates.tsv
+  - selected: 466
+- 回源辅助：
+  - analysis/liao_wencun_keyword_lines.tsv
+  - analysis/liao_wencun_keyword_lines_short.tsv
+  - analysis/liao_wencun_plausible_quotes.tsv
+  - analysis/liao_wencun_known_quote_matches.tsv
+
+三、初提取口径
+- 保留：古诗文、古书原文、成语典故、民间俗谚、歌谣、联语、佛教/宗教/哲学格言、外国文学或思想格言、较明显的作家格言。
+- 克制保留：现代人物语录、现代史论和政论段落，只收具有诗文格言属性或传统成句属性的材料。
+- 排除：李敖自作诗文、普通政论口号、公文审讯语、纯史实考证句、一般术语和书名人名、重复出现且无新语境的条目。
+
+四、本轮结果
+- 单书导出脚本：tools/build_liao_wencun_exports.js
+- 单书 CSV：exports/李敖文存_诗文格言歌谣引用.csv
+- 单书 TXT：exports/李敖文存_诗文格言歌谣引用.txt
+- 初提取条目数：165
+- ID 范围：LAWC-001 至 LAWC-165
+
+五、校验
+- 语法校验：node --check tools/build_liao_wencun_exports.js 通过
+- 行号校验：node tools/validate_liao_book_exports.js <source> exports/李敖文存_诗文格言歌谣引用.csv 通过
+- 校验结果：records 165, uniqueIds 165, errors 0
+- 总表重建：node tools/build_liao_total_exports.js 通过
+- 总表当前保留：1131 条
+- 《李敖文存》进入总表：165 条
+
+六、下一轮校对重点
+- 010.写在居浩然《义和团思想和文化沙文主义》的后面.txt：本篇含大量现代政论引文，校对时重点确认是否还要补收徐志摩长信中的文言句，或继续维持只收格言/典故的克制口径。
+- 011.黄帝子孙的黄金观.txt、012.中华大赌特赌史.txt、013.且从青史看青楼.txt：古书引文密集，校对时适合逐条检查是否有制度史引文过宽或漏掉短成句。
+- 015.这样笨，还要做强盗！.txt、016.《蒋廷黻选集》序.txt：本轮按“去政论名句”要求收得较紧，校对时可决定是否进一步剔除现代战争/社会评论类格言。

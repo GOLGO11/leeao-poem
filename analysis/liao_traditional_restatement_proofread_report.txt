@@ -1,0 +1,30 @@
+《传统下的再白》诗文格言歌谣引用校对报告
+生成日期：2026-06-16
+
+一、校对动作
+- 在初提取 24 条基础上，复查候选表、关键词审计表、未覆盖引号候选。
+- 新增 4 条，未删条目。
+- 校对后本书 28 条，增补项使用 LACTZB-025 至 LACTZB-028。
+
+二、增补条目
+- LACTZB-025：拒人于千里之外
+- LACTZB-026：不让须眉
+- LACTZB-027：推陈出新
+- LACTZB-028：除旧布新
+
+三、保留/排除边界
+- 保留：明确加引号、具有古典成语/成句性质，且服务于李敖论述的短句。
+- 仍排除：李敖自写打油诗，孙中山/林森信件中的政论摘句，王世杰案公文与行政指控，普通引号词、书名篇名、绰号，以及“毋忘在莒/毋忘举债”等政治口号。
+- 复查后仍未收：《日记八则》中“离离原上草”等自写讽刺诗段、“伏虎有术，手法亦有异同”等党务信件摘句、“视而不见”“年富力强”等王世杰案普通成语/行政语境。
+
+四、校验
+- node --check tools/build_liao_traditional_restatement_exports.js
+- node tools/build_liao_traditional_restatement_exports.js
+- node tools/validate_liao_book_exports.js ".\《大李敖全集6.0》分章节\002.精品散文类\002.传统下的再白" ".\exports\传统下的再白_诗文格言歌谣引用.csv"
+- node tools/audit_liao_pleasure_revenge_proofread.js ".\《大李敖全集6.0》分章节\002.精品散文类\002.传统下的再白" ".\exports\传统下的再白_诗文格言歌谣引用.csv" ".\analysis\liao_traditional_restatement_proofread_audit.tsv"
+- node tools/audit_liao_traditional_restatement_proofread.js
+- node tools/build_liao_total_exports.js
+
+校验结果：
+- 本书 records=28，uniqueIds=28，errors=[]
+- 总表 rows=817，uniqueIds=817，政论等范围过滤剔除总数=49

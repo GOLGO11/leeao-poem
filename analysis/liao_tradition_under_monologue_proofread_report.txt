@@ -1,0 +1,58 @@
+《独白下的传统》诗文格言歌谣引用校对报告
+生成日期：2026-06-16
+
+一、校对范围
+- 基础版本：初提取 97 条，ID 前缀 LADXT。
+- 校对依据：
+  - analysis\liao_tradition_under_monologue_review_candidates.tsv
+  - analysis\liao_tradition_under_monologue_known_quote_matches.tsv
+  - analysis\liao_tradition_under_monologue_proofread_audit.tsv
+  - 原书 21 个正文章节逐项回源核对。
+- 本轮新增严格审计脚本：tools\audit_liao_tradition_under_monologue_proofread.js。
+
+二、校对结果
+- 校对后单书导出：149 条。
+- 本轮净增：52 条。
+- 总表中 LADXT 条数：149。
+- 总表重建后：rows=966，uniqueIds=966，removedRows=49。
+
+三、主要补入内容
+- 总论与直笔：补“ 一部十七史，从何处说起？ ”、“究天人之际，通古今之变，成一家之言”、“鲁之君臣，未尝相弑！”、“若想人不知，除非己莫为。”等。
+- 避讳与谏诤：补冯道诗句“莫为危时便怆神，前程往往有期因”和陈禾谏诤语。
+- 吃人与喝酒：补《满江红》“壮志饥餐胡虏肉，笑谈渴饮匈奴血”、朱粲/赵思绾史传警句，以及“酒以成礼，不敢不拜”“偷本非礼，所以不拜”。
+- 音乐章：补《论语》音乐名句“三月不知肉味”“不图为乐之至于斯也”“尽美矣！又尽善也！”，以及“知音”“对牛弹琴”“短笛无腔信口吹”“滥竽充数”。
+- 家族与女性章：补“父赐子死，尚安复请？”、“男尊女卑”、“三从”三句、“五世其昌”、“同居异爨，一门数灶”、“弄獐之喜”、“獐头鼠目”。
+- 贞节与欢喜佛：补乔氏故事中舅姑语、娼家语、存孤明节语，以及《易传》“通神明之德，以类万物之情”。
+- 中国民族“性”：补“男女杂游、不媒不娉”、“唯禽兽无礼，故父子聚麀”、“防隔内外，禁止淫佚”、“男女不通衣裳”、“富贵不能淫”、“坐怀不乱”、“令会男女”、“奔者不禁”。
+- 感应与谏鼓谤木：补“仁风所感，虎狼出境”、“猛兽伏，不敢起”、“象为之耕，鸟为之耘”、“涌泉跃鲤”，以及《大戴礼》《吕览》《邓析子》《汉书》中的谏鼓谤木系统引文。
+- 戏曲：补《桃花扇》“大泽深山随处找……”皂隶唱词。
+
+四、排除边界
+- 未补普通历史对白：如部分唐太宗、宋太祖、朱云故事对白，虽有引号但更像叙事台词，不作为诗文格言歌谣主表条目。
+- 未补制度/公文型句子：如登闻鼓院设置、每日监值、行政受理条件等，避免回到“政论/制度材料”路径。
+- 未补单纯祥瑞身体清单：如“两耳垂肩、双手过膝”等，除已保留一条总括性神话异相外，不再逐项拆分。
+- 未补同一长引文中的碎片问答：如《琅环记》观音问答的若干问句，已由一条核心回答句覆盖其引用功能。
+- 未补食人史料流水账：历代“人相食”记录偏史料摘录，不作诗文格言歌谣处理。
+
+五、验证
+- node --check tools\build_liao_tradition_under_monologue_quotes.js
+- node tools\build_liao_tradition_under_monologue_quotes.js
+- node tools\validate_liao_book_exports.js ".\《大李敖全集6.0》分章节\002.精品散文类\003.独白下的传统" ".\exports\独白下的传统_诗文格言歌谣引用.csv"
+  - records=149
+  - uniqueIds=149
+  - errors=[]
+- node --check tools\build_liao_total_exports.js
+- node tools\build_liao_total_exports.js
+  - rows=966
+  - uniqueIds=966
+  - 独白下的传统 originalRows=149，keptRows=149，removedRows=0
+- rg "^LADXT-" ".\exports\总_诗文格言歌谣引用.csv" --count
+  - 149
+
+六、输出文件
+- exports\独白下的传统_诗文格言歌谣引用.csv
+- exports\独白下的传统_诗文格言歌谣引用.txt
+- exports\总_诗文格言歌谣引用.csv
+- exports\总_诗文格言歌谣引用.txt
+- exports\总_诗词名言引用.csv
+- exports\总_诗词名言引用.txt

@@ -1,0 +1,84 @@
+《李敖文存二集》诗文格言歌谣引用初提取报告
+生成日期：2026-06-16
+
+一、源文本
+- 目录：.\《大李敖全集6.0》分章节\002.精品散文类\005.李敖文存二集
+- 文件数：17（含目录）
+- 正文篇数：16
+
+二、候选与辅助文件
+- 原始候选：analysis/liao_wencun2_quote_candidates.json
+  - quoteCandidates: 1259
+  - uniqueQuoteTexts: 953
+  - keywordLines: 104
+- 复核候选：analysis/liao_wencun2_review_candidates.tsv
+  - selected: 373
+- 回源辅助：
+  - analysis/liao_wencun2_keyword_lines.tsv
+  - analysis/liao_wencun2_keyword_lines_short.tsv
+  - analysis/liao_wencun2_plausible_quotes.tsv
+  - analysis/liao_wencun2_known_quote_matches.tsv
+  - keywordLines: 142
+  - plausibleQuotes: 391
+  - knownMatches: 24
+
+三、初提取口径
+- 保留：古诗文、古书原文、成语典故、民间俗谚、歌谣、联语、佛经/圣经/中外文学名句、格言性强的外国作家或思想家语句。
+- 克制保留：近现代人物名言和历史人物语，只在具有诗文格言属性、文学典故属性或本篇论述核心地位时收。
+- 排除：普通政论口号、现代政治短评、私人信件中的闲话对白、单纯书名人名、李敖自造诗文和语境过弱的现代人物语录。
+
+四、本轮结果
+- 单书导出脚本：tools/build_liao_wencun2_exports.js
+- 单书 CSV：exports/李敖文存二集_诗文格言歌谣引用.csv
+- 单书 TXT：exports/李敖文存二集_诗文格言歌谣引用.txt
+- 初提取条目数：185
+- ID 范围：LAWC2-001 至 LAWC2-185
+- 总表保留：185
+
+五、章节重点
+- 001.“缇萦救父”表示了什么？：古代肉刑、族诛、奴隶制度相关古书引文密集，收入《史记》《汉书》《庄子》《易经》《周礼》等材料。
+- 002.给杨贵妃的一封信：集中收入《长恨歌》、袁枚诗句和相关民谣。
+- 003.“逸豫适足亡身”吗？：收入欧阳修原文、联考误引、荀子和曾国藩作文题、欧阳修词文句。
+- 008.“舒而脱脱兮！”：收入《诗经》、古典成语、小说套语、陆游诗句与赵翼诗句化用。
+- 009.过早的答案：收入祢衡故事、《三国演义》人物语、《孟子》长引、陆游句和弗罗斯特格言；普通政论短评未扩收。
+- 011.论没有“流血的自由”：只保留诗句、俗语、近代志士名言等具有格言/文学属性的材料，斯大林公审类现代政治语录未收入。
+- 012.牛肉面老板的七封信：收入《后汉书·逸民列传》、余光中启事中的典故、胡适赠语、顾炎武名言和《水浒传》引文。
+
+六、继续排除的典型候选
+- 重复出现的“忧劳所以兴国，逸豫适足亡身”只保留代表性条目，未按每次复现逐条扩张。
+- 《过早的答案》中《中央日报》政论短评和龚德柏政论段落，除“盖棺论定”等成语性材料外未收。
+- 《论没有“流血的自由”》中斯大林公审和检察官语录，虽有引号但偏现代政治语录，未收。
+- 《牛肉面老板的七封信》中私人来信寒暄、称呼和临时玩笑话未收。
+- 《刻薄的批评与正直的建议》《眼看黑暗到来，又目送黑暗归去》《没人能赶在台风前面》主要为李敖自述与现代信札语，未做扩收。
+
+七、总导出
+- 已重建：
+  - exports/总_诗文格言歌谣引用.csv
+  - exports/总_诗文格言歌谣引用.txt
+  - exports/总_诗词名言引用.csv
+  - exports/总_诗词名言引用.txt
+- 总表现计：1307 条
+- 总表 uniqueIds：1307
+- 范围过滤剔除总数：49 条
+- 《李敖文存二集》在总表中保留：185 条
+
+八、校验
+已运行：
+node --check tools/create_liao_wencun2_review_aids.js
+node tools/extract_liao_quote_candidates.js ".\《大李敖全集6.0》分章节\002.精品散文类\005.李敖文存二集" ".\analysis\liao_wencun2_quote_candidates.json"
+node tools/filter_liao_quote_candidates.js ".\analysis\liao_wencun2_quote_candidates.json" ".\analysis\liao_wencun2_review_candidates.tsv"
+node tools/create_liao_wencun2_review_aids.js ".\《大李敖全集6.0》分章节\002.精品散文类\005.李敖文存二集" ".\analysis\liao_wencun2_quote_candidates.json"
+node --check tools/build_liao_wencun2_exports.js
+node tools/build_liao_wencun2_exports.js
+node tools/validate_liao_book_exports.js ".\《大李敖全集6.0》分章节\002.精品散文类\005.李敖文存二集" ".\exports\李敖文存二集_诗文格言歌谣引用.csv"
+node --check tools/build_liao_total_exports.js
+node tools/build_liao_total_exports.js
+rg "^LAWC2-" ".\exports\总_诗文格言歌谣引用.csv" --count
+
+校验结果：
+本书 records：185
+本书 uniqueIds：185
+本书 errors：0
+总表 rows：1307
+总表 uniqueIds：1307
+总表中 LAWC2 行数：185

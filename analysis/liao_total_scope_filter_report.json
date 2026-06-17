@@ -49,11 +49,46 @@
       "originalRows": 147,
       "keptRows": 147,
       "removedRows": 0
+    },
+    {
+      "fileName": "传统下的独白_诗文格言歌谣引用.csv",
+      "book": "传统下的独白",
+      "originalRows": 161,
+      "keptRows": 161,
+      "removedRows": 0
+    },
+    {
+      "fileName": "传统下的再白_诗文格言歌谣引用.csv",
+      "book": "传统下的再白",
+      "originalRows": 28,
+      "keptRows": 28,
+      "removedRows": 0
+    },
+    {
+      "fileName": "独白下的传统_诗文格言歌谣引用.csv",
+      "book": "独白下的传统",
+      "originalRows": 149,
+      "keptRows": 149,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖文存_诗文格言歌谣引用.csv",
+      "book": "李敖文存",
+      "originalRows": 156,
+      "keptRows": 156,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖文存二集_诗文格言歌谣引用.csv",
+      "book": "李敖文存二集",
+      "originalRows": 185,
+      "keptRows": 185,
+      "removedRows": 0
     }
   ],
-  "rows": 628,
+  "rows": 1307,
   "removedRows": 49,
-  "uniqueIds": 628,
+  "uniqueIds": 1307,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

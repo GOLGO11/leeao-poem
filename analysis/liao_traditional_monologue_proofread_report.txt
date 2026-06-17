@@ -1,0 +1,30 @@
+《传统下的独白》诗文格言歌谣引用校对报告
+生成日期：2026-06-16
+
+一、校对动作
+- 在初提取 139 条基础上，用候选表、关键词审计表回查未覆盖行。
+- 新增 22 条，未删条目。
+- 校对后本书 161 条，ID 保留旧编号，增补项使用 LACTDB-140 至 LACTDB-161。
+
+二、增补重点
+- 补《兰亭集序》“群贤毕至，少长咸集”。
+- 补《新约·路加福音》“律师有祸了”“把难担的担子放在人身上”。
+- 补《老年人和棒子》中的 Frost、陆游、叔本华、屠格涅夫、《北史》、古典成句/谚语等。
+- 补《十三年和十三月》中的“看射猛虎终残年”“水深波浪阔”。
+
+三、保留/排除边界
+- 保留：宗教经典句、古典诗文、古典成句、外文文学/哲学名句，即便出现在法律篇中，只要本身是经典格言。
+- 仍排除：法律条文、公文制度语、医学立法论战、普通政论评论、李敖自拟/家内打油诗、单纯书名电影名。
+- 复查后仍未收：丁福保《历代医学书目序》段落，勃朗宁片段“pleasant/rose-mesh”，评论语境中的“蝉曳残声到别枝”，因偏材料/片段/政论评论语境。
+
+四、校验
+- node --check tools/build_liao_traditional_monologue_exports.js
+- node tools/build_liao_traditional_monologue_exports.js
+- node tools/validate_liao_book_exports.js ".\《大李敖全集6.0》分章节\002.精品散文类\001.传统下的独白" ".\exports\传统下的独白_诗文格言歌谣引用.csv"
+- node tools/audit_liao_pleasure_revenge_proofread.js ".\《大李敖全集6.0》分章节\002.精品散文类\001.传统下的独白" ".\exports\传统下的独白_诗文格言歌谣引用.csv" ".\analysis\liao_traditional_monologue_proofread_audit.tsv"
+- node --check tools/build_liao_total_exports.js
+- node tools/build_liao_total_exports.js
+
+校验结果：
+- 本书 records=161，uniqueIds=161，errors=[]
+- 总表 rows=789，uniqueIds=789，政论等范围过滤剔除总数=49
