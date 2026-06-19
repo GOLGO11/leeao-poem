@@ -1,0 +1,67 @@
+《李敖全集》诗文格言歌谣引用校对报告
+
+日期：2026-06-17
+
+一、校对范围
+- 基础版本：初提取 137 条，ID 前缀 LACW。
+- 校对依据：
+  - exports/李敖全集_诗文格言歌谣引用.csv
+  - analysis/liao_complete_works_review_candidates.tsv
+  - analysis/liao_complete_works_plausible_quotes.tsv
+  - analysis/liao_complete_works_known_quote_matches.tsv
+  - analysis/liao_complete_works_keyword_lines_short.tsv
+  - analysis/liao_complete_works_proofread_audit.tsv
+  - 原书 35 个 txt 文件逐段回源校验。
+- 口径继续按“诗文、格言、俗谚、歌谣、文学/文论引文、经典成语典故”为主；排除普通政论名句、现代政治现场话、教育/法律条文、出版说明、私人口语闲话及李敖自作诗。
+
+二、校对结果
+- 初提取条目数：137
+- 校对删除：4
+- 校对补入：30
+- 校对后本书条目数：163
+- ID 范围：保留 LACW-001 至 LACW-137 中符合口径者；新增 LACW-138 至 LACW-167；删除 ID 不复用。
+
+三、删除条目
+1. LACW-020：若不是因为我将来有当首相的希望，我早就不搞政治了。丘吉尔现代政治人物语，按“去政论名句”口径删除。
+2. LACW-021：对他们伟大领袖无情，是强大民族的特征。普鲁塔克/丘吉尔政治格言，删除。
+3. LACW-022：独裁者骑虎难下， 但老虎又越来越饿。丘吉尔政治格言，删除。
+4. LACW-105：对他们伟大领袖忘恩负义，是强大民族的特征。普鲁塔克/丘吉尔政治格言，删除。
+
+四、补入条目
+1. LACW-138：白居易《谕怀诗》“黑头日已白，白面日已黑。”
+2. LACW-139：于斌诗句“万里凌云飞飞飞，今日返国归归归”。
+3. LACW-140：俗谚“姜太公钓鱼，愿者上鈎”。
+4. LACW-141：传统修齐治平语“修身、齐家、治国、平天下”。
+5. LACW-142：传统格言“以天下为己任”。
+6. LACW-143：黄遵宪评《新民丛报》“从古至今文字之力之大，无过于此者矣”。
+7. LACW-144：徐志摩称赞梁启超“长江大河的笔”。
+8. LACW-145：俗谚“江山易改，本性难移”。
+9. LACW-146：《易经》语汇“大人虎变君子豹变”。
+10. LACW-147 至 LACW-151：梁启超办报文论五条。
+11. LACW-152 至 LACW-153：梁启超法理格言与“宁纵毋枉”。
+12. LACW-154 至 LACW-156：圣经句、诗经化用与诗句。
+13. LACW-157 至 LACW-160、LACW-165 至 LACW-167：《西游记》相关引文及重复出现的独立行号。
+14. LACW-161：孙中山《孙文学说》“中国之文章，富矣丽矣！”。
+15. LACW-162 至 LACW-163：俗语“大哥莫话小弟”“王八蛋打龟儿子”。
+16. LACW-164：重复出现的“义不食周粟”，独立记录行号。
+
+五、继续排除的典型候选
+- 《刁民歌》《李诗廿四首》：李敖自作诗或高风险自作诗集合，继续不收入。
+- 009、025、032、033、034 中若干现代新闻、政论、革命、党派、法令、教育管理语句，虽有引号，继续按政论/现场语排除。
+- 026 中殷师母、王晓波、周联华等私人对话或日程记录，多为私人口语或史料叙述，除圣经句、诗经化用外不收入。
+- 已由同线条目覆盖的短碎片，如“太学祭酒”“经院哲学”“西瓜皮文化”“风靡型的名人”等，不另列独立引用。
+- 常见概念词或李敖自造框架语，如“虚学”“知识的力量”“义和团思想”等，不作诗文格言歌谣条目。
+
+六、验证
+- node --check tools/build_liao_complete_works_exports.js：通过
+- node tools/build_liao_complete_works_exports.js：rows 163
+- node tools/validate_liao_book_exports.js：records 163，uniqueIds 163，errors []
+- node tools/audit_liao_complete_works_proofread.js：auditRows 699，literary-check 225，likely-exclude 246，manual-check 228
+- node --check tools/build_liao_total_exports.js：通过
+- node tools/build_liao_total_exports.js：rows 1588，uniqueIds 1588
+
+七、输出结果
+- exports/李敖全集_诗文格言歌谣引用.csv
+- exports/李敖全集_诗文格言歌谣引用.txt
+- exports/总_诗文格言歌谣引用.csv
+- exports/总_诗文格言歌谣引用.txt

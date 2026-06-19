@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const generatedDate = "2026-06-16";
+const generatedDate = "2026-06-19";
 
 const bookExports = [
   "李敖自传与回忆_诗词名言引用.csv",
@@ -16,6 +16,30 @@ const bookExports = [
   "独白下的传统_诗文格言歌谣引用.csv",
   "李敖文存_诗文格言歌谣引用.csv",
   "李敖文存二集_诗文格言歌谣引用.csv",
+  "波波颂_诗文格言歌谣引用.csv",
+  "李敖全集_诗文格言歌谣引用.csv",
+  "教育与脸谱_诗文格言歌谣引用.csv",
+  "文化论战丹火录_诗文格言歌谣引用.csv",
+  "为中国思想趋向求答案_诗文格言歌谣引用.csv",
+  "上下古今谈_诗文格言歌谣引用.csv",
+  "世论新语_诗文格言歌谣引用.csv",
+  "求是新语_诗文格言歌谣引用.csv",
+  "我是天安门_诗文格言歌谣引用.csv",
+  "你是景福门_诗文格言歌谣引用.csv",
+  "为自由招魂_诗文格言歌谣引用.csv",
+  "你笨蛋，你笨蛋_诗文格言歌谣引用.csv",
+  "我梦碎，所以我梦醒_诗文格言歌谣引用.csv",
+  "李敖新刊_诗文格言歌谣引用.csv",
+  "千秋万岁乌鸦求是合集_诗文格言歌谣引用.csv",
+  "李敖杂文集_诗文格言歌谣引用.csv",
+  "千秋万岁编外集_诗文格言歌谣引用.csv",
+  "北京法源寺_诗文格言歌谣引用.csv",
+  "上山·上山·爱_诗文格言歌谣引用.csv",
+  "红色11_诗文格言歌谣引用.csv",
+  "虚拟的十七岁_诗文格言歌谣引用.csv",
+  "阳痿美国_诗文格言歌谣引用.csv",
+  "第73烈士_诗文格言歌谣引用.csv",
+  "爱情的秘密_诗文格言歌谣引用.csv",
 ];
 
 const columns = [
@@ -62,6 +86,21 @@ const excludedCategoryParts = [
   "反讽口号",
   "历史口号",
 ];
+
+const excludedRowsById = new Map([
+  ["LAZHXJ-011", "现代民族国家论断，属于政治史论语录，不作为诗文格言保留"],
+  ["LAZHXJ-018", "胡适谈政治的现代文人语，属于政治语录"],
+  ["LAZHXJ-019", "胡适谈政治的现代文人语，属于政治语录"],
+  ["LAZHXJ-020", "胡适自述不谈政治与革新中国，属于现代政治相关语录"],
+  ["LAZHXJ-029", "政治犯刑求语境中的现代口语，不属于诗文格言"],
+  ["LAZHXJ-072", "为现代政治人物祝寿的颂词，属于政治人物语录"],
+  ["LAWN-034", "关于国家塑造国民的现代政治哲学语录"],
+  ["LAWN-041", "以政治参与为核心的西方政治哲学语录"],
+  ["LACTDB-026", "以政治为核心的西方政治哲学格言"],
+  ["LAYTAS-047", "评价现代政治人物与民主政治的政治语录"],
+  ["LAWC2-156", "近代革命志士赴死语，属于政治革命语录"],
+  ["LAWLDH-041", "关于仇视国家的现代政治意识形态引文"],
+]);
 
 function parseCsv(text) {
   const rows = [];
@@ -121,7 +160,10 @@ const csvEscape = (value) => {
 
 function keepForPoemMaximSongScope(row) {
   const category = row.category || "";
-  return !excludedCategoryParts.some((part) => category.includes(part));
+  return (
+    !excludedRowsById.has(row.id) &&
+    !excludedCategoryParts.some((part) => category.includes(part))
+  );
 }
 
 const outDir = path.join(process.cwd(), "exports");
@@ -182,7 +224,7 @@ const txt = [];
 txt.push("《大李敖全集6.0》已处理书目诗文格言歌谣引用总表");
 txt.push(`生成日期：${generatedDate}`);
 txt.push(`总计：${allRows.length} 条`);
-txt.push(`已按新口径剔除明显政论/政治语录类：${removedRows.length} 条`);
+txt.push(`已按新口径剔除明显政论/政治语录类：${removedRows.length} 条，其中人工校对剔除 ${removedRows.filter((row) => excludedRowsById.has(row.id)).length} 条`);
 txt.push("");
 txt.push("已合并书目：");
 for (const stat of stats) {
@@ -223,6 +265,20 @@ for (const row of removedRows) {
   removedByCategory.set(row.category, (removedByCategory.get(row.category) || 0) + 1);
 }
 
+const explicitlyExcludedRows = removedRows
+  .filter((row) => excludedRowsById.has(row.id))
+  .map((row) => ({
+    id: row.id,
+    book: row.book,
+    chapter: row.chapter,
+    source_file: row.source_file,
+    line_start: row.line_start,
+    line_end: row.line_end,
+    quote_text: row.quote_text,
+    category: row.category,
+    reason: excludedRowsById.get(row.id),
+  }));
+
 const report = {
   generatedDate,
   books: stats,
@@ -232,6 +288,7 @@ const report = {
   removedByCategory: Object.fromEntries(
     [...removedByCategory.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])),
   ),
+  explicitlyExcludedRows,
   csvPath: primaryCsvPath,
   txtPath: primaryTxtPath,
   legacyCsvPath,
@@ -242,6 +299,29 @@ fs.mkdirSync(path.join(process.cwd(), "analysis"), { recursive: true });
 fs.writeFileSync(
   path.join(process.cwd(), "analysis", "liao_total_scope_filter_report.json"),
   `${JSON.stringify(report, null, 2)}\n`,
+  "utf8",
+);
+
+const auditColumns = [
+  "id",
+  "book",
+  "chapter",
+  "source_file",
+  "line_start",
+  "line_end",
+  "quote_text",
+  "category",
+  "reason",
+];
+const auditLines = [
+  auditColumns.join("\t"),
+  ...explicitlyExcludedRows.map((row) =>
+    auditColumns.map((column) => String(row[column] ?? "").replace(/\t/g, " ")).join("\t"),
+  ),
+];
+fs.writeFileSync(
+  path.join(process.cwd(), "analysis", "liao_total_political_scope_audit.tsv"),
+  `${auditLines.join("\r\n")}\r\n`,
   "utf8",
 );
 

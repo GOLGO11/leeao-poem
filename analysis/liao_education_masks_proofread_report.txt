@@ -1,0 +1,231 @@
+﻿《教育与脸谱》校对轮自动审计
+当前条目：156
+审计疑点：406
+- duplicate_quote_text: 3
+- known_quote_not_exported: 1
+- possible_missing_candidate: 37
+- possible_missing_plausible: 235
+- possible_removal_or_scope_edge: 6
+- uncovered_signal_line: 124
+高危噪声中已入表：85
+
+按章节文件统计：
+- 《教育与脸谱》序幕.txt: 1
+- 001.高等教育的一面怪现状.txt: 12
+- 002.师道与是非.txt: 29
+- 003.论“占着茅坑不拉屎””.txt: 12
+- 004.关于高等教育怪现状的讨论.txt: 29
+- 005.一封没寄出的信.txt: 2
+- 006.又一封没寄出的信.txt: 6
+- 007.李济：他的贡献和悲剧.txt: 13
+- 008.从李济的悲剧看中央研究院的几个黑暗面.txt: 19
+- 009.读《虚有其表的考试法》.txt: 11
+- 011.工作最多的老头子——胡佛.txt: 5
+- 012.於梨华和她的小说.txt: 17
+
+类别统计：
+- 论语名句: 15
+- 传统成语: 12
+- 外国格言: 8
+- 古典成语: 6
+- 现代诗句: 6
+- 韩愈名句: 5
+- 孟子成语: 5
+- 论语典故: 4
+- 古典典故: 3
+- 古文成语: 3
+- 求师典故: 3
+- 唐诗名句: 3
+- 成语化用: 2
+- 古典格言: 2
+- 红楼梦典故: 2
+- 联语化用: 2
+- 论语成语: 2
+- 论语引文: 2
+- 孟子名句: 2
+- 民间俗语: 2
+- 清诗名句: 2
+- 三国名句: 2
+- 诗经成语: 2
+- 诗经名句: 2
+- 史记典故成语: 2
+- 张载名句: 2
+- 禅宗典故: 1
+- 禅宗格言: 1
+- 禅宗语化用: 1
+- 传统节义格言: 1
+- 传统敬奉语: 1
+- 传统师道成语: 1
+- 传统俗谚: 1
+- 春秋笔法成语: 1
+- 春秋典故: 1
+- 词句典故: 1
+- 大学名句: 1
+- 古典名句合用: 1
+- 古典文学典故: 1
+- 古典引文: 1
+- 古诗名句: 1
+- 古文成句化用: 1
+- 古文观念: 1
+- 古文名句: 1
+- 韩非子名句: 1
+- 韩愈成语: 1
+- 汉诗名句: 1
+- 谏诤典故: 1
+- 近代格言: 1
+- 老子名句: 1
+- 礼记名句: 1
+- 历史典故: 1
+- 历史典故化用: 1
+- 联语: 1
+- 列子引文: 1
+- 逻辑例句: 1
+- 求师礼俗典故: 1
+- 阮籍典故: 1
+- 三国俗谚: 1
+- 尚书典故: 1
+- 尚书名句: 1
+- 史记成语: 1
+- 史记典故: 1
+- 世说新语成语: 1
+- 宋诗俗传: 1
+- 俗语: 1
+- 俗语格言: 1
+- 俗语化用: 1
+- 唐诗成语: 1
+- 唐诗化用: 1
+- 外国文论语: 1
+- 文学格言: 1
+- 文学历史典故: 1
+- 戏曲俗语: 1
+- 现代格言: 1
+- 现代俗语: 1
+- 现代文学引文: 1
+- 学术格言: 1
+- 荀子成语: 1
+- 易经名句: 1
+- 庄子成语: 1
+
+漏收/范围边界样例：
+- [possible_missing_candidate] 001.高等教育的一面怪现状.txt:63 女学生一律坐前排，男学生全都坐后面。 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 001.高等教育的一面怪现状.txt:91 沈郎之才，技仅此耳 (political-institutional-context)
+- [possible_missing_candidate] 002.师道与是非.txt:171 此非吾‘师’也！何其声之似我也！ (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 003.论“占着茅坑不拉屎””.txt:43 大学教授待遇菲薄论 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 003.论“占着茅坑不拉屎””.txt:69 养老院或救济院的一面怪现状 (strong-literary-signal)
+- [possible_missing_candidate] 003.论“占着茅坑不拉屎””.txt:139 重新做人的人有福了，因为伟大的‘嘉新讲座’六千元，早晚会掉在他的头顶上。 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:69 既愿做肥料，何以不在做肥料之先，做轰轰烈烈的烈士呢！ (political-institutional-context)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:77 来，坐啦！ (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:101 博学的人们，谁能把老一辈所留给我们的知识财富算笔细帐？ (candidate)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:157 真正的名流，要拿出真才实学来才行！ (candidate)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:169 双眼圆睁、垂涎三尺、又羡又妒的嘴脸 (political-institutional-context)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:169 有的还趁休假之便，不多多研究，反倒做起洋基金会的执行秘书来，每月多赚台币一万元，乖乖！ (political-institutional-context)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:247 国家经济状况的不良，使教员学生都陷于衣食不足的境地，还讲什么教育！ (strong-literary-signal)
+- [possible_missing_candidate] 004.关于高等教育怪现状的讨论.txt:255 来日无多，怕难如愿 (candidate)
+- [possible_missing_candidate] 006.又一封没寄出的信.txt:11 看呀！师徒二人又表演苦肉计了！ (strong-literary-signal)
+- [possible_missing_candidate] 007.李济：他的贡献和悲剧.txt:35 英国皇家人类学研究所 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 007.李济：他的贡献和悲剧.txt:103 如此再过十年，我们的大学也许要关门了 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:5 在李先生身上，我们看见了希腊精神和儒家修养的结合！ (candidate)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:13 如此再过十年，我们的大学也许要关门了 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:39 赞成吴大猷先生的话，李济先生太悲观了 (political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:47 恶恶而不能去，爱才而不能用（或不敢用） (candidate)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:101 少数人弄不出成绩来，又不容许人家弄出一点成绩，请问这是什么理由？ (candidate)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:137 很热烈的颂扬西方的近代文明 (strong-literary-signal)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:137 偷关漏税的思想方法训练 (strong-literary-signal)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:161 那些兄弟所们，在敬、畏、妒，复杂情绪之下，不能不共尊他是老大哥，称之曰‘大所’。 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:167 为发达近代科学，非为提倡所谓固有学术 (political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:171 即不应于中央研究院中设置历史语言研究所，使之与天文、地质、物理、化学等同伦 (political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:207 我们今天选举院士，是根据他的学术著作，不应该扯到个人恩怨上去。 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:215 延揽人才，并帮助下一代 (political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:215 若是领导的人不适宜，这机关不但等于没有，并且是一种逆流的影响 (political-institutional-context)
+- [possible_missing_candidate] 008.从李济的悲剧看中央研究院的几个黑暗面.txt:233 蒙混舞弊，不尽职守 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 010.蒋廷黻和他走的路.txt:9 后悔不后悔做了这么多年的官？如果这么多年不做官，专心做学问，是不是对国家更有益处？ (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 010.蒋廷黻和他走的路.txt:19 仍肯拨款购置已出版的史料 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 010.蒋廷黻和他走的路.txt:59 相差并不如表面上看得那么远 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 010.蒋廷黻和他走的路.txt:71 日本政府之友善态度 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 011.工作最多的老头子——胡佛.txt:63 永不忘美国人民的一伟大服务 (strong-literary-signal;political-institutional-context)
+- [possible_missing_candidate] 012.於梨华和她的小说.txt:127 是顺流而下，还是悍然自毁，固执的李敖呵，您该选择。 (candidate)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:5 为什么在台湾的这些大学教授们都显得活力不够？为什么他们不像韩国那些教授们那样生气勃勃、勇气十足？ (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:7 思想改造 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:7 二流货 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:7 没办法 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:7 无能 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:13 思想改造 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:13 第一流 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:35 乳罩 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:35 乳癌 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:35 亲家 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:35 沈刚伯型 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:35 李济型 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:39 好好干 (strong-literary-signal)
+- [possible_missing_plausible] 《教育与脸谱》序幕.txt:39 滚蛋 (strong-literary-signal)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:7 身历声 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:59 分赃 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:59 津贴 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:59 外快 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:59 学界分赃 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:59 指导 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 意淫 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 君子 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 清范 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 妻妾以百数 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 气合锻练 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 幼女补身 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 随园女弟子 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:61 老年癫狂 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:63 女学生一律坐前排，男学生全都坐后面。 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:63 助教级 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:63 讲师级 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:89 圣水 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:89 诗歌比赛 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:89 诗以张之 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:93 德政 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 001.高等教育的一面怪现状.txt:93 苦也！恁地引进这湖北佬来！ (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:61 名分至上 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:61 辈分第一 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:61 名分 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:61 辈分 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:67 当仁不让於师 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:67 不忧 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:73 仁者不忧 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:91 直道而行 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:95 直道其中 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:97 托诸空言 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:97 见诸行事 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:109 正名主义 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:109 觚哉 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:139 背叛 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:145 言教 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 身教 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 经师 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 人师 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 童子之师 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 百世师 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:145 万世师表 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:169 言教 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 经师 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 身教 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 人师 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 其他 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 不悦 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 圣人之徒 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:169 童子之师 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 002.师道与是非.txt:179 态度 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 寡人 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 当车 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 扣马 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 引裾 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 折槛 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 面折 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 廷争 (strong-literary-signal)
+- [possible_missing_plausible] 002.师道与是非.txt:179 自我修理 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:3 二百五十元收买的职业诽谤家 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:3 涨价 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:5 收买 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:5 涨价 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:5 文妓 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:5 中国最有钱的伟大文人 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:5 世界上最有名的文化老鸨 (strong-literary-signal)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:43 大学教授待遇菲薄论 (strong-literary-signal;political-institutional-context)
+- [possible_missing_plausible] 003.论“占着茅坑不拉屎””.txt:43 待遇菲薄 (strong-literary-signal;political-institutional-context)
+
+明细见：analysis\liao_education_masks_proofread_audit.tsv

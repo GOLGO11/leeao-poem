@@ -1,0 +1,38 @@
+《为中国思想趋向求答案》首轮提取报告
+
+源目录：
+《大李敖全集6.0》分章节/003.惊世杂文类/003.为中国思想趋向求答案
+
+候选生成：
+- 源文件：9 个
+- quoteCandidates：1484
+- uniqueQuoteTexts：1166
+- review candidates：524
+- review aids keywordLines：140
+- review aids plausibleQuotes：556
+- known quote matches：70
+- highRiskNoise：808
+
+首轮入表：
+- 本书 CSV/TXT：174 条
+- ID 范围：LASXQA-001 至 LASXQA-174
+- 口径：保留诗文、古文名句、格言、俗谚、歌谣、文学/宗教经典、明确作为典故使用的成语；压下普通文化论战句、临时标签、标题式概念、纯政论口号。
+
+已生成文件：
+- exports/为中国思想趋向求答案_诗文格言歌谣引用.csv
+- exports/为中国思想趋向求答案_诗文格言歌谣引用.txt
+- exports/总_诗文格言歌谣引用.csv
+- exports/总_诗文格言歌谣引用.txt
+- exports/总_诗词名言引用.csv
+- exports/总_诗词名言引用.txt
+
+校验结果：
+- node --check tools/build_liao_thought_trend_exports.js：通过
+- validate_liao_book_exports.js：174 records，174 uniqueIds，0 errors
+- build_liao_total_exports.js：总表 2020 条，uniqueIds 2020，本书入总表 174 条
+
+下一轮校对重点：
+1. 《给谈中西文化的人看看病》中“中学为体”“文化选择论”一带噪声最高，需复核文化公式与普通论战语的边界。
+2. 《论“处女膜整形”》收了较多节烈、史传、圣经材料；校对轮可决定是否再收窄为更严格的诗文格言。
+3. “满街人都是处女”“处女远乎哉”等李敖化用句保留为名句化用；校对轮可按“李敖自作不收”口径再判一次。
+4. “天人合一”“中学为体，西学为用”“衣沾不足惜”等在本书内有多次功能性出现，目前按不同语境保留独立条目。

@@ -1,0 +1,39 @@
+《李敖全集》诗文格言歌谣引用初提取报告
+
+日期：2026-06-17
+范围：002.精品散文类/007.李敖全集，共 35 个 txt 文件。
+
+候选提取：
+- quoteCandidates：1650
+- uniqueQuoteTexts：1289
+- 初筛 reviewCandidates：595
+- keywordLines：305
+- plausibleQuotes：478
+- knownMatches：41
+- highRiskNoise：1009
+
+导出结果：
+- 单书导出：137 条
+- 单书唯一 ID：137
+- 总导出追加后：1562 条
+- 总导出唯一 ID：1562
+- 总导出按类别过滤移除历史政论/教育/出版等项目：49 条
+
+本轮取舍：
+- 保留诗词、古文名句、成语、俗谚、格言、歌谣、文学/文论引文、古今散文化名句。
+- 保留少量近代文论、历史格言和散文化引文；普通政令、法律条文、教育管理条文、出版说明、现代政论语录不列入本书导出。
+- 《刁民歌》《李诗廿四首》属于李敖自作诗或高风险自作诗集合，本轮不收入。
+- 先前已明确排除的《忘了我是谁》未出现在本书导出和总导出中。
+
+验证：
+- node --check tools/build_liao_complete_works_exports.js：通过
+- node tools/validate_liao_book_exports.js：records 137，uniqueIds 137，errors []
+- node --check tools/build_liao_total_exports.js：通过
+- node tools/build_liao_total_exports.js：rows 1562，uniqueIds 1562
+- 自作诗回查：刁民歌、只爱一点点、不再要爱情、李诗廿四首、忘了我是谁均无命中。
+
+输出文件：
+- exports/李敖全集_诗文格言歌谣引用.csv
+- exports/李敖全集_诗文格言歌谣引用.txt
+- exports/总_诗文格言歌谣引用.csv
+- exports/总_诗文格言歌谣引用.txt

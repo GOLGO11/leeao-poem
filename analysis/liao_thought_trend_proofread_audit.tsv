@@ -1,0 +1,10 @@
+kind	decision	file	line	text	reason
+known_quote_not_exported	added	003.我要继续给人看看病.txt	463	天马行空	前书目已收同一成语；本处用于概括胡秋原论述空泛，属传统成语引用。
+known_quote_not_exported	added	003.我要继续给人看看病.txt	511	天马行空	前书目已收同一成语；本处在结尾再次形容“超越前进”的好梦，语境独立。
+known_quote_not_exported	added	006.论“处女膜整形”.txt	235	石破天惊	前书目已收同一成语；李敖用唐诗成语形容处女膜主义信仰之惊人。
+known_quote_not_exported	kept_out	002.给谈中西文化的人看看病.txt	305	未有民族文化已衰息断绝，而其国家之生命犹得长存者。	钱穆现代史论/文化论断，按“去政论名句、主收诗文格言歌谣”新口径不补入。
+possible_missing_plausible	kept_out	002.给谈中西文化的人看看病.txt	49	孔子周游列国时为什么坐马车不坐汽车？	临场讽刺问答，非稳定诗文格言；首轮已保留同线更核心的古文/成语。
+possible_missing_plausible	kept_out	002.给谈中西文化的人看看病.txt	73	更不沾恋 / 真不得而用之	梁漱溟论述片段，功能偏文化论战材料；保留同线《诗经》与婚姻俗语即可。
+possible_missing_plausible	kept_out	002.给谈中西文化的人看看病.txt	87	国舞 / 远征世界 / 痴顽老子	标题式或临场讽刺语，不作为诗文格言条目。
+scope_edge_review	kept	006.论“处女膜整形”.txt	341-345	《旧约全书》申命记三段	虽接近法律条文，但为宗教经典引文且李敖用于中外观念比较，暂保留。
+scope_edge_review	kept	006.论“处女膜整形”.txt	329/331	处女远乎哉 / 满街人都是处女 / 如梦令	属名句化用或词作引用；校对轮未按“李敖自作诗”删除。

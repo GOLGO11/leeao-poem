@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-16",
+  "generatedDate": "2026-06-19",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -12,15 +12,15 @@
       "fileName": "李敖自传与回忆续集_诗词名言引用.csv",
       "book": "李敖自传与回忆续集",
       "originalRows": 76,
-      "keptRows": 66,
-      "removedRows": 10
+      "keptRows": 60,
+      "removedRows": 16
     },
     {
       "fileName": "我最难忘的事和人_诗词名言引用.csv",
       "book": "我最难忘的事和人",
       "originalRows": 101,
-      "keptRows": 64,
-      "removedRows": 37
+      "keptRows": 62,
+      "removedRows": 39
     },
     {
       "fileName": "李敖回忆录_诗文格言歌谣引用.csv",
@@ -40,8 +40,8 @@
       "fileName": "李敖议坛哀思录_诗文格言歌谣引用.csv",
       "book": "李敖议坛哀思录",
       "originalRows": 67,
-      "keptRows": 67,
-      "removedRows": 0
+      "keptRows": 66,
+      "removedRows": 1
     },
     {
       "fileName": "李敖风流自传_诗文格言歌谣引用.csv",
@@ -54,8 +54,8 @@
       "fileName": "传统下的独白_诗文格言歌谣引用.csv",
       "book": "传统下的独白",
       "originalRows": 161,
-      "keptRows": 161,
-      "removedRows": 0
+      "keptRows": 160,
+      "removedRows": 1
     },
     {
       "fileName": "传统下的再白_诗文格言歌谣引用.csv",
@@ -81,40 +81,353 @@
     {
       "fileName": "李敖文存二集_诗文格言歌谣引用.csv",
       "book": "李敖文存二集",
-      "originalRows": 185,
-      "keptRows": 185,
+      "originalRows": 178,
+      "keptRows": 177,
+      "removedRows": 1
+    },
+    {
+      "fileName": "波波颂_诗文格言歌谣引用.csv",
+      "book": "波波颂",
+      "originalRows": 125,
+      "keptRows": 125,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖全集_诗文格言歌谣引用.csv",
+      "book": "李敖全集",
+      "originalRows": 163,
+      "keptRows": 163,
+      "removedRows": 0
+    },
+    {
+      "fileName": "教育与脸谱_诗文格言歌谣引用.csv",
+      "book": "教育与脸谱",
+      "originalRows": 156,
+      "keptRows": 156,
+      "removedRows": 0
+    },
+    {
+      "fileName": "文化论战丹火录_诗文格言歌谣引用.csv",
+      "book": "文化论战丹火录",
+      "originalRows": 102,
+      "keptRows": 101,
+      "removedRows": 1
+    },
+    {
+      "fileName": "为中国思想趋向求答案_诗文格言歌谣引用.csv",
+      "book": "为中国思想趋向求答案",
+      "originalRows": 177,
+      "keptRows": 177,
+      "removedRows": 0
+    },
+    {
+      "fileName": "上下古今谈_诗文格言歌谣引用.csv",
+      "book": "上下古今谈",
+      "originalRows": 170,
+      "keptRows": 170,
+      "removedRows": 0
+    },
+    {
+      "fileName": "世论新语_诗文格言歌谣引用.csv",
+      "book": "世论新语",
+      "originalRows": 53,
+      "keptRows": 53,
+      "removedRows": 0
+    },
+    {
+      "fileName": "求是新语_诗文格言歌谣引用.csv",
+      "book": "求是新语",
+      "originalRows": 32,
+      "keptRows": 32,
+      "removedRows": 0
+    },
+    {
+      "fileName": "我是天安门_诗文格言歌谣引用.csv",
+      "book": "我是天安门",
+      "originalRows": 58,
+      "keptRows": 58,
+      "removedRows": 0
+    },
+    {
+      "fileName": "你是景福门_诗文格言歌谣引用.csv",
+      "book": "你是景福门",
+      "originalRows": 77,
+      "keptRows": 77,
+      "removedRows": 0
+    },
+    {
+      "fileName": "为自由招魂_诗文格言歌谣引用.csv",
+      "book": "为自由招魂",
+      "originalRows": 85,
+      "keptRows": 85,
+      "removedRows": 0
+    },
+    {
+      "fileName": "你笨蛋，你笨蛋_诗文格言歌谣引用.csv",
+      "book": "你笨蛋，你笨蛋",
+      "originalRows": 306,
+      "keptRows": 306,
+      "removedRows": 0
+    },
+    {
+      "fileName": "我梦碎，所以我梦醒_诗文格言歌谣引用.csv",
+      "book": "我梦碎，所以我梦醒",
+      "originalRows": 103,
+      "keptRows": 103,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖新刊_诗文格言歌谣引用.csv",
+      "book": "李敖新刊",
+      "originalRows": 78,
+      "keptRows": 78,
+      "removedRows": 0
+    },
+    {
+      "fileName": "千秋万岁乌鸦求是合集_诗文格言歌谣引用.csv",
+      "book": "千秋万岁乌鸦求是合集",
+      "originalRows": 209,
+      "keptRows": 209,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖杂文集_诗文格言歌谣引用.csv",
+      "book": "李敖杂文集",
+      "originalRows": 42,
+      "keptRows": 42,
+      "removedRows": 0
+    },
+    {
+      "fileName": "千秋万岁编外集_诗文格言歌谣引用.csv",
+      "book": "千秋万岁编外集",
+      "originalRows": 166,
+      "keptRows": 166,
+      "removedRows": 0
+    },
+    {
+      "fileName": "北京法源寺_诗文格言歌谣引用.csv",
+      "book": "北京法源寺",
+      "originalRows": 164,
+      "keptRows": 164,
+      "removedRows": 0
+    },
+    {
+      "fileName": "上山·上山·爱_诗文格言歌谣引用.csv",
+      "book": "上山·上山·爱",
+      "originalRows": 180,
+      "keptRows": 180,
+      "removedRows": 0
+    },
+    {
+      "fileName": "红色11_诗文格言歌谣引用.csv",
+      "book": "红色11",
+      "originalRows": 115,
+      "keptRows": 115,
+      "removedRows": 0
+    },
+    {
+      "fileName": "虚拟的十七岁_诗文格言歌谣引用.csv",
+      "book": "虚拟的十七岁",
+      "originalRows": 191,
+      "keptRows": 191,
+      "removedRows": 0
+    },
+    {
+      "fileName": "阳痿美国_诗文格言歌谣引用.csv",
+      "book": "阳痿美国",
+      "originalRows": 73,
+      "keptRows": 73,
+      "removedRows": 0
+    },
+    {
+      "fileName": "第73烈士_诗文格言歌谣引用.csv",
+      "book": "第73烈士",
+      "originalRows": 59,
+      "keptRows": 59,
+      "removedRows": 0
+    },
+    {
+      "fileName": "爱情的秘密_诗文格言歌谣引用.csv",
+      "book": "爱情的秘密",
+      "originalRows": 91,
+      "keptRows": 91,
       "removedRows": 0
     }
   ],
-  "rows": 1307,
-  "removedRows": 49,
-  "uniqueIds": 1307,
+  "rows": 4263,
+  "removedRows": 61,
+  "uniqueIds": 4263,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,
     "现代教育语录": 3,
     "现代批评语": 2,
     "现代评论语": 2,
+    "现代文人语": 2,
     "现代政治名言": 2,
     "出版原则语": 1,
     "古典法理名句": 1,
+    "近代志士名言": 1,
     "军中语录": 1,
     "历史口号": 1,
+    "外国引文": 1,
     "外国政治名言": 1,
+    "西方人物格言": 1,
+    "西方哲人名言": 1,
+    "西方哲学格言": 1,
+    "西方哲学名言": 1,
     "西方政治名言": 1,
     "西方政治学名言": 1,
     "现代讽刺语录": 1,
     "现代国际语录": 1,
     "现代教育名言": 1,
     "现代教育主张": 1,
+    "现代口语名言": 1,
     "现代人权语录": 1,
     "现代人物赠语": 1,
     "现代史料判断": 1,
     "现代史学论断": 1,
+    "现代史学名言": 1,
+    "现代文人自述": 1,
+    "现代文言颂词": 1,
     "现代政治格言": 1,
     "学生刊物宣言": 1,
     "政治口号/套语": 1
   },
+  "explicitlyExcludedRows": [
+    {
+      "id": "LAZHXJ-011",
+      "book": "李敖自传与回忆续集",
+      "chapter": "004.“一朝眉羽成，钻破亦在我”",
+      "source_file": "004.“一朝眉羽成，钻破亦在我”.txt",
+      "line_start": "57",
+      "line_end": "57",
+      "quote_text": "未有民族文化已衰息断绝，而其国家之生命犹得长存者。",
+      "category": "现代史学名言",
+      "reason": "现代民族国家论断，属于政治史论语录，不作为诗文格言保留"
+    },
+    {
+      "id": "LAZHXJ-072",
+      "book": "李敖自传与回忆续集",
+      "chapter": "004.“一朝眉羽成，钻破亦在我”",
+      "source_file": "004.“一朝眉羽成，钻破亦在我”.txt",
+      "line_start": "69",
+      "line_end": "69",
+      "quote_text": "诚吾国历史人物中最具贞德之一人。稟贞德而蹈贞运，斯以见天心之所属，而吾国家民族此一时代贞下起元之大任，所以必由公胜之也。",
+      "category": "现代文言颂词",
+      "reason": "为现代政治人物祝寿的颂词，属于政治人物语录"
+    },
+    {
+      "id": "LAZHXJ-018",
+      "book": "李敖自传与回忆续集",
+      "chapter": "006.为旧帐算新帐",
+      "source_file": "006.为旧帐算新帐.txt",
+      "line_start": "11",
+      "line_end": "11",
+      "quote_text": "方才有不能不谈政治的感觉",
+      "category": "现代文人语",
+      "reason": "胡适谈政治的现代文人语，属于政治语录"
+    },
+    {
+      "id": "LAZHXJ-019",
+      "book": "李敖自传与回忆续集",
+      "chapter": "006.为旧帐算新帐",
+      "source_file": "006.为旧帐算新帐.txt",
+      "line_start": "11",
+      "line_end": "11",
+      "quote_text": "发誓要想谈政治",
+      "category": "现代文人语",
+      "reason": "胡适谈政治的现代文人语，属于政治语录"
+    },
+    {
+      "id": "LAZHXJ-020",
+      "book": "李敖自传与回忆续集",
+      "chapter": "006.为旧帐算新帐",
+      "source_file": "006.为旧帐算新帐.txt",
+      "line_start": "15",
+      "line_end": "15",
+      "quote_text": "我回国时……打定不谈政治的决心，要想在思想文艺上替中国建筑一个革新的基础。",
+      "category": "现代文人自述",
+      "reason": "胡适自述不谈政治与革新中国，属于现代政治相关语录"
+    },
+    {
+      "id": "LAZHXJ-029",
+      "book": "李敖自传与回忆续集",
+      "chapter": "015.“太轻了，不算！”",
+      "source_file": "015.“太轻了，不算！”.txt",
+      "line_start": "3",
+      "line_end": "5",
+      "quote_text": "太轻了，不算！",
+      "category": "现代口语名言",
+      "reason": "政治犯刑求语境中的现代口语，不属于诗文格言"
+    },
+    {
+      "id": "LAWN-034",
+      "book": "我最难忘的事和人",
+      "chapter": "007.我最难忘的一个官僚同学",
+      "source_file": "007.我最难忘的一个官僚同学.txt",
+      "line_start": "275",
+      "line_end": "275",
+      "quote_text": "当国家企图将国民铸成同种格式时，文化即已停滞矣！",
+      "category": "西方哲人名言",
+      "reason": "关于国家塑造国民的现代政治哲学语录"
+    },
+    {
+      "id": "LAWN-041",
+      "book": "我最难忘的事和人",
+      "chapter": "007.我最难忘的一个官僚同学",
+      "source_file": "007.我最难忘的一个官僚同学.txt",
+      "line_start": "293",
+      "line_end": "293",
+      "quote_text": "人为政治的动物。",
+      "category": "西方哲学名言",
+      "reason": "以政治参与为核心的西方政治哲学语录"
+    },
+    {
+      "id": "LAYTAS-047",
+      "book": "李敖议坛哀思录",
+      "chapter": "119.我是很列宁的",
+      "source_file": "119.我是很列宁的.txt",
+      "line_start": "55",
+      "line_end": "55",
+      "quote_text": "她可以把民主政治说得天花乱坠，却不知道如何过民主生活。",
+      "category": "西方人物格言",
+      "reason": "评价现代政治人物与民主政治的政治语录"
+    },
+    {
+      "id": "LACTDB-026",
+      "book": "传统下的独白",
+      "chapter": "006.假如我是女人",
+      "source_file": "006.假如我是女人.txt",
+      "line_start": "53",
+      "line_end": "53",
+      "quote_text": "人是政治的动物",
+      "category": "西方哲学格言",
+      "reason": "以政治为核心的西方政治哲学格言"
+    },
+    {
+      "id": "LAWC2-156",
+      "book": "李敖文存二集",
+      "chapter": "论没有“流血的自由”",
+      "source_file": "011.论没有“流血的自由”.txt",
+      "line_start": "15",
+      "line_end": "15",
+      "quote_text": "吾辈为国家为社会死，义也！各国改革，孰不流血？吾当为前驱！",
+      "category": "近代志士名言",
+      "reason": "近代革命志士赴死语，属于政治革命语录"
+    },
+    {
+      "id": "LAWLDH-041",
+      "book": "文化论战丹火录",
+      "chapter": "文化论战丹火录",
+      "source_file": "002.文化论战丹火录.txt",
+      "line_start": "833",
+      "line_end": "833",
+      "quote_text": "仇视（自己的国家）变为我每日的面包。我和仇视一起生活，恰似别人和亲爱的女人生活一起。",
+      "category": "外国引文",
+      "reason": "关于仇视国家的现代政治意识形态引文"
+    }
+  ],
   "csvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗文格言歌谣引用.csv",
   "txtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗文格言歌谣引用.txt",
   "legacyCsvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\总_诗词名言引用.csv",

@@ -1,0 +1,14 @@
+﻿decision	source_file	line	text	reason
+add	002.序幕——最后审判.txt	219	约翰不敢看坐在上面的，所以无从描述。	补收周联华牧师解释《启示录》的宗教注释，非政治语录。
+add	003.第1幕——审判华盛顿.txt	265	你可以欺骗所有人于暂时，你可以欺骗少数人于永久，但你不能欺骗所有人于永久	补收一般性欺骗格言；不作为总统政策或政治演说收录。
+add	003.第1幕——审判华盛顿.txt	265	You can fool all the people some of the time，and some of the people all the time，but you cannot fool all the people all of the time.	补收同一句格言英文原文。
+add	010.第8幕——审判范布伦.txt	63	总该先给人家一点输入英国原版的时间。	补收爱默生致卡莱尔信中的非政治书信引文。
+add	010.第8幕——审判范布伦.txt	63	大哥莫话小弟	补收同段俗语。
+keep	010.第8幕——审判范布伦.txt	75	You have undertaken to cheat me. I won't sue you, for the law is too slow. I'll ruin you.	范得比尔特企业家轶事语，非总统/政策/党派政治语录，校对后保留。
+keep	043.第41幕——审判克林顿.txt	161	America is a country of young men.	爱默生文学人物语；虽谈美国但不是政策、演说或政治口号，校对后保留。
+exclude	003.第1幕——审判华盛顿.txt	305	拉法耶特，我们来了！	军政献词/战争政治名言，继续排除。
+exclude	020.第18幕——审判格兰特.txt	33	连乌鸦飞过天空，都得自备干粮	内战军政语境过重，校对轮不补。
+exclude	027.第25幕——审判老罗斯福.txt	89	Speak softly and carry a big stick, you will go far.	大棒政策相关政治语录，继续排除。
+exclude	031.第29幕——审判柯立芝.txt	41	The chief business of the American people is business.	总统经济/政治名言，继续排除。
+exclude	036.第34幕——审判肯尼迪.txt	115	Let us never negotiate out of fear. But let us never fear to negotiate.	总统演说名言，继续排除。
+exclude	044.第42幕——审判小布什.txt	519	每当国会议员闹个笑话，就出来一条法律；每当一条法律出来，国会议员就闹个笑话。	国会/法律政治讽刺语，继续排除。
