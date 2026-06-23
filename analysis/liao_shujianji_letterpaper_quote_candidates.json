@@ -1,0 +1,319 @@
+{
+  "book": "李敖书笺集",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\008.书信函件类\\006.李敖书笺集",
+  "files": 44,
+  "totalLines": 2021,
+  "totalCandidates": 397,
+  "totalRisk": 259,
+  "totalAttributed": 236,
+  "byFile": [
+    {
+      "file": "《李敖书笺集》目录.txt",
+      "lines": 56,
+      "candidates": 13,
+      "risk": 7,
+      "attributed": 3
+    },
+    {
+      "file": "001.我为什么支持王八蛋？.txt",
+      "lines": 25,
+      "candidates": 3,
+      "risk": 3,
+      "attributed": 3
+    },
+    {
+      "file": "002.斥财阀.txt",
+      "lines": 37,
+      "candidates": 4,
+      "risk": 3,
+      "attributed": 3
+    },
+    {
+      "file": "003.谁使雷震有了遗恨？.txt",
+      "lines": 21,
+      "candidates": 1,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "004.从主流到乱流.txt",
+      "lines": 51,
+      "candidates": 13,
+      "risk": 10,
+      "attributed": 12
+    },
+    {
+      "file": "005.“望君早归”不如“望君牺牲”.txt",
+      "lines": 43,
+      "candidates": 7,
+      "risk": 7,
+      "attributed": 4
+    },
+    {
+      "file": "006.手下·下手·快.txt",
+      "lines": 29,
+      "candidates": 6,
+      "risk": 5,
+      "attributed": 5
+    },
+    {
+      "file": "007.党外不可帮国民党擦屁股.txt",
+      "lines": 33,
+      "candidates": 9,
+      "risk": 8,
+      "attributed": 3
+    },
+    {
+      "file": "008.“致敬取消了！”.txt",
+      "lines": 25,
+      "candidates": 6,
+      "risk": 5,
+      "attributed": 5
+    },
+    {
+      "file": "009.从告自己人的密到缴自己人的枪.txt",
+      "lines": 133,
+      "candidates": 41,
+      "risk": 35,
+      "attributed": 29
+    },
+    {
+      "file": "010.捞过了界的扣押.txt",
+      "lines": 27,
+      "candidates": 4,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "011.政治规格的讨论.txt",
+      "lines": 55,
+      "candidates": 10,
+      "risk": 11,
+      "attributed": 8
+    },
+    {
+      "file": "012.胡茵梦的“天性”问题.txt",
+      "lines": 37,
+      "candidates": 11,
+      "risk": 4,
+      "attributed": 9
+    },
+    {
+      "file": "013.雪中送炭与雪中送肉.txt",
+      "lines": 39,
+      "candidates": 7,
+      "risk": 3,
+      "attributed": 6
+    },
+    {
+      "file": "014.是李敖就没完的！.txt",
+      "lines": 35,
+      "candidates": 4,
+      "risk": 6,
+      "attributed": 1
+    },
+    {
+      "file": "015.驳国民党议员的四点胡说.txt",
+      "lines": 49,
+      "candidates": 14,
+      "risk": 7,
+      "attributed": 8
+    },
+    {
+      "file": "016.二十年后的一次通信.txt",
+      "lines": 37,
+      "candidates": 6,
+      "risk": 4,
+      "attributed": 5
+    },
+    {
+      "file": "017.谁露了奶头？.txt",
+      "lines": 37,
+      "candidates": 8,
+      "risk": 1,
+      "attributed": 7
+    },
+    {
+      "file": "018.寄赠阅户.txt",
+      "lines": 33,
+      "candidates": 8,
+      "risk": 4,
+      "attributed": 3
+    },
+    {
+      "file": "019.驳国民党议员老婆的一片胡说.txt",
+      "lines": 127,
+      "candidates": 21,
+      "risk": 10,
+      "attributed": 6
+    },
+    {
+      "file": "020.维护人权与维护正义.txt",
+      "lines": 27,
+      "candidates": 3,
+      "risk": 3,
+      "attributed": 2
+    },
+    {
+      "file": "021.十日新谈.txt",
+      "lines": 39,
+      "candidates": 7,
+      "risk": 5,
+      "attributed": 2
+    },
+    {
+      "file": "022.我有我的方式.txt",
+      "lines": 31,
+      "candidates": 9,
+      "risk": 4,
+      "attributed": 6
+    },
+    {
+      "file": "023.准衣锦，不准荣归.txt",
+      "lines": 37,
+      "candidates": 6,
+      "risk": 3,
+      "attributed": 3
+    },
+    {
+      "file": "024.丢掉假团结，才有真革命.txt",
+      "lines": 51,
+      "candidates": 12,
+      "risk": 13,
+      "attributed": 10
+    },
+    {
+      "file": "025.揪出伪君子.txt",
+      "lines": 37,
+      "candidates": 3,
+      "risk": 4,
+      "attributed": 1
+    },
+    {
+      "file": "026.大家买人心.txt",
+      "lines": 45,
+      "candidates": 4,
+      "risk": 4,
+      "attributed": 2
+    },
+    {
+      "file": "027.致“台湾第一不要脸”书.txt",
+      "lines": 33,
+      "candidates": 5,
+      "risk": 5,
+      "attributed": 2
+    },
+    {
+      "file": "028.我决定管一次小事.txt",
+      "lines": 31,
+      "candidates": 7,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "029.苍蝇也没那么好拍的！.txt",
+      "lines": 77,
+      "candidates": 17,
+      "risk": 6,
+      "attributed": 7
+    },
+    {
+      "file": "030.“恃他族之庇”有何不好？.txt",
+      "lines": 37,
+      "candidates": 5,
+      "risk": 8,
+      "attributed": 3
+    },
+    {
+      "file": "031.“千秋评论”连出五十期了！.txt",
+      "lines": 39,
+      "candidates": 11,
+      "risk": 4,
+      "attributed": 4
+    },
+    {
+      "file": "032.大登特登与一字不登.txt",
+      "lines": 61,
+      "candidates": 12,
+      "risk": 3,
+      "attributed": 6
+    },
+    {
+      "file": "033.谁逼辜振甫还了债？.txt",
+      "lines": 53,
+      "candidates": 10,
+      "risk": 0,
+      "attributed": 6
+    },
+    {
+      "file": "034.关于三毛与雷三毛.txt",
+      "lines": 79,
+      "candidates": 18,
+      "risk": 17,
+      "attributed": 16
+    },
+    {
+      "file": "035.“好而知其恶，恶而知其美”.txt",
+      "lines": 39,
+      "candidates": 10,
+      "risk": 10,
+      "attributed": 7
+    },
+    {
+      "file": "036.如此“便民”.txt",
+      "lines": 91,
+      "candidates": 11,
+      "risk": 5,
+      "attributed": 4
+    },
+    {
+      "file": "037.被嚼槟榔的吻了一下.txt",
+      "lines": 21,
+      "candidates": 2,
+      "risk": 3,
+      "attributed": 2
+    },
+    {
+      "file": "038.耻与为伍.txt",
+      "lines": 45,
+      "candidates": 4,
+      "risk": 9,
+      "attributed": 4
+    },
+    {
+      "file": "039.成功在第三次.txt",
+      "lines": 43,
+      "candidates": 7,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "040.爱因斯坦的两段话.txt",
+      "lines": 31,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "041.彼以熊来，吾以熊往.txt",
+      "lines": 43,
+      "candidates": 12,
+      "risk": 5,
+      "attributed": 9
+    },
+    {
+      "file": "042.神龙见尾不见首.txt",
+      "lines": 43,
+      "candidates": 9,
+      "risk": 1,
+      "attributed": 6
+    },
+    {
+      "file": "043.李氏理想，张氏实行.txt",
+      "lines": 59,
+      "candidates": 14,
+      "risk": 6,
+      "attributed": 7
+    }
+  ]
+}

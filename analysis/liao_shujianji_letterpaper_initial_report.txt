@@ -1,0 +1,30 @@
+《李敖书笺集》首轮抽取报告
+
+源目录：C:\Users\zzy87\Desktop\project\leeao-poem\《大李敖全集6.0》分章节\008.书信函件类\006.李敖书笺集
+源文件数：44
+源总行数：2021
+候选行数：397
+风险词行数：259
+带归属提示行数：236
+
+首轮收录条目：123
+校对删除：48
+校对后导出：75
+CSV：C:\Users\zzy87\Desktop\project\leeao-poem\exports\李敖书笺集_诗文格言歌谣引用.csv
+TXT：C:\Users\zzy87\Desktop\project\leeao-poem\exports\李敖书笺集_诗文格言歌谣引用.txt
+校对报告：C:\Users\zzy87\Desktop\project\leeao-poem\analysis\liao_shujianji_letterpaper_proofread_report.txt
+校对审计：C:\Users\zzy87\Desktop\project\leeao-poem\analysis\liao_shujianji_letterpaper_proofread_audit.tsv
+
+类别分布：
+- 格言: 47
+- 成语: 31
+- 典故: 20
+- 俗语: 3
+- 诗文: 11
+- 妙语: 11
+
+核心政治风险命中：0
+
+说明：
+- 本书政治、司法、报刊语境密集，首轮仅收可独立作为诗文、格言、成语、典故或妙语的文本。
+- 已跳过大量直接涉及党派、选举、司法、出版限制、政治案件、政治人物攻防的语录。

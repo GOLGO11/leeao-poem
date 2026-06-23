@@ -1,0 +1,527 @@
+const fs = require("fs");
+const path = require("path");
+
+const book = "李敖五五日记";
+const idPrefix = "LAWWRJ";
+const generatedDate = "2026-06-21";
+const outDir = "exports";
+const analysisDir = "analysis";
+const sourceRoot = path.join(
+  process.cwd(),
+  "《大李敖全集6.0》分章节",
+  "006.沉思日记类",
+  "008.李敖五五日记",
+);
+const sourceDecoder = new TextDecoder("gb18030");
+
+const columns = [
+  "id",
+  "book",
+  "chapter",
+  "source_file",
+  "line_start",
+  "line_end",
+  "quote_text",
+  "category",
+  "source_or_origin",
+  "summary",
+  "notes",
+];
+
+function chapterFromFile(file) {
+  return file.replace(/^\d+\./, "").replace(/\.txt$/, "");
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+}
+
+function tsvEscape(value) {
+  return String(value ?? "").replace(/\r?\n/g, "\\n").replace(/\t/g, " ");
+}
+
+function sourceLines(file) {
+  const fullPath = path.join(sourceRoot, file);
+  return sourceDecoder.decode(fs.readFileSync(fullPath)).replace(/\r\n/g, "\n").split("\n");
+}
+
+function row(file, lineStart, lineEnd, quoteText, category, sourceOrigin, summary, notes = "") {
+  return {
+    id: "",
+    book,
+    chapter: chapterFromFile(file),
+    source_file: file,
+    line_start: lineStart,
+    line_end: lineEnd,
+    quote_text: quoteText,
+    category,
+    source_or_origin: sourceOrigin,
+    summary,
+    notes,
+  };
+}
+
+const data = [
+  row(
+    "001.1990年4月.txt",
+    23,
+    23,
+    "世风日下",
+    "传统成语",
+    "传统成语",
+    "以世道风气衰落概括出版与读书环境。",
+    "校对补入：原文加引号，作为传统成语本体保留。",
+  ),
+  row(
+    "003.1990年6月.txt",
+    269,
+    269,
+    "其争也君子",
+    "论语成句",
+    "《论语·八佾》射礼章成句",
+    "用古典成句形容争论虽激烈而仍有风度。",
+  ),
+  row(
+    "006.1990年9月.txt",
+    203,
+    203,
+    "食色性也。",
+    "孟子成句",
+    "《孟子·告子上》告子语，文中误称孔子",
+    "李敖拈出电视谈话中的误引，保留原成句。",
+    "只收古典成句本体，不收电视节目争论。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    111,
+    111,
+    "天时不如地利，地利不如人和",
+    "孟子成句",
+    "《孟子·公孙丑下》成句",
+    "读者来信以孟子成句说明办报处事须重人和。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    115,
+    115,
+    "人无十全，瓜无滚圆",
+    "传统俗谚",
+    "传统俗语",
+    "读者来信以俗谚劝人换角度看人。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    159,
+    159,
+    "我爱明月光，更不想什么。月可使人愁，定不能愁我。",
+    "胡适语粹",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适以明月写自我心境，带有诗性短句性质。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    161,
+    161,
+    "爱情的代价是痛苦，爱情的方法是要忍得住痛苦。",
+    "胡适格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "以痛苦与忍受概括爱情经验。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    163,
+    163,
+    "每天有六小时的睡眠就够。……我终觉得这么静的夜去睡觉太可惜了，多做点工作，好玩。",
+    "胡适生活格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适谈睡眠、夜间工作与做事乐趣。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    165,
+    165,
+    "我……承认青年人多数不站在我这一边，因为我不肯学时髦，不能说假话，又不能供给他们“低级趣味”，当然不能抓住他们。",
+    "胡适文化格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适以不学时髦、不说假话解释自己不能迎合青年。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    167,
+    167,
+    "我自称是无神主义者。",
+    "胡适宗教观短句",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适以一句概括自己的宗教立场。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    169,
+    169,
+    "我写文字，无论中文英文，都很迟钝。……其实我的长处正在于“文思迟钝”，我从不作一篇不用气力的文字。",
+    "胡适作文格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适以文思迟钝说明写作须费力经营。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    171,
+    171,
+    "要记得，作文章切莫要借题发挥！",
+    "胡适作文格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适以短句提醒作文不要借题发挥。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    173,
+    173,
+    "“全盘”的意义不过是“充分”而已。……说“全盘西化”，不如说“充分世界化”。",
+    "胡适文化格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "胡适解释全盘西化的语义，转为充分世界化。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    177,
+    177,
+    "要堂堂的生，莫狼狈的死。",
+    "胡适生死格言",
+    "胡适语，李敖辑《胡适语粹》",
+    "以堂堂生、莫狼狈死概括生死态度。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    185,
+    185,
+    "……过了双十节，你来玩玩，好不好？现在送上一千元的支票一张，是给你‘赎当’救急的。你千万不要推辞，正如同你送我许多不易得来的书我从来不推辞一样。……",
+    "胡适书信引文",
+    "胡适致李敖信",
+    "胡适来信以赎当救急并化解受助者推辞，显出书信中的体贴。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    189,
+    189,
+    "交友以自大其身，求士以求此身之不朽。",
+    "清代学者格言",
+    "李恕谷语，胡适信题《收徒弟的哲学》转引",
+    "以交友和求士说明扩充人格与追求不朽。",
+  ),
+  row(
+    "009.1990年12月.txt",
+    429,
+    429,
+    "实事求是",
+    "传统成语",
+    "《汉书·河间献王传》语意发展出的成语",
+    "新闻报道中称李敖以此为原则并用于办报命名，只收成语本体。",
+  ),
+  row(
+    "012.1991年3月.txt",
+    251,
+    251,
+    "放下屠刀，立地成佛。",
+    "佛教成语",
+    "佛教劝善成语",
+    "李敖以佛教成语反驳假道学式信佛说法，只收成语本体。",
+  ),
+];
+
+const excludedHighlights = [
+  "新闻报道、电视访问、法院诉讼、报社筹办、政党和人权事件中的现代公共语录不收。",
+  "李敖自况、自嘲、私人电话对白、威胁语和日常笑话不收，如“今天之得奖，是错了，不算！”“我是好老板，坏工头。”",
+  "现代政治人物和政治新闻语录不收，如林洋港、连战、戈尔巴乔夫、国民党、民主、人权、统独、二二八等上下文。",
+  "读者来信中的政治建言、报业经营口号和赞美李敖的现代句子不收；只保留其中可独立成立的古典成句或俗谚。",
+  "《胡适语粹》中政治性条目不收，如谈共产党屠杀生灵一条；其余非政治短句按胡适格言/书信引文保留。",
+  "假贺卡、标题、书名、节目名、普通报道中的单个词语不收，如“少女情怀总是诗”“满脸笑容”“读书”。",
+];
+
+const auditExcludes = [
+  ["exclude", "fake_private_letter", "001.1990年4月.txt", "43", "少女情怀总是诗", "假贺卡中的套语，私人玩笑语境且出处不明，不作独立引用。"],
+  ["exclude", "modern_political_quote", "001.1990年4月.txt", "51", "总统决定我担任什么工作，我就遵从。人事布局上需要我退休下来，我也很愿意。", "现代公共人物政治职务发言，排除。"],
+  ["exclude", "modern_news_prose", "002.1990年5月.txt", "149", "长跑对我的影响节录", "现代报纸个人文章长引，非诗文格言主线，暂不收。"],
+  ["exclude", "self_joke", "003.1990年6月.txt", "279", "此情不渝、据理力争、依法解决。", "李敖自况式玩笑，非外部引用。"],
+  ["exclude", "modern_political_quote", "005.1990年8月.txt", "25-27", "我头一次听到这种说法 / 假设性的问题，我没办法回答", "现代政治人物新闻发言，排除。"],
+  ["exclude", "modern_political_quote", "005.1990年8月.txt", "133-141", "戈尔巴乔夫法令与民主、法治相关语", "现代政治改革新闻语录，排除。"],
+  ["exclude", "self_political_quote", "006.1990年9月.txt", "85-103", "靠一支笔打出天下 / 我不会给国民党做打手 / 国民党拥有的权力太多太大了等", "现代政治自述和政治评论，排除。"],
+  ["exclude", "modern_media_comment", "006.1990年9月.txt", "207-211", "事物意义永远比它显现的还多 / 什么人在与我们谈情论性、指天道地", "现代媒体评论语句，出处与格言属性不明，暂不收。"],
+  ["exclude", "modern_human_rights_context", "008.1990年11月.txt", "145-267", "林麦尔、台湾人权与出入境相关采访", "现代人权与政治事件报道，排除。"],
+  ["exclude", "self_statement", "009.1990年12月.txt", "59-65", "今天之得奖，是错了，不算！ / 伏尔泰所有的幸运，李敖都没有。", "李敖自况，且与政治限制出境报道相连，排除。"],
+  ["exclude", "reader_political_advice", "009.1990年12月.txt", "109-125", "什么样的人玩什么样的鸟 / 你不保护自己，谁保护你 / 大师级的李敖就是与众不同", "读者来信中的报业政治建言和现代赞语，排除。"],
+  ["exclude", "hu_shi_political", "009.1990年12月.txt", "175", "共产党……为了一个永远不会实现的想象去屠杀生灵，去叫整千整万的生灵吃苦！", "《胡适语粹》中的政治意识形态条目，排除。"],
+  ["exclude", "modern_person_praise", "009.1990年12月.txt", "189", "台湾有一位年轻的朋友李敖先生，他所知道的有关胡适的事比胡适自己还清楚", "现代人物评价，非格言主线，暂不收。"],
+  ["exclude", "political_joke", "009.1990年12月.txt", "305", "贵国领土在我们台湾辖区之内！", "现代外交玩笑和政治语境，排除。"],
+  ["exclude", "self_or_tv_comment", "009.1990年12月.txt", "421-435", "胡茵梦限于知识层面 / 李敖非常有信心 / 我是好老板，坏工头", "电视报道中的现代人物评价和李敖自况，排除。"],
+  ["exclude", "private_advice", "011.1991年2月.txt", "185", "你的成绩单就是饭票。", "私人家庭教育式对白，非引用。"],
+  ["exclude", "self_metaphor", "012.1991年3月.txt", "143", "不必丢了，我自己就是炸弹。", "李敖自我比喻，非外部引用。"],
+  ["exclude", "reader_political_poem", "012.1991年3月.txt", "175", "天下何处觅奇才，宝岛南迁称无敌。老K棘手民称快，理傲升格泽金华。", "读者赞李敖诗带现代政治语境，首轮不收。"],
+  ["exclude", "threat_or_political_call", "012.1991年3月.txt", "243-253", "告诉李敖！我要用黑星手枪杀了他 / 你用匪货爱国，又算什么 / 他杀人时，已经是一国领袖……", "威胁与政治电话争论，除佛教成语本体外不收。"],
+];
+
+const sourceFileOrder = new Map(
+  fs
+    .readdirSync(sourceRoot)
+    .filter((file) => file.endsWith(".txt"))
+    .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"))
+    .map((file, index) => [file, index]),
+);
+
+for (const item of data) {
+  const lines = sourceLines(item.source_file);
+  if (item.line_start < 1 || item.line_end > lines.length || item.line_start > item.line_end) {
+    throw new Error(
+      `Invalid line range ${item.source_file}:${item.line_start}-${item.line_end}, file has ${lines.length} lines`,
+    );
+  }
+  const sourceText = lines.slice(item.line_start - 1, item.line_end).join("\n");
+  if (!sourceText.includes(item.quote_text)) {
+    throw new Error(`Quote not found in source range: ${item.source_file}:${item.line_start}-${item.line_end}`);
+  }
+}
+
+data.sort((a, b) => {
+  const fileDelta = (sourceFileOrder.get(a.source_file) ?? 9999) - (sourceFileOrder.get(b.source_file) ?? 9999);
+  if (fileDelta) return fileDelta;
+  const startDelta = Number(a.line_start) - Number(b.line_start);
+  if (startDelta) return startDelta;
+  return a.quote_text.localeCompare(b.quote_text, "zh-Hans-CN");
+});
+
+data.forEach((item, index) => {
+  item.id = `${idPrefix}-${String(index + 1).padStart(3, "0")}`;
+});
+
+fs.mkdirSync(outDir, { recursive: true });
+fs.mkdirSync(analysisDir, { recursive: true });
+
+const csvPath = path.join(outDir, `${book}_诗文格言歌谣引用.csv`);
+const txtPath = path.join(outDir, `${book}_诗文格言歌谣引用.txt`);
+const reportPath = path.join(analysisDir, "liao_wuwu_riji_initial_report.txt");
+const auditPath = path.join(analysisDir, "liao_wuwu_riji_initial_audit.tsv");
+const proofreadReportPath = path.join(analysisDir, "liao_wuwu_riji_proofread_report.txt");
+const proofreadAuditPath = path.join(analysisDir, "liao_wuwu_riji_proofread_audit.tsv");
+const initialRecordCount = 17;
+
+const csv = [
+  columns.join(","),
+  ...data.map((item) => columns.map((column) => csvEscape(item[column])).join(",")),
+].join("\n");
+fs.writeFileSync(csvPath, `\uFEFF${csv}\n`, "utf8");
+
+const txtLines = [
+  `《${book}》诗文格言歌谣引用`,
+  `生成日期：${generatedDate}`,
+  `记录数：${data.length}`,
+  "",
+];
+for (const item of data) {
+  txtLines.push(`【${item.id}】${item.category}｜${item.source_or_origin}`);
+  txtLines.push(`出处：${item.chapter}｜${item.source_file}:${item.line_start}-${item.line_end}`);
+  txtLines.push(`引文：${item.quote_text}`);
+  txtLines.push(`说明：${item.summary}`);
+  if (item.notes) txtLines.push(`备注：${item.notes}`);
+  txtLines.push("");
+}
+fs.writeFileSync(txtPath, `${txtLines.join("\r\n")}\r\n`, "utf8");
+
+const categoryCounts = new Map();
+for (const item of data) {
+  categoryCounts.set(item.category, (categoryCounts.get(item.category) || 0) + 1);
+}
+const proofreadAddedRows = data.filter((item) => item.notes.includes("校对补入"));
+const proofreadDeletedRows = [];
+const proofreadContinueExcludes = [
+  [
+    "continue-exclude",
+    "ordinary_idiom_in_prose",
+    "001.1990年4月.txt",
+    "23-33",
+    "不近情理 / 一针见血 / 无远弗届",
+    "普通行文里的成语或现代文化批评用语，未以独立引用出现，暂不补入。",
+  ],
+  [
+    "continue-exclude",
+    "private_or_political_letter",
+    "006.1990年9月.txt",
+    "191",
+    "为德不卒 / 百分之百言论自由",
+    "私人报业信件兼政治压力语境，不补入。",
+  ],
+  [
+    "continue-exclude",
+    "private_observation",
+    "008.1990年11月.txt",
+    "341",
+    "人之好名，有如此者！",
+    "李敖私人观察和感叹，非外部引用。",
+  ],
+  [
+    "continue-exclude",
+    "ordinary_idiom_in_prose",
+    "008.1990年11月.txt",
+    "419",
+    "安能见天日哉？",
+    "普通行文熟语，未独立成引用条目。",
+  ],
+  [
+    "continue-exclude",
+    "ordinary_buddhist_hyperbole",
+    "011.1991年2月.txt",
+    "301",
+    "七佛出世",
+    "日常夸张语，依附李敖办报自况，暂不补入。",
+  ],
+];
+
+const reportLines = [];
+reportLines.push(`《${book}》首轮提取报告（校对后当前版本）`);
+reportLines.push(`生成日期：${generatedDate}`);
+reportLines.push("");
+reportLines.push(`源目录：${sourceRoot}`);
+reportLines.push("原始候选：analysis/liao_wuwu_riji_quote_candidates.json");
+reportLines.push("复筛候选：analysis/liao_wuwu_riji_review_candidates.tsv");
+reportLines.push("归因线索：analysis/liao_wuwu_riji_attributed_lines.tsv");
+reportLines.push(`输出 CSV：${csvPath}`);
+reportLines.push(`输出 TXT：${txtPath}`);
+reportLines.push(`首轮收录条数：${initialRecordCount}`);
+reportLines.push(`校对补入条数：${proofreadAddedRows.length}`);
+reportLines.push(`校对删除条数：${proofreadDeletedRows.length}`);
+reportLines.push(`当前收录条数：${data.length}`);
+reportLines.push("");
+reportLines.push("候选概况：");
+reportLines.push("- sourceFiles=15");
+reportLines.push("- quoteCandidates=239");
+reportLines.push("- uniqueQuoteTexts=229");
+reportLines.push("- keywordLines=61");
+reportLines.push("- attributedLines=232");
+reportLines.push("- reviewCandidates=74");
+reportLines.push("");
+reportLines.push("分类统计：");
+for (const [category, count] of [...categoryCounts.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0], "zh-Hans-CN"),
+)) {
+  reportLines.push(`- ${category}: ${count}`);
+}
+reportLines.push("");
+reportLines.push("本轮排除：");
+for (const item of excludedHighlights) {
+  reportLines.push(`- ${item}`);
+}
+reportLines.push("");
+reportLines.push("明细：");
+reportLines.push(
+  [
+    "id",
+    "source_file",
+    "line_start",
+    "line_end",
+    "category",
+    "source_or_origin",
+    "quote_text",
+    "summary",
+    "notes",
+  ].join("\t"),
+);
+for (const item of data) {
+  reportLines.push(
+    [
+      item.id,
+      item.source_file,
+      item.line_start,
+      item.line_end,
+      item.category,
+      item.source_or_origin,
+      item.quote_text,
+      item.summary,
+      item.notes,
+    ]
+      .map(tsvEscape)
+      .join("\t"),
+  );
+}
+fs.writeFileSync(reportPath, `\uFEFF${reportLines.join("\r\n")}\r\n`, "utf8");
+
+const auditRows = [
+  ["action", "target", "source_file", "line_range", "quote_or_candidate", "reason"],
+  ...data.map((item) => [
+    item.notes.includes("校对补入") ? "add" : "keep",
+    item.id,
+    item.source_file,
+    `${item.line_start}-${item.line_end}`,
+    item.quote_text,
+    item.summary,
+  ]),
+  ...auditExcludes,
+];
+fs.writeFileSync(
+  auditPath,
+  `\uFEFF${auditRows.map((record) => record.map(tsvEscape).join("\t")).join("\r\n")}\r\n`,
+  "utf8",
+);
+
+const proofreadReportLines = [];
+proofreadReportLines.push(`《${book}》校对轮报告`);
+proofreadReportLines.push(`生成日期：${generatedDate}`);
+proofreadReportLines.push("");
+proofreadReportLines.push("校对结果：");
+proofreadReportLines.push(
+  `- 首轮 ${initialRecordCount} 条，校对补入 ${proofreadAddedRows.length} 条，删除 ${proofreadDeletedRows.length} 条，当前 ${data.length} 条。`,
+);
+proofreadReportLines.push("- 补入：001:23 “世风日下”。");
+proofreadReportLines.push("- 删除：无。");
+proofreadReportLines.push("");
+proofreadReportLines.push("补入明细：");
+for (const item of proofreadAddedRows) {
+  proofreadReportLines.push(
+    `- ${item.id}｜${item.source_file}:${item.line_start}-${item.line_end}｜${item.quote_text}｜${item.category}｜${item.notes}`,
+  );
+}
+proofreadReportLines.push("");
+proofreadReportLines.push("继续排除：");
+for (const item of proofreadContinueExcludes) {
+  proofreadReportLines.push(`- ${item[2]}:${item[3]}｜${item[4]}｜${item[5]}`);
+}
+proofreadReportLines.push("");
+proofreadReportLines.push(
+  "校对说明：现有条目保持；本轮只补入引号中明确出现的传统成语“世风日下”。普通行文熟语、私人/政治书信、新闻报道和李敖自况继续排除。",
+);
+proofreadReportLines.push(`校对审计：${proofreadAuditPath}`);
+fs.writeFileSync(proofreadReportPath, `\uFEFF${proofreadReportLines.join("\r\n")}\r\n`, "utf8");
+
+const proofreadAuditRows = [
+  ["action", "target", "source_file", "line_range", "quote_or_candidate", "reason"],
+  ...proofreadAddedRows.map((item) => [
+    "add",
+    item.id,
+    item.source_file,
+    `${item.line_start}-${item.line_end}`,
+    item.quote_text,
+    item.notes,
+  ]),
+  ...proofreadContinueExcludes,
+];
+fs.writeFileSync(
+  proofreadAuditPath,
+  `\uFEFF${proofreadAuditRows.map((record) => record.map(tsvEscape).join("\t")).join("\r\n")}\r\n`,
+  "utf8",
+);
+
+console.log(
+  JSON.stringify(
+    {
+      book,
+      records: data.length,
+      proofreadAdded: proofreadAddedRows.length,
+      csvPath,
+      txtPath,
+      reportPath,
+      auditPath,
+      proofreadReportPath,
+      proofreadAuditPath,
+    },
+    null,
+    2,
+  ),
+);

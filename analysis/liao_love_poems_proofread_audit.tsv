@@ -1,0 +1,10 @@
+﻿decision	old_id	source_file	line_range	quote_text	reason
+delete	LALQS-011	010.寿诗.txt	95-95	努力向上跑	短语过短且出处未明，夹在李敖自作寿诗中，校对轮删除。
+delete	LALQS-016	013.老子歌·老子二歌.txt	25-25	匹夫当为百世师	自作诗内化用苏轼语意但非原句，未明示引用，校对轮删除。
+delete	LALQS-018	016.日历与往事.txt	13-13	泪眼莫问花！	李敖自作句化用欧阳修词意，不是外部原句，校对轮删除。
+fix	LALQS-005	001.《三情之书》序.txt	61-63	……Nor soul helps flesh more，now than flesh helps soul．	来源说明由未详外国诗人校正为勃朗宁《Rabbi Ben Ezra》。
+fix	LALQS-006/LALQS-007	001.《三情之书》序.txt	71-77	Since theers's no help / Come let us kiss and part．	来源说明由外国诗人校正为迈克尔·德雷顿《Idea》第61首。
+fix	LALQS-033	022.译桑塔耶那的情诗.txt	153-153	无可无不可	来源说明由传统成句校正为《论语·微子》。
+keep	LALQS-010	010.寿诗.txt	65-65	一生梦想大光明	虽原书未注出处，但以引号标为胡适相关诗文句，非政治语录，暂保留待后续查证。
+keep	LALQS-014	010.寿诗.txt	125-125	七十老翁何所求	与原文明注王阳明诗句并引，按古典寿诗句暂保留待后续查证。
+keep	LALQS-037/LALQS-038	074.集句.txt; 090.情诗集句.txt	3-9	两首未逐句标出处的集句	题名明确为集句，校对轮保持整首记录，不拆分逐句。

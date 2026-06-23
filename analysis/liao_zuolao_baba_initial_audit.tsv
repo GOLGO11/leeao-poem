@@ -1,0 +1,369 @@
+id	source_file	line_start	line_end	category	risk_in_quote	quote_text
+LAZLJBB-001	001.猫狗谚.txt	7	7	英文谚语		rain cats and dogs
+LAZLJBB-002	001.猫狗谚.txt	9	9	英文谚语		Every dog has his day
+LAZLJBB-003	001.猫狗谚.txt	15	15	英文谚语		A cat has nine lives
+LAZLJBB-004	001.猫狗谚.txt	15	15	英文谚语		Care killed the cat
+LAZLJBB-005	001.猫狗谚.txt	15	15	英文谚语		Curiosity killed a cat
+LAZLJBB-006	001.猫狗谚.txt	29	29	中文成语		打狗看主人
+LAZLJBB-007	001.猫狗谚.txt	31	31	古典成语		高鸟尽，良弓藏；狡兔死，走狗烹
+LAZLJBB-008	001.猫狗谚.txt	31	31	成语		兔死狗烹
+LAZLJBB-009	001.猫狗谚.txt	33	33	英文谚语译句		想打狗的，不愁找不到棒子
+LAZLJBB-010	001.猫狗谚.txt	37	37	英文名言译句		我看到的人愈多，我愈欣赏狗
+LAZLJBB-011	001.猫狗谚.txt	39	39	中文成语		近朱者赤，近墨者黑
+LAZLJBB-012	001.猫狗谚.txt	41	41	英文谚语译句		狗不吃狗，但人吃人
+LAZLJBB-013	002.再会呀，鳄鱼呀！.txt	7	7	成语		鳄鱼的眼泪
+LAZLJBB-014	002.再会呀，鳄鱼呀！.txt	7	7	俗语		猫哭耗子
+LAZLJBB-015	002.再会呀，鳄鱼呀！.txt	15	15	英文俏皮话		See you later, alligator
+LAZLJBB-016	002.再会呀，鳄鱼呀！.txt	27	27	古文引用		其率丑类南徙于海
+LAZLJBB-017	002.再会呀，鳄鱼呀！.txt	29	29	成语		为虎作伥
+LAZLJBB-018	003.纸上谈钱.txt	7	7	成语		一贫如洗
+LAZLJBB-019	003.纸上谈钱.txt	7	7	俗语		省小钱吃大亏
+LAZLJBB-020	003.纸上谈钱.txt	7	7	成语		贪小失大
+LAZLJBB-021	003.纸上谈钱.txt	7	7	英文谚语		A penny saved is a penny gained
+LAZLJBB-022	003.纸上谈钱.txt	7	7	处事格言		小事注意，大事自成
+LAZLJBB-023	003.纸上谈钱.txt	11	11	成语		车载斗量
+LAZLJBB-024	003.纸上谈钱.txt	11	11	成语		过江之鲫
+LAZLJBB-025	003.纸上谈钱.txt	11	11	成语		多如牛毛
+LAZLJBB-026	004.喊一声“芝麻开门！”就行了.txt	5	5	英文成语		take the cake
+LAZLJBB-027	004.喊一声“芝麻开门！”就行了.txt	5	5	成语		两者不可得兼
+LAZLJBB-028	004.喊一声“芝麻开门！”就行了.txt	5	5	成语		望梅止渴，画饼充饥
+LAZLJBB-029	004.喊一声“芝麻开门！”就行了.txt	5	5	典故		巴米赛德酒席
+LAZLJBB-030	004.喊一声“芝麻开门！”就行了.txt	5	5	童话咒语		芝麻开门
+LAZLJBB-031	004.喊一声“芝麻开门！”就行了.txt	9	9	英文格言		The last straw breaks the camel's back
+LAZLJBB-032	004.喊一声“芝麻开门！”就行了.txt	9	9	处事格言		凡事要适可而止
+LAZLJBB-033	005.头头大观.txt	17	17	古典成语		宁为鸡口，毋为牛后
+LAZLJBB-034	005.头头大观.txt	17	17	英文名句		Better to reign in hell than serve in heaven
+LAZLJBB-035	006.指教.txt	7	7	英文成语译句		她浑身都是淑女
+LAZLJBB-036	006.指教.txt	9	9	成语		跃跃欲试
+LAZLJBB-037	006.指教.txt	9	9	成语		染指
+LAZLJBB-038	006.指教.txt	9	9	英文成语译句		假装看不见
+LAZLJBB-039	006.指教.txt	11	11	英文成语		His fingers are all thumbs
+LAZLJBB-040	006.指教.txt	19	19	成语化用		玩弄别人于股（大腿）掌（手心）之上
+LAZLJBB-041	006.指教.txt	21	21	成语		屈指可数
+LAZLJBB-042	006.指教.txt	21	21	成语		指不胜屈
+LAZLJBB-043	006.指教.txt	21	21	成语		半斤八两
+LAZLJBB-044	007.理发匠就是外科医生，外科医生就是理发匠.txt	5	5	成语		怒发冲冠
+LAZLJBB-045	007.理发匠就是外科医生，外科医生就是理发匠.txt	5	5	成语		发指
+LAZLJBB-046	007.理发匠就是外科医生，外科医生就是理发匠.txt	5	5	成语		毛发悚然
+LAZLJBB-047	007.理发匠就是外科医生，外科医生就是理发匠.txt	9	9	寓言名句		狼来了！狼来了！
+LAZLJBB-048	007.理发匠就是外科医生，外科医生就是理发匠.txt	9	9	寓言成语		狗占马槽
+LAZLJBB-049	008.送礼·向厕所跑.txt	5	5	成语		礼尚往还
+LAZLJBB-050	008.送礼·向厕所跑.txt	5	5	英文格言		Gifts are like fish hooks
+LAZLJBB-051	008.送礼·向厕所跑.txt	5	5	成语		抛砖引玉
+LAZLJBB-052	008.送礼·向厕所跑.txt	5	5	俗语		真金不怕火炼
+LAZLJBB-053	008.送礼·向厕所跑.txt	5	5	成语		做贼心虚
+LAZLJBB-054	008.送礼·向厕所跑.txt	5	5	英文格言		Don't look a gift horse in the mouth
+LAZLJBB-055	008.送礼·向厕所跑.txt	9	9	英文格言		No man ought to look a given horse in the mouth
+LAZLJBB-056	009.你羊我就马，你马我就羊.txt	13	13	英文儿歌		Mary Had a Little Lamb
+LAZLJBB-057	009.你羊我就马，你马我就羊.txt	13	13	俗语		一不做，二不休
+LAZLJBB-058	009.你羊我就马，你马我就羊.txt	13	13	英文成语		a wolf in sheep's clothing
+LAZLJBB-059	009.你羊我就马，你马我就羊.txt	13	13	成语		害群之马
+LAZLJBB-060	009.你羊我就马，你马我就羊.txt	13	13	成语		亡羊补牢
+LAZLJBB-061	009.你羊我就马，你马我就羊.txt	15	15	妙语		你马我就羊，你羊我就马
+LAZLJBB-062	010.打老虎秘诀.txt	5	5	成语		百兽之王
+LAZLJBB-063	010.打老虎秘诀.txt	7	7	成语		捋虎须
+LAZLJBB-064	010.打老虎秘诀.txt	7	7	成语		骑虎难下
+LAZLJBB-065	010.打老虎秘诀.txt	7	7	俗语		捉虎容易放虎难
+LAZLJBB-066	010.打老虎秘诀.txt	9	9	古典格言		不入虎穴，焉得虎子
+LAZLJBB-067	010.打老虎秘诀.txt	11	11	成语		为虎做伥
+LAZLJBB-068	010.打老虎秘诀.txt	13	13	英文妙语译句		打老虎要记着老虎有各式各样的——有好打的，有难打的
+LAZLJBB-069	011.你送神像我搭台.txt	5	5	英文成语译句		沟泽姆的聪明人
+LAZLJBB-070	012.千年王八万年龟.txt	5	5	俗语		千年王八万年龟
+LAZLJBB-071	012.千年王八万年龟.txt	5	5	古典祝词		龟龄
+LAZLJBB-072	012.千年王八万年龟.txt	9	9	俗语		翻乌龟
+LAZLJBB-073	013.不飞的鸟.txt	19	19	成语		各有千秋
+LAZLJBB-074	013.不飞的鸟.txt	19	19	英文成语		ostrichlike
+LAZLJBB-075	014.你杀鹅我就杀鸡.txt	5	5	成语		鹅行鸭步
+LAZLJBB-076	014.你杀鹅我就杀鸡.txt	5	5	俗语		鸡皮疙瘩
+LAZLJBB-077	014.你杀鹅我就杀鸡.txt	11	11	寓言格言		别杀下金蛋的鹅
+LAZLJBB-078	014.你杀鹅我就杀鸡.txt	11	11	成语		杀鸡取卵
+LAZLJBB-079	014.你杀鹅我就杀鸡.txt	13	13	英文成语译句		煮了他的鹅
+LAZLJBB-080	014.你杀鹅我就杀鸡.txt	15	15	俗语		吃鸭蛋
+LAZLJBB-081	014.你杀鹅我就杀鸡.txt	21	21	俗语		千里送鹅毛
+LAZLJBB-082	015.原子弹与沉鱼落雁.txt	15	15	典故词语		雁行
+LAZLJBB-083	015.原子弹与沉鱼落雁.txt	15	15	成语		雁行折翼
+LAZLJBB-084	015.原子弹与沉鱼落雁.txt	17	17	成语典故		雁足传书
+LAZLJBB-085	015.原子弹与沉鱼落雁.txt	17	17	成语		雁杳鱼沉
+LAZLJBB-086	015.原子弹与沉鱼落雁.txt	17	17	成语		沉鱼落雁
+LAZLJBB-087	015.原子弹与沉鱼落雁.txt	19	19	英文成语		wild-goose chase
+LAZLJBB-088	015.原子弹与沉鱼落雁.txt	21	21	唐诗句		白日登山望烽火，黄昏饮马傍交河
+LAZLJBB-089	015.原子弹与沉鱼落雁.txt	21	21	唐诗句		年年战骨埋荒外，空见葡萄入汉家
+LAZLJBB-090	016.他所有的鹅都是天鹅.txt	5	5	英文成语		All his geese are swans
+LAZLJBB-091	016.他所有的鹅都是天鹅.txt	5	5	俗语		癞蛤蟆想吃天鹅肉
+LAZLJBB-092	016.他所有的鹅都是天鹅.txt	7	7	童话题名		丑小鸭
+LAZLJBB-093	016.他所有的鹅都是天鹅.txt	13	13	英文典故		天鹅之歌
+LAZLJBB-094	017.麻是麻烦，可是不会生胃病.txt	7	7	妙语		麻是麻烦，可是不会生胃病
+LAZLJBB-095	018.破锅有烂灶、李大有张嫂.txt	5	5	英文成语		All work and no play makes Jack a dull boy
+LAZLJBB-096	018.破锅有烂灶、李大有张嫂.txt	7	7	英文成语		Every Jack has his Jill
+LAZLJBB-097	018.破锅有烂灶、李大有张嫂.txt	7	7	成语		物各有偶
+LAZLJBB-098	018.破锅有烂灶、李大有张嫂.txt	7	7	俗语		破锅有烂灶、李大有张嫂
+LAZLJBB-099	018.破锅有烂灶、李大有张嫂.txt	27	27	成语		上天无路，入地无门
+LAZLJBB-100	020.看那熊相.txt	9	9	古文引用		鱼我所欲也，熊掌亦我所欲也
+LAZLJBB-101	020.看那熊相.txt	17	17	成语		熊熊大火
+LAZLJBB-102	020.看那熊相.txt	29	29	英文谚语		Sell the skin before one has killed the bear
+LAZLJBB-103	020.看那熊相.txt	33	33	英文谚语		Count one's chickens before they are hatched
+LAZLJBB-104	020.看那熊相.txt	37	37	成语典故		熊罴入梦
+LAZLJBB-105	021.为什么还叫别人是姥姥？.txt	7	7	名人格言		天才是百分之一的灵感，百分之九十九的流汗
+LAZLJBB-106	021.为什么还叫别人是姥姥？.txt	11	11	名人妙语		除了我的天才外还有什么好报的
+LAZLJBB-107	021.为什么还叫别人是姥姥？.txt	29	29	英文俗语		Nothing doing
+LAZLJBB-108	022.苍蝇的老婆最多.txt	15	15	古典成语		见秋毫之末而不见舆薪
+LAZLJBB-109	023.英文回文·中文回文.txt	15	15	英文回文		Madam, I'm Adam
+LAZLJBB-110	023.英文回文·中文回文.txt	19	19	英文回文		Poor Dan is in a droop
+LAZLJBB-111	023.英文回文·中文回文.txt	23	23	英文回文		Able was I ere I saw Elba
+LAZLJBB-112	023.英文回文·中文回文.txt	29	29	回文笑话		放狗屁
+LAZLJBB-113	023.英文回文·中文回文.txt	31	31	回文笑话		狗放屁
+LAZLJBB-114	023.英文回文·中文回文.txt	33	33	回文笑话		放屁狗
+LAZLJBB-115	023.英文回文·中文回文.txt	37	45	中文回文		你爱我不爱
+LAZLJBB-116	023.英文回文·中文回文.txt	81	89	中文回文		可以清心也
+LAZLJBB-117	023.英文回文·中文回文.txt	101	101	词句		花落正啼鸦
+LAZLJBB-118	023.英文回文·中文回文.txt	101	101	回文词句		鸦啼正落花
+LAZLJBB-119	024.关于脖子的种种.txt	11	11	成语		班门弄斧
+LAZLJBB-120	024.关于脖子的种种.txt	11	11	成语		小巫见大巫
+LAZLJBB-121	024.关于脖子的种种.txt	23	23	英文成语		neck and neck
+LAZLJBB-122	024.关于脖子的种种.txt	27	27	英文成语		Neck or nothing
+LAZLJBB-123	024.关于脖子的种种.txt	33	33	英文格言		Don't stick your neck out too far
+LAZLJBB-124	024.关于脖子的种种.txt	35	35	成语		刎颈之交
+LAZLJBB-125	025.眼睛有时候会上当.txt	15	15	英文格言		Look before your leap
+LAZLJBB-126	025.眼睛有时候会上当.txt	15	15	成语		三思而后行
+LAZLJBB-127	025.眼睛有时候会上当.txt	17	17	成语		海底捞针
+LAZLJBB-128	025.眼睛有时候会上当.txt	23	23	成语		旁观者清
+LAZLJBB-129	025.眼睛有时候会上当.txt	31	31	英文格言		Seeing is believing
+LAZLJBB-130	025.眼睛有时候会上当.txt	31	31	俗语		百闻不如一见
+LAZLJBB-131	025.眼睛有时候会上当.txt	51	51	妙语		眼睛有时候会上当
+LAZLJBB-132	026.“妈妈骑马，马慢，妈妈骂马”.txt	7	7	绕口令		妈妈骑马，马慢，妈妈骂马
+LAZLJBB-133	026.“妈妈骑马，马慢，妈妈骂马”.txt	9	9	绕口令		妞妞骑牛，牛扭，妞妞扭牛
+LAZLJBB-134	026.“妈妈骑马，马慢，妈妈骂马”.txt	11	11	绕口令		门后头的刀，刀倒挂着
+LAZLJBB-135	026.“妈妈骑马，马慢，妈妈骂马”.txt	13	13	绕口令		吃葡萄不吐葡萄皮，不吃葡萄倒吐葡萄皮
+LAZLJBB-136	026.“妈妈骑马，马慢，妈妈骂马”.txt	17	17	英文绕口令		She sells seashells at the sea-shore
+LAZLJBB-137	026.“妈妈骑马，马慢，妈妈骂马”.txt	21	21	英文绕口令		A big black bug bites a big black bear
+LAZLJBB-138	026.“妈妈骑马，马慢，妈妈骂马”.txt	29	35	英文绕口令诗		Peter Piper picked a peck of pickled peppers
+LAZLJBB-139	026.“妈妈骑马，马慢，妈妈骂马”.txt	43	43	英文绕口令		Bill had a billboard and also a board bill
+LAZLJBB-140	026.“妈妈骑马，马慢，妈妈骂马”.txt	53	55	格言		一粒辣椒也比一篮南瓜好
+LAZLJBB-141	027.老鼠不信任一个洞.txt	9	9	成语		獐头鼠目
+LAZLJBB-142	027.老鼠不信任一个洞.txt	9	9	成语		贼眉鼠眼
+LAZLJBB-143	027.老鼠不信任一个洞.txt	9	9	俗语		耗子过街，人人喊打
+LAZLJBB-144	027.老鼠不信任一个洞.txt	11	11	成语		胆小如鼠
+LAZLJBB-145	027.老鼠不信任一个洞.txt	23	23	成语		狡兔三窟
+LAZLJBB-146	027.老鼠不信任一个洞.txt	35	35	典故		犹大之吻
+LAZLJBB-147	027.老鼠不信任一个洞.txt	47	47	俗语		别打落水狗
+LAZLJBB-148	027.老鼠不信任一个洞.txt	51	51	俗语		墙倒众人推
+LAZLJBB-149	027.老鼠不信任一个洞.txt	59	59	学习格言		英文要一窝一窝的学
+LAZLJBB-150	029.猫头鹰为什么跟在智慧女神屁股后面？.txt	17	17	英文成语		Carry water to the river
+LAZLJBB-151	029.猫头鹰为什么跟在智慧女神屁股后面？.txt	17	17	俗语		江边卖水
+LAZLJBB-152	029.猫头鹰为什么跟在智慧女神屁股后面？.txt	19	19	英文成语		Carry owls to Athens
+LAZLJBB-153	029.猫头鹰为什么跟在智慧女神屁股后面？.txt	21	21	典故		智慧的象征
+LAZLJBB-154	030.狼来了！狼来了！.txt	11	11	寓言名句		狼来了！
+LAZLJBB-155	030.狼来了！狼来了！.txt	11	11	英文成语		cry wolf
+LAZLJBB-156	030.狼来了！狼来了！.txt	15	15	寓言格言		说谎话的惩罚是：即使他说真话时候，人家也不信他
+LAZLJBB-157	030.狼来了！狼来了！.txt	15	15	俗语		江山易改，本性难移
+LAZLJBB-158	030.狼来了！狼来了！.txt	17	17	英文成语		Keep the wolf from the door
+LAZLJBB-159	030.狼来了！狼来了！.txt	23	23	英文成语译句		抓住了狼耳朵，抓住固然糟，放了更糟
+LAZLJBB-160	030.狼来了！狼来了！.txt	25	25	成语		每况愈下
+LAZLJBB-161	030.狼来了！狼来了！.txt	25	25	俗语		王小二过年——一年不如一年
+LAZLJBB-162	031.谁先完蛋？.txt	15	15	成语		覆巢之下，安有完卵
+LAZLJBB-163	031.谁先完蛋？.txt	15	15	成语		以卵击石
+LAZLJBB-164	031.谁先完蛋？.txt	29	29	寓言俗语		蛋生鸡，鸡生蛋
+LAZLJBB-165	031.谁先完蛋？.txt	37	43	英文儿歌		Humpty Dumpty sat on a wall
+LAZLJBB-166	032.猴相.txt	7	7	成语典故		朝三暮四
+LAZLJBB-167	032.猴相.txt	11	11	成语		教猱升木
+LAZLJBB-168	032.猴相.txt	15	15	俗语		小家子相
+LAZLJBB-169	033.从人猿到猿人.txt	35	35	成语		沐猴而冠
+LAZLJBB-170	033.从人猿到猿人.txt	39	39	英文妙语译句		不是你像猴子，而是猴子像你
+LAZLJBB-171	033.从人猿到猿人.txt	25	25	德国谚语译意		怎么打扮，还是它
+LAZLJBB-172	034.蘑菇个没完.txt	5	5	俗语		蘑菇个没完
+LAZLJBB-173	034.蘑菇个没完.txt	25	25	英文比喻译句		他就像是一种蘑菇，会突然间无中生有
+LAZLJBB-174	035.非驴非马.txt	7	7	成语		骑驴觅驴
+LAZLJBB-175	035.非驴非马.txt	11	11	成语		答非所问
+LAZLJBB-176	035.非驴非马.txt	11	11	俗语		驴唇不对马嘴
+LAZLJBB-177	035.非驴非马.txt	13	13	俗语		驴年马月
+LAZLJBB-178	035.非驴非马.txt	21	21	英文成语		He has made an ass of himself
+LAZLJBB-179	035.非驴非马.txt	27	27	成语		非驴非马
+LAZLJBB-180	035.非驴非马.txt	27	27	俗语		四不像
+LAZLJBB-181	035.非驴非马.txt	31	31	英文格言		If a donkey bray at you, don't bray at him
+LAZLJBB-182	036.骑小马·回台湾.txt	11	11	俗语		拍马屁
+LAZLJBB-183	036.骑小马·回台湾.txt	13	13	俗语		马屁精
+LAZLJBB-184	036.骑小马·回台湾.txt	15	15	成语		露出马脚
+LAZLJBB-185	036.骑小马·回台湾.txt	17	17	俗语		马路如虎口
+LAZLJBB-186	036.骑小马·回台湾.txt	19	19	成语		车水马龙
+LAZLJBB-187	036.骑小马·回台湾.txt	21	21	俗语		牛头马面
+LAZLJBB-188	036.骑小马·回台湾.txt	23	23	古典成语		盲人骑瞎马，夜半临深池
+LAZLJBB-189	036.骑小马·回台湾.txt	25	25	俗语		马后炮
+LAZLJBB-190	036.骑小马·回台湾.txt	27	27	英文成语		Ride the high horse
+LAZLJBB-191	036.骑小马·回台湾.txt	35	35	英文成语		Flog a dead horse
+LAZLJBB-192	036.骑小马·回台湾.txt	37	37	英文成语		Put the cart before the horse
+LAZLJBB-193	036.骑小马·回台湾.txt	39	39	英文格言		A good horse has no need of the spur
+LAZLJBB-194	036.骑小马·回台湾.txt	51	51	成语		随遇而安
+LAZLJBB-195	036.骑小马·回台湾.txt	71	71	人生妙语		你认识的人愈多，你愈喜欢狗
+LAZLJBB-196	037.鸽子·囮子·凯子.txt	15	15	英文成语		stool-pigeon
+LAZLJBB-197	037.鸽子·囮子·凯子.txt	21	21	处事格言		有饵的地方就有陷阱
+LAZLJBB-198	037.鸽子·囮子·凯子.txt	23	23	成语		人山人海
+LAZLJBB-199	038.斗出自大来.txt	15	15	英文谚语		Like a cock courageous only at home
+LAZLJBB-200	038.斗出自大来.txt	17	17	英文谚语		Every cock crows on its own dunghill
+LAZLJBB-201	038.斗出自大来.txt	27	27	英文俗语		cock-a-hoop
+LAZLJBB-202	038.斗出自大来.txt	35	35	文学妙语译句		他像个公鸡一样以为太阳升起是为了听他叫
+LAZLJBB-203	039.谁在瞎忙？.txt	5	5	古语		偃鼠饮河，不过满腹
+LAZLJBB-204	039.谁在瞎忙？.txt	11	11	英文成语译句		瞎得像鼹鼠
+LAZLJBB-205	039.谁在瞎忙？.txt	17	17	英文成语		Why make a mountain of a molehill
+LAZLJBB-206	039.谁在瞎忙？.txt	25	25	英文格言		He promises much and gives little
+LAZLJBB-207	039.谁在瞎忙？.txt	27	27	英文格言		A man apt to promise, is apt to forget
+LAZLJBB-208	039.谁在瞎忙？.txt	29	29	成语		轻诺寡信
+LAZLJBB-209	039.谁在瞎忙？.txt	31	31	英文格言译句		好听的许愿填不饱肚子
+LAZLJBB-210	039.谁在瞎忙？.txt	37	37	俗语		无事忙
+LAZLJBB-211	040.运动道德吗？.txt	9	9	英文成语		Call a spade a spade
+LAZLJBB-212	040.运动道德吗？.txt	15	15	英文成语译句		黑就是黑，白就是白
+LAZLJBB-213	040.运动道德吗？.txt	17	17	成语		颠倒黑白
+LAZLJBB-214	040.运动道德吗？.txt	17	17	成语典故		指鹿为马
+LAZLJBB-215	040.运动道德吗？.txt	19	25	古文引用		觚，不觚。觚哉？觚哉？
+LAZLJBB-216	040.运动道德吗？.txt	31	31	仿古妙语		姑，不姑。姑哉？姑哉？
+LAZLJBB-217	041.小文十岁生日歌.txt	3	65	诗歌		十年前，
+LAZLJBB-218	041.小文十岁生日歌.txt	41	43	诗句		人生就像骑小马
+LAZLJBB-219	041.小文十岁生日歌.txt	49	51	诗句		人生二十才开始
+LAZLJBB-220	041.小文十岁生日歌.txt	53	59	诗句		十年以后一枝花
+LAZLJBB-221	042.生日与十二宫图.txt	13	13	英文祝辞		Many happy returns of the day
+LAZLJBB-222	042.生日与十二宫图.txt	13	13	祝寿成语		万寿无疆
+LAZLJBB-223	042.生日与十二宫图.txt	13	13	典故词语		花甲
+LAZLJBB-224	042.生日与十二宫图.txt	67	67	典故		死诸葛（诸葛亮）走生仲达（司马懿）
+LAZLJBB-225	043.林肯·栗子·笑.txt	25	25	成语		笑里藏刀
+LAZLJBB-226	043.林肯·栗子·笑.txt	25	25	英文名句		There's daggers in men's smiles
+LAZLJBB-227	043.林肯·栗子·笑.txt	29	29	成语		啼笑皆非
+LAZLJBB-228	043.林肯·栗子·笑.txt	29	29	英文妙语译句		疼得没法笑，又年纪大得不好意思哭
+LAZLJBB-229	043.林肯·栗子·笑.txt	41	41	成语		虽死犹生
+LAZLJBB-230	043.林肯·栗子·笑.txt	43	43	英文成语		cat's paw
+LAZLJBB-231	044.“浪费蜡烛去找针”.txt	5	5	成语		有备无患
+LAZLJBB-232	044.“浪费蜡烛去找针”.txt	5	5	成语		防患未然
+LAZLJBB-233	044.“浪费蜡烛去找针”.txt	7	7	法国成语译句		浪费蜡烛去找针
+LAZLJBB-234	044.“浪费蜡烛去找针”.txt	9	9	英文格言		A stitch in time save nine
+LAZLJBB-235	044.“浪费蜡烛去找针”.txt	11	11	成语		海底捞针
+LAZLJBB-236	044.“浪费蜡烛去找针”.txt	11	11	成语		水中捞月
+LAZLJBB-237	044.“浪费蜡烛去找针”.txt	11	11	俗语		人同此心，心同此理
+LAZLJBB-238	046.水肉·水月·影子戏.txt	7	7	成语		水中捞月
+LAZLJBB-239	046.水肉·水月·影子戏.txt	7	7	诗文成句		镜花水月总成空
+LAZLJBB-240	046.水肉·水月·影子戏.txt	9	9	人生格言		牺牲实在而信虚幻
+LAZLJBB-241	046.水肉·水月·影子戏.txt	9	9	人生格言		抓紧影子而失掉实在
+LAZLJBB-242	046.水肉·水月·影子戏.txt	15	15	古文引用		是耶？非耶？偏何姗姗其来迟！
+LAZLJBB-243	046.水肉·水月·影子戏.txt	15	15	成语		姗姗来迟
+LAZLJBB-244	047.怪签名.txt	21	21	中文双关句		庭前桃未发
+LAZLJBB-245	047.怪签名.txt	21	21	中文双关句		阁下李先生
+LAZLJBB-246	049.天上天堂与人间天堂.txt	5	5	文学题名		失乐园
+LAZLJBB-247	049.天上天堂与人间天堂.txt	5	5	圣经典故		伊甸园
+LAZLJBB-248	049.天上天堂与人间天堂.txt	7	7	英文成语		A Heaven on Earth
+LAZLJBB-249	049.天上天堂与人间天堂.txt	11	11	文学题名		桃花源记
+LAZLJBB-250	049.天上天堂与人间天堂.txt	11	11	成语典故		世外桃源
+LAZLJBB-251	049.天上天堂与人间天堂.txt	15	15	概念典故		乌托邦
+LAZLJBB-252	051.谈年论孝.txt	5	5	俗谚		王小二过年，一年不如一年
+LAZLJBB-253	051.谈年论孝.txt	7	7	俗语		一年到头
+LAZLJBB-254	051.谈年论孝.txt	7	7	成语		急景凋年
+LAZLJBB-255	051.谈年论孝.txt	63	63	古文引用		自反而缩，虽千万人，吾往矣
+LAZLJBB-256	052.“爸”·“爹”·“妈”.txt	27	27	英文成语		Like father, like son
+LAZLJBB-257	052.“爸”·“爹”·“妈”.txt	27	27	俗语		虎父无犬子
+LAZLJBB-258	052.“爸”·“爹”·“妈”.txt	39	39	儿童妙语		假使唱机坏了，别让爹爹去修
+LAZLJBB-259	052.“爸”·“爹”·“妈”.txt	43	43	古语		毒蛇在手，壮士断臂
+LAZLJBB-260	052.“爸”·“爹”·“妈”.txt	43	43	成语		壮士断臂
+LAZLJBB-261	053.木字头的.txt	15	15	成语		呆若木鸡
+LAZLJBB-262	053.木字头的.txt	15	15	妙语		世界是变的呀
+LAZLJBB-263	053.木字头的.txt	17	17	典故		木马屠城记
+LAZLJBB-264	054.踏脚石与马铃薯.txt	17	17	人生格言		一个人不要老吹自己的祖宗，要自己有本领才好
+LAZLJBB-265	054.踏脚石与马铃薯.txt	17	17	英文妙语译句		属于他的好东西都在地底下
+LAZLJBB-266	054.踏脚石与马铃薯.txt	23	23	英文成语		hot potato
+LAZLJBB-267	056.从达芬奇到蒲公英.txt	5	5	成语		青出于蓝而胜于蓝
+LAZLJBB-268	056.从达芬奇到蒲公英.txt	7	7	英文术语		mirror writing
+LAZLJBB-269	056.从达芬奇到蒲公英.txt	9	9	艺术格言		Paint the face in such a way that it will be easy to understand what is going on in the mind
+LAZLJBB-270	056.从达芬奇到蒲公英.txt	13	13	妙语		相见恨早
+LAZLJBB-271	056.从达芬奇到蒲公英.txt	13	13	成语		生不逢时
+LAZLJBB-272	066.“那么让他们吃饼嘛！”.txt	35	35	成语		空中楼阁
+LAZLJBB-273	057.瞎子可以摸出象来.txt	9	9	诗句		草枯鹰眼疾
+LAZLJBB-274	057.瞎子可以摸出象来.txt	9	9	成语		目光如豆
+LAZLJBB-275	057.瞎子可以摸出象来.txt	9	9	成语		视而不见
+LAZLJBB-276	057.瞎子可以摸出象来.txt	9	9	俗语		打马虎眼
+LAZLJBB-277	057.瞎子可以摸出象来.txt	9	9	英文格言		love is blind
+LAZLJBB-278	057.瞎子可以摸出象来.txt	11	11	英文谚语		In the land of the blind, the one-eyed is king
+LAZLJBB-279	057.瞎子可以摸出象来.txt	17	17	成语典故		盲人摸象
+LAZLJBB-280	057.瞎子可以摸出象来.txt	29	29	成语		久而不闻其臭
+LAZLJBB-281	057.瞎子可以摸出象来.txt	29	29	成语		臭味相投
+LAZLJBB-282	057.瞎子可以摸出象来.txt	35	35	成语		味同嚼蜡
+LAZLJBB-283	057.瞎子可以摸出象来.txt	35	35	成语		索然无味
+LAZLJBB-284	057.瞎子可以摸出象来.txt	35	35	成语		弃之可惜，食之无味
+LAZLJBB-285	057.瞎子可以摸出象来.txt	43	43	成语		装聋作哑
+LAZLJBB-286	057.瞎子可以摸出象来.txt	43	43	成语		听而不闻
+LAZLJBB-287	057.瞎子可以摸出象来.txt	49	49	成语		充耳不闻
+LAZLJBB-288	058.彼得·潘·潘彼得.txt	5	5	圣经画题句		One of you shall betray me
+LAZLJBB-289	058.彼得·潘·潘彼得.txt	9	9	圣经语句		得人如得鱼一样
+LAZLJBB-290	058.彼得·潘·潘彼得.txt	9	9	圣经典故		天国的钥匙
+LAZLJBB-291	058.彼得·潘·潘彼得.txt	11	11	英文成语		Rob Peter to pay Paul
+LAZLJBB-292	058.彼得·潘·潘彼得.txt	23	23	童话人物语		Peter Pan, the hero of a play by Sir James Barrie, is a boy who refuses to grow up
+LAZLJBB-293	058.彼得·潘·潘彼得.txt	27	27	文学妙语		to play hide and seek with angels
+LAZLJBB-294	060.萨摩亚与自挽诗.txt	31	31	成语		画地为牢
+LAZLJBB-295	060.萨摩亚与自挽诗.txt	31	31	成语		夜不闭户
+LAZLJBB-296	060.萨摩亚与自挽诗.txt	37	53	英文诗句		Under the wide and starry sky
+LAZLJBB-297	060.萨摩亚与自挽诗.txt	47	53	英文诗句		Home is the sailor, home from sea
+LAZLJBB-298	060.萨摩亚与自挽诗.txt	55	71	译诗		在星空之下，多么开朗
+LAZLJBB-299	060.萨摩亚与自挽诗.txt	57	63	译诗		我活得痛快，死得清爽
+LAZLJBB-300	060.萨摩亚与自挽诗.txt	65	71	译诗		水手已回来，从那海上
+LAZLJBB-301	060.萨摩亚与自挽诗.txt	77	77	文学评语译句		英国只有他能写出最好的英文句子
+LAZLJBB-302	061.素食种种.txt	5	13	英文诗句		It's a very odd thing
+LAZLJBB-303	061.素食种种.txt	13	15	译诗		不论T小姐吃什么，结果都变成了T小姐
+LAZLJBB-304	061.素食种种.txt	55	55	俗语		女人是水做的，男人是泥做的
+LAZLJBB-305	062.专门吃大鱼.txt	5	5	俗谚		大鱼吃小鱼，小鱼吃虾米
+LAZLJBB-306	062.专门吃大鱼.txt	7	7	英文谚语		The great fish eaten up the small
+LAZLJBB-307	062.专门吃大鱼.txt	13	13	俗语		恶人自有恶人磨
+LAZLJBB-308	063.“海外人鱼”.txt	5	5	童话题名		丑小鸭
+LAZLJBB-309	063.“海外人鱼”.txt	5	5	童话题名		国王的新衣
+LAZLJBB-310	063.“海外人鱼”.txt	5	5	童话题名		The Little Mermaid
+LAZLJBB-311	063.“海外人鱼”.txt	7	7	小说引文		上身宛似妇人，下身仍是鱼形
+LAZLJBB-312	064.他们六个.txt	21	21	古语		当仁不让于师
+LAZLJBB-313	064.他们六个.txt	21	21	哲学格言		while both Plato and truth are dear to him, he is bound to prefer truth
+LAZLJBB-314	064.他们六个.txt	31	31	科学史名句		Yet it does move
+LAZLJBB-315	064.他们六个.txt	37	37	成语		生不逢辰
+LAZLJBB-316	064.他们六个.txt	43	43	成语		周而复始
+LAZLJBB-317	064.他们六个.txt	75	77	英文诗句		Nature and Nature's laws lay hid in night
+LAZLJBB-318	064.他们六个.txt	85	85	科学家格言		the great ocean of truth lay all undiscovered before me
+LAZLJBB-319	065.从鸭嘴兽到水獭.txt	47	47	俗语		羊毛出在羊身上
+LAZLJBB-320	065.从鸭嘴兽到水獭.txt	53	53	成语		不平则鸣
+LAZLJBB-321	065.从鸭嘴兽到水獭.txt	61	61	寓言成语		狗占马槽
+LAZLJBB-322	065.从鸭嘴兽到水獭.txt	61	61	俗语		占着茅坑不拉屎
+LAZLJBB-323	065.从鸭嘴兽到水獭.txt	61	61	英文格言		Let sleeping dogs lie
+LAZLJBB-324	065.从鸭嘴兽到水獭.txt	61	61	英文谚语		Every dogs has his day
+LAZLJBB-325	065.从鸭嘴兽到水獭.txt	73	73	成语		仰不愧天
+LAZLJBB-326	065.从鸭嘴兽到水獭.txt	77	79	成语		豹死留皮
+LAZLJBB-327	066.“那么让他们吃饼嘛！”.txt	5	5	雅称俗语		老饕
+LAZLJBB-328	066.“那么让他们吃饼嘛！”.txt	27	27	哲人妙语		Philosophers should always have two or three holes under ground against the dogs hunting them
+LAZLJBB-329	066.“那么让他们吃饼嘛！”.txt	27	27	成语		狡兔三窟
+LAZLJBB-330	066.“那么让他们吃饼嘛！”.txt	35	35	英文成语		castles in Spain
+LAZLJBB-331	066.“那么让他们吃饼嘛！”.txt	43	43	英文成语		French leave
+LAZLJBB-332	067.嘴含一根草.txt	9	23	儿歌		我是黑猩猩，
+LAZLJBB-333	067.嘴含一根草.txt	27	41	儿歌		我是大袋鼠，
+LAZLJBB-334	067.嘴含一根草.txt	45	59	儿歌		我是场拨鼠，
+LAZLJBB-335	067.嘴含一根草.txt	63	77	儿歌		我是美人儿，
+LAZLJBB-336	067.嘴含一根草.txt	81	81	成语		守望相助
+LAZLJBB-337	067.嘴含一根草.txt	81	81	成语		养生送死
+LAZLJBB-338	068.我的本领就是臭.txt	5	5	俗语		各人自扫门前雪
+LAZLJBB-339	068.我的本领就是臭.txt	5	5	俗语		休管他人瓦上霜
+LAZLJBB-340	068.我的本领就是臭.txt	7	7	成语		臭气冲天
+LAZLJBB-341	068.我的本领就是臭.txt	7	7	成语		臭味相投
+LAZLJBB-342	068.我的本领就是臭.txt	11	11	成语		所向无敌
+LAZLJBB-343	068.我的本领就是臭.txt	35	35	成语		无独有偶
+LAZLJBB-344	070.古国神游.txt	27	27	谜语		What is four-footed in the morning, two-footed at noon, three-footed in the evening?
+LAZLJBB-345	070.古国神游.txt	27	27	谜语答案		Man, who in childhood creeps on hands and knees, in manhood walks erect, and in old age uses a staff
+LAZLJBB-346	070.古国神游.txt	29	29	成语		琳琅满目
+LAZLJBB-347	071.“古希腊的辉煌”.txt	11	13	诗句译句		古希腊的辉煌
+LAZLJBB-348	071.“古希腊的辉煌”.txt	27	27	成语		天仙化人
+LAZLJBB-349	071.“古希腊的辉煌”.txt	29	29	典故译句		即使他们带礼物来
+LAZLJBB-350	071.“古希腊的辉煌”.txt	31	31	英文谚语		A cat has nine lives
+LAZLJBB-351	071.“古希腊的辉煌”.txt	33	33	俗语		人非圣贤，孰能无过？
+LAZLJBB-352	071.“古希腊的辉煌”.txt	33	33	英文格言		Even Homer nods
+LAZLJBB-353	071.“古希腊的辉煌”.txt	53	53	哲学妙语		The most un-Greek thing we can do is copy the Greeks
+LAZLJBB-354	071.“古希腊的辉煌”.txt	59	59	成语		快刀斩乱麻
+LAZLJBB-355	071.“古希腊的辉煌”.txt	63	63	哲人轶语		如果我不是亚历山大，我就想做Diogenes
+LAZLJBB-356	072.“古罗马的壮丽”.txt	7	7	英文谚语译句		条条大路通罗马
+LAZLJBB-357	072.“古罗马的壮丽”.txt	9	9	英文谚语		In Rome do as the Romans do
+LAZLJBB-358	072.“古罗马的壮丽”.txt	9	9	俗语		过路问禁，入乡问俗
+LAZLJBB-359	072.“古罗马的壮丽”.txt	11	11	英文谚语		Rome was not built in a day
+LAZLJBB-360	072.“古罗马的壮丽”.txt	37	37	哲学妙语译句		如果Cleopatra的鼻子短一点，整个世界的脸蛋都变了
+LAZLJBB-361	072.“古罗马的壮丽”.txt	47	47	英文成语		It is Greek to me
+LAZLJBB-362	073.波澜N多的波兰.txt	7	7	成语		瓜剖豆分
+LAZLJBB-363	073.波澜N多的波兰.txt	15	15	成语		失之东隅，收之桑榆
+LAZLJBB-364	073.波澜N多的波兰.txt	17	17	成语		慷他人之慨
+LAZLJBB-365	074.登天梯.txt	7	7	圣经典故		mess of pottage
+LAZLJBB-366	074.登天梯.txt	19	19	成语		因小失大
+LAZLJBB-367	074.登天梯.txt	19	19	成语		得不偿失
+LAZLJBB-368	074.登天梯.txt	23	23	圣经引文		And he dreamed, and behold a ladder set up on the earth

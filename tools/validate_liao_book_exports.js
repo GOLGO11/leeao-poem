@@ -66,6 +66,14 @@ function compact(text) {
   return String(text).replace(/\s+/g, "");
 }
 
+function stripSourceNotes(text) {
+  return String(text).replace(/（wjm_tcy注：[^）]*）/g, "");
+}
+
+function comparable(text) {
+  return compact(stripSourceNotes(text));
+}
+
 const requiredColumns = [
   "id",
   "book",
@@ -120,7 +128,7 @@ for (const record of records) {
   const sourceText = lines.slice(start - 1, end).join("\n");
   if (
     !sourceText.includes(record.quote_text) &&
-    !compact(sourceText).includes(compact(record.quote_text))
+    !comparable(sourceText).includes(comparable(record.quote_text))
   ) {
     errors.push({
       id: record.id,

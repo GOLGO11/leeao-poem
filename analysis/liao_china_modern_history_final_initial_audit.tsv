@@ -1,0 +1,9 @@
+﻿type	detail	count
+selected_rows	校对后保留的经典成句、立言文句、古文名句、成语俗话、宋词句、近人歌句	31
+skipped	001章闽变举证表、政治控诉、党国/联共/卖国类材料从严跳过	1
+skipped	002章胡秋原意识形态表态、苏联美国共产党相关政治语录从严跳过	1
+skipped	003-009章现代战史谈话、政治判断、军政人物自白大多跳过，仅保留典故格言	7
+proofread_removed	校对轮删除：傅斯年政治讽语、刘峙战败自述格言、王仲廉税政描述组句与自述短句	4
+proofread_added	校对轮补入条目	0
+political_quote_hits	quote_text现代政治关键词命中	0
+duplicate_groups	完全相同quote_text重复组	0

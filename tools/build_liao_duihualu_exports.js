@@ -1,0 +1,1482 @@
+const fs = require("fs");
+const path = require("path");
+
+const generatedDate = "2026-06-21";
+const book = "李敖对话录";
+const idPrefix = "LADHL";
+const sourceRoot = path.join(
+  process.cwd(),
+  "《大李敖全集6.0》分章节",
+  "007.采访序跋类",
+  "004.李敖对话录",
+);
+const outDir = path.join(process.cwd(), "exports");
+const analysisDir = path.join(process.cwd(), "analysis");
+const sourceDecoder = new TextDecoder("gb18030");
+
+const columns = [
+  "id",
+  "book",
+  "chapter",
+  "source_file",
+  "line_start",
+  "line_end",
+  "quote_text",
+  "category",
+  "source_or_origin",
+  "summary",
+  "notes",
+];
+
+function chapterFromFile(file) {
+  return file.replace(/\.txt$/, "").replace(/^\d+\./, "");
+}
+
+function row(sourceFile, lineStart, lineEnd, quoteText, category, sourceOrOrigin, summary, notes = "") {
+  return {
+    id: "",
+    book,
+    chapter: chapterFromFile(sourceFile),
+    source_file: sourceFile,
+    line_start: lineStart,
+    line_end: lineEnd,
+    quote_text: quoteText,
+    category,
+    source_or_origin: sourceOrOrigin,
+    summary,
+    notes,
+  };
+}
+
+const data = [
+  row(
+    "《李敖对话录》自序.txt",
+    5,
+    5,
+    "用口语的通俗，表达出质疑、问难和抬杠",
+    "文论格言",
+    "李敖《李敖对话录》自序",
+    "概括对话体的表达特色。",
+  ),
+  row(
+    "《李敖对话录》自序.txt",
+    7,
+    7,
+    "别开生面",
+    "传统成语",
+    "传统成语",
+    "形容对话录体例有新局面。",
+  ),
+  row(
+    "《李敖对话录》自序.txt",
+    7,
+    7,
+    "虚实双修",
+    "李敖序文成句",
+    "李敖《李敖对话录》自序",
+    "以虚构与实录兼具概括本书体例。",
+  ),
+  row(
+    "《李敖对话录》自序.txt",
+    7,
+    7,
+    "音容宛在",
+    "传统成语",
+    "传统成语",
+    "形容读来如见其人其声。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    31,
+    31,
+    "不是逢人苦誉君，亦狂亦侠亦温文",
+    "清代诗句",
+    "龚自珍诗句",
+    "以狂、侠、温文三面自况。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    71,
+    71,
+    "中国人写白话文，五十年来五百年内，我李敖是第一把交椅",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以第一把交椅自评白话文地位。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    77,
+    77,
+    "嘴巴上骂我吹牛的人，心里都为我供了牌位。",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以戏谑方式回应外界对其自负的看法。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    77,
+    77,
+    "行云流水",
+    "传统成语",
+    "传统成语",
+    "形容文章自然流畅。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    79,
+    79,
+    "五十年来和五百年内，中国人写白话文的前三名是李敖、李敖、李敖",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以反复押韵形成自评与广告效果。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    91,
+    91,
+    "有之不必然，无之必不然",
+    "荀子成句",
+    "《荀子》相关成句",
+    "以有无关系说明条件差异。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    129,
+    129,
+    "三刀六眼",
+    "江湖俗语",
+    "传统江湖俗语",
+    "以江湖规矩比喻强悍作风。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    139,
+    139,
+    "妇人之仁",
+    "传统成语",
+    "传统成语",
+    "形容不合时宜的软弱仁慈。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    155,
+    155,
+    "行不言之教",
+    "道家成句",
+    "《老子》相关成句",
+    "指以不言而教的高境界。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    163,
+    163,
+    "天知地知你知我知",
+    "古典成句",
+    "杨震四知典故化用",
+    "用四知典故表示私下行为仍有见证。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    181,
+    181,
+    "我从来就没有哥哥。",
+    "历史人物答语",
+    "陈平故事",
+    "以一句答语化解偷嫂传闻。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    191,
+    191,
+    "我德比才高",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "反转才德高低的外界评价。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    193,
+    193,
+    "自反而不缩，虽千万人，吾往矣！",
+    "孟子成句",
+    "《孟子·公孙丑上》成句",
+    "表达自省无愧后的独往勇气。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    197,
+    197,
+    "人家捧我，我很不安，因为捧的不够。",
+    "外国作家格言",
+    "萧伯纳语",
+    "以反讽方式谈自我夸奖。",
+  ),
+  row(
+    "001.才华盖世侠骨柔情的思想家.txt",
+    203,
+    203,
+    "不必为五斗米折腰",
+    "陶渊明典故",
+    "陶渊明不为五斗米折腰典故",
+    "表示不为小利屈身。",
+  ),
+  row(
+    "002.对是非绝对是不让步的.txt",
+    61,
+    61,
+    "今世之儒世，自以为得正心诚意之学者，皆风痹不知痛痒之人也！",
+    "宋人评语",
+    "陈亮评当世读书人语",
+    "批评空谈心性而无痛痒的学者。",
+  ),
+  row(
+    "002.对是非绝对是不让步的.txt",
+    63,
+    63,
+    "小孩子都快饿死了，文学还有什么意义？",
+    "外国作家格言",
+    "萨特语",
+    "以饥饿处境质问文学意义。",
+  ),
+  row(
+    "002.对是非绝对是不让步的.txt",
+    59,
+    67,
+    "为读书而读书",
+    "读书观念",
+    "李敖访谈中反复提及的读书观",
+    "作为李敖反对的读书口号出现。",
+  ),
+  row(
+    "002.对是非绝对是不让步的.txt",
+    119,
+    123,
+    "小脚文学",
+    "文学批评语",
+    "李敖评中国文学语",
+    "用小脚比喻文学格局受缚。",
+  ),
+  row(
+    "002.对是非绝对是不让步的.txt",
+    123,
+    123,
+    "被层层桎梏",
+    "文学批评语",
+    "李敖评中国文学语",
+    "概括文学受多重束缚的命运。",
+  ),
+  row(
+    "003.在台大·在法庭.txt",
+    17,
+    17,
+    "见山不是山、见水不是水",
+    "禅宗成句",
+    "禅宗相关成句",
+    "比喻思考过程中旧认识被打破。",
+  ),
+  row(
+    "003.在台大·在法庭.txt",
+    17,
+    17,
+    "见山是山、见水是水",
+    "禅宗成句",
+    "禅宗相关成句",
+    "比喻思考之后回到透彻认识。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    479,
+    479,
+    "我岂好辩哉？我不得已也。",
+    "孟子成句",
+    "《孟子·滕文公下》成句",
+    "说明辩论出于不得已。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    5,
+    5,
+    "我把你们压得太久了（久压公等），压得没人能够接替我了（但恨不见替人）！",
+    "人物临终语",
+    "杜审言临终语，李敖转述",
+    "以压住后辈之语调侃无人接替。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    5,
+    5,
+    "It is you, Sir, who replace Franklin?",
+    "外国人物问语",
+    "杰斐逊接替富兰克林故事",
+    "问杰斐逊是否取代富兰克林。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    5,
+    5,
+    "No， sir, I succeed him；no one can replace him.",
+    "外国人物答语",
+    "杰斐逊接替富兰克林故事",
+    "以继任不等于取代表示对前人的推重。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    5,
+    5,
+    "横眉冷对千夫指",
+    "鲁迅诗句",
+    "鲁迅《自嘲》名句",
+    "以横眉姿态写不随众的训练。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    5,
+    5,
+    "虽千万人，吾往矣",
+    "孟子成句",
+    "《孟子·公孙丑上》成句",
+    "作为特立独行的实习。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    7,
+    9,
+    "梵志翻着袜，人皆道是错。\n\n乍可剌你眼，不可隐我脚。",
+    "唐代诗句",
+    "王梵志诗句",
+    "以翻袜刺眼写不愿掩藏自我。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    11,
+    11,
+    "不可隐我脚",
+    "唐代诗句",
+    "王梵志诗句化用",
+    "以不隐藏自我作独立人格比喻。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    11,
+    11,
+    "出乎其类、拔乎其萃",
+    "孟子成句",
+    "《孟子》相关成句",
+    "形容才学超出同侪。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    15,
+    15,
+    "江水皆东我独西",
+    "诗性成句",
+    "传统诗性表达",
+    "以逆流独行写隐居心境。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    15,
+    15,
+    "独与天地精神往来",
+    "庄子成句",
+    "《庄子》相关成句",
+    "表示精神上独立高远。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    15,
+    15,
+    "公不出山，奈苍生何",
+    "传统劝出语",
+    "传统人物出山典故",
+    "以出山语写蓄势待发的承担。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    17,
+    19,
+    "欲求灵药换凡骨，\n\n先挽天河洗俗情。",
+    "陆游诗句",
+    "陆游诗句",
+    "以换凡骨、洗俗情写自我更新。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    41,
+    41,
+    "读书破万卷，下笔如有神",
+    "杜甫诗句",
+    "杜甫《奉赠韦左丞丈二十二韵》名句",
+    "以读书量与写作灵感相连。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    41,
+    41,
+    "半部《论语》治天下",
+    "传统成句",
+    "赵普相关典故",
+    "以半部论语概括传统读书典故。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    45,
+    45,
+    "牛溲、马勃、败鼓之皮，俱收并蓄，待用无遗",
+    "韩愈文句",
+    "韩愈相关文句",
+    "表示材料无论微贱皆可备用。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    45,
+    45,
+    "开卷有益，岂徒然也",
+    "读书成句",
+    "宋太宗相关成句",
+    "说明开卷总有所得。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    47,
+    47,
+    "舍我其谁",
+    "孟子成句",
+    "《孟子·公孙丑下》成句",
+    "表示强烈担当。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    47,
+    47,
+    "仁以为己任",
+    "论语成句",
+    "《论语·泰伯》相关成句",
+    "表示把仁道作为自身使命。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    47,
+    47,
+    "不仅仅是为了面包",
+    "外国格言化表达",
+    "现代格言“人不只靠面包而活”相关表达",
+    "强调人生不只为物质需求。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    67,
+    67,
+    "朝闻道，夕死可矣！",
+    "论语成句",
+    "《论语·里仁》成句",
+    "以闻道可死形容求道紧迫。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    67,
+    67,
+    "上得山多终遇虎",
+    "俗语",
+    "传统俗语",
+    "比喻冒险多终会遇险。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    67,
+    67,
+    "不是猛龙不过江",
+    "俗语",
+    "传统俗语",
+    "比喻没有本事者不敢闯荡。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    67,
+    67,
+    "民不畏失败，奈何以失败惧之？",
+    "李敖格言",
+    "《老子》句式化用",
+    "以不怕失败回应失败威胁。",
+  ),
+  row(
+    "005.答陈依玫.txt",
+    69,
+    69,
+    "I never dared be radical when young/ For fear it would make me conservative when old.",
+    "外国诗句",
+    "弗洛斯特《预防》",
+    "以年轻与年老的立场变化作反讽。",
+  ),
+  row(
+    "007.我的皮肉生涯.txt",
+    53,
+    53,
+    "是何异于刺人而杀之，曰：‘非我也，兵也！’（不是我杀你，是武器杀你！）",
+    "孟子成句",
+    "《孟子·梁惠王上》相关成句",
+    "以杀人与兵器责任比喻推责。",
+  ),
+  row(
+    "007.我的皮肉生涯.txt",
+    53,
+    53,
+    "挞人者，挺也。而受挞者不怨挺；杀人者，刃也。而受杀者不怨刃。",
+    "明代格言",
+    "吕坤《呻吟语》",
+    "以棍刃比喻责任不在器物。",
+  ),
+  row(
+    "008.党外人士不够小.txt",
+    41,
+    41,
+    "以不教教之，是谓教也",
+    "传统成句",
+    "传统教化成句",
+    "以不教之教说明反向教化。",
+  ),
+  row(
+    "011.李敖答问之二.txt",
+    17,
+    21,
+    "理来情无存",
+    "南朝诗句",
+    "沈约诗句",
+    "以理至则情退概括论事态度。",
+  ),
+  row(
+    "011.李敖答问之二.txt",
+    25,
+    25,
+    "当仁不让于师",
+    "论语成句",
+    "《论语·卫灵公》成句",
+    "表示面对仁义之事不必让师。",
+  ),
+  row(
+    "011.李敖答问之二.txt",
+    25,
+    25,
+    "爱真理过于爱朋友",
+    "西方格言",
+    "亚里士多德相关格言",
+    "表示真理高于私谊。",
+  ),
+  row(
+    "011.李敖答问之二.txt",
+    25,
+    25,
+    "某也幸，苟有过，人必知之。",
+    "论语成句",
+    "《论语·述而》相关成句",
+    "以别人知过为幸运。",
+  ),
+  row(
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    1,
+    1,
+    "却笑英雄‘有’好手，一江春水走曹瞒",
+    "李敖化用诗句",
+    "李敖题句，化用古典意象",
+    "以戏拟诗句写英雄好手。",
+  ),
+  row(
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    199,
+    199,
+    "老眼平生空四海",
+    "古典诗句",
+    "元好问《论诗三十首》相关诗句",
+    "以老眼空四海形容不轻许人。",
+  ),
+  row(
+    "014.台湾最有力量的个人.txt",
+    29,
+    29,
+    "所有的英雄最后都令人厌恶。",
+    "外国格言",
+    "爱默生语",
+    "以反英雄格言解构英雄崇拜。",
+  ),
+  row(
+    "014.台湾最有力量的个人.txt",
+    29,
+    29,
+    "吟诗作赋北窗里，万言不值一杯水。",
+    "唐代诗句",
+    "李白诗句",
+    "以诗赋万言不值一杯水贬抑空言。",
+  ),
+  row(
+    "014.台湾最有力量的个人.txt",
+    71,
+    71,
+    "You cannot beat something with nothing.",
+    "外国谚语",
+    "英语谚语",
+    "表示不能用空无去打败已有之物。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    61,
+    65,
+    "天命之谓性",
+    "中庸成句",
+    "《中庸》成句",
+    "以天命与性相连作文字游戏。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    65,
+    65,
+    "或现作淫女，引诸好色者。先以欲（慾）钩牵，后令入佛智。",
+    "佛经成句",
+    "《维摩诘所说经》相关句",
+    "以欲钩牵入佛智说明方便法门。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    65,
+    65,
+    "先以欲钩牵，后令入佛智，斯乃非欲之欲，以欲止欲，如以楔出楔，将声止声。",
+    "佛教格言",
+    "《宗镜录》相关句",
+    "说明以欲止欲的方便法门。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    65,
+    65,
+    "夫子之文章可得而闻也，夫子之言性与天道不可得而闻也。",
+    "论语成句",
+    "《论语·公冶长》成句",
+    "说明孔子文章可闻而性与天道少谈。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    75,
+    79,
+    "五十而知天命",
+    "论语成句",
+    "《论语·为政》成句",
+    "以五十知天命引出反向自题。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    83,
+    83,
+    "五十不成丧",
+    "礼记成句",
+    "《礼记》相关成句",
+    "列举五十岁礼制名目。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    83,
+    83,
+    "五十不致毁",
+    "礼记成句",
+    "《礼记》相关成句",
+    "列举五十岁礼制名目。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    83,
+    83,
+    "五十杖于家",
+    "礼记成句",
+    "《礼记》相关成句",
+    "列举五十岁礼制名目。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    83,
+    83,
+    "五十养于乡",
+    "礼记成句",
+    "《礼记》相关成句",
+    "列举五十岁礼制名目。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    83,
+    83,
+    "五十不从力政",
+    "礼记成句",
+    "《礼记》相关成句",
+    "列举五十岁礼制名目。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    85,
+    85,
+    "五十非帛不暖",
+    "孟子成句",
+    "《孟子》相关成句",
+    "以五十岁穿帛取暖作调侃。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    95,
+    95,
+    "我当避此人出一头地！",
+    "宋人评语",
+    "欧阳修评苏轼语",
+    "以避出一头地称赞后进才华。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    95,
+    95,
+    "吾可以搁笔矣",
+    "宋人评语",
+    "苏轼评晁补之语",
+    "以搁笔表示后生文章足称惊人。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    95,
+    95,
+    "前不见古人，后不见来者",
+    "唐代诗句",
+    "陈子昂《登幽州台歌》名句",
+    "借前后无人写孤绝处境。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    107,
+    107,
+    "流水无情草自春",
+    "杜牧诗句",
+    "杜牧诗句",
+    "以流水与春草写自我调侃。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    109,
+    109,
+    "闲爱孤云静爱僧",
+    "杜牧诗句",
+    "杜牧诗句",
+    "借小杜闲情作问答戏拟。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    113,
+    113,
+    "夜泊秦淮近酒家",
+    "杜牧诗句",
+    "杜牧《泊秦淮》名句",
+    "借小杜诗句引出戏答。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    117,
+    117,
+    "玉人何处教吹萧",
+    "杜牧诗句",
+    "杜牧诗句",
+    "借小杜诗句引出戏答。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    121,
+    121,
+    "卧看牵牛织女星",
+    "杜牧诗句",
+    "杜牧《秋夕》名句",
+    "借小杜诗句引出戏答。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    127,
+    127,
+    "人生八十才开始",
+    "外国人物格言",
+    "劳巴哈八十岁生日感想，李敖转述",
+    "把八十岁视为新开始。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    565,
+    565,
+    "当我做英国首相时，就应该建立这种文法。",
+    "外国人物格言",
+    "丘吉尔相关语，李敖转述",
+    "以身份与气派回应文法批评。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    605,
+    605,
+    "当你道德非常好时，你可能犯了严重的错误！",
+    "外国人物格言",
+    "富兰克林语，李敖转述",
+    "提醒过度自信于道德也可能出错。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    607,
+    607,
+    "嬉笑怒骂是严肃的升华",
+    "李敖文论格言",
+    "《五十而不知天命》访谈标题",
+    "把嬉笑怒骂解释为严肃表达的升华。",
+  ),
+  row(
+    "018.光靠龟儿子是不够的.txt",
+    129,
+    129,
+    "举世誉之而不加劝，举世非之而不加沮。",
+    "庄子成句",
+    "《庄子·逍遥游》成句",
+    "表示不随毁誉而动。",
+  ),
+  row(
+    "018.光靠龟儿子是不够的.txt",
+    129,
+    129,
+    "富贵不能淫、贫贱不能移、威武不能屈",
+    "孟子成句",
+    "《孟子·滕文公下》成句",
+    "以大丈夫三不能概括人格境界。",
+  ),
+  row(
+    "018.光靠龟儿子是不够的.txt",
+    129,
+    129,
+    "时髦不能动",
+    "李敖格言",
+    "李敖在孟子成句上增补",
+    "在三不能之外增补不为时髦所动。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    105,
+    105,
+    "诚于中而形于外",
+    "大学成句",
+    "《大学》相关成句",
+    "以内心真诚外显说明人格气象。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    111,
+    117,
+    "知世如梦无所求，\n\n无所求心普空寂。\n\n还似梦中随梦境，\n\n成就河沙梦功德。",
+    "宋代诗句",
+    "王安石《梦》",
+    "以梦境与功德意象写特立独行的心境。",
+  ),
+];
+
+const initialRecordCount = data.length;
+const proofreadAddedRows = [
+  row(
+    "004.吐他一口痰.txt",
+    75,
+    75,
+    "菩提达摩东来，只要寻一个不受人惑的人。",
+    "禅宗语录",
+    "达摩相关传语",
+    "以不受迷惑概括独立判断。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    123,
+    123,
+    "如果过滤后空无一物，那这篇文章就纯粹是情绪语言，言之无物了",
+    "李敖文论格言",
+    "李敖访谈文论",
+    "以过滤情绪后是否有物判断文章价值。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    125,
+    125,
+    "如果一个错的意见，用很理性的方式表达，它还是错的。",
+    "李敖论辩格言",
+    "李敖访谈语",
+    "强调表达方式不能改变意见对错。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    245,
+    245,
+    "己所不欲，勿施于人。",
+    "论语成句",
+    "《论语·卫灵公》成句",
+    "以孔子恕道说明待人原则。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    245,
+    245,
+    "把你喜欢的给别人。",
+    "宗教伦理格言",
+    "李敖转述耶稣伦理",
+    "以更积极的给予原则对照恕道。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    273,
+    273,
+    "我不需要镀，因为我本身就是金。",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以金与镀金比喻自信。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    277,
+    277,
+    "多多益善，不管多少我都能带。",
+    "史记典故",
+    "韩信相关故事",
+    "以韩信带兵典故说明才具。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    277,
+    277,
+    "你是带将的，不是带兵的。",
+    "史记典故",
+    "韩信相关故事",
+    "以带将与带兵区分统御层次。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    475,
+    475,
+    "不要教你的祖母如何吸蛋。",
+    "英语谚语",
+    "英语俗谚",
+    "以俗谚回应外行教内行。",
+  ),
+  row(
+    "004.吐他一口痰.txt",
+    503,
+    503,
+    "前言戏之耳",
+    "论语成句",
+    "《论语》相关成句",
+    "表示前言只是戏言。",
+  ),
+  row(
+    "006.论国民党的美感.txt",
+    25,
+    25,
+    "我的特质，就是唱反调。",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以唱反调概括个人特质。",
+  ),
+  row(
+    "006.论国民党的美感.txt",
+    29,
+    29,
+    "唱反调就是我的正业，我若不唱反调，反倒是失职。",
+    "李敖自评名言",
+    "李敖访谈自评",
+    "以职业感说明批评姿态。",
+  ),
+  row(
+    "006.论国民党的美感.txt",
+    33,
+    33,
+    "真理从唱反调而来，真理的发扬光大，又有赖于第二个、第三个乃至第N个唱反调的人，前仆后继，薪尽火传。",
+    "李敖思想格言",
+    "李敖访谈语",
+    "把反向发声视为真理扩展的动力。",
+  ),
+  row(
+    "006.论国民党的美感.txt",
+    53,
+    53,
+    "人们的不幸都在于要跟着蠢人涂抹自然的本来面目",
+    "外国艺术家格言",
+    "罗丹语，李敖转述",
+    "以涂抹自然本貌批评审美误导。",
+  ),
+  row(
+    "010.李敖答问之一.txt",
+    13,
+    13,
+    "交友以自大其身；求士以求此身之不朽。",
+    "清代学者语",
+    "李塨语，胡适引用",
+    "区分交友与求士的意义。",
+  ),
+  row(
+    "012.李敖答问之三.txt",
+    19,
+    19,
+    "无始劫来，所造诸罪。若轻若重，无大无小。了不可得，是名忏悔。",
+    "佛教偈语",
+    "白居易《忏悔偈》",
+    "以偈语说明语音押韵材料。",
+  ),
+  row(
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    107,
+    107,
+    "读中国书，要会读。不会读，对你就有害；会读，这里面会找到一些好东西。",
+    "李敖读书格言",
+    "李敖访谈读书论",
+    "强调读古书需有方法。",
+  ),
+  row(
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    129,
+    129,
+    "除非我们对历史背景有深刻了解，我们才能论断一部古书的正确价值。",
+    "李敖读书格言",
+    "李敖访谈读书论",
+    "强调以历史背景判断古书价值。",
+  ),
+  row(
+    "013.“却笑英雄‘有’好手，一江春水走曹瞒”.txt",
+    129,
+    129,
+    "你一定要先给它“定位”“定性”才行",
+    "李敖读书格言",
+    "李敖访谈读书论",
+    "以定位定性说明读古书的前提。",
+  ),
+  row(
+    "014.台湾最有力量的个人.txt",
+    21,
+    21,
+    "知美之为美",
+    "老子成句",
+    "《老子》相关成句",
+    "以知道美为美说明审美标准。",
+  ),
+  row(
+    "014.台湾最有力量的个人.txt",
+    71,
+    71,
+    "劣币驱逐良币",
+    "经济学格言",
+    "格雷欣法则通俗表述",
+    "以劣币良币比喻文化市场。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    97,
+    97,
+    "前无古人，后无来者。",
+    "传统成语",
+    "传统成语",
+    "形容前后无人可接续。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    139,
+    139,
+    "不知有汉，无论魏晋",
+    "陶渊明文句",
+    "陶渊明《桃花源记》",
+    "以桃源文句写隔世感。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    579,
+    579,
+    "爱之欲其生，恶之欲其死",
+    "论语成句",
+    "《论语·颜渊》相关成句",
+    "说明爱憎过度的判断偏差。",
+  ),
+  row(
+    "016.五十而不知天命.txt",
+    579,
+    579,
+    "每一个人存在，都应有他不可侮的条件在。",
+    "李敖人生格言",
+    "李敖访谈语",
+    "强调每个人存在自有不可轻侮之处。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    47,
+    47,
+    "杀身成仁，舍身取义",
+    "儒家成句",
+    "《论语》《孟子》相关成句合用",
+    "以成仁取义概括人格气概。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    49,
+    49,
+    "“道”是一时一地的，“殉”是千秋万世的。",
+    "李敖人生格言",
+    "李敖访谈语",
+    "区分一时之道与长久之殉。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    101,
+    103,
+    "用大丈夫的气象，去面对吧！",
+    "李敖座右铭",
+    "李敖访谈自述",
+    "以大丈夫气象作为做人座右铭。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    105,
+    105,
+    "大丈夫不但是智之大者，也是仁之大者、勇之大者。",
+    "李敖人生格言",
+    "李敖访谈语",
+    "以智仁勇三者定义大丈夫。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    131,
+    131,
+    "读古书，除非你能读得很活，能够驾驭它们，否则的话，充其量只是个老学究，什么都没有。",
+    "李敖读书格言",
+    "李敖访谈读书论",
+    "强调读古书要能活用和驾驭。",
+  ),
+  row(
+    "019.《花花公子》访问李敖.txt",
+    291,
+    291,
+    "人活着不要只为了面包，还要做一些理想的事情。",
+    "李敖人生格言",
+    "李敖访谈语",
+    "以面包与理想说明人生追求。",
+  ),
+];
+const proofreadUpdatedRows = [];
+const proofreadDeletedRows = [];
+
+data.push(...proofreadAddedRows);
+
+data.forEach((item, index) => {
+  item.id = `${idPrefix}-${String(index + 1).padStart(3, "0")}`;
+});
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  if (/[",\r\n]/.test(text)) return `"${text.replace(/"/g, '""')}"`;
+  return text;
+}
+
+function tsvEscape(value) {
+  return String(value ?? "").replace(/\r?\n/g, "\\n").replace(/\t/g, " ");
+}
+
+function readSource(file) {
+  return sourceDecoder.decode(fs.readFileSync(path.join(sourceRoot, file)));
+}
+
+function listSourceFiles() {
+  return fs
+    .readdirSync(sourceRoot)
+    .filter((file) => file.endsWith(".txt") && !file.includes("目录"))
+    .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+}
+
+function compact(text) {
+  return String(text).replace(/\s+/g, "");
+}
+
+function validateAgainstSource(rows) {
+  const errors = [];
+  for (const item of rows) {
+    const sourcePath = path.join(sourceRoot, item.source_file);
+    if (!fs.existsSync(sourcePath)) {
+      errors.push(`${item.id}: missing source file ${item.source_file}`);
+      continue;
+    }
+    const lines = readSource(item.source_file).split(/\r?\n/);
+    const sourceText = lines.slice(item.line_start - 1, item.line_end).join("\n");
+    if (!sourceText.includes(item.quote_text) && !compact(sourceText).includes(compact(item.quote_text))) {
+      errors.push(`${item.id}: quote not found at ${item.source_file}:${item.line_start}-${item.line_end}`);
+    }
+  }
+  return errors;
+}
+
+function collectReviewAids() {
+  const quoteTrigger =
+    /[“”‘’]|曰|云|说|所谓|俗话|谚|格言|名言|题词|题记|成语|典故|诗|词|联|古人|孔子|孟子|荀子|论语|易经|史记|汉书|庄子|老子|苏东坡|龚定|萧伯纳|萨特|沈休文|爱默生|李白|罗素|莎士比亚|柏拉图|甘地|康德|叔本华|尼采|弗洛斯特|富兰克林|丘吉尔|You cannot beat|It is you|No， sir|I never dared/;
+  const attributedTrigger =
+    /说|曰|云|写道|指出|认为|尝言|自谓|题诗|序中|其中是|有这样|引|转述|称道|评|问他|回答/;
+  const sourceFiles = listSourceFiles();
+  const quoteCandidates = [];
+  const reviewCandidates = [];
+  const attributedLines = [];
+
+  for (const file of sourceFiles) {
+    const lines = readSource(file).split(/\r?\n/);
+    lines.forEach((line, index) => {
+      const text = line.trim();
+      if (!text) return;
+      if (quoteTrigger.test(text)) {
+        const item = { source_file: file, line: index + 1, text };
+        quoteCandidates.push(item);
+        if (/[“”‘’]|曰|云|所谓|题诗|自谓|尝言|其中是|写道|指出|论定|龚定|萧伯纳|萨特|弗洛斯特|富兰克林|丘吉尔|You cannot beat|I never dared/.test(text)) {
+          reviewCandidates.push(item);
+        }
+      }
+      if (attributedTrigger.test(text)) {
+        attributedLines.push({ source_file: file, line: index + 1, text });
+      }
+    });
+  }
+
+  return { sourceFiles, quoteCandidates, reviewCandidates, attributedLines };
+}
+
+const validationErrors = validateAgainstSource(data);
+if (validationErrors.length > 0) {
+  console.error(validationErrors.join("\n"));
+  process.exit(1);
+}
+
+fs.mkdirSync(outDir, { recursive: true });
+fs.mkdirSync(analysisDir, { recursive: true });
+
+const csvPath = path.join(outDir, `${book}_诗文格言歌谣引用.csv`);
+const txtPath = path.join(outDir, `${book}_诗文格言歌谣引用.txt`);
+const reportPath = path.join(analysisDir, "liao_duihualu_initial_report.txt");
+const auditPath = path.join(analysisDir, "liao_duihualu_initial_audit.tsv");
+const proofreadReportPath = path.join(analysisDir, "liao_duihualu_proofread_report.txt");
+const proofreadAuditPath = path.join(analysisDir, "liao_duihualu_proofread_audit.tsv");
+const candidatesPath = path.join(analysisDir, "liao_duihualu_quote_candidates.json");
+const reviewCandidatesPath = path.join(analysisDir, "liao_duihualu_review_candidates.tsv");
+const attributedLinesPath = path.join(analysisDir, "liao_duihualu_attributed_lines.tsv");
+
+const csvLines = [columns.join(",")];
+for (const item of data) {
+  csvLines.push(columns.map((column) => csvEscape(item[column])).join(","));
+}
+fs.writeFileSync(csvPath, `\uFEFF${csvLines.join("\r\n")}\r\n`, "utf8");
+
+const txtLines = [];
+for (const item of data) {
+  txtLines.push(`${item.id}｜${item.category}｜${item.source_file}:${item.line_start}-${item.line_end}`);
+  txtLines.push(`引用：${item.quote_text}`);
+  txtLines.push(`出处线索：${item.source_or_origin}`);
+  txtLines.push(`摘要：${item.summary}`);
+  if (item.notes) txtLines.push(`备注：${item.notes}`);
+  txtLines.push("");
+}
+fs.writeFileSync(txtPath, `\uFEFF${txtLines.join("\r\n")}\r\n`, "utf8");
+
+const { sourceFiles, quoteCandidates, reviewCandidates, attributedLines } = collectReviewAids();
+fs.writeFileSync(candidatesPath, `${JSON.stringify(quoteCandidates, null, 2)}\n`, "utf8");
+
+const reviewHeader = ["source_file", "line", "text"];
+fs.writeFileSync(
+  reviewCandidatesPath,
+  `\uFEFF${[
+    reviewHeader.join("\t"),
+    ...reviewCandidates.map((item) => [item.source_file, item.line, item.text].map(tsvEscape).join("\t")),
+  ].join("\r\n")}\r\n`,
+  "utf8",
+);
+fs.writeFileSync(
+  attributedLinesPath,
+  `\uFEFF${[
+    reviewHeader.join("\t"),
+    ...attributedLines.map((item) => [item.source_file, item.line, item.text].map(tsvEscape).join("\t")),
+  ].join("\r\n")}\r\n`,
+  "utf8",
+);
+
+const categoryCounts = new Map();
+for (const item of data) categoryCounts.set(item.category, (categoryCounts.get(item.category) || 0) + 1);
+
+const excludedHighlights = [
+  "009《选举问题总解答》、015《给他来个“Seven Down”！》、017《只有作战而死，怎能求情而死》：现实公共议题问答集中，除明确古典成句外暂不收。",
+  "020《书店升天，作者扫地》：版权、契约、诉讼问答集中，未收法律材料和报刊新闻语录。",
+  "现代党派、竞选、街头行动、统独与两岸问答、报刊消息引语，均不作为诗文格言保留。",
+  "普通临场玩笑、粗口、重复问答和只作标题用途的短语，除有明确典籍或文学线索外暂不收。",
+];
+
+const auditExcludes = [
+  ["exclude", "modern-public-interview", "009.选举问题总解答.txt", "3-135", "选务、支持对象、团体策略等问答", "现实公共议题语境过重，未收"],
+  ["exclude", "modern-public-interview", "015.给他来个“Seven Down”！.txt", "1-109", "党派人物和反攻叙述", "现实公共议题语境过重，未收"],
+  ["exclude", "modern-public-interview", "017.只有作战而死，怎能求情而死.txt", "1-121", "群众行动与冲突策略问答", "现实公共议题语境过重，未收"],
+  ["exclude", "legal-copyright-interview", "020.书店升天，作者扫地.txt", "3-107", "版权、契约、诉讼、报刊消息问答", "法律材料与新闻语境过重，未收"],
+  ["exclude", "modern-public-quote", "002.对是非绝对是不让步的.txt", "131-131", "治好民主的所有毛病是更多民主一点。", "现代公共制度语录，未收"],
+  ["exclude", "modern-public-quote", "001.才华盖世侠骨柔情的思想家.txt", "145-147", "彭玉麟、甘地牺牲相关语录", "公共行动与牺牲语境过重，未收"],
+  ["exclude", "modern-public-quote", "018.光靠龟儿子是不够的.txt", "133-133", "制衡、支持对象等问答", "现实公共议题语境过重，未收"],
+  ["exclude", "modern-public-quote", "019.《花花公子》访问李敖.txt", "191-239", "党派、两岸、街头行动与制度问答", "现实公共议题语境过重，未收"],
+];
+
+const proofreadExcludeRows = [
+  ["exclude", "modern-rights-quote", "004.吐他一口痰.txt", "87-89", "你说的话，我一句也不赞成，可是我要拼命为你争取你有说这话的权利。", "言论权利语境过强，校对轮继续排除"],
+  ["exclude", "modern-public-interview", "009.选举问题总解答.txt", "3-135", "选务、支持对象、团体策略等问答", "现实公共议题语境过重，校对轮继续排除"],
+  ["exclude", "modern-public-interview", "015.给他来个“Seven Down”！.txt", "1-145", "党派人物、反攻叙述与支持对象问答", "现实公共议题语境过重，校对轮继续排除"],
+  ["exclude", "modern-public-interview", "017.只有作战而死，怎能求情而死.txt", "1-121", "群众行动与冲突策略问答", "现实公共议题语境过重，校对轮继续排除"],
+  ["exclude", "legal-copyright-interview", "020.书店升天，作者扫地.txt", "3-107", "版权、契约、诉讼、报刊消息问答", "法律材料与新闻语境过重，校对轮继续排除"],
+];
+
+const reportLines = [];
+reportLines.push(`《${book}》第一轮提取报告`);
+reportLines.push(`生成日期：${generatedDate}`);
+reportLines.push(`源目录：${sourceRoot}`);
+reportLines.push(`输出 CSV：${csvPath}`);
+reportLines.push(`输出 TXT：${txtPath}`);
+reportLines.push(`收录条数：${data.length}`);
+reportLines.push("");
+reportLines.push("候选概况：");
+reportLines.push(`- sourceFiles=${sourceFiles.length}`);
+reportLines.push(`- quoteCandidates=${quoteCandidates.length}`);
+reportLines.push(`- attributedLines=${attributedLines.length}`);
+reportLines.push(`- reviewCandidates=${reviewCandidates.length}`);
+reportLines.push("");
+reportLines.push("分类统计：");
+for (const [category, count] of [...categoryCounts.entries()].sort((a, b) =>
+  a[0].localeCompare(b[0], "zh-Hans-CN"),
+)) {
+  reportLines.push(`- ${category}: ${count}`);
+}
+reportLines.push("");
+reportLines.push("本轮排除：");
+for (const item of excludedHighlights) reportLines.push(`- ${item}`);
+reportLines.push("");
+reportLines.push("明细：");
+reportLines.push(
+  [
+    "id",
+    "source_file",
+    "line_start",
+    "line_end",
+    "category",
+    "source_or_origin",
+    "quote_text",
+    "summary",
+    "notes",
+  ].join("\t"),
+);
+for (const item of data) {
+  reportLines.push(
+    [
+      item.id,
+      item.source_file,
+      item.line_start,
+      item.line_end,
+      item.category,
+      item.source_or_origin,
+      item.quote_text,
+      item.summary,
+      item.notes,
+    ]
+      .map(tsvEscape)
+      .join("\t"),
+  );
+}
+fs.writeFileSync(reportPath, `\uFEFF${reportLines.join("\r\n")}\r\n`, "utf8");
+
+const auditRows = [
+  ["action", "target", "source_file", "line_range", "quote_or_candidate", "reason"],
+  ...data.map((item) => [
+    "keep",
+    item.id,
+    item.source_file,
+    `${item.line_start}-${item.line_end}`,
+    item.quote_text,
+    item.summary,
+  ]),
+  ...auditExcludes,
+];
+fs.writeFileSync(
+  auditPath,
+  `\uFEFF${auditRows.map((auditRow) => auditRow.map(tsvEscape).join("\t")).join("\r\n")}\r\n`,
+  "utf8",
+);
+
+const proofreadReportLines = [];
+proofreadReportLines.push(`《${book}》校对轮报告`);
+proofreadReportLines.push(`生成日期：${generatedDate}`);
+proofreadReportLines.push(`源目录：${sourceRoot}`);
+proofreadReportLines.push(`输出 CSV：${csvPath}`);
+proofreadReportLines.push(`输出 TXT：${txtPath}`);
+proofreadReportLines.push(`首轮收录条数：${initialRecordCount}`);
+proofreadReportLines.push(`校对补入条数：${proofreadAddedRows.length}`);
+proofreadReportLines.push(`校对修订条数：${proofreadUpdatedRows.length}`);
+proofreadReportLines.push(`校对删除条数：${proofreadDeletedRows.length}`);
+proofreadReportLines.push(`当前收录条数：${data.length}`);
+proofreadReportLines.push("");
+proofreadReportLines.push("校对结论：");
+proofreadReportLines.push("- 首轮 91 条未发现必须删除项。");
+proofreadReportLines.push("- 补入 31 条禅宗传语、儒佛成句、清人语、英语俗谚、读书文论格言和李敖非政治自述格言。");
+proofreadReportLines.push("- 继续排除选举、党派行动、群众冲突、言论权利、版权诉讼等现实公共议题语录。");
+proofreadReportLines.push("");
+proofreadReportLines.push("校对补入：");
+for (const item of proofreadAddedRows) {
+  proofreadReportLines.push(
+    [
+      item.id,
+      item.source_file,
+      `${item.line_start}-${item.line_end}`,
+      item.category,
+      item.source_or_origin,
+      item.quote_text,
+      item.summary,
+    ]
+      .map(tsvEscape)
+      .join("\t"),
+  );
+}
+proofreadReportLines.push("");
+proofreadReportLines.push("校对复核排除：");
+for (const rowItem of proofreadExcludeRows) {
+  proofreadReportLines.push(`- ${rowItem[2]}:${rowItem[3]}\t${rowItem[4]}\t${rowItem[5]}`);
+}
+fs.writeFileSync(proofreadReportPath, `\uFEFF${proofreadReportLines.join("\r\n")}\r\n`, "utf8");
+
+const proofreadAuditRows = [
+  ["action", "target", "source_file", "line_range", "quote_or_candidate", "reason"],
+  ...proofreadAddedRows.map((item) => [
+    "add",
+    item.id,
+    item.source_file,
+    `${item.line_start}-${item.line_end}`,
+    item.quote_text,
+    item.summary,
+  ]),
+  ...proofreadExcludeRows,
+];
+fs.writeFileSync(
+  proofreadAuditPath,
+  `\uFEFF${proofreadAuditRows.map((auditRow) => auditRow.map(tsvEscape).join("\t")).join("\r\n")}\r\n`,
+  "utf8",
+);
+
+console.log(
+  JSON.stringify(
+    {
+      book,
+      records: data.length,
+      initialRecordCount,
+      proofreadAdded: proofreadAddedRows.length,
+      proofreadUpdated: proofreadUpdatedRows.length,
+      proofreadDeleted: proofreadDeletedRows.length,
+      csvPath,
+      txtPath,
+      reportPath,
+      auditPath,
+      proofreadReportPath,
+      proofreadAuditPath,
+      candidatesPath,
+      reviewCandidatesPath,
+      attributedLinesPath,
+      sourceFiles: sourceFiles.length,
+      quoteCandidates: quoteCandidates.length,
+      attributedLines: attributedLines.length,
+      reviewCandidates: reviewCandidates.length,
+    },
+    null,
+    2,
+  ),
+);

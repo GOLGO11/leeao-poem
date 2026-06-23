@@ -1,0 +1,354 @@
+{
+  "book": "李敖书函集",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\008.书信函件类\\008.李敖书函集",
+  "files": 49,
+  "totalLines": 2287,
+  "totalCandidates": 513,
+  "totalRisk": 224,
+  "totalAttributed": 48,
+  "byFile": [
+    {
+      "file": "《李敖书函集》目录.txt",
+      "lines": 61,
+      "candidates": 10,
+      "risk": 10,
+      "attributed": 0
+    },
+    {
+      "file": "001.跟警察头子打笔仗.txt",
+      "lines": 167,
+      "candidates": 50,
+      "risk": 31,
+      "attributed": 4
+    },
+    {
+      "file": "002.查禁《孙中山研究》的荒谬理由.txt",
+      "lines": 33,
+      "candidates": 5,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "003.给新闻局局长邵玉铭的公开信.txt",
+      "lines": 99,
+      "candidates": 36,
+      "risk": 24,
+      "attributed": 3
+    },
+    {
+      "file": "004.许水德请注意.txt",
+      "lines": 35,
+      "candidates": 10,
+      "risk": 8,
+      "attributed": 0
+    },
+    {
+      "file": "005.致《中报》傅朝枢先生.txt",
+      "lines": 37,
+      "candidates": 9,
+      "risk": 8,
+      "attributed": 1
+    },
+    {
+      "file": "006.致施性忠老哥.txt",
+      "lines": 31,
+      "candidates": 5,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "007.再致施性忠老哥.txt",
+      "lines": 29,
+      "candidates": 4,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "008.三致施性忠老哥.txt",
+      "lines": 27,
+      "candidates": 2,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "009.关于“直笔”的讨论.txt",
+      "lines": 43,
+      "candidates": 7,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "010.请检察官辞职.txt",
+      "lines": 29,
+      "candidates": 5,
+      "risk": 7,
+      "attributed": 0
+    },
+    {
+      "file": "011.从小事看认真.txt",
+      "lines": 117,
+      "candidates": 33,
+      "risk": 2,
+      "attributed": 2
+    },
+    {
+      "file": "012.复李声庭.txt",
+      "lines": 21,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "013.复李杰四弟.txt",
+      "lines": 27,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "014.复六叔.txt",
+      "lines": 29,
+      "candidates": 5,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "015.致余纪忠.txt",
+      "lines": 21,
+      "candidates": 3,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "016.迟来的澄清.txt",
+      "lines": 37,
+      "candidates": 9,
+      "risk": 5,
+      "attributed": 2
+    },
+    {
+      "file": "017.《乌鸦评论》及其他.txt",
+      "lines": 109,
+      "candidates": 26,
+      "risk": 6,
+      "attributed": 1
+    },
+    {
+      "file": "018.给邻居的一封信.txt",
+      "lines": 71,
+      "candidates": 14,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "019.致沈醉.txt",
+      "lines": 21,
+      "candidates": 2,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "020.斥台中一中校长陈继统.txt",
+      "lines": 33,
+      "candidates": 7,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "021.质问《自由时报》.txt",
+      "lines": 25,
+      "candidates": 5,
+      "risk": 4,
+      "attributed": 0
+    },
+    {
+      "file": "022.致台北市政府新闻处.txt",
+      "lines": 39,
+      "candidates": 12,
+      "risk": 11,
+      "attributed": 0
+    },
+    {
+      "file": "023.致新闻评议会.txt",
+      "lines": 37,
+      "candidates": 12,
+      "risk": 7,
+      "attributed": 0
+    },
+    {
+      "file": "024.再致新闻评议会.txt",
+      "lines": 31,
+      "candidates": 8,
+      "risk": 4,
+      "attributed": 2
+    },
+    {
+      "file": "025.吴树民请注意.txt",
+      "lines": 23,
+      "candidates": 5,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "026.花老犹见燕归迟.txt",
+      "lines": 31,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "027.寄傅在峰.txt",
+      "lines": 21,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "028.又找台北市政府新闻处的麻烦了！.txt",
+      "lines": 33,
+      "candidates": 9,
+      "risk": 7,
+      "attributed": 0
+    },
+    {
+      "file": "029.又找新闻评议会的麻烦了！.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "030.蒋纬国不妨一看.txt",
+      "lines": 25,
+      "candidates": 3,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "031.中央研究院史语所岂可掩护李济、许倬云！.txt",
+      "lines": 81,
+      "candidates": 11,
+      "risk": 2,
+      "attributed": 3
+    },
+    {
+      "file": "032.书而不展，还叫什么书展？.txt",
+      "lines": 35,
+      "candidates": 8,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "033.休做台北落荒人，应做云南望乡鬼.txt",
+      "lines": 33,
+      "candidates": 8,
+      "risk": 5,
+      "attributed": 1
+    },
+    {
+      "file": "034.“碧云应继魏忠贤”.txt",
+      "lines": 31,
+      "candidates": 7,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "035.吴敦义请勿“有屁一同”.txt",
+      "lines": 21,
+      "candidates": 4,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "036.天天是秋后.txt",
+      "lines": 27,
+      "candidates": 4,
+      "risk": 3,
+      "attributed": 1
+    },
+    {
+      "file": "037.答辅大女学生.txt",
+      "lines": 55,
+      "candidates": 9,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "038.答胡虚一老兄书.txt",
+      "lines": 51,
+      "candidates": 14,
+      "risk": 3,
+      "attributed": 6
+    },
+    {
+      "file": "039.给叶菊兰的公开信.txt",
+      "lines": 33,
+      "candidates": 7,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "040.打官司的讨论.txt",
+      "lines": 155,
+      "candidates": 40,
+      "risk": 9,
+      "attributed": 2
+    },
+    {
+      "file": "041.胡秋原诽谤李敖，被判处拘役四十天.txt",
+      "lines": 45,
+      "candidates": 10,
+      "risk": 2,
+      "attributed": 3
+    },
+    {
+      "file": "042.致郝柏村先生一封信.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 5,
+      "attributed": 0
+    },
+    {
+      "file": "043.打官司的再讨论.txt",
+      "lines": 57,
+      "candidates": 11,
+      "risk": 3,
+      "attributed": 1
+    },
+    {
+      "file": "044.讨论《北京法源寺》.txt",
+      "lines": 57,
+      "candidates": 16,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "045.比较“鸡巴学”答美国佬.txt",
+      "lines": 41,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "046.你转载我，我转载你.txt",
+      "lines": 43,
+      "candidates": 4,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "047.三点不露轮到李登辉了.txt",
+      "lines": 55,
+      "candidates": 10,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "048.宋英、黄信介等岂可违反傅正遗愿！.txt",
+      "lines": 67,
+      "candidates": 16,
+      "risk": 8,
+      "attributed": 7
+    }
+  ]
+}

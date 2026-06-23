@@ -1,0 +1,18 @@
+《要把金针度与人》诗文格言歌谣引用校对轮报告
+生成日期：2026-06-23
+
+校对后条目：198
+CSV：C:\Users\zzy87\Desktop\project\leeao-poem\exports\要把金针度与人_诗文格言歌谣引用.csv
+TXT：C:\Users\zzy87\Desktop\project\leeao-poem\exports\要把金针度与人_诗文格言歌谣引用.txt
+
+校对动作：
+- 新增 18 条：读书法、疑古方法批评、古人好学著述评语、心学修养语、道家/法家短句、文学人物格言。
+- 删除 2 条：首轮 LAYBJZ-171、LAYBJZ-180 更像承接性设问或现代术语。
+- 继续不收：现代政党、台湾时政、近代革命与政权评价、作者履历式段落、纯目录书名与版本说明。
+
+政治风险：
+- 已入选且条文本身带现代政治风险词：无
+- 源文本现代政治风险行：23
+
+审计文件：
+- analysis\liao_yaoba_jinzhen_proofread_audit.tsv

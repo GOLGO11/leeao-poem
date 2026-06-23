@@ -1,0 +1,354 @@
+{
+  "book": "李敖书启集",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\008.书信函件类\\009.李敖书启集",
+  "files": 49,
+  "totalLines": 2219,
+  "totalCandidates": 455,
+  "totalRisk": 127,
+  "totalAttributed": 55,
+  "byFile": [
+    {
+      "file": "《李敖书启集》目录.txt",
+      "lines": 61,
+      "candidates": 8,
+      "risk": 2,
+      "attributed": 1
+    },
+    {
+      "file": "001.《北京法源寺》勘误.txt",
+      "lines": 69,
+      "candidates": 11,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "002.关于张学良心态动态的讨论.txt",
+      "lines": 99,
+      "candidates": 29,
+      "risk": 11,
+      "attributed": 2
+    },
+    {
+      "file": "003.怨结金兰.txt",
+      "lines": 75,
+      "candidates": 25,
+      "risk": 4,
+      "attributed": 3
+    },
+    {
+      "file": "004.《北京法源寺》再勘误.txt",
+      "lines": 63,
+      "candidates": 7,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "005.再致金兰邻居.txt",
+      "lines": 45,
+      "candidates": 15,
+      "risk": 2,
+      "attributed": 4
+    },
+    {
+      "file": "006.致赖宪沧.txt",
+      "lines": 25,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "007.三致金兰邻居.txt",
+      "lines": 101,
+      "candidates": 37,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "008.给孙震先生一封信.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "009.卖掉汽车，改骑脚踏车了.txt",
+      "lines": 27,
+      "candidates": 4,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "010.致裴存藩夫人.txt",
+      "lines": 21,
+      "candidates": 1,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "011.李敖警告金兰大厦CD座邻居.txt",
+      "lines": 31,
+      "candidates": 8,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "012.代胡学古复洪贵参律师函.txt",
+      "lines": 35,
+      "candidates": 10,
+      "risk": 2,
+      "attributed": 1
+    },
+    {
+      "file": "013.对程灏诬告案的综合陈述.txt",
+      "lines": 61,
+      "candidates": 17,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "014.复台北市大安区调解委员会.txt",
+      "lines": 29,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "015.所谓“移交”问题.txt",
+      "lines": 29,
+      "candidates": 9,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "016.金兰大厦今后问题解决方案.txt",
+      "lines": 31,
+      "candidates": 4,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "017.黄大洲听着！.txt",
+      "lines": 41,
+      "candidates": 13,
+      "risk": 3,
+      "attributed": 1
+    },
+    {
+      "file": "018.以“地下阁楼”为例.txt",
+      "lines": 31,
+      "candidates": 7,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "019.致黄大洲.txt",
+      "lines": 39,
+      "candidates": 9,
+      "risk": 4,
+      "attributed": 0
+    },
+    {
+      "file": "020.致释昭慧.txt",
+      "lines": 45,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "021.致萧启庆王国璎.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "022.有子三书.txt",
+      "lines": 47,
+      "candidates": 7,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "023.致陈又亮.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "024.致赵天仪.txt",
+      "lines": 25,
+      "candidates": 2,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "025.致汤麟武.txt",
+      "lines": 47,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "026.政骚扰.txt",
+      "lines": 51,
+      "candidates": 12,
+      "risk": 9,
+      "attributed": 1
+    },
+    {
+      "file": "027.给翟宗泉的一封信.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 4,
+      "attributed": 0
+    },
+    {
+      "file": "028.致《民众日报》李瑞标.txt",
+      "lines": 53,
+      "candidates": 10,
+      "risk": 7,
+      "attributed": 0
+    },
+    {
+      "file": "029.复刘峰松.txt",
+      "lines": 35,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "030.给台大校长的公开信.txt",
+      "lines": 31,
+      "candidates": 6,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "031.大义责王晓波.txt",
+      "lines": 25,
+      "candidates": 5,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "032.兔子腿买不买.txt",
+      "lines": 51,
+      "candidates": 10,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "033.对何炳棣先生“认真的讨论”的讨论.txt",
+      "lines": 59,
+      "candidates": 22,
+      "risk": 1,
+      "attributed": 13
+    },
+    {
+      "file": "034.从“冷淡”到“偷笑”.txt",
+      "lines": 69,
+      "candidates": 21,
+      "risk": 4,
+      "attributed": 8
+    },
+    {
+      "file": "035.嘱苦苓老弟.txt",
+      "lines": 23,
+      "candidates": 3,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "036.吴丰山与鸡蛋.txt",
+      "lines": 27,
+      "candidates": 3,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "037.致AB座邻居.txt",
+      "lines": 47,
+      "candidates": 5,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "038.千元相映，两代情深.txt",
+      "lines": 151,
+      "candidates": 14,
+      "risk": 11,
+      "attributed": 1
+    },
+    {
+      "file": "039.为法官黄小莹执法偏颇质国民党司法院长施启扬函.txt",
+      "lines": 39,
+      "candidates": 10,
+      "risk": 11,
+      "attributed": 0
+    },
+    {
+      "file": "040.致吴俊才论石永贵的嘴脸.txt",
+      "lines": 29,
+      "candidates": 6,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "041.我与邓丽君.txt",
+      "lines": 39,
+      "candidates": 5,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "042.致石守谦的一封信.txt",
+      "lines": 33,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 0
+    },
+    {
+      "file": "043.我与邓丽君后一章.txt",
+      "lines": 31,
+      "candidates": 4,
+      "risk": 2,
+      "attributed": 0
+    },
+    {
+      "file": "044.给周荃.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "045.质问谢长廷老弟.txt",
+      "lines": 71,
+      "candidates": 17,
+      "risk": 6,
+      "attributed": 1
+    },
+    {
+      "file": "046.致法务部调查局.txt",
+      "lines": 85,
+      "candidates": 23,
+      "risk": 14,
+      "attributed": 5
+    },
+    {
+      "file": "047.给林瑞图加油信.txt",
+      "lines": 29,
+      "candidates": 3,
+      "risk": 1,
+      "attributed": 0
+    },
+    {
+      "file": "048.建国党与梁肃戎.txt",
+      "lines": 39,
+      "candidates": 4,
+      "risk": 4,
+      "attributed": 0
+    }
+  ]
+}

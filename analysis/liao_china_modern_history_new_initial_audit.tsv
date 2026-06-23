@@ -1,0 +1,5 @@
+﻿type	detail	count
+selected_rows	校对后保留的诗文、格言、文化史料、文化论战文句	169
+skipped	010-011章高度政治性的革命人物口号与殉难语未收入	2
+political_quote_hits	quote_text现代政治关键词命中	0
+duplicate_groups	完全相同quote_text重复组	1

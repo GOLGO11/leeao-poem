@@ -1,0 +1,36 @@
+《李敖语录》第一轮提取报告
+生成日期：2026-06-20
+
+源目录：
+《大李敖全集6.0》分章节\005.诗集语录类\004.李敖语录
+
+候选提取：
+- 原始候选 JSON：analysis/liao_liao_yulu_quote_candidates.json
+- 复筛候选 TSV：analysis/liao_liao_yulu_review_candidates.tsv
+- 外部归属线索 TSV：analysis/liao_liao_yulu_attributed_lines.tsv
+- 原始候选统计：32 个文件，quoteCandidates 4722，uniqueQuoteTexts 3602，keywordLines 491
+- 复筛候选：1305 条
+- 外部归属线索：1482 条
+
+本轮口径：
+本册是“语录套语录”，大量内容是李敖自己的摘句和再表达。本轮只收明确外部来源、传统成句、古典诗文、戏曲唱词、宗教经典和爱情/人生格言；现代政治人物语录、党国相关语句、法律/政策口号、李敖自拟警句不收。
+
+高风险处理：
+- 009 中国当代人物、022-025 政治相关章节基本跳过，只保留极少数可脱离政治语境的古典成句。
+- 016 法制观念中的现代法政语句未收。
+- 015 俏皮小语多为李敖自拟语录，未作主体收录。
+
+输出：
+- exports/李敖语录_诗文格言歌谣引用.csv
+- exports/李敖语录_诗文格言歌谣引用.txt
+- 本书保留 155 条。
+
+验证：
+- node .\tools\validate_liao_book_exports.js "《大李敖全集6.0》分章节\005.诗集语录类\004.李敖语录" ".\exports\李敖语录_诗文格言歌谣引用.csv"
+- 结果：155 条，155 个唯一 ID，0 个错误。
+- node .\tools\build_liao_total_exports.js
+- 结果：总表 4486 条；《李敖语录》原表 155 条，总表保留 155 条，未被政治过滤规则剔除。
+
+新增辅助：
+- tools/extract_liao_attributed_lines.js：抽取“说/曰/古人/谚语/《...》”等外部归属线索。
+- tools/render_liao_book_txt_from_csv.js：从已校验 CSV 生成本书 TXT 人读版。

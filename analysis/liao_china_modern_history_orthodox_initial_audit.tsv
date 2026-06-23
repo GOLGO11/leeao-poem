@@ -1,0 +1,9 @@
+﻿type	detail	count
+selected_rows	校对后保留的诗句、宗教经典句、古典成语、办刊原则	30
+skipped	001-007章现代党史/法政史政治语录与公文性材料整体从严跳过	7
+skipped	010-019章西安事变谈话、声明、回忆中现代政治口号与当事人政策语录不收	10
+skipped	024章三通公文、报章资料、密约与政策叙述只保留少量成语/诗句	1
+proofread_removed	校对轮删除：公开信自述短句、含两岸政治语境近人诗、重复成语	3
+proofread_trimmed	校对轮收窄：张学良题词只保留核心宗教格言	1
+political_quote_hits	quote_text现代政治关键词命中	0
+duplicate_groups	完全相同quote_text重复组	0

@@ -1,0 +1,543 @@
+{
+  "book": "坐牢家爸爸给女儿的八十封信",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\008.书信函件类\\010.坐牢家爸爸给女儿的八十封信",
+  "files": 76,
+  "totalLines": 3886,
+  "totalCandidates": 1295,
+  "totalRisk": 80,
+  "totalAttributed": 308,
+  "byFile": [
+    {
+      "file": "《坐牢家爸爸给女儿的八十封信》目录.txt",
+      "lines": 87,
+      "candidates": 18,
+      "risk": 3,
+      "attributed": 4
+    },
+    {
+      "file": "《坐牢家爸爸给女儿的八十封信》自序.txt",
+      "lines": 27,
+      "candidates": 11,
+      "risk": 6,
+      "attributed": 2
+    },
+    {
+      "file": "001.猫狗谚.txt",
+      "lines": 53,
+      "candidates": 19,
+      "risk": 0,
+      "attributed": 9
+    },
+    {
+      "file": "002.再会呀，鳄鱼呀！.txt",
+      "lines": 41,
+      "candidates": 15,
+      "risk": 0,
+      "attributed": 5
+    },
+    {
+      "file": "003.纸上谈钱.txt",
+      "lines": 65,
+      "candidates": 25,
+      "risk": 9,
+      "attributed": 2
+    },
+    {
+      "file": "004.喊一声“芝麻开门！”就行了.txt",
+      "lines": 21,
+      "candidates": 7,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "005.头头大观.txt",
+      "lines": 31,
+      "candidates": 10,
+      "risk": 3,
+      "attributed": 2
+    },
+    {
+      "file": "006.指教.txt",
+      "lines": 33,
+      "candidates": 12,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "007.理发匠就是外科医生，外科医生就是理发匠.txt",
+      "lines": 25,
+      "candidates": 8,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "008.送礼·向厕所跑.txt",
+      "lines": 19,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "009.你羊我就马，你马我就羊.txt",
+      "lines": 27,
+      "candidates": 9,
+      "risk": 2,
+      "attributed": 2
+    },
+    {
+      "file": "010.打老虎秘诀.txt",
+      "lines": 25,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "011.你送神像我搭台.txt",
+      "lines": 27,
+      "candidates": 9,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "012.千年王八万年龟.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "013.不飞的鸟.txt",
+      "lines": 35,
+      "candidates": 9,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "014.你杀鹅我就杀鸡.txt",
+      "lines": 35,
+      "candidates": 12,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "015.原子弹与沉鱼落雁.txt",
+      "lines": 33,
+      "candidates": 12,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "016.他所有的鹅都是天鹅.txt",
+      "lines": 29,
+      "candidates": 10,
+      "risk": 1,
+      "attributed": 5
+    },
+    {
+      "file": "017.麻是麻烦，可是不会生胃病.txt",
+      "lines": 45,
+      "candidates": 14,
+      "risk": 3,
+      "attributed": 0
+    },
+    {
+      "file": "018.破锅有烂灶、李大有张嫂.txt",
+      "lines": 41,
+      "candidates": 16,
+      "risk": 1,
+      "attributed": 4
+    },
+    {
+      "file": "019.情人与天使.txt",
+      "lines": 33,
+      "candidates": 11,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "020.看那熊相.txt",
+      "lines": 55,
+      "candidates": 16,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "021.为什么还叫别人是姥姥？.txt",
+      "lines": 41,
+      "candidates": 15,
+      "risk": 0,
+      "attributed": 5
+    },
+    {
+      "file": "022.苍蝇的老婆最多.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "023.英文回文·中文回文.txt",
+      "lines": 111,
+      "candidates": 21,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "024.关于脖子的种种.txt",
+      "lines": 47,
+      "candidates": 17,
+      "risk": 0,
+      "attributed": 7
+    },
+    {
+      "file": "025.眼睛有时候会上当.txt",
+      "lines": 61,
+      "candidates": 22,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "026.“妈妈骑马，马慢，妈妈骂马”.txt",
+      "lines": 65,
+      "candidates": 25,
+      "risk": 0,
+      "attributed": 9
+    },
+    {
+      "file": "027.老鼠不信任一个洞.txt",
+      "lines": 73,
+      "candidates": 25,
+      "risk": 0,
+      "attributed": 7
+    },
+    {
+      "file": "028.说姓道名.txt",
+      "lines": 47,
+      "candidates": 20,
+      "risk": 2,
+      "attributed": 3
+    },
+    {
+      "file": "029.猫头鹰为什么跟在智慧女神屁股后面？.txt",
+      "lines": 45,
+      "candidates": 12,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "030.狼来了！狼来了！.txt",
+      "lines": 39,
+      "candidates": 14,
+      "risk": 0,
+      "attributed": 5
+    },
+    {
+      "file": "031.谁先完蛋？.txt",
+      "lines": 67,
+      "candidates": 21,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "032.猴相.txt",
+      "lines": 45,
+      "candidates": 16,
+      "risk": 1,
+      "attributed": 3
+    },
+    {
+      "file": "033.从人猿到猿人.txt",
+      "lines": 65,
+      "candidates": 24,
+      "risk": 0,
+      "attributed": 10
+    },
+    {
+      "file": "034.蘑菇个没完.txt",
+      "lines": 41,
+      "candidates": 15,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "035.非驴非马.txt",
+      "lines": 47,
+      "candidates": 17,
+      "risk": 1,
+      "attributed": 3
+    },
+    {
+      "file": "036.骑小马·回台湾.txt",
+      "lines": 89,
+      "candidates": 19,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "037.鸽子·囮子·凯子.txt",
+      "lines": 37,
+      "candidates": 13,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "038.斗出自大来.txt",
+      "lines": 53,
+      "candidates": 17,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "039.谁在瞎忙？.txt",
+      "lines": 51,
+      "candidates": 19,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "040.运动道德吗？.txt",
+      "lines": 47,
+      "candidates": 14,
+      "risk": 1,
+      "attributed": 7
+    },
+    {
+      "file": "041.小文十岁生日歌.txt",
+      "lines": 75,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "042.生日与十二宫图.txt",
+      "lines": 83,
+      "candidates": 32,
+      "risk": 1,
+      "attributed": 4
+    },
+    {
+      "file": "043.林肯·栗子·笑.txt",
+      "lines": 73,
+      "candidates": 27,
+      "risk": 0,
+      "attributed": 7
+    },
+    {
+      "file": "044.“浪费蜡烛去找针”.txt",
+      "lines": 37,
+      "candidates": 15,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "045.坐牢的名人.txt",
+      "lines": 35,
+      "candidates": 12,
+      "risk": 7,
+      "attributed": 7
+    },
+    {
+      "file": "046.水肉·水月·影子戏.txt",
+      "lines": 27,
+      "candidates": 9,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "047.怪签名.txt",
+      "lines": 33,
+      "candidates": 8,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "048.你看中国人分得多细.txt",
+      "lines": 59,
+      "candidates": 22,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "049.天上天堂与人间天堂.txt",
+      "lines": 29,
+      "candidates": 10,
+      "risk": 2,
+      "attributed": 5
+    },
+    {
+      "file": "050.猫抓耗子法案.txt",
+      "lines": 27,
+      "candidates": 9,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "051.谈年论孝.txt",
+      "lines": 77,
+      "candidates": 21,
+      "risk": 0,
+      "attributed": 6
+    },
+    {
+      "file": "052.“爸”·“爹”·“妈”.txt",
+      "lines": 57,
+      "candidates": 25,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "053.木字头的.txt",
+      "lines": 35,
+      "candidates": 10,
+      "risk": 1,
+      "attributed": 3
+    },
+    {
+      "file": "054.踏脚石与马铃薯.txt",
+      "lines": 37,
+      "candidates": 13,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "055.我讨厌日本.txt",
+      "lines": 67,
+      "candidates": 22,
+      "risk": 2,
+      "attributed": 6
+    },
+    {
+      "file": "056.从达芬奇到蒲公英.txt",
+      "lines": 45,
+      "candidates": 18,
+      "risk": 1,
+      "attributed": 4
+    },
+    {
+      "file": "057.瞎子可以摸出象来.txt",
+      "lines": 63,
+      "candidates": 27,
+      "risk": 0,
+      "attributed": 11
+    },
+    {
+      "file": "058.彼得·潘·潘彼得.txt",
+      "lines": 49,
+      "candidates": 20,
+      "risk": 1,
+      "attributed": 7
+    },
+    {
+      "file": "059.记印度阿三.txt",
+      "lines": 77,
+      "candidates": 31,
+      "risk": 2,
+      "attributed": 6
+    },
+    {
+      "file": "060.萨摩亚与自挽诗.txt",
+      "lines": 89,
+      "candidates": 34,
+      "risk": 2,
+      "attributed": 7
+    },
+    {
+      "file": "061.素食种种.txt",
+      "lines": 73,
+      "candidates": 29,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "062.专门吃大鱼.txt",
+      "lines": 31,
+      "candidates": 10,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "063.“海外人鱼”.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "064.他们六个.txt",
+      "lines": 113,
+      "candidates": 50,
+      "risk": 1,
+      "attributed": 14
+    },
+    {
+      "file": "065.从鸭嘴兽到水獭.txt",
+      "lines": 91,
+      "candidates": 34,
+      "risk": 3,
+      "attributed": 4
+    },
+    {
+      "file": "066.“那么让他们吃饼嘛！”.txt",
+      "lines": 75,
+      "candidates": 25,
+      "risk": 8,
+      "attributed": 8
+    },
+    {
+      "file": "067.嘴含一根草.txt",
+      "lines": 93,
+      "candidates": 6,
+      "risk": 0,
+      "attributed": 2
+    },
+    {
+      "file": "068.我的本领就是臭.txt",
+      "lines": 49,
+      "candidates": 10,
+      "risk": 0,
+      "attributed": 1
+    },
+    {
+      "file": "069.飞上枝头看飞枝.txt",
+      "lines": 43,
+      "candidates": 15,
+      "risk": 5,
+      "attributed": 2
+    },
+    {
+      "file": "070.古国神游.txt",
+      "lines": 47,
+      "candidates": 17,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "071.“古希腊的辉煌”.txt",
+      "lines": 83,
+      "candidates": 33,
+      "risk": 0,
+      "attributed": 10
+    },
+    {
+      "file": "072.“古罗马的壮丽”.txt",
+      "lines": 61,
+      "candidates": 25,
+      "risk": 3,
+      "attributed": 8
+    },
+    {
+      "file": "073.波澜N多的波兰.txt",
+      "lines": 67,
+      "candidates": 26,
+      "risk": 1,
+      "attributed": 3
+    },
+    {
+      "file": "074.登天梯.txt",
+      "lines": 41,
+      "candidates": 16,
+      "risk": 1,
+      "attributed": 0
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-19",
+  "generatedDate": "2026-06-23",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -249,14 +249,308 @@
     {
       "fileName": "爱情的秘密_诗文格言歌谣引用.csv",
       "book": "爱情的秘密",
-      "originalRows": 91,
-      "keptRows": 91,
+      "originalRows": 88,
+      "keptRows": 88,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖的情诗_诗文格言歌谣引用.csv",
+      "book": "李敖的情诗",
+      "originalRows": 36,
+      "keptRows": 36,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李语录_诗文格言歌谣引用.csv",
+      "book": "李语录",
+      "originalRows": 35,
+      "keptRows": 35,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖语录_诗文格言歌谣引用.csv",
+      "book": "李敖语录",
+      "originalRows": 204,
+      "keptRows": 204,
+      "removedRows": 0
+    },
+    {
+      "fileName": "虽千万人，李敖往矣_诗文格言歌谣引用.csv",
+      "book": "虽千万人，李敖往矣",
+      "originalRows": 187,
+      "keptRows": 187,
+      "removedRows": 0
+    },
+    {
+      "fileName": "挑战李敖——敖语录_诗文格言歌谣引用.csv",
+      "book": "挑战李敖——敖语录",
+      "originalRows": 11,
+      "keptRows": 11,
+      "removedRows": 0
+    },
+    {
+      "fileName": "大学札记_诗文格言歌谣引用.csv",
+      "book": "大学札记",
+      "originalRows": 150,
+      "keptRows": 150,
+      "removedRows": 0
+    },
+    {
+      "fileName": "早年日记_诗文格言歌谣引用.csv",
+      "book": "早年日记",
+      "originalRows": 14,
+      "keptRows": 14,
+      "removedRows": 0
+    },
+    {
+      "fileName": "大学后期日记甲集_诗文格言歌谣引用.csv",
+      "book": "大学后期日记甲集",
+      "originalRows": 35,
+      "keptRows": 35,
+      "removedRows": 0
+    },
+    {
+      "fileName": "大学后期日记乙集_诗文格言歌谣引用.csv",
+      "book": "大学后期日记乙集",
+      "originalRows": 59,
+      "keptRows": 59,
+      "removedRows": 0
+    },
+    {
+      "fileName": "一个预备军官的日记_诗文格言歌谣引用.csv",
+      "book": "一个预备军官的日记",
+      "originalRows": 149,
+      "keptRows": 149,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖秘藏日记_诗文格言歌谣引用.csv",
+      "book": "李敖秘藏日记",
+      "originalRows": 21,
+      "keptRows": 21,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖札记_诗文格言歌谣引用.csv",
+      "book": "李敖札记",
+      "originalRows": 32,
+      "keptRows": 32,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖五五日记_诗文格言歌谣引用.csv",
+      "book": "李敖五五日记",
+      "originalRows": 18,
+      "keptRows": 18,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖随写录前集_诗文格言歌谣引用.csv",
+      "book": "李敖随写录前集",
+      "originalRows": 16,
+      "keptRows": 16,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖随写录后集_诗文格言歌谣引用.csv",
+      "book": "李敖随写录后集",
+      "originalRows": 38,
+      "keptRows": 38,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖报刊集_诗文格言歌谣引用.csv",
+      "book": "李敖报刊集",
+      "originalRows": 51,
+      "keptRows": 51,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书序集_诗文格言歌谣引用.csv",
+      "book": "李敖书序集",
+      "originalRows": 76,
+      "keptRows": 76,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书序集续集_诗文格言歌谣引用.csv",
+      "book": "李敖书序集续集",
+      "originalRows": 82,
+      "keptRows": 82,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖对话录_诗文格言歌谣引用.csv",
+      "book": "李敖对话录",
+      "originalRows": 122,
+      "keptRows": 122,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖访谈录1990-2018_诗文格言歌谣引用.csv",
+      "book": "李敖访谈录1990-2018",
+      "originalRows": 177,
+      "keptRows": 177,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖情书集_诗文格言歌谣引用.csv",
+      "book": "李敖情书集",
+      "originalRows": 113,
+      "keptRows": 113,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书信集_诗文格言歌谣引用.csv",
+      "book": "李敖书信集",
+      "originalRows": 127,
+      "keptRows": 127,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书翰集_诗文格言歌谣引用.csv",
+      "book": "李敖书翰集",
+      "originalRows": 95,
+      "keptRows": 95,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书简集_诗文格言歌谣引用.csv",
+      "book": "李敖书简集",
+      "originalRows": 76,
+      "keptRows": 76,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书札集_诗文格言歌谣引用.csv",
+      "book": "李敖书札集",
+      "originalRows": 111,
+      "keptRows": 111,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书笺集_诗文格言歌谣引用.csv",
+      "book": "李敖书笺集",
+      "originalRows": 75,
+      "keptRows": 75,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书牍集_诗文格言歌谣引用.csv",
+      "book": "李敖书牍集",
+      "originalRows": 73,
+      "keptRows": 73,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书函集_诗文格言歌谣引用.csv",
+      "book": "李敖书函集",
+      "originalRows": 100,
+      "keptRows": 100,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖书启集_诗文格言歌谣引用.csv",
+      "book": "李敖书启集",
+      "originalRows": 131,
+      "keptRows": 131,
+      "removedRows": 0
+    },
+    {
+      "fileName": "坐牢家爸爸给女儿的八十封信_诗文格言歌谣引用.csv",
+      "book": "坐牢家爸爸给女儿的八十封信",
+      "originalRows": 368,
+      "keptRows": 368,
+      "removedRows": 0
+    },
+    {
+      "fileName": "给马戈的五十封信_诗文格言歌谣引用.csv",
+      "book": "给马戈的五十封信",
+      "originalRows": 89,
+      "keptRows": 89,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖写的信_诗文格言歌谣引用.csv",
+      "book": "李敖写的信",
+      "originalRows": 24,
+      "keptRows": 24,
+      "removedRows": 0
+    },
+    {
+      "fileName": "历史与人像_诗文格言歌谣引用.csv",
+      "book": "历史与人像",
+      "originalRows": 60,
+      "keptRows": 60,
+      "removedRows": 0
+    },
+    {
+      "fileName": "读史指南_诗文格言歌谣引用.csv",
+      "book": "读史指南",
+      "originalRows": 64,
+      "keptRows": 64,
+      "removedRows": 0
+    },
+    {
+      "fileName": "为历史拨云_诗文格言歌谣引用.csv",
+      "book": "为历史拨云",
+      "originalRows": 171,
+      "keptRows": 171,
+      "removedRows": 0
+    },
+    {
+      "fileName": "要把金针度与人_诗文格言歌谣引用.csv",
+      "book": "要把金针度与人",
+      "originalRows": 198,
+      "keptRows": 198,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国性研究_诗文格言歌谣引用.csv",
+      "book": "中国性研究",
+      "originalRows": 271,
+      "keptRows": 271,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国命研究_诗文格言歌谣引用.csv",
+      "book": "中国命研究",
+      "originalRows": 434,
+      "keptRows": 434,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国近代史新论_诗文格言歌谣引用.csv",
+      "book": "中国近代史新论",
+      "originalRows": 169,
+      "keptRows": 169,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国现代史正论_诗文格言歌谣引用.csv",
+      "book": "中国现代史正论",
+      "originalRows": 30,
+      "keptRows": 30,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国现代史定论_诗文格言歌谣引用.csv",
+      "book": "中国现代史定论",
+      "originalRows": 31,
+      "keptRows": 31,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国迷信新研_诗文格言歌谣引用.csv",
+      "book": "中国迷信新研",
+      "originalRows": 113,
+      "keptRows": 113,
       "removedRows": 0
     }
   ],
-  "rows": 4263,
+  "rows": 8696,
   "removedRows": 61,
-  "uniqueIds": 4263,
+  "uniqueIds": 8696,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

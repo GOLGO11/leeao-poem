@@ -1,0 +1,284 @@
+{
+  "book": "李敖书牍集",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\008.书信函件类\\007.李敖书牍集",
+  "files": 39,
+  "totalLines": 2115,
+  "totalCandidates": 501,
+  "totalRisk": 319,
+  "totalAttributed": 258,
+  "byFile": [
+    {
+      "file": "《李敖书牍集》目录.txt",
+      "lines": 51,
+      "candidates": 11,
+      "risk": 11,
+      "attributed": 0
+    },
+    {
+      "file": "001.责备吴大猷先生.txt",
+      "lines": 35,
+      "candidates": 5,
+      "risk": 6,
+      "attributed": 5
+    },
+    {
+      "file": "002.银纸包个臭皮蛋.txt",
+      "lines": 29,
+      "candidates": 4,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "003.直线前进对，周而复始错.txt",
+      "lines": 33,
+      "candidates": 5,
+      "risk": 1,
+      "attributed": 4
+    },
+    {
+      "file": "004.来回带物法.txt",
+      "lines": 25,
+      "candidates": 4,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "005.贵市长言而无信，令人羞羞.txt",
+      "lines": 39,
+      "candidates": 9,
+      "risk": 9,
+      "attributed": 2
+    },
+    {
+      "file": "006.“惭愧公荣文王”.txt",
+      "lines": 23,
+      "candidates": 5,
+      "risk": 1,
+      "attributed": 2
+    },
+    {
+      "file": "007.左奶、右奶，查禁哪只奶？.txt",
+      "lines": 29,
+      "candidates": 7,
+      "risk": 7,
+      "attributed": 5
+    },
+    {
+      "file": "008.从五大臣到八大臣.txt",
+      "lines": 41,
+      "candidates": 5,
+      "risk": 5,
+      "attributed": 3
+    },
+    {
+      "file": "009.与朋友交，其写信乎？.txt",
+      "lines": 51,
+      "candidates": 7,
+      "risk": 4,
+      "attributed": 4
+    },
+    {
+      "file": "010.天行有常.txt",
+      "lines": 29,
+      "candidates": 7,
+      "risk": 1,
+      "attributed": 5
+    },
+    {
+      "file": "011.给俞济时将军一封信.txt",
+      "lines": 79,
+      "candidates": 21,
+      "risk": 4,
+      "attributed": 10
+    },
+    {
+      "file": "012.“财神爷”的悄悄话.txt",
+      "lines": 29,
+      "candidates": 8,
+      "risk": 5,
+      "attributed": 7
+    },
+    {
+      "file": "013.给沈登恩信中的几段.txt",
+      "lines": 37,
+      "candidates": 10,
+      "risk": 6,
+      "attributed": 5
+    },
+    {
+      "file": "014.“不提李敖之名”记趣.txt",
+      "lines": 63,
+      "candidates": 21,
+      "risk": 1,
+      "attributed": 8
+    },
+    {
+      "file": "015.请台北市政府新闻处答复.txt",
+      "lines": 33,
+      "candidates": 8,
+      "risk": 7,
+      "attributed": 4
+    },
+    {
+      "file": "016.有关《自立晚报》的函与状.txt",
+      "lines": 35,
+      "candidates": 9,
+      "risk": 1,
+      "attributed": 1
+    },
+    {
+      "file": "017.是人告人，不是党外告党外.txt",
+      "lines": 27,
+      "candidates": 2,
+      "risk": 3,
+      "attributed": 2
+    },
+    {
+      "file": "018.“要埋单”.txt",
+      "lines": 23,
+      "candidates": 4,
+      "risk": 3,
+      "attributed": 2
+    },
+    {
+      "file": "019.律师·正义·缩.txt",
+      "lines": 25,
+      "candidates": 3,
+      "risk": 0,
+      "attributed": 3
+    },
+    {
+      "file": "020.从肚皮到头皮.txt",
+      "lines": 31,
+      "candidates": 5,
+      "risk": 0,
+      "attributed": 4
+    },
+    {
+      "file": "021.司法院有人在打鼾吧？.txt",
+      "lines": 103,
+      "candidates": 17,
+      "risk": 19,
+      "attributed": 5
+    },
+    {
+      "file": "022.祸延小蒋及其晚娘.txt",
+      "lines": 35,
+      "candidates": 8,
+      "risk": 6,
+      "attributed": 4
+    },
+    {
+      "file": "023.“良友渐随千劫尽”.txt",
+      "lines": 31,
+      "candidates": 8,
+      "risk": 2,
+      "attributed": 6
+    },
+    {
+      "file": "024.这是什么问案标准？.txt",
+      "lines": 55,
+      "candidates": 12,
+      "risk": 10,
+      "attributed": 9
+    },
+    {
+      "file": "025.前任作恶，后任当灾.txt",
+      "lines": 55,
+      "candidates": 10,
+      "risk": 16,
+      "attributed": 4
+    },
+    {
+      "file": "026.警察头子们是什么意思？.txt",
+      "lines": 67,
+      "candidates": 12,
+      "risk": 14,
+      "attributed": 5
+    },
+    {
+      "file": "027.从恐吓到通缉.txt",
+      "lines": 41,
+      "candidates": 4,
+      "risk": 7,
+      "attributed": 1
+    },
+    {
+      "file": "028.致俞国华先生一封信.txt",
+      "lines": 29,
+      "candidates": 3,
+      "risk": 2,
+      "attributed": 2
+    },
+    {
+      "file": "029.树敌与择友.txt",
+      "lines": 35,
+      "candidates": 7,
+      "risk": 1,
+      "attributed": 4
+    },
+    {
+      "file": "030.答非所问是不行的.txt",
+      "lines": 113,
+      "candidates": 25,
+      "risk": 20,
+      "attributed": 9
+    },
+    {
+      "file": "031.关于“记忆”的讨论.txt",
+      "lines": 89,
+      "candidates": 17,
+      "risk": 4,
+      "attributed": 11
+    },
+    {
+      "file": "032.二李通信.txt",
+      "lines": 201,
+      "candidates": 64,
+      "risk": 31,
+      "attributed": 36
+    },
+    {
+      "file": "033.寄刘辰旦谈党外内史.txt",
+      "lines": 73,
+      "candidates": 18,
+      "risk": 15,
+      "attributed": 11
+    },
+    {
+      "file": "034.给李政一的一封信.txt",
+      "lines": 35,
+      "candidates": 8,
+      "risk": 4,
+      "attributed": 5
+    },
+    {
+      "file": "035.认定知识分子的着眼点.txt",
+      "lines": 33,
+      "candidates": 5,
+      "risk": 4,
+      "attributed": 2
+    },
+    {
+      "file": "036.“老王麻子”能反“王麻子”吗？.txt",
+      "lines": 303,
+      "candidates": 116,
+      "risk": 81,
+      "attributed": 60
+    },
+    {
+      "file": "037.盗贼政府.txt",
+      "lines": 25,
+      "candidates": 2,
+      "risk": 3,
+      "attributed": 1
+    },
+    {
+      "file": "038.给吴三连的预告信.txt",
+      "lines": 25,
+      "candidates": 5,
+      "risk": 4,
+      "attributed": 2
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+﻿type	detail	count
+before_rows	校对前条目数	33
+removed	张学良公开信自述短句，历史政治语境强	1
+removed	龚忠武近人诗句含两岸政治语境	1
+removed	重复成语，已在同书另一处保留	1
+trimmed	张学良题词收窄为核心宗教格言爱人如己	1
+after_rows	校对后条目数	30
+political_quote_hits	quote_text现代政治关键词命中	0
+duplicate_groups	完全相同quote_text重复组	0

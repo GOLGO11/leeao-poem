@@ -414,26 +414,6 @@ const data = [
     "李敖以诗句表达不再因月色生愁。",
   ),
   row(
-    "042.不让她做大牌.txt",
-    19,
-    19,
-    "女人是我们的财产，而我们却不是她的财产。……她是他的财产，一如果树是园丁的财产一样。",
-    "历史人物引语",
-    "拿破仑圣赫勒拿日记",
-    "李敖引用拿破仑关于女性从属观念的日记语。",
-    "性别观念史料，不作政治语录处理。",
-  ),
-  row(
-    "042.不让她做大牌.txt",
-    19,
-    19,
-    "丈夫有权向他的女人说：‘太太，你不得出门！太太，你不得到戏院去！太太，你不得见某人、某人！’这个就是说：‘太太，你的身体、你的灵魂，都是属于我的。’",
-    "历史人物引语",
-    "拿破仑制订法典会议发言",
-    "李敖引用拿破仑会议发言说明其性别观念。",
-    "性别观念史料，不作政治语录处理。",
-  ),
-  row(
     "048.脱脱脱脱脱.txt",
     3,
     3,
@@ -528,15 +508,6 @@ const data = [
     "庄子成句",
     "《庄子》语意",
     "李敖谈高人境界时引用庄子式成句。",
-  ),
-  row(
-    "051.《我们七个》.txt",
-    155,
-    155,
-    "举重若轻",
-    "成语",
-    "传统成语",
-    "李敖称华兹华斯诗中小女孩一派天真而举重若轻。",
   ),
   lineRow(
     "057.旧词新改.txt",
@@ -919,14 +890,39 @@ const excludedExamples = [
   "001.爱情的秘密.txt:81：“诗无能者”等骂译坛语未收。",
   "021.剪他三分头！.txt：教育部长与发禁讽刺，属政策/政治讽刺，未收。",
   "037-040：爱情短诗多为李敖自作，仅无明确外部引文者未收。",
+  "042.不让她做大牌.txt：拿破仑两条性别观念引语在校对轮删除，非诗文格言歌谣主轴。",
   "044.不复春归燕，却似如来佛.txt：整篇为政治讽刺诗，未收。",
   "055.袭唐诗七绝四首有序.txt：政治改写唐诗，不收改写诗。",
   "058.《千秋评论》满五年了！.txt：出版法、国民党封杀等政治/法律语录未收。",
   "063.猫狗诗和非猫狗诗.txt：台独、党派讽刺与政治题诗未收。",
 ];
 
+const proofreadRemoved = [
+  {
+    old_id: "LAAQMM-041",
+    source_file: "042.不让她做大牌.txt",
+    line_range: "19-19",
+    quote_text: "女人是我们的财产，而我们却不是她的财产。……她是他的财产，一如果树是园丁的财产一样。",
+    reason: "历史性别观念摘录，非诗文格言歌谣主轴；校对轮删除。",
+  },
+  {
+    old_id: "LAAQMM-042",
+    source_file: "042.不让她做大牌.txt",
+    line_range: "19-19",
+    quote_text: "丈夫有权向他的女人说：‘太太，你不得出门！太太，你不得到戏院去！太太，你不得见某人、某人！’这个就是说：‘太太，你的身体、你的灵魂，都是属于我的。’",
+    reason: "拿破仑法典会议性别观念摘录，非诗文格言歌谣主轴；校对轮删除。",
+  },
+  {
+    old_id: "LAAQMM-054",
+    source_file: "051.《我们七个》.txt",
+    line_range: "155-155",
+    quote_text: "举重若轻",
+    reason: "普通成语，夹在李敖评语中，证据弱于本项目引用口径；校对轮删除。",
+  },
+];
+
 const report = [];
-report.push(`《${book}》首轮抽取报告`);
+report.push(`《${book}》抽取与校对报告`);
 report.push(`生成日期：${generatedDate}`);
 report.push(`输出：${csvPath}`);
 report.push(`输出：${txtPath}`);
@@ -944,13 +940,32 @@ report.push("");
 report.push("本轮特别排除：");
 for (const item of excludedExamples) report.push(`- ${item}`);
 report.push("");
+report.push("校对轮删除：");
+for (const item of proofreadRemoved) {
+  report.push(`- ${item.old_id}｜${item.source_file}:${item.line_range}｜${item.quote_text}｜${item.reason}`);
+}
+report.push("");
 report.push("后续校对重点：");
 report.push("- 长篇中英对照诗可在校对轮再决定是否拆分为原诗/译诗两条或保持整条。");
-report.push("- 拿破仑性别观念引语目前按历史人物引语保留，若总口径要减少人物语录可在校对轮删除。");
+report.push("- 译诗理论长引文目前保留；若后续总口径进一步收窄，可再删除或摘要化。");
 report.push("- 《旧词新改》只保留古词原文，政治改写均未收入。");
 
 const reportPath = path.join(analysisDir, "liao_love_secret_initial_report.txt");
 fs.writeFileSync(reportPath, `\uFEFF${report.join("\r\n")}\r\n`, "utf8");
+
+const proofreadReportPath = path.join(analysisDir, "liao_love_secret_proofread_report.txt");
+fs.writeFileSync(proofreadReportPath, `\uFEFF${report.join("\r\n")}\r\n`, "utf8");
+
+const proofreadAuditPath = path.join(analysisDir, "liao_love_secret_proofread_audit.tsv");
+const proofreadAuditLines = [
+  ["old_id", "source_file", "line_range", "quote_text", "reason"].join("\t"),
+  ...proofreadRemoved.map((item) =>
+    [item.old_id, item.source_file, item.line_range, item.quote_text, item.reason]
+      .map((value) => String(value).replace(/\t/g, " ").replace(/\r?\n/g, "\\n"))
+      .join("\t"),
+  ),
+];
+fs.writeFileSync(proofreadAuditPath, `\uFEFF${proofreadAuditLines.join("\r\n")}\r\n`, "utf8");
 
 console.log(
   JSON.stringify(
@@ -960,6 +975,8 @@ console.log(
       csvPath,
       txtPath,
       reportPath,
+      proofreadReportPath,
+      proofreadAuditPath,
     },
     null,
     2,

@@ -1,0 +1,7 @@
+﻿action	target	source_file	line_range	quote_or_candidate	reason
+add	LAWWRJ-001	001.1990年4月.txt	23-23	世风日下	校对补入：原文加引号，作为传统成语本体保留。
+continue-exclude	ordinary_idiom_in_prose	001.1990年4月.txt	23-33	不近情理 / 一针见血 / 无远弗届	普通行文里的成语或现代文化批评用语，未以独立引用出现，暂不补入。
+continue-exclude	private_or_political_letter	006.1990年9月.txt	191	为德不卒 / 百分之百言论自由	私人报业信件兼政治压力语境，不补入。
+continue-exclude	private_observation	008.1990年11月.txt	341	人之好名，有如此者！	李敖私人观察和感叹，非外部引用。
+continue-exclude	ordinary_idiom_in_prose	008.1990年11月.txt	419	安能见天日哉？	普通行文熟语，未独立成引用条目。
+continue-exclude	ordinary_buddhist_hyperbole	011.1991年2月.txt	301	七佛出世	日常夸张语，依附李敖办报自况，暂不补入。
