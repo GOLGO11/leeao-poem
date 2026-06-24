@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const generatedDate = "2026-06-23";
+const generatedDate = "2026-06-24";
 
 const bookExports = [
   "李敖自传与回忆_诗词名言引用.csv",
@@ -82,6 +82,18 @@ const bookExports = [
   "中国现代史正论_诗文格言歌谣引用.csv",
   "中国现代史定论_诗文格言歌谣引用.csv",
   "中国迷信新研_诗文格言歌谣引用.csv",
+  "中国艺术新研_诗文格言歌谣引用.csv",
+  "李敖笑傲江湖_诗文格言歌谣引用.csv",
+  "挑战李敖_诗文格言歌谣引用.csv",
+  "李敖秘密书房_诗文格言歌谣引用.csv",
+  "李敖颠倒众生_诗文格言歌谣引用.csv",
+  "李敖Talk秀_诗文格言歌谣引用.csv",
+  "李敖大哥大_诗文格言歌谣引用.csv",
+  "李敖有话说_诗文格言歌谣引用.csv",
+  "笑敖年代_诗文格言歌谣引用.csv",
+  "李敖语妙天下_诗文格言歌谣引用.csv",
+  "笑傲六十年·有话说李敖_诗文格言歌谣引用.csv",
+  "李敖演讲集_诗文格言歌谣引用.csv",
 ];
 
 const columns = [

@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-23",
+  "generatedDate": "2026-06-24",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -543,14 +543,98 @@
     {
       "fileName": "中国迷信新研_诗文格言歌谣引用.csv",
       "book": "中国迷信新研",
-      "originalRows": 113,
-      "keptRows": 113,
+      "originalRows": 102,
+      "keptRows": 102,
+      "removedRows": 0
+    },
+    {
+      "fileName": "中国艺术新研_诗文格言歌谣引用.csv",
+      "book": "中国艺术新研",
+      "originalRows": 110,
+      "keptRows": 110,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖笑傲江湖_诗文格言歌谣引用.csv",
+      "book": "李敖笑傲江湖",
+      "originalRows": 101,
+      "keptRows": 101,
+      "removedRows": 0
+    },
+    {
+      "fileName": "挑战李敖_诗文格言歌谣引用.csv",
+      "book": "挑战李敖",
+      "originalRows": 60,
+      "keptRows": 60,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖秘密书房_诗文格言歌谣引用.csv",
+      "book": "李敖秘密书房",
+      "originalRows": 57,
+      "keptRows": 57,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖颠倒众生_诗文格言歌谣引用.csv",
+      "book": "李敖颠倒众生",
+      "originalRows": 39,
+      "keptRows": 39,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖Talk秀_诗文格言歌谣引用.csv",
+      "book": "李敖Talk秀",
+      "originalRows": 30,
+      "keptRows": 30,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖大哥大_诗文格言歌谣引用.csv",
+      "book": "李敖大哥大",
+      "originalRows": 64,
+      "keptRows": 64,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖有话说_诗文格言歌谣引用.csv",
+      "book": "李敖有话说",
+      "originalRows": 233,
+      "keptRows": 233,
+      "removedRows": 0
+    },
+    {
+      "fileName": "笑敖年代_诗文格言歌谣引用.csv",
+      "book": "笑敖年代",
+      "originalRows": 32,
+      "keptRows": 32,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖语妙天下_诗文格言歌谣引用.csv",
+      "book": "李敖语妙天下",
+      "originalRows": 135,
+      "keptRows": 135,
+      "removedRows": 0
+    },
+    {
+      "fileName": "笑傲六十年·有话说李敖_诗文格言歌谣引用.csv",
+      "book": "笑傲六十年·有话说李敖",
+      "originalRows": 27,
+      "keptRows": 27,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖演讲集_诗文格言歌谣引用.csv",
+      "book": "李敖演讲集",
+      "originalRows": 82,
+      "keptRows": 82,
       "removedRows": 0
     }
   ],
-  "rows": 8696,
+  "rows": 9655,
   "removedRows": 61,
-  "uniqueIds": 8696,
+  "uniqueIds": 9655,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

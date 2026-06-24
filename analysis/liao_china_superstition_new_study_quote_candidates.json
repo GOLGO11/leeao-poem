@@ -56,32 +56,6 @@
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
-    "line_start": 1265,
-    "line_end": 1265,
-    "quote_text": "刲：割也",
-    "category": "训诂文句",
-    "source_or_origin": "《集韵》",
-    "summary": "解释割股相关字义。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-006",
-    "book": "中国迷信新研",
-    "chapter": "中国女人割股考",
-    "source_file": "001.中国女人割股考.txt",
-    "line_start": 1265,
-    "line_end": 1265,
-    "quote_text": "刲，刳也",
-    "category": "训诂文句",
-    "source_or_origin": "《广雅》",
-    "summary": "解释割股相关字义。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-007",
-    "book": "中国迷信新研",
-    "chapter": "中国女人割股考",
-    "source_file": "001.中国女人割股考.txt",
     "line_start": 1271,
     "line_end": 1271,
     "quote_text": "兔肺羹可救",
@@ -91,7 +65,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-008",
+    "id": "LACMSN-006",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -104,7 +78,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-009",
+    "id": "LACMSN-007",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -117,7 +91,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-010",
+    "id": "LACMSN-008",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -130,7 +104,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-011",
+    "id": "LACMSN-009",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -143,7 +117,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-012",
+    "id": "LACMSN-010",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -156,7 +130,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-013",
+    "id": "LACMSN-011",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -169,7 +143,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-014",
+    "id": "LACMSN-012",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -182,7 +156,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-015",
+    "id": "LACMSN-013",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -195,7 +169,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-016",
+    "id": "LACMSN-014",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -208,7 +182,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-017",
+    "id": "LACMSN-015",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -221,7 +195,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-018",
+    "id": "LACMSN-016",
     "book": "中国迷信新研",
     "chapter": "中国女人割股考",
     "source_file": "001.中国女人割股考.txt",
@@ -234,7 +208,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-019",
+    "id": "LACMSN-017",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -247,7 +221,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-020",
+    "id": "LACMSN-018",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -260,7 +234,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-021",
+    "id": "LACMSN-019",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -273,7 +247,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-022",
+    "id": "LACMSN-020",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -286,7 +260,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-023",
+    "id": "LACMSN-021",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -299,7 +273,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-024",
+    "id": "LACMSN-022",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -312,7 +286,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-025",
+    "id": "LACMSN-023",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -325,7 +299,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-026",
+    "id": "LACMSN-024",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -338,7 +312,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-027",
+    "id": "LACMSN-025",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -351,7 +325,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-028",
+    "id": "LACMSN-026",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -364,7 +338,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-029",
+    "id": "LACMSN-027",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -377,7 +351,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-030",
+    "id": "LACMSN-028",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -390,7 +364,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-031",
+    "id": "LACMSN-029",
     "book": "中国迷信新研",
     "chapter": "中国男人割股考",
     "source_file": "002.中国男人割股考.txt",
@@ -403,7 +377,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-032",
+    "id": "LACMSN-030",
     "book": "中国迷信新研",
     "chapter": "台湾土蛋割股考",
     "source_file": "003.台湾土蛋割股考.txt",
@@ -416,7 +390,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-033",
+    "id": "LACMSN-031",
     "book": "中国迷信新研",
     "chapter": "台湾土蛋割股考",
     "source_file": "003.台湾土蛋割股考.txt",
@@ -429,7 +403,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-034",
+    "id": "LACMSN-032",
     "book": "中国迷信新研",
     "chapter": "台湾土蛋割股考",
     "source_file": "003.台湾土蛋割股考.txt",
@@ -442,7 +416,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-035",
+    "id": "LACMSN-033",
     "book": "中国迷信新研",
     "chapter": "“韩信用兵”与“萧何转饷”",
     "source_file": "004.“韩信用兵”与“萧何转饷”.txt",
@@ -455,7 +429,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-036",
+    "id": "LACMSN-034",
     "book": "中国迷信新研",
     "chapter": "“韩信用兵”与“萧何转饷”",
     "source_file": "004.“韩信用兵”与“萧何转饷”.txt",
@@ -468,7 +442,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-037",
+    "id": "LACMSN-035",
     "book": "中国迷信新研",
     "chapter": "“韩信用兵”与“萧何转饷”",
     "source_file": "004.“韩信用兵”与“萧何转饷”.txt",
@@ -481,7 +455,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-038",
+    "id": "LACMSN-036",
     "book": "中国迷信新研",
     "chapter": "“韩信用兵”与“萧何转饷”",
     "source_file": "004.“韩信用兵”与“萧何转饷”.txt",
@@ -494,7 +468,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-039",
+    "id": "LACMSN-037",
     "book": "中国迷信新研",
     "chapter": "铸像卜休咎",
     "source_file": "005.铸像卜休咎.txt",
@@ -507,7 +481,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-040",
+    "id": "LACMSN-038",
     "book": "中国迷信新研",
     "chapter": "铸像卜休咎",
     "source_file": "005.铸像卜休咎.txt",
@@ -520,7 +494,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-041",
+    "id": "LACMSN-039",
     "book": "中国迷信新研",
     "chapter": "铸像卜休咎",
     "source_file": "005.铸像卜休咎.txt",
@@ -533,7 +507,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-042",
+    "id": "LACMSN-040",
     "book": "中国迷信新研",
     "chapter": "铸像卜休咎",
     "source_file": "005.铸像卜休咎.txt",
@@ -546,7 +520,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-043",
+    "id": "LACMSN-041",
     "book": "中国迷信新研",
     "chapter": "厌胜",
     "source_file": "006.厌胜.txt",
@@ -559,7 +533,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-044",
+    "id": "LACMSN-042",
     "book": "中国迷信新研",
     "chapter": "厌胜",
     "source_file": "006.厌胜.txt",
@@ -572,7 +546,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-045",
+    "id": "LACMSN-043",
     "book": "中国迷信新研",
     "chapter": "厌胜",
     "source_file": "006.厌胜.txt",
@@ -585,7 +559,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-046",
+    "id": "LACMSN-044",
     "book": "中国迷信新研",
     "chapter": "厌胜",
     "source_file": "006.厌胜.txt",
@@ -598,7 +572,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-047",
+    "id": "LACMSN-045",
     "book": "中国迷信新研",
     "chapter": "厌胜",
     "source_file": "006.厌胜.txt",
@@ -611,7 +585,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-048",
+    "id": "LACMSN-046",
     "book": "中国迷信新研",
     "chapter": "厌镇",
     "source_file": "007.厌镇.txt",
@@ -624,7 +598,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-049",
+    "id": "LACMSN-047",
     "book": "中国迷信新研",
     "chapter": "厌镇",
     "source_file": "007.厌镇.txt",
@@ -637,7 +611,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-050",
+    "id": "LACMSN-048",
     "book": "中国迷信新研",
     "chapter": "厌镇",
     "source_file": "007.厌镇.txt",
@@ -650,7 +624,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-051",
+    "id": "LACMSN-049",
     "book": "中国迷信新研",
     "chapter": "厌炮",
     "source_file": "008.厌炮.txt",
@@ -663,7 +637,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-052",
+    "id": "LACMSN-050",
     "book": "中国迷信新研",
     "chapter": "厌炮",
     "source_file": "008.厌炮.txt",
@@ -676,7 +650,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-053",
+    "id": "LACMSN-051",
     "book": "中国迷信新研",
     "chapter": "厌炮",
     "source_file": "008.厌炮.txt",
@@ -689,7 +663,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-054",
+    "id": "LACMSN-052",
     "book": "中国迷信新研",
     "chapter": "厌炮",
     "source_file": "008.厌炮.txt",
@@ -702,7 +676,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-055",
+    "id": "LACMSN-053",
     "book": "中国迷信新研",
     "chapter": "厌炮",
     "source_file": "008.厌炮.txt",
@@ -715,7 +689,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-056",
+    "id": "LACMSN-054",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -728,7 +702,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-057",
+    "id": "LACMSN-055",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -741,7 +715,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-058",
+    "id": "LACMSN-056",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -754,7 +728,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-059",
+    "id": "LACMSN-057",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -767,7 +741,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-060",
+    "id": "LACMSN-058",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -780,7 +754,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-061",
+    "id": "LACMSN-059",
     "book": "中国迷信新研",
     "chapter": "祝诅",
     "source_file": "009.祝诅.txt",
@@ -793,7 +767,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-062",
+    "id": "LACMSN-060",
     "book": "中国迷信新研",
     "chapter": "纸人",
     "source_file": "010.纸人.txt",
@@ -806,46 +780,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-063",
-    "book": "中国迷信新研",
-    "chapter": "纸人",
-    "source_file": "010.纸人.txt",
-    "line_start": 5,
-    "line_end": 5,
-    "quote_text": "剪纸为兵",
-    "category": "术语",
-    "source_or_origin": "《续文献通考》",
-    "summary": "纸人法术材料中的成句。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-064",
-    "book": "中国迷信新研",
-    "chapter": "纸人",
-    "source_file": "010.纸人.txt",
-    "line_start": 5,
-    "line_end": 5,
-    "quote_text": "剪纸为偷",
-    "category": "术语",
-    "source_or_origin": "《五代史记》",
-    "summary": "纸人法术材料中的成句。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-065",
-    "book": "中国迷信新研",
-    "chapter": "纸人",
-    "source_file": "010.纸人.txt",
-    "line_start": 5,
-    "line_end": 5,
-    "quote_text": "剪纸为祟",
-    "category": "术语",
-    "source_or_origin": "《明史·方伎传》",
-    "summary": "纸人法术材料中的成句。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-066",
+    "id": "LACMSN-061",
     "book": "中国迷信新研",
     "chapter": "纸人",
     "source_file": "010.纸人.txt",
@@ -858,7 +793,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-067",
+    "id": "LACMSN-062",
     "book": "中国迷信新研",
     "chapter": "纸人",
     "source_file": "010.纸人.txt",
@@ -871,7 +806,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-068",
+    "id": "LACMSN-063",
     "book": "中国迷信新研",
     "chapter": "纸人",
     "source_file": "010.纸人.txt",
@@ -884,7 +819,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-069",
+    "id": "LACMSN-064",
     "book": "中国迷信新研",
     "chapter": "媚道",
     "source_file": "011.媚道.txt",
@@ -897,7 +832,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-070",
+    "id": "LACMSN-065",
     "book": "中国迷信新研",
     "chapter": "媚道",
     "source_file": "011.媚道.txt",
@@ -910,7 +845,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-071",
+    "id": "LACMSN-066",
     "book": "中国迷信新研",
     "chapter": "媚道",
     "source_file": "011.媚道.txt",
@@ -923,7 +858,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-072",
+    "id": "LACMSN-067",
     "book": "中国迷信新研",
     "chapter": "媚道",
     "source_file": "011.媚道.txt",
@@ -936,20 +871,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-073",
-    "book": "中国迷信新研",
-    "chapter": "媚道",
-    "source_file": "011.媚道.txt",
-    "line_start": 13,
-    "line_end": 13,
-    "quote_text": "针三枚、艾一撮，并以素纸包固",
-    "category": "小说文句",
-    "source_or_origin": "《聊斋志异·厍将军》",
-    "summary": "媚道法术物件的小说描写。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-074",
+    "id": "LACMSN-068",
     "book": "中国迷信新研",
     "chapter": "蛊",
     "source_file": "012.蛊.txt",
@@ -962,20 +884,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-075",
-    "book": "中国迷信新研",
-    "chapter": "蛊",
-    "source_file": "012.蛊.txt",
-    "line_start": 5,
-    "line_end": 5,
-    "quote_text": "乃斩〔江〕充以徇，炙胡巫上林中",
-    "category": "史传文句",
-    "source_or_origin": "《汉书·戾太子传》",
-    "summary": "巫蛊案中的刑罚文字。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-076",
+    "id": "LACMSN-069",
     "book": "中国迷信新研",
     "chapter": "蛊",
     "source_file": "012.蛊.txt",
@@ -988,20 +897,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-077",
-    "book": "中国迷信新研",
-    "chapter": "蛊",
-    "source_file": "012.蛊.txt",
-    "line_start": 9,
-    "line_end": 9,
-    "quote_text": "我不负公，此何意也？",
-    "category": "史传文句",
-    "source_or_origin": "《北史·齐宗室诸王传》",
-    "summary": "蛊案故事中的质问。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-078",
+    "id": "LACMSN-070",
     "book": "中国迷信新研",
     "chapter": "偶人",
     "source_file": "013.偶人.txt",
@@ -1014,7 +910,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-079",
+    "id": "LACMSN-071",
     "book": "中国迷信新研",
     "chapter": "偶人",
     "source_file": "013.偶人.txt",
@@ -1027,33 +923,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-080",
-    "book": "中国迷信新研",
-    "chapter": "偶人",
-    "source_file": "013.偶人.txt",
-    "line_start": 9,
-    "line_end": 9,
-    "quote_text": "掘地求偶人",
-    "category": "史传文句",
-    "source_or_origin": "《汉书·武五子传》",
-    "summary": "偶人巫蛊故事中的成句。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-081",
-    "book": "中国迷信新研",
-    "chapter": "偶人",
-    "source_file": "013.偶人.txt",
-    "line_start": 9,
-    "line_end": 9,
-    "quote_text": "得桐木人",
-    "category": "史传文句",
-    "source_or_origin": "《汉书·武五子传》",
-    "summary": "偶人巫蛊故事中的成句。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-082",
+    "id": "LACMSN-072",
     "book": "中国迷信新研",
     "chapter": "偶人",
     "source_file": "013.偶人.txt",
@@ -1066,7 +936,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-083",
+    "id": "LACMSN-073",
     "book": "中国迷信新研",
     "chapter": "偶人",
     "source_file": "013.偶人.txt",
@@ -1079,20 +949,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-084",
-    "book": "中国迷信新研",
-    "chapter": "勾魂摄魄",
-    "source_file": "014.勾魂摄魄.txt",
-    "line_start": 3,
-    "line_end": 3,
-    "quote_text": "催办钱粮、勾摄公事",
-    "category": "古籍文句",
-    "source_or_origin": "《大清会典》",
-    "summary": "勾摄一词的制度性用例。",
-    "notes": ""
-  },
-  {
-    "id": "LACMSN-085",
+    "id": "LACMSN-074",
     "book": "中国迷信新研",
     "chapter": "勾魂摄魄",
     "source_file": "014.勾魂摄魄.txt",
@@ -1105,7 +962,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-086",
+    "id": "LACMSN-075",
     "book": "中国迷信新研",
     "chapter": "勾魂摄魄",
     "source_file": "014.勾魂摄魄.txt",
@@ -1118,7 +975,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-087",
+    "id": "LACMSN-076",
     "book": "中国迷信新研",
     "chapter": "其如予何",
     "source_file": "015.其如予何.txt",
@@ -1131,7 +988,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-088",
+    "id": "LACMSN-077",
     "book": "中国迷信新研",
     "chapter": "其如予何",
     "source_file": "015.其如予何.txt",
@@ -1144,7 +1001,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-089",
+    "id": "LACMSN-078",
     "book": "中国迷信新研",
     "chapter": "其如予何",
     "source_file": "015.其如予何.txt",
@@ -1157,7 +1014,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-090",
+    "id": "LACMSN-079",
     "book": "中国迷信新研",
     "chapter": "其如予何",
     "source_file": "015.其如予何.txt",
@@ -1170,7 +1027,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-091",
+    "id": "LACMSN-080",
     "book": "中国迷信新研",
     "chapter": "其如予何",
     "source_file": "015.其如予何.txt",
@@ -1183,7 +1040,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-092",
+    "id": "LACMSN-081",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1196,7 +1053,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-093",
+    "id": "LACMSN-082",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1209,7 +1066,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-094",
+    "id": "LACMSN-083",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1222,7 +1079,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-095",
+    "id": "LACMSN-084",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1235,7 +1092,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-096",
+    "id": "LACMSN-085",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1248,7 +1105,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-097",
+    "id": "LACMSN-086",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1261,7 +1118,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-098",
+    "id": "LACMSN-087",
     "book": "中国迷信新研",
     "chapter": "中国人的祖坟思想",
     "source_file": "016.中国人的祖坟思想.txt",
@@ -1274,7 +1131,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-099",
+    "id": "LACMSN-088",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1287,7 +1144,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-100",
+    "id": "LACMSN-089",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1300,7 +1157,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-101",
+    "id": "LACMSN-090",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1313,7 +1170,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-102",
+    "id": "LACMSN-091",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1326,7 +1183,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-103",
+    "id": "LACMSN-092",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1339,7 +1196,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-104",
+    "id": "LACMSN-093",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1352,7 +1209,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-105",
+    "id": "LACMSN-094",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1365,7 +1222,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-106",
+    "id": "LACMSN-095",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1378,7 +1235,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-107",
+    "id": "LACMSN-096",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1391,7 +1248,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-108",
+    "id": "LACMSN-097",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1404,7 +1261,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-109",
+    "id": "LACMSN-098",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1417,7 +1274,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-110",
+    "id": "LACMSN-099",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1430,7 +1287,7 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-111",
+    "id": "LACMSN-100",
     "book": "中国迷信新研",
     "chapter": "中国人的厉鬼思想",
     "source_file": "017.中国人的厉鬼思想.txt",
@@ -1443,20 +1300,20 @@
     "notes": ""
   },
   {
-    "id": "LACMSN-112",
+    "id": "LACMSN-101",
     "book": "中国迷信新研",
     "chapter": "中国人的阴部思想",
     "source_file": "018.中国人的阴部思想.txt",
     "line_start": 3,
     "line_end": 3,
-    "quote_text": "道”“在屎溺",
+    "quote_text": "“道”“在屎溺”",
     "category": "庄子文句",
     "source_or_origin": "《庄子·知北游》",
     "summary": "李敖讨论阴部迷信时引庄子泛论道无所不在。",
     "notes": ""
   },
   {
-    "id": "LACMSN-113",
+    "id": "LACMSN-102",
     "book": "中国迷信新研",
     "chapter": "中国人的阴部思想",
     "source_file": "018.中国人的阴部思想.txt",

@@ -3,7 +3,7 @@ const path = require("path");
 
 const book = "中国迷信新研";
 const idPrefix = "LACMSN";
-const generatedDate = "2026-06-23";
+const generatedDate = "2026-06-24";
 const sourceDir = path.join("《大李敖全集6.0》分章节", "009.历史文化类", "010.中国迷信新研");
 const outCsv = path.join("exports", `${book}_诗文格言歌谣引用.csv`);
 const outTxt = path.join("exports", `${book}_诗文格言歌谣引用.txt`);
@@ -11,6 +11,8 @@ const candidatesJson = path.join("analysis", "liao_china_superstition_new_study_
 const reviewTsv = path.join("analysis", "liao_china_superstition_new_study_review_candidates.tsv");
 const auditTsv = path.join("analysis", "liao_china_superstition_new_study_initial_audit.tsv");
 const reportTxt = path.join("analysis", "liao_china_superstition_new_study_initial_report.txt");
+const proofreadAuditTsv = path.join("analysis", "liao_china_superstition_new_study_proofread_audit.tsv");
+const proofreadReportTxt = path.join("analysis", "liao_china_superstition_new_study_proofread_report.txt");
 const sourceDecoder = new TextDecoder("gb18030");
 
 const files = fs
@@ -64,8 +66,6 @@ const rawRows = [
   q("001.", 9, "巫彭作医", "古籍成句", "《世本》", "用于说明中国早期医术与巫术相联。"),
   q("001.", 9, "巫咸初作医", "古籍成句", "《世本》", "用于说明医与巫同源的古说。"),
   q("001.", 13, "介之推至忠也，自割其股，以食文公", "古籍文句", "《庄子》", "割股叙事的先秦例证。"),
-  q("001.", 1265, "刲：割也", "训诂文句", "《集韵》", "解释割股相关字义。"),
-  q("001.", 1265, "刲，刳也", "训诂文句", "《广雅》", "解释割股相关字义。"),
   q("001.", 1271, "兔肺羹可救", "方术俗语", "《淮安府志》", "割肺故事中的医巫说法。"),
   q("001.", 1271, "吾身受之父母，苟可愈父，吾何爱焉？", "古籍文句", "《淮安府志》", "割肺救父故事中的自述。"),
   q("001.", 1335, "唐时陈藏器著《本草拾遗》，谓人肉治羸疾，自是民间以父母疾，多刲股肉而进。", "史传文句", "《新唐书·孝友传》", "说明割股风气与本草说法的关系。"),
@@ -131,9 +131,6 @@ const rawRows = [
   q("009.", 13, "不自安，稍怨望，乃为左道厌魅以求福助，刻木为偶人，衣以道士之服，施机关，能拜跪，昼夜于日月下醮之，祝诅于上", "史传文句", "《陈书·始兴王叔陵传》", "祝诅与偶人厌魅相联的史传材料。"),
 
   q("010.", 3, "先皇（金章宗）平昔或有幸御，〔元妃〕李氏嫉妒，令女巫李定奴做纸木人、鸳鸯符以事魇魅，致绝圣嗣。", "史传文句", "《金史·后妃传下》", "纸人与魇魅相联的宫廷故事。"),
-  q("010.", 5, "剪纸为兵", "术语", "《续文献通考》", "纸人法术材料中的成句。"),
-  q("010.", 5, "剪纸为偷", "术语", "《五代史记》", "纸人法术材料中的成句。"),
-  q("010.", 5, "剪纸为祟", "术语", "《明史·方伎传》", "纸人法术材料中的成句。"),
   q("010.", 7, "赛儿自称佛母，知成败，得石函中妖书宝剑，役鬼神，剪纸做人马相战斗，衣食财物随所需以术运致。", "史传文句", "《通鉴辑览》", "唐赛儿剪纸为兵故事。"),
   q("010.", 11, "向赵姨娘要了张纸，拿剪子铰了两个纸人儿，问了他二人年庚，写在上面；又找了一张蓝纸，铰了五个青面鬼，叫他并在一处，拿针钉了：‘回去我再作法，自有效验的。’", "小说文句", "《红楼梦》", "纸人与魇魅入小说的例子。"),
   q("010.", 13, "遣纸人之法，或言令生人卧于地，以纸人置其身，一人从旁诵咒书符，则生者如睡，而真灵附纸人飞出矣。", "笔记文句", "《清稗类钞》", "遣纸人法的清代笔记记录。"),
@@ -142,21 +139,15 @@ const rawRows = [
   q("011.", 5, "皇后失序，惑于巫祝，不可以承天命。其上玺绶，罢退居长门宫。", "史传文句", "《汉书·外戚传》", "巫祝媚道导致废后的史传文字。"),
   q("011.", 7, "女巫楚服，自言有术，能令上意回。昼夜祭祀，合药服之。", "史传文句", "《汉孝武故事》", "女巫楚服媚道故事。"),
   q("011.", 9, "妾闻死生有命，富贵在天。修正尚未蒙福，为邪欲以何望？使鬼神有知，不受不臣之诉；如其无知，诉之何益，故不为也。", "古文格言", "《汉书·外戚传》", "班婕妤拒绝巫蛊媚道的名段。"),
-  q("011.", 13, "针三枚、艾一撮，并以素纸包固", "小说文句", "《聊斋志异·厍将军》", "媚道法术物件的小说描写。"),
 
   q("012.", 3, "为蛊毒者，男女皆斩，而焚其家；巫蛊者，负羖羊抱犬沉诸渊。", "律令文句", "《魏书·刑罚志》", "蛊毒与巫蛊处罚的古代制度。"),
-  q("012.", 5, "乃斩〔江〕充以徇，炙胡巫上林中", "史传文句", "《汉书·戾太子传》", "巫蛊案中的刑罚文字。"),
   q("012.", 7, "陀若蠹政害民者，妾不敢言。今坐为妾身，敢请其命。", "史传文句", "《魏书·文成文明皇后冯氏传》", "蛊案中冯太后的答语。"),
-  q("012.", 9, "我不负公，此何意也？", "史传文句", "《北史·齐宗室诸王传》", "蛊案故事中的质问。"),
 
   q("013.", 3, "帝武乙无道，为偶人，谓之天神", "史传文句", "《史记·殷本纪》", "偶人迷信的早期史料。"),
   q("013.", 7, "遂从狱中上书，告敬声与阳石公主私通，及使人巫祭祠诅上，且上甘泉当驰道埋偶人，祝诅有恶言。", "史传文句", "《汉书·公孙贺传》", "偶人与祝诅案相联的汉代史料。"),
-  q("013.", 9, "掘地求偶人", "史传文句", "《汉书·武五子传》", "偶人巫蛊故事中的成句。"),
-  q("013.", 9, "得桐木人", "史传文句", "《汉书·武五子传》", "偶人巫蛊故事中的成句。"),
   q("013.", 11, "请西岳华山慈父圣母神兵九亿万骑，收杨谅魂神，闭在华山下，勿令散荡。", "咒语", "《隋书·五行志》", "偶人诅祝中的咒语。"),
   q("013.", 13, "遂为巫蛊，以玉人为上（宋文帝）形像，埋于含章殿前", "史传文句", "《宋书·庾炳之传》", "玉人偶像巫蛊故事。"),
 
-  q("014.", 3, "催办钱粮、勾摄公事", "古籍文句", "《大清会典》", "勾摄一词的制度性用例。"),
   q("014.", 13, "外药济世，内药修身。葫芦横背，拐杖直撑。有缘遇此，大地皆春。", "题画诗", "《谈异·摄魂作画》", "摄魂作画故事中的题画诗。"),
   q("014.", 19, "西洋画法于中国工细人物外，别出一奇，近日又有照像之术，则参以算法，尤为精巧，凡衣之右衽者，照之则为左衽，故富人有特制左衽之服以照像者。或云对之诵《大悲咒》，则其像不成。", "笔记文句", "《谈异·照像》", "早期照相摄魂迷信材料。"),
 
@@ -188,8 +179,23 @@ const rawRows = [
   q("017.", 21, "驱厉鬼兮山之左", "诗句", "韩愈《祭马仆射文》", "韩愈祭文中的厉鬼诗句。"),
   q("017.", 21, "臣智勇俱竭，不能式遏强寇，保守孤城。臣虽为鬼，誓与贼为厉，以答明恩。", "史传文句", "《旧唐书·张巡传》", "张巡以厉鬼自誓的史传名段。"),
 
-  q("018.", 3, "道”“在屎溺", "庄子文句", "《庄子·知北游》", "李敖讨论阴部迷信时引庄子泛论道无所不在。"),
+  q("018.", 3, "“道”“在屎溺”", "庄子文句", "《庄子·知北游》", "李敖讨论阴部迷信时引庄子泛论道无所不在。"),
   q("018.", 7, "妇人裸以厌敌", "古籍成句", "《新五代史·一行传》", "阴部厌胜观念的史传用例。"),
+];
+
+const proofreadBeforeRows = 113;
+const proofreadRemovedRows = [
+  ["LACMSN-005", "刲：割也", "训诂释义，偏工具性，不作诗文格言保留。"],
+  ["LACMSN-006", "刲，刳也", "训诂释义，偏工具性，不作诗文格言保留。"],
+  ["LACMSN-063", "剪纸为兵", "三四字术语，已由后文完整纸人故事覆盖。"],
+  ["LACMSN-064", "剪纸为偷", "三四字术语，缺少独立诗文格言价值。"],
+  ["LACMSN-065", "剪纸为祟", "三四字术语，缺少独立诗文格言价值。"],
+  ["LACMSN-073", "针三枚、艾一撮，并以素纸包固", "物件清单，像案情道具，不是独立引文。"],
+  ["LACMSN-075", "乃斩〔江〕充以徇，炙胡巫上林中", "刑罚叙事片段，缺少独立格言或文句完整性。"],
+  ["LACMSN-077", "我不负公，此何意也？", "上下文依赖强的案情问句，单独检索价值低。"],
+  ["LACMSN-080", "掘地求偶人", "案情碎片，过短且已由完整偶人案文覆盖。"],
+  ["LACMSN-081", "得桐木人", "案情碎片，过短且已由完整偶人案文覆盖。"],
+  ["LACMSN-084", "催办钱粮、勾摄公事", "会典官样短语，偏制度用语，不作诗文格言保留。"],
 ];
 
 const modernPoliticalTerms = [
@@ -332,7 +338,7 @@ function writeOutputs(rows) {
   fs.writeFileSync(auditTsv, `${audit}\n`, "utf8");
 
   const report = [
-    `${book} 首轮抽取报告`,
+    `${book} 校对后抽取报告`,
     `记录数：${rows.length}`,
     `编号范围：${rows[0].id} - ${rows[rows.length - 1].id}`,
     `现代政治词命中：${rows.filter((row) => politicalFlags(row).length > 0).length}`,
@@ -346,6 +352,38 @@ function writeOutputs(rows) {
     ...Array.from(byFile.entries()).map(([file, count]) => `- ${file}: ${count}`),
   ].join("\n");
   fs.writeFileSync(reportTxt, `${report}\n`, "utf8");
+
+  const proofreadAuditLines = [
+    ["action", "id", "quote_text", "reason"],
+    ["before", "", "", `校对前条目数：${proofreadBeforeRows}`],
+    ...proofreadRemovedRows.map(([id, quote, reason]) => ["removed", id, quote, reason]),
+    ["changed", "LACMSN-112", "“道”“在屎溺”", "补齐《庄子》引文在源文中的前后引号边界。"],
+    ["after", "", "", `校对后条目数：${rows.length}`],
+  ].map((line) => line.map(tsvEscape).join("\t"));
+  fs.writeFileSync(proofreadAuditTsv, `\uFEFF${proofreadAuditLines.join("\n")}\n`, "utf8");
+
+  const proofreadReport = [
+    `《${book}》校对轮报告`,
+    `生成日期：${generatedDate}`,
+    `校对前条目数：${proofreadBeforeRows}`,
+    `删除条目数：${proofreadRemovedRows.length}`,
+    "补入条目数：0",
+    `校对后条目数：${rows.length}`,
+    `ID范围：${rows[0].id} - ${rows[rows.length - 1].id}`,
+    `现代政治词命中：${rows.filter((row) => politicalFlags(row).length > 0).length}`,
+    "",
+    "校对处理：",
+    "- 删除训诂释义、微型术语、物件清单、案情碎片、官样短语等不宜单独作为诗文格言的条目。",
+    "- 未因古代史传中的君臣、兵事、朝廷场景而扩大删除；本轮政治风险重点仍是现代政治语录，当前保留条目未命中现代政治词。",
+    "- 修正《庄子·知北游》“道”“在屎溺”一条的引文边界，使其与源文一致。",
+    "",
+    "删除明细：",
+    ...proofreadRemovedRows.map(([id, quote, reason]) => `- ${id}｜${quote}：${reason}`),
+    "",
+    "按文件分布：",
+    ...Array.from(byFile.entries()).map(([file, count]) => `- ${file}: ${count}`),
+  ].join("\n");
+  fs.writeFileSync(proofreadReportTxt, `${proofreadReport}\n`, "utf8");
 }
 
 function tsvEscape(value) {
@@ -367,6 +405,9 @@ console.log(
       reviewTsv,
       auditTsv,
       reportTxt,
+      proofreadAuditTsv,
+      proofreadReportTxt,
+      proofreadRemovedRows: proofreadRemovedRows.length,
       flaggedForPoliticalReview: rows.filter((row) => politicalFlags(row).length > 0).length,
     },
     null,
