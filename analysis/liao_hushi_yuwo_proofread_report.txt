@@ -1,0 +1,81 @@
+book=胡适与我
+generatedDate=2026-06-26
+sourceDir=《大李敖全集6.0》分章节\012.人物研究类\003.胡适与我
+sourceFiles=20
+extractedCandidates=1806
+reviewCandidates=710
+attributedLines=387
+rawRows=56
+proofreadRemovedRows=10
+proofreadAddedRows=3
+selectedRows=49
+missingAtDeclaredRange=0
+duplicateQuoteTexts=0
+politicalHits=0
+csv=exports\胡适与我_诗文格言歌谣引用.csv
+txt=exports\胡适与我_诗文格言歌谣引用.txt
+selectedJson=analysis\liao_hushi_yuwo_selected_rows.json
+reviewTsv=analysis\liao_hushi_yuwo_initial_review.tsv
+auditTsv=analysis\liao_hushi_yuwo_initial_audit.tsv
+proofreadAuditTsv=analysis\liao_hushi_yuwo_proofread_audit.tsv
+proofreadReportTxt=analysis\liao_hushi_yuwo_proofread_report.txt
+
+selectionNotes=校对轮从第一轮中剔除拆分残句、场景笑话、过度具体的人物评语、编辑说明式自述和版权争议论断；继续排除现代党派、宪政、战时外交、法律案、政治人物攻防和明显政论语录；补入两条非政治语文格言。
+
+categoryCounts=
+寿诗	18
+治学格言	5
+办报格言	3
+古典格言	3
+文学格言	2
+学术格言	2
+语文格言	2
+编选格言	1
+处世格言	1
+读书格言	1
+古文寓言	1
+孔子语	1
+立言格言	1
+人物文句	1
+诗论格言	1
+书话格言	1
+外国诗句	1
+学问譬喻	1
+遗著格言	1
+幽默语	1
+知己文句	1
+
+byFileCounts=
+《胡适与我》自序.txt	2
+001.给胡适的两首寿诗.txt	19
+003.胡适之不怕老婆考.txt	1
+005.胡适和三个人.txt	13
+006.《胡适语粹》序目.txt	1
+007.残存日记中的爱国者.txt	5
+009.“千秋万岁名，寂寞身后事”.txt	1
+011.“你们后死有责！”.txt	3
+012.豹死留了什么皮？.txt	1
+014.武侠小说，下流！.txt	3
+
+missingAtDeclaredRangeIds=
+
+duplicateQuoteTexts=
+
+politicalHits=
+
+proofreadRemovedRows=
+LAHSYW-002	《胡适与我》自序.txt:11-11	吾生平知己，舍子其谁？得子为吾传以传，复何恨哉？	与上一句同属刘献廷长段托付文，第一轮拆得过碎；校对轮改收完整引文。
+LAHSYW-003	《胡适与我》自序.txt:11-11	吾志若不就，他无所愿，但愿先子死耳！	与下一句同属刘献廷长段托付文，第一轮拆得过碎；校对轮改收完整引文。
+LAHSYW-023	003.胡适之不怕老婆考.txt:9-9	没被开除，没被开除，开除还得了？	怕太太协会场景笑话，脱离语境后格言性不足。
+LAHSYW-030	005.胡适和三个人.txt:173-173	这五十年是中国古文学的结束时期。做这个大结束的人物，很不容易得。恰好有一个章炳麟，真可算是古文学很光荣的结局了。	胡适对章太炎的具体文学史定位，人物评语色彩较强，校对轮从格言集中移出。
+LAHSYW-032	005.胡适和三个人.txt:175-175	他的古文学功夫很深，他又是很富于思想与组织力的，故他的著作在内容与形式两方面，都能“成一家言”。	胡适对章太炎作品的具体人物评语，独立格言性不足。
+LAHSYW-035	005.胡适和三个人.txt:211-211	胡先生讲得的确不差，他有眼光、有胆量、有断制，确是一个有能力的历史家。	顾颉刚对胡适课堂的具体人物评语，校对轮保守剔除。
+LAHSYW-036	005.胡适和三个人.txt:211-211	他虽没有伯弢先生读书多，但在裁断上，是足以自立的。	顾颉刚对胡适与陈伯弢的具体比较，脱离场景后格言性不足。
+LAHSYW-040	006.《胡适语粹》序目.txt:15-15	这一“语粹”式的编法，把才智之士的全部著作，不论长篇大论也好、片语只字也罢，都能一一撷取精华，巨细不遗，故对整个思想的选样流传，极有帮助。	李敖自述选本编法的说明文字，较像编辑说明而非引用诗文格言。
+LAHSYW-048	009.“千秋万岁名，寂寞身后事”.txt:121-121	他的目的，是要使他的遗著不成为他“亲近的人”的私产，而成为“全人类的共有产业”，谁都可以有自由印行的权利。	托尔斯泰遗著例子服务于胡适选集版权争议，现代法律/出版争论色彩较重。
+LAHSYW-056	016.我与胡适的“微妙关系”.txt:7-7	你简直比我胡适之还了解胡适之！	胡适对李敖搜书能力的场景化称赞，人物评语色彩强。
+
+proofreadAddedRows=
+《胡适与我》自序.txt:11-11	‘吾志若不就，他无所愿，但愿先子死耳！’予惊问故，曰：‘吾生平知己，舍子其谁？得子为吾传以传，复何恨哉？’
+005.胡适和三个人.txt:223-223	中国文言同拉丁文一样，所以我们不能不改用白话……虽现在白话的组织不完全，可是我们绝不可错了这个趋势。
+005.胡适和三个人.txt:227-227	我敢断定白话派一定占优胜……将来应用文一定全用白话：但美术文或者有一部分仍用文言。

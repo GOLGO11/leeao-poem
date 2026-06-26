@@ -1,0 +1,47 @@
+book=胡适研究
+generatedDate=2026-06-25
+sourceDir=《大李敖全集6.0》分章节\012.人物研究类\001.胡适研究
+sourceFiles=8
+extractedCandidates=2814
+reviewCandidates=1269
+attributedLines=695
+rawRows=74
+proofreadRemovedRows=9
+proofreadAddedRows=8
+selectedRows=73
+missingAtDeclaredRange=0
+politicalHits=0
+csv=exports\胡适研究_诗文格言歌谣引用.csv
+txt=exports\胡适研究_诗文格言歌谣引用.txt
+selectedJson=analysis\liao_hushi_yanjiu_selected_rows.json
+reviewTsv=analysis\liao_hushi_yanjiu_initial_review.tsv
+auditTsv=analysis\liao_hushi_yanjiu_initial_audit.tsv
+proofreadAuditTsv=analysis\liao_hushi_yanjiu_proofread_audit.tsv
+proofreadReportTxt=analysis\liao_hushi_yanjiu_proofread_report.txt
+
+selectionNotes=校对轮剔除李敖自述/补句、碎片化临场评语和过于具体的现代人物评语；苏俄、党派、国家治理、时事论战和现代政治人物评议均未收；保留文学、传记、治学、古典成语、宗教文句和爱情诗文。
+
+proofreadRemovedRows=
+LAHSY-002	《胡适研究》前记.txt:67-67	搞历史的人只晓得追求历史的真相，不计其他。	李敖前记中的自述性判断，不属于被引用的诗文格言。
+LAHSY-008	001.播种者胡适.txt:107-107	只要我们负责任，不怕人家拿‘不负责任’来骂我们。	李敖顺手补句，非引文；校对轮不收入。
+LAHSY-013	001.播种者胡适.txt:123-123	说他叛道离经则可，说他洪水猛兽则未必。	李敖对胡适的临场人物判断，格言性不足。
+LAHSY-023	003.三人连环传.txt:35-35	此种序文，表示极肫笃的学者风度，于学风大有所裨，岂唯私人纫感而己。	梁启超答胡适书中的具体酬答语，过于场景化。
+LAHSY-026	003.三人连环传.txt:57-57	我虽自知学问浅陋，说我连国学最低限度都没有，我却不服。	梁启超批评书目时的具体自辩，非独立格言。
+LAHSY-027	003.三人连环传.txt:61-61	真不能不算石破天惊的怪论！	短促评语，脱离原文后过碎。
+LAHSY-029	003.三人连环传.txt:81-81	弟子的也该烧了！	仿《石头记》的临场改写，保留原典句即可。
+LAHSY-061	007.评介《丁文江的传记》.txt:37-37	一个天生的能办事、能领导人、能训练人才、能建立学术的大人物	对丁文江的具体人物评语，且含现代领袖/领导语汇，校对轮剔除。
+LAHSY-062	007.评介《丁文江的传记》.txt:37-37	真诚的爱护人才，热诚而大度的运用中外老少的人才	对丁文江用人方式的具体评语，独立格言性不足。
+
+proofreadAddedRows=
+001.播种者胡适.txt:97-97	任重而道远
+006.关于《胡适文存》.txt:19-19	有所不为
+006.关于《胡适文存》.txt:71-71	悲观声浪里的乐观
+006.关于《胡适文存》.txt:81-81	注重学问思想的方法
+007.评介《丁文江的传记》.txt:5-5	大抵静而不动，……但写其人为谁某而不写其人之何以得成谁某
+007.评介《丁文江的传记》.txt:5-5	其人格进退之次第及其进退之动力
+007.评介《丁文江的传记》.txt:9-9	只须剪裁得得当、描写得生动，也未尝不可以做少年人的良好教育材料，也未尝不可介绍一点做人的风范。
+007.评介《丁文江的传记》.txt:13-13	二千年来，几乎没有一篇可读的传记。
+
+missingAtDeclaredRangeIds=
+
+politicalHits=

@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-24",
+  "generatedDate": "2026-06-26",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -630,11 +630,81 @@
       "originalRows": 82,
       "keptRows": 82,
       "removedRows": 0
+    },
+    {
+      "fileName": "李敖政论综艺集_诗文格言歌谣引用.csv",
+      "book": "李敖政论综艺集",
+      "originalRows": 100,
+      "keptRows": 100,
+      "removedRows": 0
+    },
+    {
+      "fileName": "快意还乡——李敖神州文化之旅_诗文格言歌谣引用.csv",
+      "book": "快意还乡——李敖神州文化之旅",
+      "originalRows": 55,
+      "keptRows": 55,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖放电集_诗文格言歌谣引用.csv",
+      "book": "李敖放电集",
+      "originalRows": 35,
+      "keptRows": 35,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖发电集_诗文格言歌谣引用.csv",
+      "book": "李敖发电集",
+      "originalRows": 42,
+      "keptRows": 42,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖送电集_诗文格言歌谣引用.csv",
+      "book": "李敖送电集",
+      "originalRows": 37,
+      "keptRows": 37,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖来电集_诗文格言歌谣引用.csv",
+      "book": "李敖来电集",
+      "originalRows": 34,
+      "keptRows": 34,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖通电集_诗文格言歌谣引用.csv",
+      "book": "李敖通电集",
+      "originalRows": 22,
+      "keptRows": 22,
+      "removedRows": 0
+    },
+    {
+      "fileName": "胡适研究_诗文格言歌谣引用.csv",
+      "book": "胡适研究",
+      "originalRows": 73,
+      "keptRows": 73,
+      "removedRows": 0
+    },
+    {
+      "fileName": "胡适评传_诗文格言歌谣引用.csv",
+      "book": "胡适评传",
+      "originalRows": 83,
+      "keptRows": 83,
+      "removedRows": 0
+    },
+    {
+      "fileName": "胡适与我_诗文格言歌谣引用.csv",
+      "book": "胡适与我",
+      "originalRows": 49,
+      "keptRows": 49,
+      "removedRows": 0
     }
   ],
-  "rows": 9655,
+  "rows": 10185,
   "removedRows": 61,
-  "uniqueIds": 9655,
+  "uniqueIds": 10185,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,
