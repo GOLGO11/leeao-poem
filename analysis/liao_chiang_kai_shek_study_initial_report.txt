@@ -1,0 +1,31 @@
+蒋介石研究 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\016.蒋介石研究
+sourceFiles: 23
+quoteCandidates: 906
+keywordLines: 126
+reviewCandidates: 384
+attributedLines: 271
+initialSelectedRowsBeforeProofread: 29
+proofreadRemovedRows: 1
+proofreadAddedRows: 6
+selectedRows: 34
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by Chiang Kai-shek, party-state documents, revolution, military schools, regime legitimacy, leader criticism, Taiwan/mainland narratives, and modern political history; exclude direct party, regime, leader, military, revolution, state, national identity, official document, and ideological quotations, while keeping independently reusable classical texts, poems, proverbs, couplets, jokes, philological notes, and ritual/customary texts.
+
+selectedHighlights:
+- 自序: 收文人格言、李敖化用格言与史学格言；排除“为国民争人格”等政治人格论述。
+- 003: 只收《孟子》《论语》古典句，不收同盟会、革命组织、排满与军事留学生叙述。
+- 005/020: 只收联语、易经成句与家训题字本体，不收蒋介石行踪、信仰与时局决策叙述。
+- 007: 收居正狱中生活诗四首；“御侮当前耻阋墙，精诚团结为非常”因直接连着九一八与政局语境，首轮不收。
+- 018: 收张载、朱熹、刘宗周、颜元关于变化气质的理学文句；校对补入“人有日诵万言……”；排除“革命责任/革命道德/革命人格”等政治化引申。
+- 022: 收冥婚、迁葬、嫁殇、立后相关古礼、宗法俗语和民俗文献句；校对删除“能执干戈以卫社稷……”以避开武力护国语义。
+
+excludedHighlights:
+- 001: “唯公无辫”等属于蒋介石形象神话与政治宣传材料，不收。
+- 008/010/013/015/017: 弹劾电、通电、国库黄金、自承罪愆、大法螺等主体均为现代政治史料或政论攻防，不收。
+- 019: 钱穆相关材料多为现代教育/政治人物争议语境，首轮从严不收。
+- 005: “兄可敝屣尊荣，不能敝屣道义”虽像道德格言，但出自现代政治人物之间的政治信札语境，首轮不收。
+- 016: “十年生聚，十年教训”虽为古典成句，但本处夹在反攻、共匪、复国等军政讲话里，校对轮仍不收。

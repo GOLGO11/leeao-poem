@@ -1,0 +1,26 @@
+李远哲的真面目 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\010.李远哲的真面目
+sourceFiles: 22
+quoteCandidates: 660
+keywordLines: 106
+reviewCandidates: 285
+attributedLines: 108
+rawRows: 14
+proofreadRemovedRows: 1
+proofreadAddedRows: 5
+selectedRows: 18
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary and academic-administrative dispute writing; exclude candidate, party, president, national identity, election, government-agency, official-document, legal, and modern attack quotations, while keeping independently reusable classical, literary, philosophical, proverbial, and non-political poetic material.
+
+proofreadRemovedRows:
+LALYZTF-005	001.关于李远哲忘恩负义的讨论.txt:135-135	诛奸谀于既死，发潜德之幽光	校对轮删除：同段紧贴蒋介石、墨索里尼等现代政治人物评论，虽有史论成句外形，但政治史论语境过重。
+
+proofreadAddedRows:
+001.关于李远哲忘恩负义的讨论.txt:175-175	石沉大海
+001.关于李远哲忘恩负义的讨论.txt:175-175	言笑晏晏
+019.一位理科教授对李远哲的纠举.txt:61-61	虽千万人吾往矣
+019.一位理科教授对李远哲的纠举.txt:71-71	为所当为
+019.一位理科教授对李远哲的纠举.txt:71-71	君子道消、小人道长

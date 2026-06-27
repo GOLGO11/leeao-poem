@@ -1,0 +1,15 @@
+为文学开窗 initial extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\012.为文学开窗
+sourceFiles: 21
+quoteCandidates: 1577
+keywordLines: 168
+reviewCandidates: 556
+attributedLines: 241
+initialSelectedRows: 43
+proofreadRemovedRows: 2
+selectedRows: 41
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is literary criticism and textual scholarship; exclude ordinary novel dialogue, title fragments, modern literary attacks, party/state/government/election/revolutionary quotes, and direct political slogans, while keeping independently reusable poems, classical prose, literary aphorisms, translation examples, and writing/reading maxims.

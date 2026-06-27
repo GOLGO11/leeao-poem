@@ -1,0 +1,86 @@
+book=孙逸仙和中国西化医学
+generatedDate=2026-06-26
+sourceDir=《大李敖全集6.0》分章节\012.人物研究类\004.孙逸仙和中国西化医学
+sourceFiles=8
+extractedCandidates=1299
+reviewCandidates=383
+attributedLines=463
+rawRows=43
+proofreadRemovedRows=9
+proofreadAddedRows=3
+selectedRows=37
+missingAtDeclaredRange=0
+duplicateQuoteTexts=0
+politicalHits=0
+csv=exports\孙逸仙和中国西化医学_诗文格言歌谣引用.csv
+txt=exports\孙逸仙和中国西化医学_诗文格言歌谣引用.txt
+selectedJson=analysis\liao_sun_yixian_western_medicine_selected_rows.json
+reviewTsv=analysis\liao_sun_yixian_western_medicine_initial_review.tsv
+auditTsv=analysis\liao_sun_yixian_western_medicine_initial_audit.tsv
+proofreadAuditTsv=analysis\liao_sun_yixian_western_medicine_proofread_audit.tsv
+proofreadReportTxt=analysis\liao_sun_yixian_western_medicine_proofread_report.txt
+
+selectionNotes=校对轮在第一轮基础上删去机构史说明、政治演说中的治病譬喻、弃医从政过渡句、病榻对话残句、人物介绍式长句和政治思想分类语；保留医学、科学、格物、教育、养生和宗教文句，并把两条拆句合并为一条完整知行格言。
+
+categoryCounts=
+医学诊断语	3
+医学志业格言	3
+科学格言	2
+农学格言	2
+养生格言	2
+饮食养生格言	2
+变通格言	1
+禅语	1
+方药文句	1
+格物格言	1
+教育格言	1
+科学教育格言	1
+科学名词格言	1
+实学格言	1
+实用书话	1
+养生文句	1
+医德格言	1
+医德文句	1
+医学批评	1
+医学书话	1
+医学俗语	1
+医学问答	1
+医学自警	1
+游学文句	1
+知行格言	1
+专业教育格言	1
+自立格言	1
+宗教文句	1
+宗教遗言	1
+
+byFileCounts=
+001.新夷说（代序）.txt	5
+002.引子——巫医与西潮.txt	1
+003.从“基督”到学医.txt	4
+004.中国第一个西方医院.txt	2
+005.香港第一个西医大学.txt	6
+006.“改良”与“革命”之间.txt	3
+007.从行医到革命.txt	3
+008.回到“医生”，回到“基督”.txt	13
+
+missingAtDeclaredRangeIds=
+
+duplicateQuoteTexts=
+
+politicalHits=
+
+proofreadRemovedRows=
+LASYXWM-011	004.中国第一个西方医院.txt:15-15	为中国及远东各国西医西药之祖。	机构史地位说明，像历史资料摘句，不像可独立使用的诗文格言。
+LASYXWM-014	005.香港第一个西医大学.txt:35-35	吾志在天下，而天下本于国，国本于家，家本于身。身之质体血气，物也，宜格：身之心性灵明，事也，理也，亦物也，宜格。	句首以天下、国、家铺陈，政治意味偏重；校对轮改收后半段身心格物核心。
+LASYXWM-025	007.从行医到革命.txt:109-109	以医亦救人之术也。然继思医术救人，所济有限，其他慈善事业亦然。	弃医从政演说中的过渡句，语义导向政治事业，校对轮剔除。
+LASYXWM-031	008.回到“医生”，回到“基督”.txt:29-29	适之！你知道我是学西医的人。	病榻场景对话残句，独立格言性不足。
+LASYXWM-037	008.回到“医生”，回到“基督”.txt:87-87	翁，日本九州人，幼学汉法医术，后研究西洋医学，窥破药料万能说之大误；乃苦心殚虑，考求适当于人体之食品，以助胃肠之蠕动。	人物介绍式长句，校对轮改收养生方法核心，去掉传记开头。
+LASYXWM-038	008.回到“医生”，回到“基督”.txt:95-95	譬如一人医病，与其医于已发，不如防于未然。吾人眼光不可不放远大一点，当看至数十年数百年以后，顾及全世界情形方可。	政治演说中的治病譬喻，虽有格言性，但语境属于政治主张。
+LASYXWM-041	008.回到“医生”，回到“基督”.txt:103-103	故天下事唯患于不能知耳，倘能由科学之理则，以求得其真知，则行之绝无所难	校对轮与上一句合并成完整知行句，避免拆分残句。
+LASYXWM-042	008.回到“医生”，回到“基督”.txt:103-103	其一、先知先觉者，即发明家也；其二、后知后觉者，即鼓吹家也；其三、不知不觉者，即实行家也。	孙文学说中的思想分类语，政治思想语境偏重，校对轮剔除。
+LASYXWM-043	008.回到“医生”，回到“基督”.txt:103-103	学者至此，想当了然于行之易而知之难矣。	拆分残句，校对轮合并到完整知行句。
+
+proofreadAddedRows=
+005.香港第一个西医大学.txt:35-35	身之质体血气，物也，宜格：身之心性灵明，事也，理也，亦物也，宜格。
+008.回到“医生”，回到“基督”.txt:87-87	窥破药料万能说之大误；乃苦心殚虑，考求适当于人体之食品，以助胃肠之蠕动。
+008.回到“医生”，回到“基督”.txt:103-103	学者至此，想当了然于行之易而知之难矣。故天下事唯患于不能知耳，倘能由科学之理则，以求得其真知，则行之绝无所难

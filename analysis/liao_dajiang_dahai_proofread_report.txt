@@ -1,0 +1,39 @@
+大江大海骗了你 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\015.大江大海骗了你
+sourceFiles: 190
+quoteCandidates: 2076
+keywordLines: 397
+reviewCandidates: 619
+attributedLines: 414
+initialSelectedRows: 16
+proofreadRemovedRows: 0
+proofreadAddedRows: 8
+selectedRows: 24
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, war memories, party-state disputes, Taiwan/mainland narratives, and direct attacks on Long Yingtai and political figures; exclude direct party, regime, leader, war, revolution, state, national identity, martyrdom, official document, and ideological quotations, while keeping independently reusable proverbs, classical texts, literary phrases, philological notes, and historical-method sayings.
+
+proofreadRemovedRows:
+
+proofreadAddedRows:
+- LADJDH-002	002.从“拾穗”到“拿锄头的人”.txt:21-21	凡是你没读过的书，就是新书。
+- LADJDH-003	003.龙应台提议与我拥抱.txt:7-7	悟以往之不谏，知来者之可追
+- LADJDH-004	010.龙应台怎样吃人肉？.txt:5-5	虽欲从之，末由也已！
+- LADJDH-005	010.龙应台怎样吃人肉？.txt:25-25	我现在用西餐叉子来吃了。”（I us'um fork now.）
+- LADJDH-006	017.“龙应台式错误”.txt:23-23	金玉其外，败絮其中
+- LADJDH-008	034.何须走一趟才知道.txt:27-27	不出户，知天下
+- LADJDH-018	185.向往“博大真人”.txt:49-49	不入于杨、则入于墨
+- LADJDH-024	190.“我有点心软了”.txt:7-7	无数只的脚，无穷尽的奋斗，一生的努力，只能走一点点的路。（打死它）我有点心软了。
+
+continueExcludedHighlights:
+- 007/027/035/039/050/058/059/086/108/111/121/122/123/146/147/150/153/157/172/173: 汉贼、救国、亡国、殉国、投降、革命、二二八、战争、党国、军政与国家叙事材料继续排除。
+- 002.从“拾穗”到“拿锄头的人”.txt:9 “非其种者，锄而去之”虽为古语式文句，但本处紧贴“危险的社会主义倾向”，校对轮继续不收。
+- 010.龙应台怎样吃人肉？.txt:5 “未有民族文化已衰息断绝，而其国家之生命犹得长存者”等文化/国家论述虽为钱穆原文，但国家民族论辩语感过重，继续不收。
+- 103.“让老子先逃啊！”.txt:5 “檀公三十六策，走是上计。汝父子唯应急走耳！”虽出《南齐书》，但本处直接服务蒋氏父子逃亡讽刺，校对轮不收。
+- 148.“当然被我活捉”.txt:11 “因粮于敌/因武器于敌”直接嵌在国共、美援与战事叙述中，继续排除。
+- 065.龙应台比国民党还国民党.txt:31 “始作俑者，其无后乎？”虽为孔子句，但本处直接用来评价蒋介石与政治派别，首轮从严不收。
+- 108/115/116: “此度见花枝，白头誓不归”紧贴宋希濂/杜家政治流亡与归返叙事，首轮不收。
+- 157.前方吃紧，后方紧吃.txt:3 “首都已陷休回顾，更抱佳人舞几回”直接服务一九四九政局讽刺，首轮不收。
+- 137.被骗了的张乐平.txt:5 张乐平“向不合理的社会制度提出严厉的控诉”虽具文艺史意义，但含明确社会制度批判，首轮从严不收。

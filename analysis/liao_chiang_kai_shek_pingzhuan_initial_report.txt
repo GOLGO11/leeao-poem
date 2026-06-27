@@ -1,0 +1,27 @@
+蒋介石评传 initial extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\023.蒋介石评传
+sourceFilesForExport: 15
+quoteCandidates: 4351
+uniqueQuoteTexts: 3612
+keywordLines: 618
+reviewCandidates: 2241
+attributedLines: 1021
+selectedRows: 44
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is a political biography dominated by Chiang Kai-shek, KMT/CCP party-state history, Northern Expedition, civil war, Anti-Japanese War, diplomacy, Taiwan rule, and Chiang family evaluations; exclude direct modern political, party, regime, leader, military, war, revolution, national identity, diplomacy, constitutional, human-rights, assassination and ideological quotations, while keeping independently reusable classical poetry/prose, ritual prose, idioms, proverbs, couplets, scenic prose and non-political maxims.
+
+selectedHighlights:
+- 001/002: 收“同做冯妇”“干父之蛊”“为亲者讳”；蒋家身份、受难和政治统治语境不收。
+- 003: 收《周礼》、邴原、孔夫子、薛蕙、孟子、《易水歌》及亲情/墓记中的非政治古文散句；辛亥、同盟会、革命组织和军政叙事不收。
+- 004: 收“一丘之貉”、天童游记句、鼓山题联和“其介如石”等；护法、军阀、孙蒋关系和军政催促语境不收。
+- 006/007: 收“黄袍加身”“杯酒释兵权”“重文偃武”“血更浓于水”“一鼓作气，再而衰，三而竭”等通用成语典故；北伐、奉安政治、财政军需和现代社会运动语境不收。
+- 008/011/015: 收“不知彼，不知己”、陈寅恪诗句、孟子句及若干俗语成句；抗战训话、国共内战、反攻和蒋氏父子政治评价不收。
+
+excludedHighlights:
+- 002/003/004: 李敖牢狱反蒋语、孙蒋关系、陈炯明/中山舰/党争材料，以及“老王八蛋死了”等现代政治攻击不收。
+- 005/006/007: 北伐、清党、中原大战、新生活运动、蓝衣社、党国宣传、章太炎奉安挽联、毛泽东《渔家傲》等政治/军事材料不收。
+- 008/009/010/011/012/013: 抗战战略、外交谈判、道统治统、国共内战、美国/苏联/台湾/反攻大陆和黄金转运等现代政治与军政语录不收。
+- 014/015: 蒋氏父子统治、民主宪政、人权、江南案、蒋家王朝和现代历史评价语录不收；只留可独立检索的俗语、诗句和成语。

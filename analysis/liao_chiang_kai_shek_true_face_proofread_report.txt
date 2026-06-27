@@ -1,0 +1,32 @@
+蒋介石的真面目 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\022.蒋介石的真面目
+sourceFilesForExport: 39
+quoteCandidates: 1087
+uniqueQuoteTexts: 886
+keywordLines: 166
+reviewCandidates: 519
+attributedLines: 324
+initialSelectedRowsBeforeProofread: 20
+proofreadRemovedRows: 0
+proofreadAddedRows: 7
+selectedRows: 27
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by anti-Chiang polemics, military and party-state documents, KMT/CCP war, Tibet/Outer Mongolia, Soong Mei-ling, media disputes, legal rebuttals, assassination and corpse-whipping rhetoric; exclude direct modern political, party, regime, leader, military, war, revolution, national identity, diplomacy, independence, legal, media-fight, assassination and ideological quotations, while keeping independently reusable classical poetry/prose, Chan sayings, idioms, proverbs, couplets, allusions and non-political set phrases.
+
+selectedHighlights:
+- 001/003: 收“唯器与名，不可以假人”、旧典成句“错认颜标是鲁公”和王昌龄《出塞》句；军阶、将星、康泽、特务、国共战争与政治讽刺不收。
+- 004: 校对补入花蕊夫人《述国亡诗》化句“更无一个是男儿”；蔡松坡、反蒋、出丧和政治羞辱语境不收。
+- 011: 收《五灯会元》《禅林僧宝传》相关禅语和禅林故事；校对补入“拈花示众”“破颜微笑”“单传心印”“东海西海，有志一同”；蒋介石外交文件、不立文字的政治讽刺不收。
+- 013/019/024: 收安如山诗、“张大义而垂青史”、《诗经·出其东门》、成语“美轮美奂”和《破涕录》旧笑话挽联；国大、古物毁损、西藏独立与美国语境不收。
+- 032/034: 收“断烂朝报”“矮子里面挑大个”及非政治的亲情哀悼散文句；近代史所、外蒙、卖国、蒋家政治与公开信清算语境不收。
+- 037/038/039: 收孟子“说大人，则藐之”、“明着说好话，暗中下毒手”和“哭秦庭”；出版法、报纸争辩、省籍、台湾政治、言论争议、宋美龄与美国外交求援语境不收。
+
+excludedHighlights:
+- 001/003/004/005/006/007/009/010: 军阶文告、复兴社、民生主义、平均地权、节制资本、西藏独立、不准上岸、专立文字外交与军政命令均属现代政治材料；“仗打败，反多星”“三分军事、七分政治”“为国民争人格”“在他头上动土”等不收；“存信史”语义过泛不收。
+- 015/020/021/022/023: 清算、长春围城、鞭尸、黄金葛等章节多为战争、暴力、政治清算与党国讽刺；“败军之将，何以谈和”“掘楚平王墓，出其尸，鞭之三百，然后已”等首轮不收。
+- 013/017/024/031/032/033/036: “去伪存真”“摘奸发伏”“有志一同”“漏网之文”“聊志书庆”等过短、过泛或依附政治书稿语境者不收；西藏外蒙、反蒋运动、国共斗争、中苏条约、联俄容共、共产主义等现代政治/外交/意识形态语录不收。
+- 034/035/039: 宋美龄、蒋夫人断袖、威尔基、对美求援等现代人物绯闻和外交政治语境不收，只留亲情哀悼散文句、俗语成句和典故本体。
+- 037/038: 报纸辩驳、出版法、新闻评议、省籍论战、台独联盟与政治监狱等现代政治和法律语境不收。

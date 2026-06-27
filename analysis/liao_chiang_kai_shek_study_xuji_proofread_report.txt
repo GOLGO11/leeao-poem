@@ -1,0 +1,33 @@
+蒋介石研究续集 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\017.蒋介石研究续集
+sourceFiles: 20
+quoteCandidates: 1004
+keywordLines: 121
+reviewCandidates: 521
+attributedLines: 383
+initialSelectedRowsBeforeProofread: 12
+proofreadRemovedRows: 0
+proofreadAddedRows: 8
+selectedRows: 20
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, Chiang Kai-shek studies, party-state censorship, assassination narratives, uprising and military accounts, presidential legality, wills, leader worship, and anti-communist authorship disputes; exclude direct party, regime, leader, military, revolution, state, national identity, official document, assassination, war, will, and ideological quotations, while keeping independently reusable classical texts, poems, proverbs, literary prose sentences, and ancient allusions.
+
+selectedHighlights:
+- 001: 只收《孟子》“富贵不能淫……”本体，不收丈夫团、同盟会和革命组织叙述。
+- 003: 收鲁迅散文句、省亲亲情语与校对补入的“幸老父犹健……”；暗杀、革命人格、政党史和领袖责任材料不收。
+- 004/005: 收刘禹锡诗句化用与韩信漂母报恩典故；肇和起义、江阴炮台、党史改写、军政人物评价不收。
+- 007/008/009/014/016: 收韦庄词句、孟子句、俗语、柳宗元古文句、《论语》句和古代典故；战争、总统下野、和谈、遗嘱和领袖崇拜语境不收。
+- 010/011: 校对补入胡适赛跑式竞争格言、《论语》“名不正，言不顺”与“仙人偷桃”“狸猫换太子”民间典故；副总统竞选、法统、保密局和政治操纵叙述不收。
+
+excludedHighlights:
+- 自序: 全篇是蒋家王朝、祸国、打倒/推翻等政治宣言式文字，首轮不收。
+- 005/008/010/011/012/013/015/017/018/019: 江阴炮台、兵家大忌、李宗仁、保密局、逃亡、真总统、亲准、神化、棺材与《苏俄在中国》等主体多为现代政治史料或政论攻防，首轮从严不收。
+- “不成功，便成仁”“老子们要吃饭，投这些废物干什么？”“国人皆曰可杀”“苍髯老贼、皓首匹夫”等虽醒目，但都直接贴着战争、革命、党争或政治人物攻防，不收。
+- 006 “故狂妄半生，觉无意趣”“近来益感人生之乏味”等是蒋介石个人信札校勘语，仍贴着军校、党务与政治人物自述，校对轮不收。
+- 008 “将在外，君命有所不受”“军之生死之地、存亡之道”等虽是兵家成句，但直接落在现代战役指挥语境，校对轮不收；只补入“留得青山在，不怕无柴烧”。
+- 010 “一人之下，万人之上”“要做就做真皇帝，切不要做假皇帝”“处处不留爷，爷去投八路”等权力、皇帝、八路语义过重，校对轮不收。
+- 009 “若寡人得没于地……”含社稷与政治祸乱语义，首轮不收；只收柳宗元“祝融悔祸兮，回禄屏气”。
+- 016 “长相左右”“如在其上，如在其左右”是遗嘱/领袖崇拜语境，不收；只收其中文前置的古代典故。

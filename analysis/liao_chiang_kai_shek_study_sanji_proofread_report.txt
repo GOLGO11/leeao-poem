@@ -1,0 +1,33 @@
+蒋介石研究三集 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\018.蒋介石研究三集
+sourceFilesForExport: 18
+quoteCandidates: 859
+uniqueQuoteTexts: 724
+keywordLines: 129
+reviewCandidates: 466
+attributedLines: 293
+initialSelectedRowsBeforeProofread: 6
+proofreadRemovedRows: 0
+proofreadAddedRows: 7
+selectedRows: 13
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, Chiang Kai-shek studies, anti-Japanese war material, leader anecdotes, party-state records, official documents, leader worship, national anthem material, and polemical attacks; exclude direct party, regime, leader, military, war, revolution, state, national identity, official document, and ideological quotations, while keeping independently reusable classical texts, ancient jokes, proverbs, allusions, and couplets.
+
+selectedHighlights:
+- 003: 校对补入“干打雷，不下雨”“此地无银三百两”“不立文字”；只收俗语/成语本体，一二八、派兵、迁都、抗战与政令语境不收。
+- 004: 收侯白《启颜录》笑话“乘大家热铛子头，更作一个。”；八一三、上海战役与军事评论不收。
+- 005/006: 校对补入孟子成语“仁民爱物”和李白诗句“桃花潭水深千尺，不及汪伦送我情。”；伤兵、主和主战与外交政治语境不收。
+- 007: 收《左传》典故“食指大动”“染指于鼎”和中国谚语“要劫劫皇杠、要玩玩娘娘”；威尔基、宋美龄、蒋介石捉奸及中美政治关系叙述不收。
+- 009: 收《孟子》“可以死，可以无死，死，伤勇。”并校对补入“寡廉鲜耻”；被俘观、将军、投降与强制作死的政治军事论述不收。
+- 016: 收蒋母墓前石联上下联；蒋母墓政治宣传、国民党碑文与反革命批评段落不收。
+
+excludedHighlights:
+- 自序、001、002: 以蒋介石政治人格、暗杀、告状、政论攻防为主，首轮不收。
+- 003/004/005/006: 一二八、八一三、伤兵、主和主战等主体为现代战争与军政文献，兵家、战役、作战、国家民族类语录不收；004 只保留古笑话本体。
+- 007/008: 威尔基、宋美龄、偷皮包、公文包、官方档案与政治外交逸闻不收；007 只保留古典典故与俗谚。
+- 009/010: 被俘观、孟良崮、将领、投降、战败、五字诀与国民党内部讽刺不收；009 只保留孟子句本体。
+- 011/012/013/014/015: 流氓拜寿、午餐会、小气性格、鞠躬症、孺慕症等多为现代领袖逸闻或政治讽刺，首轮不收。
+- 016/017: 祖坟政治宣传、国歌/党歌与领袖身份材料不收；016 只保留墓联本体。

@@ -1,0 +1,32 @@
+蒋介石研究六集 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\021.蒋介石研究六集
+sourceFilesForExport: 23
+quoteCandidates: 1047
+uniqueQuoteTexts: 841
+keywordLines: 140
+reviewCandidates: 438
+attributedLines: 333
+initialSelectedRowsBeforeProofread: 24
+proofreadRemovedRows: 0
+proofreadAddedRows: 11
+selectedRows: 35
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, Chiang Kai-shek polemics, Sun Yat-sen and Chiang Kai-shek source disputes, doctrinal lineage propaganda, capital relocation, Chen Bulei, the Henry Liu case, Wu Zhihui, Wu Kuo-chen, Wenh Hsing censorship, intelligence files, court and party-state documents; exclude direct party, regime, leader, military, war, revolution, national identity, assassination, intelligence, censorship, free-speech, legal, court, party-state document, and ideological quotations, while keeping independently reusable classical poetry/prose, proverbs, idioms, literary maxims, and non-political set phrases.
+
+selectedHighlights:
+- 003: 收《孟子》、韩愈《原道》、朱熹《中庸章句序》、叶适论学句与《礼记·礼运》古典文本本体；校对补入“觝排异端，攘斥佛老”和陈振孙评叶适句；孙中山/蒋介石道统宣传、革命思想和领袖继承话语不收。
+- 004/005: 收“宾至如归”、傅斯年“不求安乐者……”和“青山绕郭，长江如带”；来华助战洋人、迁都、首都、还都与现代政治判断不收。
+- 006: 收《离骚》句、宝志禅师传说、宋人题灵谷寺诗和“百事要看得浑些。”；陈布雷、中华民国亡国论证与李敖翻作政治讽刺诗不收。
+- 012: 校对补入《史记》《左传》训诂例句；“乱臣贼子，人人得而诛之”、江南案、暗杀辩词与法庭政治语境不收。
+- 013/016: 收吴稚晖遗嘱警句、李商隐《碧城诗》、梭罗读书格言、“儿大爷难做”、两条李敖成句；校对补入“虚膺其名，滥竽遗讥”和“直谅多闻之友”；《文星》查禁、党纪、情治与言论自由政治材料不收。
+- 020: 收童轩荪去国题意、旧式容量颂语、童轩荪诗句和李商隐《隋宫》句；校对补入居浩然读书评语、“冠盖云集，备极哀荣”和“陈蕃之榻”；政治犯、特务笑话、白色恐怖与国民党批判语境不收。
+
+excludedHighlights:
+- 自序/001/002: 法院判决、出版查禁、孙中山暗杀陶成章、剜心肝/挖眼睛等材料直接贴着现代政治、暗杀、革命与暴力语境；“恶莠不除，则嘉禾不长”“二桃杀三士”“斩草除根，擒贼擒王”等首轮不收。
+- 003: 康熙“道统即治统”、孙中山革命思想基础、三民主义、国父年谱、蒋中正讲话、胡适查证信中关于政治思想的现代材料不收，只留古典文本本体。
+- 005/008/009/010/011/012: 首都、迁都、中日和约、报告狂、查房间、江南案与法律文件为现代政治史料；“乱臣贼子，人人得而诛之”“不自由，毋宁死”等政治性强的名句不收，仅补入不带现代政治判断的古书训诂例句。
+- 013/014/015/016: 吴稚晖、吴家/蒋家、吴国桢、《文星》相关党派、政权、查禁、特务、法庭、国安与言论自由语录不收；“天下兴亡，匹夫有责”“汉贼不两立，王业不偏安”“天下乌鸦一般黑”等政治语境过强不收。
+- 020/021/022: 童轩荪受难、马克思恐惧症、政治笑话、白色恐怖、两个太阳与水晶寿星等现代政治讽刺不收；“你别翻供了——肖邦已经招了！”“天无二日，民无二王”等不收。

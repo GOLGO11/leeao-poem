@@ -1,0 +1,20 @@
+为文学开窗 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\012.为文学开窗
+initialSelectedRows: 43
+proofreadRemovedRows: 2
+proofreadAddedRows: 0
+selectedRows: 41
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+
+proofread policy: keep independently reusable literary, classical, translation, poetics, and reading/writing material; remove modern political-person context, direct political/party/government/revolutionary material, and fragments that only work as publication promotion or article scaffolding.
+
+removedRows:
+- LAWXKC-016	009.“试吟紫芝曲，应与夏黄同”.txt:3-3	吾死以后，中夏文化亦亡矣！	现代人物文化自任语，所在段落强绑定革命、国民党、软禁等政治履历；校对轮按政治人物语录边界删除。
+- LAWXKC-040	020.介绍一套你该一看的奇书.txt:93-93	把现代人看古书的问题，得到满意的一次解决	序文中的宣传性半句，依附《中国名著精华全集》出版说明，独立诗文格言价值不足。
+
+continueExcludedHighlights:
+- 009.“试吟紫芝曲，应与夏黄同”.txt:33-35	虽好作政论 / 学生请愿 / 共党 / 政策	章太炎政治活动与抗日/党派段落，继续排除，只保留前面的文学史评语和五言诗。
+- 020.介绍一套你该一看的奇书.txt:17;39	凡为帝王者，皆贼也 / 当政者“不准看”的禁书	现代出版说明中涉及帝王、禁书、当政者的政治判断，首轮未收，校对确认继续排除。

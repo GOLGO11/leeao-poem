@@ -1,0 +1,23 @@
+你不知道的彭明敏 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\011.你不知道的彭明敏
+sourceFiles: 21
+quoteCandidates: 1313
+keywordLines: 162
+reviewCandidates: 462
+attributedLines: 170
+rawRows: 12
+proofreadRemovedRows: 1
+proofreadAddedRows: 2
+selectedRows: 13
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary about Peng Ming-min and Taiwan public affairs; exclude party, Taiwan-independence, candidate, president, national identity, election, government-agency, legal-case, judicial, political-theory, and modern attack quotations, while keeping independently reusable classical poems, canonical sayings, proverbs, and non-political literary or publishing aphorisms.
+
+proofreadRemovedRows:
+LAPMMUNK-005	013.“吾道一以贯之”.txt:9-9	吾道一以贯之	校对轮删除：此处主要服务于“一大张报”的文字游戏，且同句紧贴共产党、国民党党报比较，政论语境过重。
+
+proofreadAddedRows:
+009.答彭明敏先生.txt:5-5	公自平生怀直气，谁能晚节负初心？
+016.李敖致书彭明敏，大谈白头宫女事.txt:15-15	More than half of modem culture depends on what one shouldn’t read

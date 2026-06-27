@@ -1,0 +1,32 @@
+闽变研究与文星讼案 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\014.闽变研究与文星讼案
+sourceFiles: 22
+quoteCandidates: 3024
+keywordLines: 430
+reviewCandidates: 1331
+attributedLines: 596
+initialSelectedRows: 13
+proofreadRemovedRows: 1
+proofreadAddedRows: 4
+selectedRows: 16
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, the Minbian dispute, Wenxing litigation, criminal pleadings, party/regime arguments, court-law quotations, and person-to-person attacks; exclude direct modern political, party, regime, revolution, government, court, lawsuit, legal-statute, document, and ideology quotations, while keeping independently reusable classical, literary, debate-ethics, publication, and historical-method material.
+
+proofreadRemovedRows:
+- LAMBWX-010	004.《文星》与胡秋原先生（萧孟能）.txt:19-19	当年睥睨挥群敌，常胜旌旗是自由	校对轮删除：虽为现代诗句，但本处紧贴民主风度、言论自由、敌人与《文星》讼案人物攻防，容易成为政治/意识形态语录，按从严口径删除。
+
+proofreadAddedRows:
+- LAMBWX-002	001.胡秋原的真面目（李敖）.txt:121-121	行己有耻
+- LAMBWX-012	005.对于胡秋原自诉诽谤案之答辩（萧孟能·李晋芳）.txt:53-53	饰人之心，易人之意
+- LAMBWX-013	005.对于胡秋原自诉诽谤案之答辩（萧孟能·李晋芳）.txt:57-57	能胜人之口，不能服人之心
+- LAMBWX-014	005.对于胡秋原自诉诽谤案之答辩（萧孟能·李晋芳）.txt:59-59	来如雷霆收震怒，罢如江海凝清光
+
+continueExcludedHighlights:
+- 004.《文星》与胡秋原先生（萧孟能）.txt:19 “当年睥睨挥群敌，常胜旌旗是自由”校对轮删除，因其紧贴民主风度、言论自由与讼案攻防，政治/意识形态语感过重。
+- 010/011/014/019/021: 闽变、共党/国民党、政府机关、政治清算、刑事诉讼与法律条文材料继续排除，不作为诗文格言收录。
+- 011.刑事答辩状之二（李敖）.txt: 论语“一言而可以兴邦/丧邦”虽为经典成句，但本处服务国家兴亡与政治言责，首轮从严排除。
+- 005/006/009/012/015/020: 答辩状、反诉状、证据状、补充理由状中的公文法条与案件攻防语句继续排除。
+- 001/004: 胡秋原、《文星》与政治人物攻防段落中，只收少量可脱离案情的古典成语、古话、诗句和出版自嘲语。

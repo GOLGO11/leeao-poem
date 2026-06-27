@@ -1,0 +1,25 @@
+陈水扁的真面目 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\009.陈水扁的真面目
+sourceFiles: 32
+quoteCandidates: 899
+keywordLines: 100
+reviewCandidates: 270
+attributedLines: 103
+rawRows: 21
+proofreadRemovedRows: 2
+proofreadAddedRows: 3
+selectedRows: 22
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary; exclude candidate, party, president, Taiwan independence, election, regime, policy, judicial, and modern political attack quotations, while keeping independently reusable classical, literary, philosophical, proverbial, and non-political poetic material.
+
+proofreadRemovedRows:
+LACSBTF-006	011.他的变（李庆元）.txt:55-55	长敌人志气，灭自己威风	陈水扁在党派路线争执中的政治发言，虽借俗语外形，但本书目标排除现代政治攻防语录。
+LACSBTF-016	018.为阿扁论李敖的谈话进一解.txt:7-7	天下之恶皆归之	用于美丽岛案、宋楚瑜与律师团归责的现代政治论辩，独立文学格言价值不足。
+
+proofreadAddedRows:
+003.他的股票（李庆元）.txt:29-29	聪明人绝不搬砖砸脚
+024.“台湾之子”又来骗我们了！.txt:219-219	只闻楼梯响不见人下来
+024.“台湾之子”又来骗我们了！.txt:233-233	止于至善

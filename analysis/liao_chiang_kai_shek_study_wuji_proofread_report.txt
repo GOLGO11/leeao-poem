@@ -1,0 +1,33 @@
+蒋介石研究五集 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\020.蒋介石研究五集
+sourceFilesForExport: 17
+quoteCandidates: 936
+uniqueQuoteTexts: 733
+keywordLines: 166
+reviewCandidates: 406
+attributedLines: 349
+initialSelectedRowsBeforeProofread: 7
+proofreadRemovedRows: 0
+proofreadAddedRows: 2
+selectedRows: 9
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political history, Chiang Kai-shek polemics, Sun Yat-sen rescue narratives, January 28 military documents, Zhang Xueliang and Xi'an Incident materials, Yellow River flooding, unequal treaties, Outer Mongolia, Japanese war-criminal handling, Kang Ze, and the Lei Chen case; exclude direct party, regime, leader, military, war, revolution, state, national identity, diplomacy, Outer Mongolia, special-service, war-criminal, trial, party-formation, and ideological quotations, while keeping independently reusable classical poetry, proverbs, idioms, and historical allusions.
+
+selectedHighlights:
+- 自序: 收《岳阳楼记》化引“微斯人，吾与谁归”；查禁、新闻局、告官和言论自由政治攻防不收。
+- 002: 校对补入高子白悼诗“论兵迈古闻中外，揽辔澄清志羽纶”；一二八、师团预测与军事史论证语境不收。
+- 003: 收杜甫“冠盖满京华，斯人独憔悴”；西安事变、国共合作、政治犯释放和张学良政治处境材料不收。
+- 005: 收“打掉牙，和血吞”“温柔乡是英雄冢”两条俗语；张学良、胡蝶、马君武与政治谣言语境不收。
+- 013/014: 收“前事不忘，后事之师”和王昌龄《出塞》诗句；反攻大陆、被俘将领、康泽宣传、战犯特赦与党国军事语境不收。
+- 015: 收《清史稿·洪承畴传》典故文句；康泽、投降、战俘与现代政治讽刺不收。
+- 016: 校对补入李敖自引祝胡适诗“高鸣何须求‘灵乌’，忍看老友渐凋零”；雷案、组党与国民党/党外评价语境不收。
+
+excludedHighlights:
+- 自序/001/002: 出版查禁、孙中山蒙难、一二八、军政电文与《蒋总统秘录》攻防多为现代政治史料；“尧犬吠桀”和赫鲁晓夫/毛泽东笑话虽像成句，首轮因政治讽刺语境不收。
+- 003/004/005/006: 西安事变、国共秘密接触、张学良审判、剿匪、抗日、反蒋、拥蒋等现代政治材料不收；现代人物对话与政治文件原话不收。
+- 007/009/010/011: 黄河决堤、不平等条约、外蒙古、联合国、反共与民族国家论述不收；“将飞者翼伏，将奋者足局”此前同类校对已判为外蒙古政治讲词，首轮不收。
+- 012: “以德报怨”“非敌即友”“宁赠外人，不与家奴”等在本书直接服务于对日战后政策、战犯追放与外交政治语境，首轮不收。
+- 014/016: 康泽挽联、史可法/文天祥比附、雷案、组党与胡适政治角色材料不收；“实事求是，莫做调人”“苦口婆心君莫笑，只做‘调人’不组党”等因政治语境不收。

@@ -1,0 +1,22 @@
+李登辉的假面具 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\007.李登辉的假面具
+sourceFiles: 23
+quoteCandidates: 1663
+reviewCandidates: 499
+attributedLines: 198
+rawRows: 14
+proofreadRemovedRows: 1
+proofreadAddedRows: 2
+selectedRows: 15
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary; exclude party/government/election/judicial/national-identity/airline-interest/February-28 report quotations and keep only independently reusable scripture, classical poetry, philosophical quotations, proverbs, and ethical maxims.
+
+proofreadRemovedRows:
+LALDHM-011	020.评李登辉指示《“二二八事件”研究报告》.txt:503-503	西瓜靠大边	短俗语本身可泛用，但本处贴着“台湾人出头天”和省籍一面倒的现代政治族群语境，校对轮删去。
+
+proofreadAddedRows:
+010.为有源头朱熹来！.txt:43-43	你自家的准则，他是便知是，非便知非
+010.为有源头朱熹来！.txt:75-75	咬住青山不放松

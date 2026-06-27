@@ -1,0 +1,32 @@
+蒋介石研究四集 proofread extraction report
+generatedDate: 2026-06-27
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\019.蒋介石研究四集
+sourceFilesForExport: 16
+quoteCandidates: 975
+uniqueQuoteTexts: 791
+keywordLines: 166
+reviewCandidates: 473
+attributedLines: 301
+initialSelectedRowsBeforeProofread: 20
+proofreadRemovedRows: 0
+proofreadAddedRows: 5
+selectedRows: 25
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern political biography, Chiang Kai-shek body-origin allegations, Whampoa and party history, Yang Hucheng murder, Outer Mongolia, Kang Ze, Chen Bulei, party-state documents, official files, and polemical attacks; exclude direct party, regime, leader, military, war, revolution, national identity, official document, special service, assassination, legal-status, Outer Mongolia, and ideological quotations, while keeping independently reusable classical texts, proverbs, idioms, ancient allusions, and literary lines.
+
+selectedHighlights:
+- 自序/001: 收《荀子》“不为尧存，不为桀亡”和何姓源流传说“姓氏必人，岂从水耶？”；校对补入“吾家获免刀锯者，‘何’一字也，岂非天启后耶？”。查禁、骂蒋、何蒋祖宗比较与人物攻防不收。
+- 002: 收《金陵春梦》叙事中已经成型的俗语，并校对补入“过河就抽板，气走姜二拐。”和“远在天边，近在眼前，名为兄弟，视若不见。”；不收大段小说对白、蒋介石身世传说和政治人物材料。
+- 006: 收《孟子》《大学》《中庸》古典句本体，校对补入《论语·泰伯》“鸟之将死，其鸣也哀。人之将死，其言也善。”；不收蒋介石关于黄埔、革命、三民主义、党校的现代政治文字。
+- 011/012/013: 收司马迁、韩愈、诸葛亮古典句本体，校对补入《诗经》语义成语“百身莫赎”；不收康泽、陈布雷、金圆券、党国艰危与领袖幕僚评价。
+- 014/015: 收《大戴礼》《孔子家语》史鱼尸谏古文句和《论语》正名句；陈布雷尸谏说、领袖/党员语境、外蒙古与法统攻防不收。
+
+excludedHighlights:
+- 自序: 与查禁、骂蒋和政治目的相关的表述不收，只保留荀子文句。
+- 003/004/005/006/007/008: 黄埔、共产党、杨虎城、地下代表、军校、党务、暗杀、内战与特务材料为现代政治史料，不收；仅006中明引古典句保留。
+- 009/010/015: 王世杰、外蒙、公民投票、外交文件、法统与国家边界材料不收；015只保留《论语》句本体。
+- 011: 康泽挽联含党国、殉难、抗节与文天祥/史可法比附，首轮不收；只保留司马迁古训本体。
+- 012/013/014: 陈布雷自杀、尸谏、党国中心、领袖幕僚与反共统战语境不收；仅保留明引古典诗文、古代尸谏故事文本与独立成语。源文“瓶之倾分惟垒之耻”疑有讹字，校对暂不收。
+- “人民的眼睛是雪亮的”“有我在，绝不任再起内战”“实行三民主义，则共产主义即在其中”等醒目句直接属于现代政治宣传或政治史攻防，不收。

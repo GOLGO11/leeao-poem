@@ -1,0 +1,28 @@
+孙中山研究 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\005.孙中山研究
+sourceFiles: 16
+quoteCandidates: 1387
+reviewCandidates: 603
+attributedLines: 375
+rawRows: 36
+proofreadRemovedRows: 8
+proofreadAddedRows: 1
+selectedRows: 29
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: exclude political slogans, party/government claims, revolutionary doctrine, elections, national-day/flag rhetoric, and modern political attacks; keep only independently reusable literary, historical-method, translation, ethical, religious, scenic, and classical-proverb material.
+
+proofreadRemovedRows:
+LASZSYJ-013	008.孙中山蒋介石逼反老同志.txt:129-129	知之则必能行之，知之则更易行之	知行短句已在前册以更完整形态处理；本处来自政治冲突评论，校对轮删去碎片化重复。
+LASZSYJ-014	008.孙中山蒋介石逼反老同志.txt:231-231	瞻之在前，忽焉在后	过短古典碎片，且只是政治人物讽刺语境中的借用，不单独保留。
+LASZSYJ-023	011.孙中山与林肯名言.txt:155-155	这要循着林肯的“思”路之旅，才能判断出他的真正意义。	现代论文式过渡句，离开上下文不够自然，校对轮删去。
+LASZSYJ-024	011.孙中山与林肯名言.txt:193-193	简明有余、明确不足	四字式评语过短，像摘要标签而非独立诗文格言。
+LASZSYJ-026	012.孙中山把三民主义作为“统战工具”.txt:23-23	世界的范畴和事物哪有这么简单！在白与黑之间有灰，在白与黑之外有红、橙、青、蓝、紫。	来自三民主义统战文章的意识形态辨析段；虽可泛用，但校对轮按政治语境从严删去。
+LASZSYJ-027	012.孙中山把三民主义作为“统战工具”.txt:25-25	对思想学说只可研究，以定其对错或是否行得通。	来自三民主义统战文章的思想学说判断，政治语境过重，校对轮删去。
+LASZSYJ-032	015.《乱党之真相》中的孙中山.txt:43-43	你最好把那种欲望升华	婚恋场景中的短对话残句，不够独立完整。
+LASZSYJ-035	015.《乱党之真相》中的孙中山.txt:77-77	老兄，我一生中还没被如此伤害过。我自己的女儿和我最要好的朋友。	情节性对话，主要价值在传记场景而非格言或诗文。
+
+proofreadAddedRows:
+001.孙中山见了李鸿章吗？.txt:45-45	求其洞见本原、深明大略者，有几人哉？

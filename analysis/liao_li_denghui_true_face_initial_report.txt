@@ -1,0 +1,28 @@
+李登辉的真面目 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\006.李登辉的真面目
+sourceFiles: 36
+quoteCandidates: 1205
+reviewCandidates: 388
+attributedLines: 168
+rawRows: 28
+proofreadRemovedRows: 6
+proofreadAddedRows: 3
+selectedRows: 25
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary; exclude party/government/election/judicial/national-identity/airline-interest quotations and keep only independently reusable classical, literary, etiquette, linguistic, character, and research-method material.
+
+proofreadRemovedRows:
+LALDHTF-002	004.李登辉的屁股功夫.txt:3-3	Fine. I think I'm making an ass of myself.	英文漫画双关只是段子包袱，且所在章节转入现代政治讽刺，校对轮不作为诗文格言保留。
+LALDHTF-017	019.李登辉只祭蒋陵不祭黄陵.txt:5-5	慎终追远，缅怀祖德	出自祭黄陵政治报导语境，是现代官方祭祀套语，校对轮按政治语境从严删去。
+LALDHTF-019	023.李登辉智能障碍得了“蒙古症”.txt:29-29	将飞者翼伏，将奋者足局	虽似古语，但本处由蒋介石政治讲词转出，服务于外蒙古与联合国语境，校对轮删去。
+LALDHTF-021	028.“开放天空”并不“开放优待”.txt:71-71	还没升空世已惊，老子机票全不送	李敖就长荣航空利益争议写的时事打油句，属于现代商业政治攻防，不收。
+LALDHTF-025	032.为长荣集团的日本资本追资料.txt:9-9	自己只要站的稳，不怕别人说闲话	长荣方面对外解释语，近于企业公关表态，虽可泛用但不是清洁的诗文格言引用。
+LALDHTF-026	033.李登辉何德何能，岂可自比萨达特.txt:33-33	在五十四号牢房里，我领悟到一件事情，就是去重视那种内在的成就，那种内在的成就能维持一个人内心的均衡，并帮助一个人对他自己忠实。除非他先对自己忠实，才会有人对他忠实。	出自萨达特自传并用于现代政治人物对比，校对轮按政治人物语录删去。
+
+proofreadAddedRows:
+《李登辉的真面目》引言.txt:7-7	俟后世圣人君子。
+007.李登辉的亡国动作.txt:15-15	风恬浪静可行船，恰是中秋月一轮，凡事不须多忧虑，福禄自有庆家门。
+008.李登辉无人君之风.txt:3-3	魏王雅望非常。然床头捉刀人，此乃英雄也！

@@ -1,0 +1,24 @@
+郑南榕研究 proofread extraction report
+generatedDate: 2026-06-26
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\008.郑南榕研究
+sourceFiles: 30
+quoteCandidates: 1013
+keywordLines: 79
+reviewCandidates: 333
+attributedLines: 79
+rawRows: 34
+proofreadRemovedRows: 0
+proofreadAddedRows: 4
+selectedRows: 38
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is overwhelmingly modern political commentary; exclude party, election, Taiwan independence, intelligence-agency, revolution, state-identity, and modern political attack quotations, while keeping independently reusable classical, literary, philosophical, proverbial, and non-political poetic material.
+
+proofreadRemovedRows:
+
+proofreadAddedRows:
+004.给林正杰先生的公开信.txt:17-17	天下没有不散的筵席
+006.千呼万唤“屎”出来.txt:35-35	干父之蛊
+018.“杀君马者道旁儿”.txt:9-9	求仁得仁
+019.别小化了南榕之死.txt:11-11	舍生取义

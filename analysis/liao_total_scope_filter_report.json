@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-26",
+  "generatedDate": "2026-06-27",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -700,11 +700,151 @@
       "originalRows": 49,
       "keptRows": 49,
       "removedRows": 0
+    },
+    {
+      "fileName": "孙逸仙和中国西化医学_诗文格言歌谣引用.csv",
+      "book": "孙逸仙和中国西化医学",
+      "originalRows": 37,
+      "keptRows": 37,
+      "removedRows": 0
+    },
+    {
+      "fileName": "孙中山研究_诗文格言歌谣引用.csv",
+      "book": "孙中山研究",
+      "originalRows": 29,
+      "keptRows": 29,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李登辉的真面目_诗文格言歌谣引用.csv",
+      "book": "李登辉的真面目",
+      "originalRows": 25,
+      "keptRows": 25,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李登辉的假面具_诗文格言歌谣引用.csv",
+      "book": "李登辉的假面具",
+      "originalRows": 15,
+      "keptRows": 15,
+      "removedRows": 0
+    },
+    {
+      "fileName": "郑南榕研究_诗文格言歌谣引用.csv",
+      "book": "郑南榕研究",
+      "originalRows": 38,
+      "keptRows": 38,
+      "removedRows": 0
+    },
+    {
+      "fileName": "陈水扁的真面目_诗文格言歌谣引用.csv",
+      "book": "陈水扁的真面目",
+      "originalRows": 22,
+      "keptRows": 22,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李远哲的真面目_诗文格言歌谣引用.csv",
+      "book": "李远哲的真面目",
+      "originalRows": 18,
+      "keptRows": 18,
+      "removedRows": 0
+    },
+    {
+      "fileName": "你不知道的彭明敏_诗文格言歌谣引用.csv",
+      "book": "你不知道的彭明敏",
+      "originalRows": 13,
+      "keptRows": 13,
+      "removedRows": 0
+    },
+    {
+      "fileName": "为文学开窗_诗文格言歌谣引用.csv",
+      "book": "为文学开窗",
+      "originalRows": 41,
+      "keptRows": 41,
+      "removedRows": 0
+    },
+    {
+      "fileName": "丑陋的中国人研究_诗文格言歌谣引用.csv",
+      "book": "丑陋的中国人研究",
+      "originalRows": 77,
+      "keptRows": 77,
+      "removedRows": 0
+    },
+    {
+      "fileName": "闽变研究与文星讼案_诗文格言歌谣引用.csv",
+      "book": "闽变研究与文星讼案",
+      "originalRows": 16,
+      "keptRows": 16,
+      "removedRows": 0
+    },
+    {
+      "fileName": "大江大海骗了你_诗文格言歌谣引用.csv",
+      "book": "大江大海骗了你",
+      "originalRows": 24,
+      "keptRows": 24,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究",
+      "originalRows": 34,
+      "keptRows": 34,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究续集_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究续集",
+      "originalRows": 20,
+      "keptRows": 20,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究三集_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究三集",
+      "originalRows": 13,
+      "keptRows": 13,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究四集_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究四集",
+      "originalRows": 25,
+      "keptRows": 25,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究五集_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究五集",
+      "originalRows": 9,
+      "keptRows": 9,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石研究六集_诗文格言歌谣引用.csv",
+      "book": "蒋介石研究六集",
+      "originalRows": 35,
+      "keptRows": 35,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石的真面目_诗文格言歌谣引用.csv",
+      "book": "蒋介石的真面目",
+      "originalRows": 27,
+      "keptRows": 27,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋介石评传_诗文格言歌谣引用.csv",
+      "book": "蒋介石评传",
+      "originalRows": 44,
+      "keptRows": 44,
+      "removedRows": 0
     }
   ],
-  "rows": 10185,
+  "rows": 10747,
   "removedRows": 61,
-  "uniqueIds": 10185,
+  "uniqueIds": 10747,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,
