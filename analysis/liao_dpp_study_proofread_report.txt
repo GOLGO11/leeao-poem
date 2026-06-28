@@ -1,0 +1,77 @@
+{
+  "book": "民进党研究",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\004.民进党研究",
+  "sourceFiles": 61,
+  "candidatesJson": "analysis\\liao_dpp_study_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_dpp_study_review_candidates.tsv",
+  "selectedRows": 29,
+  "proofreadAddedRows": [
+    {
+      "id": "LAMJYJ-007",
+      "quote_text": "花对花，柳对柳，破扫把对箕帚",
+      "source_file": "003.党外与浑蛋.txt",
+      "line_start": 93
+    },
+    {
+      "id": "LAMJYJ-009",
+      "quote_text": "一只猫头鹰昼伏夜出，晚上活动，白天睡觉。可是来了一只蚱蜢，光天化日之下，在草地里唱个不停，吵得猫头鹰不能睡。猫头鹰要蚱蜢不要叫，蚱蜢不听。猫头鹰计上心来，说，反正听了你的歌声，我也睡不着了，你的歌声美妙如阿波罗（Apollo）的七弦琴，开怀之下，不如痛饮雅典娜（Pallas Athena）送我的酒吧，你就一起来喝吧。蚱蜢正唱得口渴，又被奉承之言弄得忘其所以，于是飞上枝头，跟猫头鹰相会。猫头鹰翻爪一扑，就把蚱蜢吃到嘴里了。",
+      "source_file": "008.蚱蜢必读.txt",
+      "line_start": 3
+    },
+    {
+      "id": "LAMJYJ-014",
+      "quote_text": "不出户，知天下",
+      "source_file": "013.尤清与阴沟.txt",
+      "line_start": 199
+    },
+    {
+      "id": "LAMJYJ-016",
+      "quote_text": "夜郎自大",
+      "source_file": "030.台湾的“夜郎症”.txt",
+      "line_start": 3
+    },
+    {
+      "id": "LAMJYJ-023",
+      "quote_text": "负式版者",
+      "source_file": "035.民进党的堕落.txt",
+      "line_start": 5
+    },
+    {
+      "id": "LAMJYJ-025",
+      "quote_text": "挟天子以令诸侯",
+      "source_file": "047.民进党的派系斗争问题.txt",
+      "line_start": 7
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source": "005.谁窃盗了党外的“名器”？.txt:99",
+      "quote_text": "权力使人腐化，绝对的权力使人绝对腐化。",
+      "reason": "政治权力格言，首轮按政治语录边界排除"
+    },
+    {
+      "source": "022.民进党的三不.txt:7",
+      "quote_text": "君子矜而不争，群而不党。",
+      "reason": "虽为孔子语，但本书中直接围绕现代政党论述，首轮暂不收入"
+    },
+    {
+      "source": "028.打着民主反民主.txt:5",
+      "quote_text": "治好民主的所有毛病是更多民主一点。",
+      "reason": "现代民主政治格言，属于政治判断，不收入"
+    },
+    {
+      "source": "028.打着民主反民主.txt:13",
+      "quote_text": "请愿而死，究竟是可耻的！",
+      "reason": "现代请愿与革命语境中的政治诗句，不收入"
+    }
+  ],
+  "csvPath": "exports\\民进党研究_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\民进党研究_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_dpp_study_selected_rows.json",
+  "reviewTsv": "analysis\\liao_dpp_study_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_dpp_study_proofread_audit.tsv"
+}

@@ -1,0 +1,17 @@
+{
+  "book": "给外省人难看",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\006.给外省人难看",
+  "sourceFiles": 37,
+  "candidatesJson": "analysis\\liao_make_waishengren_look_bad_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_make_waishengren_look_bad_review_candidates.tsv",
+  "selectedRows": 36,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\给外省人难看_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\给外省人难看_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_make_waishengren_look_bad_selected_rows.json",
+  "reviewTsv": "analysis\\liao_make_waishengren_look_bad_initial_review.tsv",
+  "auditTsv": "analysis\\liao_make_waishengren_look_bad_initial_audit.tsv"
+}

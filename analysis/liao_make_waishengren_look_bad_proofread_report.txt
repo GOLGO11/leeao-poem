@@ -1,0 +1,39 @@
+{
+  "book": "给外省人难看",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\006.给外省人难看",
+  "sourceFiles": 37,
+  "candidatesJson": "analysis\\liao_make_waishengren_look_bad_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_make_waishengren_look_bad_review_candidates.tsv",
+  "initialRowsBeforeProofread": 36,
+  "proofreadRemovedRows": 1,
+  "proofreadAddedRows": 1,
+  "selectedRows": 36,
+  "removedRows": [
+    {
+      "original_id": "LAGWSRNK-024",
+      "quote_text": "粗枝大叶，不耐细节",
+      "source_file": "025.吴大猷假公济私的一面.txt",
+      "line_start": 91,
+      "line_end": 91,
+      "reason": "现代人物自述，虽非政治语录，但不属于诗文格言或稳定成句，校对从严删除。"
+    }
+  ],
+  "addedRows": [
+    {
+      "id": "LAGWSRNK-028",
+      "quote_text": "诚玷辱士林之衣冠败类，二十四史儒林传所无之奸恶小人",
+      "source_file": "029.国民党别乱捧苏雪林啦！.txt",
+      "line_start": 11,
+      "line_end": 11
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\给外省人难看_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\给外省人难看_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_make_waishengren_look_bad_selected_rows.json",
+  "reviewTsv": "analysis\\liao_make_waishengren_look_bad_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_make_waishengren_look_bad_proofread_audit.tsv"
+}

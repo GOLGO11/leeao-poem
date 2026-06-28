@@ -1,0 +1,75 @@
+{
+  "book": "白眼看台湾",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\002.白眼看台湾",
+  "sourceFiles": 18,
+  "candidatesJson": "analysis\\liao_white_eye_taiwan_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_white_eye_taiwan_review_candidates.tsv",
+  "initialRowsBeforeProofread": 30,
+  "proofreadRemovedRows": 2,
+  "proofreadAddedRows": 5,
+  "selectedRows": 33,
+  "removedRows": [
+    {
+      "original_id": "LABYKTW-011",
+      "quote_text": "言犹在耳，忠岂忘心？",
+      "source_file": "011.别帮国民党讨姨太太！.txt",
+      "line_start": 99,
+      "line_end": 99,
+      "reason": "校对删除：复核上下文后为现代政治论战中的标题式化用，不作为独立传统格言保留。"
+    },
+    {
+      "original_id": "LABYKTW-015",
+      "quote_text": "世有以术使民而无道揆者，其如狙公乎！唯其昏而未觉也。一旦有开之，其术穷矣！",
+      "source_file": "013.猴子必读.txt",
+      "line_start": 81,
+      "line_end": 81,
+      "reason": "校对删除：古文评语本身是治民权术判断，按本项目“不收政治语录”口径保守移除。"
+    }
+  ],
+  "addedRows": [
+    {
+      "id": "LABYKTW-009",
+      "quote_text": "非之，无举也；刺之，无刺也。同乎流俗，合乎污世。居之似忠信，行之似廉洁，众皆悦之，自以为是，而不可与入尧舜之道。故曰：德之贼也。",
+      "source_file": "008.小朋友，别乡愿！.txt",
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "id": "LABYKTW-010",
+      "quote_text": "过我门而不入我室，我不憾焉者，其唯乡愿乎？乡愿，德之贼也。",
+      "source_file": "008.小朋友，别乡愿！.txt",
+      "line_start": 13,
+      "line_end": 13
+    },
+    {
+      "id": "LABYKTW-017",
+      "quote_text": "尔之爱我也，不如彼！君子之爱人也，以德；细人之爱人也，以姑息。吾何求哉？吾得正而毙焉，斯已矣！",
+      "source_file": "016.小儿没病，老儿病了.txt",
+      "line_start": 45,
+      "line_end": 45
+    },
+    {
+      "id": "LABYKTW-018",
+      "quote_text": "华而睆！大夫之箦与！",
+      "source_file": "016.小儿没病，老儿病了.txt",
+      "line_start": 45,
+      "line_end": 45
+    },
+    {
+      "id": "LABYKTW-019",
+      "quote_text": "然！斯季孙之赐也。我未之能易也，元！起易箦！",
+      "source_file": "016.小儿没病，老儿病了.txt",
+      "line_start": 45,
+      "line_end": 45
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\白眼看台湾_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\白眼看台湾_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_white_eye_taiwan_selected_rows.json",
+  "reviewTsv": "analysis\\liao_white_eye_taiwan_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_white_eye_taiwan_proofread_audit.tsv"
+}

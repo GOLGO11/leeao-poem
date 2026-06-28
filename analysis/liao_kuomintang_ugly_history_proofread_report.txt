@@ -1,0 +1,37 @@
+国民党臭史 proofread extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\013.国民党史政\003.国民党臭史
+sourceFilesForExport: 28
+quoteCandidates: 1363
+uniqueQuoteTexts: 954
+keywordLines: 180
+reviewCandidates: 519
+initialRowsBeforeProofread: 36
+proofreadRemovedRows: 0
+proofreadAddedRows: 0
+selectedRows: 36
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern Kuomintang history, party-state propaganda, judicial/military systems, anti-communist and recovery rhetoric, explosions/assassinations, elections, diplomacy, and political attack material; exclude direct modern party, regime, state, leader, military, revolution, anti-communist, counteroffensive, recovery, unification/independence, democracy/freedom/human-rights, judicial-purge, violence/terror, and propaganda-attack quotations. Keep only independently reusable classical poetry/prose, idioms, proverbs, family maxims, religious/literary allusions, foreign maxims, and non-political life sayings.
+
+selectedHighlights:
+- 002/004/005/006: 收苏东坡成句、北方土话、英文谚语、胡汉民诗句、成语俗语与“一朝权在手”；现代法制、党报、政府、党国运动和人权政论原话不收。
+- 009/011: 收陶希圣旧体诗句、义利成句化用、孟子孝道语、继嗣古文、古书释义、徐三重家训和欧阳修史评；现代国共、汉奸、宣传与军政叙述不收。
+- 013/015/016/017/024: 收伊索寓言、孟子成句、俗语、《论语》及理雅格英译、张俭/谭嗣同典故、庞居士格言、严复译诗和佛教俗语；炸报、政治犯、暴力、反共复国与意识形态段落不收。
+- 028: 收束发古礼文句、英语日用格言和“人同此心，心同此理”；蒋氏遗嘱、反共抗俄、民有民治、自由平等博爱、毋忘在莒及司法攻防语录不收。
+
+proofreadChanges:
+- 本轮复核 36 条保留项，未删除、未增补；新增 proofread 审核表与报告。
+- 复核政治上下文命中项后，仅保留可脱离现代政党/政权攻防独立检索的古典诗文、俗语、家训、寓言、译诗和外文日用格言。
+- 继续排除“无偏无党”“君子不党”“群而不党”“民有、民享、民治”“自由、平等、博爱”“毋忘在莒”等党史论战或政治口号化条目。
+
+excludedHighlights:
+- 001 司法冤案、死刑、证据和罗生门段落以司法/人权攻防为主体，首轮不收。
+- 003/012 的“无偏无党”“君子不党”“群而不党”虽有古典出处，但本册直接用于党字、政党结构和一党政治论战，按硬口径排除。
+- 005 孙文贺电、北洋军阀、党国文献和“误国之罪，百身莫赎”等属政治史评或党国口号，首轮不收。
+- 013 富兰克林伪引、炸报分析、暴力与因果报应论战不收，只保留伊索寓言、孟子成句与俗语本体。
+- 016 三国孟获段虽是文学引用，但通篇被用作政治犯假释与军法/暗杀攻防比附，首轮从严不收。
+- 022 五四、民主科学救国、三民主义和胡适党派判断均属现代思想政治语录，首轮不收。
+- 028 “民有、民享、民治”“自由、平等、博爱”“毋忘在莒”虽有名言/古典性质，但本册直接嵌在政治口号、反攻复国和诉讼攻防中，首轮从严不收。
+- 027 王宠惠轶事幽默可读，但更像人物笑谈，不属诗文格言歌谣主体，首轮不收。

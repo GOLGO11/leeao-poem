@@ -1,0 +1,17 @@
+{
+  "book": "冷眼看台湾",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\001.冷眼看台湾",
+  "sourceFiles": 48,
+  "candidatesJson": "analysis\\liao_cold_eye_taiwan_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_cold_eye_taiwan_review_candidates.tsv",
+  "selectedRows": 77,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\冷眼看台湾_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\冷眼看台湾_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_cold_eye_taiwan_selected_rows.json",
+  "reviewTsv": "analysis\\liao_cold_eye_taiwan_initial_review.tsv",
+  "auditTsv": "analysis\\liao_cold_eye_taiwan_initial_audit.tsv"
+}

@@ -1,0 +1,39 @@
+{
+  "book": "民进党研究",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\004.民进党研究",
+  "sourceFiles": 61,
+  "candidatesJson": "analysis\\liao_dpp_study_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_dpp_study_review_candidates.tsv",
+  "selectedRows": 23,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source": "005.谁窃盗了党外的“名器”？.txt:99",
+      "quote_text": "权力使人腐化，绝对的权力使人绝对腐化。",
+      "reason": "政治权力格言，首轮按政治语录边界排除"
+    },
+    {
+      "source": "022.民进党的三不.txt:7",
+      "quote_text": "君子矜而不争，群而不党。",
+      "reason": "虽为孔子语，但本书中直接围绕现代政党论述，首轮暂不收入"
+    },
+    {
+      "source": "028.打着民主反民主.txt:5",
+      "quote_text": "治好民主的所有毛病是更多民主一点。",
+      "reason": "现代民主政治格言，属于政治判断，不收入"
+    },
+    {
+      "source": "028.打着民主反民主.txt:13",
+      "quote_text": "请愿而死，究竟是可耻的！",
+      "reason": "现代请愿与革命语境中的政治诗句，不收入"
+    }
+  ],
+  "csvPath": "exports\\民进党研究_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\民进党研究_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_dpp_study_selected_rows.json",
+  "reviewTsv": "analysis\\liao_dpp_study_initial_review.tsv",
+  "auditTsv": "analysis\\liao_dpp_study_initial_audit.tsv"
+}

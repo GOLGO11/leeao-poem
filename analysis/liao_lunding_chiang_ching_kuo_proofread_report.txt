@@ -1,0 +1,29 @@
+论定蒋经国 proofread extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\025.论定蒋经国
+sourceFilesForExport: 40
+quoteCandidates: 1385
+uniqueQuoteTexts: 1127
+keywordLines: 205
+reviewCandidates: 638
+attributedLines: 240
+initialSelectedRowsBeforeProofread: 94
+proofreadRemovedRows: 2
+proofreadAddedRows: 48
+selectedRows: 140
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by posthumous evaluation of Chiang Ching-kuo, Chiang family rule, KMT party-state materials, youth-army and cadre systems, Gannan administration, gold yuan currency cases, Taiwan politics and the Henry Liu/Jiang Nan case; exclude direct modern party, regime, leader, president, military, war, revolution, state, national-identity, diplomacy, constitutional, human-rights, ideological, assassination and succession quotations, while keeping independently reusable classical poetry/prose, ritual prose, idioms, proverbs, literary quotations, family-instruction phrases and non-political maxims.
+
+selectedHighlights:
+- 前言/001/002: 收《孟子》大丈夫句、志公与梁武帝文句、宋人题灵谷寺诗、陈后主诏句、崇祯史传文句、俗谚、汉武帝罪己诏与《淮南子》名句；蒋氏父子亡国、反攻和现代民主宪政攻防语录不收。
+- 003/004: 收读书格言、《孝经》名句、吴稚晖墓志文句、母子亲情散文句、孟郊诗句与三父八母民俗；蒋家身世和现代政治人物身份语境不收。
+- 007/009/011/012/015/016/019/023/025/026/028: 收通用成语、民谚、杜甫诗句、俗语和诗句化用；赣南统治、青年军、金圆券、接收贪污与权贵关系语录不收。
+- 029/032/033/035/036/037/039: 收官场成语、唐诗、圣经句、丧葬俗见、王充《论衡》、《礼记》、秦松龄诗、孔子语、闽南谚语、陆游诗句与《红楼梦》化句；总统继任、江南案、党国暗杀和民主自由政治语录不收。
+- 校对轮：增补扶不起的阿斗、与人为善、虚与委蛇、多如过江之鲫、鸣琴垂拱、一语成谶等可独立检索的成语俗语典故；移除蒋经国干部/用人演讲里的两条现代政治人物语录。
+
+excludedHighlights:
+- 前言/001/002: 追思经国、宽阔政治胸怀、复兴活在中国失败死在台湾、未来蒋家的人不能也不会担任总统、民主宪政、人权和自由政治评价均从严不收。
+- 006/007/009/010/014-018/021-024: 莫斯科革命表态、反共/青年军/三青团/中正学社/燕廉/铁血救国会等现代政治组织语录和口号不收。
+- 026/027/029/031/032/035/037/039: 金圆券、总统健康、李登辉继任、江南案、一清专案、国安法、政治冤狱和国府谋杀等现代政治法律语录不收；只留可独立检索的诗文、成语、俗语、典故和非政治格言。

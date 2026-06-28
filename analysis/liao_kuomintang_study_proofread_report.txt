@@ -1,0 +1,45 @@
+国民党研究 proofread extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\013.国民党史政\001.国民党研究
+sourceFilesForExport: 31
+quoteCandidates: 1507
+uniqueQuoteTexts: 996
+keywordLines: 157
+reviewCandidates: 479
+initialRowsBeforeProofread: 89
+proofreadRemovedRows: 6
+proofreadAddedRows: 8
+selectedRows: 91
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern Kuomintang history, party-state documents, military and judicial systems, counteroffensive/recovery rhetoric, elections, veterans, and military brothel material; exclude direct modern party, regime, state, leader, military, revolution, anti-communist, counteroffensive, election, unification/independence, democracy/freedom/human-rights, judicial-purge, and political attack quotations. Keep only independently reusable classical poetry/prose, idioms, proverbs, jokes, couplets, literary allusions, folk/legal-history material, foreign maxims, and non-political life sayings.
+
+selectedHighlights:
+- 001-005: 收章太炎文言史评、贪天/贪人之功、古笑话、佛典句、吹法螺、欧阳修诗句、情不可却与纣王复生笑话；删去戒严语境下的“情非得已”。
+- 006-011: 收清末轶事语、店招俗语、天下没有白吃的午餐、传统孝道语、十步芳草、一朝权在手、鸿案相庄；删去普通短对话“得计矣”和现代寿庆赞语“坤德济以贞恒”。
+- 013-017: 收千算万算不如天算、妓院/军中俗语、红楼梦化用、古诗笑话、《三国志》文句和老兵名言译句；删去含“故国”的军中乐园前线联语。
+- 020-023: 收杜甫诗句、《老子》、古代刑法与酷吏文句、孔子论法、抑强扶弱、行侠仗义、卖友求荣和英国谚语；现代司法、媒体社论、死刑和政治整肃语录不收。
+- 025-030: 收吴大澂人物评语、黄遵宪讽刺诗、统计学格言、古笑话、郑板桥/齐白石文人雅谑、《桃花扇》评语和《出师表》化用；反攻无望论、通缉、走狗自白、孔家政治职衔和选举语录不收。
+
+proofreadChanges:
+- 删除「情非得已」：校对从严删除：这是戒严语境中的现代政治谐拟，独立检索价值弱。
+- 删除「得计矣。」：校对从严删除：只是清末轶事中的短对话，不足以作为诗文格言条目。
+- 删除「民间随意伪造，此风不可长」：校对从严删除：更像事件处置语，不是稳定诗文格言。
+- 删除「十步芳草，洵可嘉许」：校对改写：删去现代纠举书评语后半，只保留成语本体“十步芳草”。
+- 删除「坤德济以贞恒」：校对从严删除：现代人物寿庆赞语，带颂词性质。
+- 删除「怜惜枕边红粉 记取故国佳人」：校对从严删除：前线军中乐园联语中的“故国”指向太强，政治/军政语境不够干净。
+- 增补「吹法螺」：李敖说明“吹法螺”由佛教用语引申为吹牛，校对补入成语本体。
+- 增补「十步芳草」：李敖摘出十步芳草，表示十步之内也有芳草，人才随处可见。
+- 增补「偷鸡不着蚀把米」：李敖引用俗语，形容占便宜不成反而吃亏。
+- 增补「羊肉没吃到，惹得一身膻」：李敖引用俗语，形容好处没得到反招麻烦。
+- 增补「抑强扶弱」：李敖用抑强扶弱说明真正的社会公义应压抑强者、扶助弱者。
+- 增补「行侠仗义」：李敖用行侠仗义说明扶助弱者的侠义精神。
+- 增补「卖友求荣」：李敖用卖友求荣形容出卖朋友以换取利益。
+- 增补「判若云泥」：李敖用判若云泥形容人格高下差别极大。
+
+excludedHighlights:
+- 自序、004、008、010、012、018、019、021、024、026 主体为现代政治口号、官方/司法/军政文书或政论攻防，首轮基本不收。
+- 本册结尾李敖骂“老K”的诗、毛泽东《蝶恋花》及“忽报人间曾伏虎”等虽属诗词，但现代政治指向强，首轮不收。
+- “自由、自由，多少罪恶假汝之名以行之”“民主、民主……”等虽是格言/化用，但属于现代意识形态与政治论战语录，首轮不收。
+- “十年生聚，十年教训”“师文王，大国五年……”等古典句在本册直接嵌入反攻复国讲话，首轮从严不收。

@@ -1,0 +1,94 @@
+{
+  "book": "冷眼看台湾",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\001.冷眼看台湾",
+  "sourceFiles": 48,
+  "candidatesJson": "analysis\\liao_cold_eye_taiwan_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_cold_eye_taiwan_review_candidates.tsv",
+  "initialRowsBeforeProofread": 77,
+  "proofreadRemovedRows": 7,
+  "proofreadAddedRows": 2,
+  "selectedRows": 72,
+  "removedRows": [
+    {
+      "original_id": "LALYKTW-013",
+      "quote_text": "竟为收容",
+      "source_file": "006.向高牧师高牧师娘致敬.txt",
+      "line_start": 9,
+      "line_end": 9,
+      "reason": "校对删除：只是古文片段，检索价值弱，已由同段“望门投止”“好将轻侠藏亡命”覆盖其义。"
+    },
+    {
+      "original_id": "LALYKTW-027",
+      "quote_text": "造菩萨行",
+      "source_file": "011.施性忠才是真和尚.txt",
+      "line_start": 27,
+      "line_end": 27,
+      "reason": "校对删除：佛教短语过碎，不构成独立诗文格言。"
+    },
+    {
+      "original_id": "LALYKTW-029",
+      "quote_text": "屠戮生民，所过郡县，靡有孑遗",
+      "source_file": "011.施性忠才是真和尚.txt",
+      "line_start": 39,
+      "line_end": 39,
+      "reason": "校对删除：史料背景描述偏暴力叙事，不作为格言或可独立引用诗文保留。"
+    },
+    {
+      "original_id": "LALYKTW-047",
+      "quote_text": "瑶言止于智者",
+      "source_file": "022.找康宁祥算账！.txt",
+      "line_start": 45,
+      "line_end": 45,
+      "reason": "校对删除：源文疑为“谣言止于智者”的 OCR 误字，保留会把错字固定进条目。"
+    },
+    {
+      "original_id": "LALYKTW-053",
+      "quote_text": "不仁、不义、不忠、不信",
+      "source_file": "027.“不是‘小疯狗’”不是诽谤吗？.txt",
+      "line_start": 23,
+      "line_end": 23,
+      "reason": "校对删除：只是古书反面词例列表，不是独立引用句。"
+    },
+    {
+      "original_id": "LALYKTW-071",
+      "quote_text": "不按牌理出牌",
+      "source_file": "034.法律的问题，法律解决.txt",
+      "line_start": 185,
+      "line_end": 185,
+      "reason": "校对删除：在法律攻防引文中顺带出现的普通口头语，首轮从严去掉。"
+    },
+    {
+      "original_id": "LALYKTW-073",
+      "quote_text": "打开天窗说亮话",
+      "source_file": "034.法律的问题，法律解决.txt",
+      "line_start": 185,
+      "line_end": 185,
+      "reason": "校对删除：在法律攻防引文中顺带出现的普通口头语，首轮从严去掉。"
+    }
+  ],
+  "addedRows": [
+    {
+      "id": "LALYKTW-034",
+      "quote_text": "只要颜色不同，就打掉再说！",
+      "source_file": "015.向坐轿者还颜色.txt",
+      "line_start": 15,
+      "line_end": 15
+    },
+    {
+      "id": "LALYKTW-045",
+      "quote_text": "证据是历史工作者的第一信条，没有证据是不能随便下笔的。",
+      "source_file": "023.谁假托了魏廷朝的话？.txt",
+      "line_start": 15,
+      "line_end": 15
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\冷眼看台湾_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\冷眼看台湾_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_cold_eye_taiwan_selected_rows.json",
+  "reviewTsv": "analysis\\liao_cold_eye_taiwan_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_cold_eye_taiwan_proofread_audit.tsv"
+}

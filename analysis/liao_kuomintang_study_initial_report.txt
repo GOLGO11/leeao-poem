@@ -1,0 +1,26 @@
+国民党研究 initial extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\013.国民党史政\001.国民党研究
+sourceFilesForExport: 31
+quoteCandidates: 1507
+uniqueQuoteTexts: 996
+keywordLines: 157
+reviewCandidates: 479
+selectedRows: 89
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern Kuomintang history, party-state documents, military and judicial systems, counteroffensive/recovery rhetoric, elections, veterans, and military brothel material; exclude direct modern party, regime, state, leader, military, revolution, anti-communist, counteroffensive, election, unification/independence, democracy/freedom/human-rights, judicial-purge, and political attack quotations. Keep only independently reusable classical poetry/prose, idioms, proverbs, jokes, couplets, literary allusions, folk/legal-history material, foreign maxims, and non-political life sayings.
+
+selectedHighlights:
+- 001-005: 收章太炎文言史评、贪天/贪人之功、古笑话、佛典句、欧阳修诗句、情不可却/情非得已与纣王复生笑话；建党、同盟会、政党宣言和总裁训词不收。
+- 006-011: 收清末轶事语、店招俗语、天下没有白吃的午餐、传统孝道语、十步芳草、一朝权在手、鸿案相庄；官方文书、金圆券、接收敌产和反攻复国材料不收。
+- 013-017: 收千算万算不如天算、妓院/军中俗语、红楼梦化用、古诗笑话、《三国志》文句和老兵名言译句；毛词、现代政治讽刺诗、军中乐园制度语录和前线宣传对联中的报国句不收。
+- 020-023: 收杜甫诗句、《老子》、古代刑法与酷吏文句、孔子论法和英国谚语；现代司法、媒体社论、死刑和政治整肃语录不收。
+- 025-030: 收吴大澂人物评语、黄遵宪讽刺诗、统计学格言、古笑话、郑板桥/齐白石文人雅谑、《桃花扇》评语和《出师表》化用；反攻无望论、通缉、走狗自白、孔家政治职衔和选举语录不收。
+
+excludedHighlights:
+- 自序、004、008、010、012、018、019、021、024、026 主体为现代政治口号、官方/司法/军政文书或政论攻防，首轮基本不收。
+- 本册结尾李敖骂“老K”的诗、毛泽东《蝶恋花》及“忽报人间曾伏虎”等虽属诗词，但现代政治指向强，首轮不收。
+- “自由、自由，多少罪恶假汝之名以行之”“民主、民主……”等虽是格言/化用，但属于现代意识形态与政治论战语录，首轮不收。
+- “十年生聚，十年教训”“师文王，大国五年……”等古典句在本册直接嵌入反攻复国讲话，首轮从严不收。

@@ -1,0 +1,17 @@
+{
+  "book": "给国民党难看",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\005.给国民党难看",
+  "sourceFiles": 44,
+  "candidatesJson": "analysis\\liao_make_kuomintang_look_bad_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_make_kuomintang_look_bad_review_candidates.tsv",
+  "selectedRows": 41,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\给国民党难看_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\给国民党难看_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_make_kuomintang_look_bad_selected_rows.json",
+  "reviewTsv": "analysis\\liao_make_kuomintang_look_bad_initial_review.tsv",
+  "auditTsv": "analysis\\liao_make_kuomintang_look_bad_initial_audit.tsv"
+}

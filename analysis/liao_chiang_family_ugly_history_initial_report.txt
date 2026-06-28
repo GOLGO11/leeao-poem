@@ -1,0 +1,24 @@
+蒋家臭史 initial extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\026.蒋家臭史
+sourceFilesForExport: 29
+quoteCandidates: 414
+uniqueQuoteTexts: 345
+keywordLines: 95
+reviewCandidates: 205
+attributedLines: 141
+selectedRows: 105
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by Chiang/Soong family scandals, Chiang Ching-kuo and Chiang Wei-kuo materials, KMT party-state narratives, anti-communist and revolutionary slogans, Gannan wartime material, Taiwan politics, private children and family succession; exclude direct modern party, regime, leader, president, military, war, revolution, state, national-identity, diplomacy, constitutional, human-rights, ideological, political-prisoner, assassination and succession quotations, while keeping independently reusable classical poetry/prose, ritual prose, epitaph/couplet lines, idioms, proverbs, literary quotations, family-document prose and non-political maxims.
+
+selectedHighlights:
+- 002/010/011/014/016/018: 收墓志铭、挽联、家族哀状、机智口语、男女格言、唐诗化句、论语化句和通用成语；婚恋丑闻、蒋家身世攻防和现代人物表态不收。
+- 007/019/020/021/022: 收赣南文中可独立检索的成语俗语、《礼记·礼运》、《史记·绛侯周勃世家》、《汉武故事》、《史记·秦始皇本纪》和《兰亭集序》化句；反共、抗战、赣南保卫、国父思想、道统论、终身总统和家族接班语录不收。
+- 025/026/027/028/029: 收司马昭之心、佛教俗语、弱水典故、奇货可居、顺水人情、龚自珍诗句、君子爱人以德等非政治成语格言；私生子政治、政治犯谈话、现代党派批评和蒋家杂评语录不收。
+
+excludedHighlights:
+- 001/005/006/007: 蒋宋美龄公开信、蒋经国留苏反蒋书信、打倒蒋介石/打倒国民党/中国革命胜利万岁、誓死保卫新赣南等现代政治口号和人物语录不收。
+- 019/020/027/028/029: 国父思想、三民主义、政治者俗人之事、私藏军火政治攻防、政治犯定义和现代政府党派评论不收。
+- 023/025/026: 蒋家三代接班亡一组现代政治讽刺顺口溜、蒋孝武挽联和包含现代政治称谓的嘲讽诗句首轮不收；只留可独立检索的非政治诗文格言片段。

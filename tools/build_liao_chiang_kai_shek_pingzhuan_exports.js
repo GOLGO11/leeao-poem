@@ -14,6 +14,9 @@ const selectedJson = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_selec
 const reviewTsv = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_initial_review.tsv");
 const auditTsv = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_initial_audit.tsv");
 const reportTxt = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_initial_report.txt");
+const proofreadReviewTsv = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_proofread_review.tsv");
+const proofreadAuditTsv = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_proofread_audit.tsv");
+const proofreadReportTxt = path.join("analysis", "liao_chiang_kai_shek_pingzhuan_proofread_report.txt");
 const sourceDecoder = new TextDecoder("gb18030");
 
 const files = fs
@@ -59,7 +62,7 @@ function q(selector, lineStart, quoteText, category, attributedTo, summary, line
     source_or_origin: attributedTo,
     summary,
     notes: [
-      "首轮保守收入：《蒋介石评传》以蒋介石政治传记、党国史、北伐、内战、抗战、外交、台湾统治与蒋氏父子评价为主体；现代党派、政权、领袖、军政、战争、革命、国家民族、外交、统独、宪政、人权、意识形态、暗杀和反蒋/拥蒋语录不收，只保留可脱离具体政治攻防独立检索的古典诗文、礼制文句、成语、俗语、题联、游记散句和非政治格言。",
+      "保守收入：《蒋介石评传》以蒋介石政治传记、党国史、北伐、内战、抗战、外交、台湾统治与蒋氏父子评价为主体；现代党派、政权、领袖、军政、战争、革命、国家民族、外交、统独、宪政、人权、意识形态、暗杀和反蒋/拥蒋语录不收，只保留可脱离具体政治攻防独立检索的古典诗文、礼制文句、成语、俗语、题联、游记散句和非政治格言。",
       extraNotes,
     ]
       .filter(Boolean)
@@ -67,7 +70,7 @@ function q(selector, lineStart, quoteText, category, attributedTo, summary, line
   };
 }
 
-const rows = [
+const rawRows = [
   q(
     "001.",
     5,
@@ -510,6 +513,231 @@ const rows = [
   ),
 ];
 
+const proofreadRemovedRows = [];
+
+const proofreadAdditions = [
+  q(
+    "004.",
+    75,
+    "雪满山原，一白无际",
+    "梦境散文句",
+    "蒋介石梦境记述",
+    "作者引蒋介石梦中雪满山原、一白无际的景象。",
+    75,
+    "校对补入，只收梦境景物句本体；不收孙蒋关系、回粤、丧事和军政行踪语境。",
+  ),
+  q(
+    "004.",
+    93,
+    "取道北溪，探四明石窗，蹑鼠尾山巅，向西北驰下",
+    "游记散文句",
+    "蒋介石游山记述",
+    "作者引蒋介石记述取道北溪、探石窗、登山驰下的游踪。",
+    93,
+    "校对补入，只收游记散文句；不收孙蒋关系、奔走去留和军政传记语境。",
+  ),
+  q(
+    "009.",
+    405,
+    "要劫劫皇杠，要玩玩娘娘",
+    "谚语",
+    "中国谚语",
+    "作者引谚语形容贪图异味和冒险染指的夸张气派。",
+    405,
+    "校对补入，只收谚语本体；不收威尔基、宋美龄和外交绯闻语境。",
+  ),
+  q(
+    "009.",
+    449,
+    "看花愁近最高楼",
+    "近人诗句",
+    "陈寅恪诗句",
+    "作者引陈寅恪诗句写登高看花而近愁的感慨。",
+    449,
+    "校对补入，只收诗句本体；不收抗战、蒋介石评价和政治处理语境。",
+  ),
+  q(
+    "009.",
+    467,
+    "虽不杀伯仁，伯仁因我而死",
+    "古典典故成句",
+    "周顗伯仁典故",
+    "作者用伯仁典故说明虽非亲手致死却难辞间接责任。",
+    467,
+    "校对补入，只收典故成句本体；不收中美合作所、政治犯和军统语境。",
+  ),
+  q(
+    "011.",
+    105,
+    "瞒天过海",
+    "成语",
+    "中文成语",
+    "作者用成语批评措词掩盖事实。",
+    105,
+    "校对补入，只收成语本体；不收康泽、国共、俘囚和政治挽联语境。",
+  ),
+  q(
+    "011.",
+    265,
+    "百无一用之书生",
+    "俗语化成句",
+    "中文俗语化成句",
+    "作者引陈布雷自称百无一用之书生的自责语。",
+    265,
+    "校对补入，只收成句本体；不收陈布雷、国民党、自杀和政治失败语境。",
+  ),
+  q(
+    "011.",
+    271,
+    "忧心如焚",
+    "成语",
+    "中文成语",
+    "作者引陈布雷书信中忧虑如火焚的成语。",
+    271,
+    "校对补入，只收成语本体；不收陈布雷、国民党、自杀和政治失败语境。",
+  ),
+  q(
+    "011.",
+    271,
+    "一生辛苦，乃落得如此一文不值之下场",
+    "自责散文句",
+    "陈布雷书信语",
+    "作者引陈布雷书信中自叹一生辛苦却落得一文不值的句子。",
+    271,
+    "校对补入，只收自责散文句；不收陈布雷、国民党、自杀和政治失败语境。",
+  ),
+  q(
+    "011.",
+    355,
+    "扶不起的阿斗",
+    "俗语典故",
+    "刘禅阿斗典故",
+    "作者用扶不起的阿斗比喻无论如何扶助都难以成事的人。",
+    355,
+    "校对补入，只收俗语典故本体；不收美国白皮书、国共内战和政权评价语境。",
+  ),
+  q(
+    "011.",
+    355,
+    "可怜汉主求仙意，博得胡僧话劫灰",
+    "近人诗句",
+    "陈寅恪诗句",
+    "作者引陈寅恪诗句写汉主求仙而终得劫灰之叹。",
+    355,
+    "校对补入，只收诗句本体；不收美国白皮书、国共内战和政权评价语境。",
+  ),
+  q(
+    "012.",
+    23,
+    "“远水”救不了“近火”",
+    "俗语",
+    "中文俗语",
+    "作者用俗语说明远方力量不能解眼前危局。",
+    23,
+    "校对补入，只收俗语本体；不收徐蚌、内战、和谈与政治残局语境。",
+  ),
+  q(
+    "012.",
+    23,
+    "吃回头草",
+    "俗语",
+    "中文俗语",
+    "作者用俗语说明重新回头做已经放弃或否定的事。",
+    23,
+    "校对补入，只收俗语本体；不收国共和谈和政治残局语境。",
+  ),
+  q(
+    "012.",
+    23,
+    "背黑锅",
+    "俗语",
+    "中文俗语",
+    "作者用俗语说明替人承担责任或恶名。",
+    23,
+    "校对补入，只收俗语本体；不收徐蚌、内战、和谈和蒋李政治语境。",
+  ),
+  q(
+    "012.",
+    23,
+    "替死鬼",
+    "俗语",
+    "中文俗语",
+    "作者用俗语说明替别人承担灾祸或责任的人。",
+    23,
+    "校对补入，只收俗语本体；不收徐蚌、内战、和谈和蒋李政治语境。",
+  ),
+  q(
+    "012.",
+    185,
+    "蛛丝马迹",
+    "成语",
+    "中文成语",
+    "作者用成语说明从细微迹象中可寻线索。",
+    185,
+    "校对补入，只收成语本体；不收黄金转运和蒋李政治语境。",
+  ),
+  q(
+    "012.",
+    255,
+    "改弦更张",
+    "成语",
+    "中文成语",
+    "作者引书信中改弦更张，指改变方针办法。",
+    255,
+    "校对补入，只收成语本体；不收李宗仁书信、党政、台琼和反攻语境。",
+  ),
+  q(
+    "012.",
+    255,
+    "故步自封",
+    "成语",
+    "中文成语",
+    "作者引书信中故步自封，指守旧不求改变。",
+    255,
+    "校对补入，只收成语本体；不收李宗仁书信、党政、台琼和反攻语境。",
+  ),
+  q(
+    "013.",
+    45,
+    "无可奈何花落去",
+    "宋词化句",
+    "晏殊《浣溪沙》化用",
+    "作者化用晏殊词句，写大势已去、无可挽回。",
+    45,
+    "校对补入，只收词句化用本体；不收美国、台湾和中国政权承认语境。",
+  ),
+  q(
+    "014.",
+    181,
+    "打破砂锅问到底",
+    "俗语",
+    "中文俗语",
+    "作者用俗语说明追问到底、不放过真相。",
+    181,
+    "校对补入，只收俗语本体；不收江南案、蒋孝武和特务政治语境。",
+  ),
+  q(
+    "014.",
+    181,
+    "弃车保帅",
+    "成语",
+    "象棋成语",
+    "作者用成语说明牺牲较小一方以保全关键人物。",
+    181,
+    "校对补入，只收成语本体；不收江南案、情报局和蒋家政治语境。",
+  ),
+  q(
+    "014.",
+    181,
+    "投鼠忌器",
+    "成语",
+    "中文成语",
+    "作者用成语说明有所顾忌而不敢行动。",
+    181,
+    "校对补入，只收成语本体；不收江南案、竹联帮和蒋家政治语境。",
+  ),
+];
+
 const modernPoliticalTerms = [
   "共产党",
   "共党",
@@ -593,7 +821,9 @@ function hasPoliticalHit(row) {
 }
 
 const fileIndex = new Map(files.map((file, index) => [file, index]));
-const selectedRows = rows
+const proofreadRemovedQuoteKeys = new Set(proofreadRemovedRows.map((row) => normalizeText(row.quote_text)));
+const initialRows = rawRows.filter((row) => !proofreadRemovedQuoteKeys.has(normalizeText(row.quote_text)));
+const selectedRows = [...initialRows, ...proofreadAdditions]
   .sort((a, b) => {
     const fileDiff = fileIndex.get(a.source_file) - fileIndex.get(b.source_file);
     if (fileDiff) return fileDiff;
@@ -605,11 +835,41 @@ const selectedRows = rows
     id: `${idPrefix}-${String(index + 1).padStart(3, "0")}`,
   }));
 
+function selectedVersion(row) {
+  const rowKey = [row.source_file, row.line_start, normalizeText(row.quote_text)].join("\u0001");
+  return (
+    selectedRows.find((selected) => {
+      const selectedKey = [selected.source_file, selected.line_start, normalizeText(selected.quote_text)].join("\u0001");
+      return selectedKey === rowKey;
+    }) || row
+  );
+}
+
 const auditRows = selectedRows.map((row) => {
   const present = quotePresent(row);
   const politicalHits = hasPoliticalHit(row);
   return { row, present, politicalHits };
 });
+
+const proofreadAuditRows = [
+  ...proofreadRemovedRows.map((row) => ({
+    action: "remove",
+    reason: "校对删除",
+    row,
+    present: quotePresent(row),
+    politicalHits: hasPoliticalHit(row),
+  })),
+  ...proofreadAdditions.map((row) => {
+    const selected = selectedVersion(row);
+    return {
+      action: "add",
+      reason: "校对补入",
+      row: selected,
+      present: quotePresent(selected),
+      politicalHits: hasPoliticalHit(selected),
+    };
+  }),
+];
 
 const missing = auditRows.filter((item) => !item.present);
 const politicalHits = auditRows.filter((item) => item.politicalHits.length > 0);
@@ -690,6 +950,7 @@ fs.writeFileSync(
   ].join("\n") + "\n",
   "utf8",
 );
+fs.copyFileSync(reviewTsv, proofreadReviewTsv);
 
 fs.writeFileSync(
   auditTsv,
@@ -697,6 +958,27 @@ fs.writeFileSync(
     "id\tsource_file\tline_start\tline_end\tpresent\tpolitical_hits\tquote_text",
     ...auditRows.map((item) =>
       [
+        item.row.id,
+        item.row.source_file,
+        item.row.line_start,
+        item.row.line_end,
+        item.present ? "yes" : "no",
+        item.politicalHits.join("|"),
+        item.row.quote_text,
+      ].join("\t"),
+    ),
+  ].join("\n") + "\n",
+  "utf8",
+);
+
+fs.writeFileSync(
+  proofreadAuditTsv,
+  [
+    "action\treason\tid\tsource_file\tline_start\tline_end\tpresent\tpolitical_hits\tquote_text",
+    ...proofreadAuditRows.map((item) =>
+      [
+        item.action,
+        item.reason,
         item.row.id,
         item.row.source_file,
         item.row.line_start,
@@ -728,7 +1010,7 @@ const attributedLines = fs.existsSync(attributedTsv)
   : "missing";
 
 const reportLines = [
-  `${book} initial extraction report`,
+  `${book} proofread extraction report`,
   `generatedDate: ${generatedDate}`,
   `sourceDir: ${sourceDir}`,
   `sourceFilesForExport: ${files.length}`,
@@ -737,6 +1019,9 @@ const reportLines = [
   `keywordLines: ${keywordLines}`,
   `reviewCandidates: ${reviewCandidateLines}`,
   `attributedLines: ${attributedLines}`,
+  `initialSelectedRowsBeforeProofread: ${rawRows.length}`,
+  `proofreadRemovedRows: ${proofreadRemovedRows.length}`,
+  `proofreadAddedRows: ${proofreadAdditions.length}`,
   `selectedRows: ${selectedRows.length}`,
   `missingQuotes: ${missing.length}`,
   `duplicateTexts: ${duplicates.length}`,
@@ -746,23 +1031,30 @@ const reportLines = [
   "selectedHighlights:",
   "- 001/002: 收“同做冯妇”“干父之蛊”“为亲者讳”；蒋家身份、受难和政治统治语境不收。",
   "- 003: 收《周礼》、邴原、孔夫子、薛蕙、孟子、《易水歌》及亲情/墓记中的非政治古文散句；辛亥、同盟会、革命组织和军政叙事不收。",
-  "- 004: 收“一丘之貉”、天童游记句、鼓山题联和“其介如石”等；护法、军阀、孙蒋关系和军政催促语境不收。",
+  "- 004: 收“一丘之貉”、天童游记句、鼓山题联和“其介如石”等；校对补入“雪满山原，一白无际”和取道北溪游记句；护法、军阀、孙蒋关系和军政催促语境不收。",
   "- 006/007: 收“黄袍加身”“杯酒释兵权”“重文偃武”“血更浓于水”“一鼓作气，再而衰，三而竭”等通用成语典故；北伐、奉安政治、财政军需和现代社会运动语境不收。",
-  "- 008/011/015: 收“不知彼，不知己”、陈寅恪诗句、孟子句及若干俗语成句；抗战训话、国共内战、反攻和蒋氏父子政治评价不收。",
+  "- 009: 校对补入中国谚语、陈寅恪诗句和伯仁典故；威尔基外交绯闻、中美合作所、政治犯和特务语境不收。",
+  "- 011/012: 校对补入“瞒天过海”“百无一用之书生”“忧心如焚”“扶不起的阿斗”、“远水”救不了“近火”、“吃回头草”“背黑锅”“替死鬼”“蛛丝马迹”“改弦更张”“故步自封”等；现代书信中的政党、内战、外交、反攻和政权语境不收。",
+  "- 013/014/015: 收“不知彼，不知己”、陈寅恪诗句、孟子句及若干俗语成句；校对补入“无可奈何花落去”“打破砂锅问到底”“弃车保帅”“投鼠忌器”；抗战训话、国共内战、反攻和蒋氏父子政治评价不收。",
   "",
   "excludedHighlights:",
   "- 002/003/004: 李敖牢狱反蒋语、孙蒋关系、陈炯明/中山舰/党争材料，以及“老王八蛋死了”等现代政治攻击不收。",
   "- 005/006/007: 北伐、清党、中原大战、新生活运动、蓝衣社、党国宣传、章太炎奉安挽联、毛泽东《渔家傲》等政治/军事材料不收。",
-  "- 008/009/010/011/012/013: 抗战战略、外交谈判、道统治统、国共内战、美国/苏联/台湾/反攻大陆和黄金转运等现代政治与军政语录不收。",
+  "- 008/009/010/011/012/013: 抗战战略、外交谈判、道统治统、国共内战、美国/苏联/台湾/反攻大陆和黄金转运等现代政治与军政语录不收；“无可奈何的供状”等毛泽东政治评语不收。",
+  "- 011/012: “误国之罪，百身莫赎”“内斗内行、外斗外行”等虽可成句，但政治自责或政治评断色彩过重，不收。",
   "- 014/015: 蒋氏父子统治、民主宪政、人权、江南案、蒋家王朝和现代历史评价语录不收；只留可独立检索的俗语、诗句和成语。",
 ];
 
 fs.writeFileSync(reportTxt, reportLines.join("\n") + "\n", "utf8");
+fs.writeFileSync(proofreadReportTxt, reportLines.join("\n") + "\n", "utf8");
 
 console.log(
   JSON.stringify(
     {
       book,
+      initialRows: rawRows.length,
+      proofreadRemovedRows: proofreadRemovedRows.length,
+      proofreadAddedRows: proofreadAdditions.length,
       rows: selectedRows.length,
       missing: missing.length,
       duplicates: duplicates.length,
@@ -778,6 +1070,9 @@ console.log(
       reviewTsv,
       auditTsv,
       reportTxt,
+      proofreadReviewTsv,
+      proofreadAuditTsv,
+      proofreadReportTxt,
     },
     null,
     2,

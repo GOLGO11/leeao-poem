@@ -1,0 +1,14 @@
+{
+  "book": "老贼臭史",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\004.老贼臭史",
+  "sourceFiles": 20,
+  "candidatesJson": "analysis\\liao_old_thief_ugly_history_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_old_thief_ugly_history_review_candidates.tsv",
+  "selectedRows": 37,
+  "outputCsv": "exports\\老贼臭史_诗文格言歌谣引用.csv",
+  "outputTxt": "exports\\老贼臭史_诗文格言歌谣引用.txt",
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": []
+}

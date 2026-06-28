@@ -1,0 +1,35 @@
+{
+  "book": "老贼臭史",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\004.老贼臭史",
+  "sourceFiles": 20,
+  "candidatesJson": "analysis\\liao_old_thief_ugly_history_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_old_thief_ugly_history_review_candidates.tsv",
+  "initialRowsBeforeProofread": 37,
+  "proofreadRemovedRows": 2,
+  "proofreadAddedRows": 0,
+  "selectedRows": 35,
+  "outputCsv": "exports\\老贼臭史_诗文格言歌谣引用.csv",
+  "outputTxt": "exports\\老贼臭史_诗文格言歌谣引用.txt",
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "removedRows": [
+    {
+      "original_id": "LALZCS-034",
+      "source_file": "019.薛岳与民进党.txt",
+      "line_start": 3,
+      "line_end": 3,
+      "quote_text": "恺撒已死",
+      "reason": "罗素轶事中的承接片段，更像笑话上下文，不属于诗文格言歌谣引用主体。"
+    },
+    {
+      "original_id": "LALZCS-035",
+      "source_file": "019.薛岳与民进党.txt",
+      "line_start": 3,
+      "line_end": 3,
+      "quote_text": "我就是恺撒！",
+      "reason": "罗素轶事的笑话包袱，独立检索价值不足，且本章用于现代政治人物讽刺；校对删除。"
+    }
+  ]
+}

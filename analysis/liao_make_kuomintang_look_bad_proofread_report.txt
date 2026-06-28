@@ -1,0 +1,39 @@
+{
+  "book": "给国民党难看",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\013.国民党史政\\005.给国民党难看",
+  "sourceFiles": 44,
+  "candidatesJson": "analysis\\liao_make_kuomintang_look_bad_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_make_kuomintang_look_bad_review_candidates.tsv",
+  "initialRowsBeforeProofread": 41,
+  "proofreadRemovedRows": 1,
+  "proofreadAddedRows": 1,
+  "selectedRows": 41,
+  "removedRows": [
+    {
+      "original_id": "LAGMDNK-019",
+      "quote_text": "天威难测",
+      "source_file": "028.上台下台两不知.txt",
+      "line_start": 7,
+      "line_end": 7,
+      "reason": "虽是传统成语，但本章明指上位者统御术与传统政治艺术，政治语义过重，校对从严删除。"
+    }
+  ],
+  "addedRows": [
+    {
+      "id": "LAGMDNK-033",
+      "quote_text": "天下之恶皆归之",
+      "source_file": "041.咬贼一口烂三分.txt",
+      "line_start": 5,
+      "line_end": 5
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "csvPath": "exports\\给国民党难看_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\给国民党难看_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_make_kuomintang_look_bad_selected_rows.json",
+  "reviewTsv": "analysis\\liao_make_kuomintang_look_bad_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_make_kuomintang_look_bad_proofread_audit.tsv"
+}

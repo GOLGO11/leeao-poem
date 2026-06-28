@@ -1,0 +1,26 @@
+国民党研究续集 initial extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\013.国民党史政\002.国民党研究续集
+sourceFilesForExport: 24
+quoteCandidates: 1150
+uniqueQuoteTexts: 874
+keywordLines: 167
+reviewCandidates: 506
+selectedRows: 118
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern Kuomintang history, secret-service, judicial, assassination, anti-communist propaganda, and political polemic material; exclude direct modern party, regime, government, leader, military, revolution, anti-communist, counteroffensive, recovery, election, unification/independence, democracy/freedom/human-rights, judicial-purge, assassination, and propaganda-attack quotations. Keep only independently reusable classical poetry/prose, idioms, proverbs, religious/literary allusions, foreign maxims, and non-political life sayings.
+
+selectedHighlights:
+- 自序与001：收《论语》、诸葛亮名句、黄兴联语和成语；现代党派评价与革命史归属论战不收。
+- 003-009：收桃源典故、《老子》、唐诗/红楼梦成句、歇后语、英文格言与宗教意象化用；现代宗教政治组织与军政格言不收。
+- 016-017：收长啸古典材料、礼记/孟子/杜甫/苏洵/阿房宫赋/圣经/俗联等；宗荣禄反攻、总统、毛匪等现代政治诗文不收。
+- 018-023：收孔子出处语、五代轶事、唐律材料、杜甫诗句和若干俗语成语；现代司法冤案、暗杀与宣传攻防语录不收。
+
+excludedHighlights:
+- 006《国民党政工头子投共》主要是现代政工、投共、反共与宣传材料，首轮不收。
+- 016 祭戴笠文、军统局内外同志、复活飞来等虽有修辞，但属现代特务崇拜/政治祭文，首轮不收。
+- 017 宗荣禄现代政治诗、反攻书信、军政口号与领袖颂词均不收，只取少量可脱离政治语境的抒情起句、古典引用、圣经与俗语。
+- 020-021 现代邀驾案、司法与暗杀叙事不收，只取古代律文/轶事或杜甫诗句本体。
+- “天下者，天下人之天下也”“本固则邦宁”“官逼民反”“苛政猛于虎”“得人者昌，失人者亡”等虽为古语，但本体就是统治、民变或国家兴亡判断，按本项目硬口径剔除。

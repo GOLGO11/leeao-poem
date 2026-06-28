@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-27",
+  "generatedDate": "2026-06-28",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -837,14 +837,126 @@
     {
       "fileName": "蒋介石评传_诗文格言歌谣引用.csv",
       "book": "蒋介石评传",
-      "originalRows": 44,
-      "keptRows": 44,
+      "originalRows": 66,
+      "keptRows": 66,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋经国研究_诗文格言歌谣引用.csv",
+      "book": "蒋经国研究",
+      "originalRows": 65,
+      "keptRows": 65,
+      "removedRows": 0
+    },
+    {
+      "fileName": "论定蒋经国_诗文格言歌谣引用.csv",
+      "book": "论定蒋经国",
+      "originalRows": 140,
+      "keptRows": 140,
+      "removedRows": 0
+    },
+    {
+      "fileName": "蒋家臭史_诗文格言歌谣引用.csv",
+      "book": "蒋家臭史",
+      "originalRows": 148,
+      "keptRows": 148,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖论人物_诗文格言歌谣引用.csv",
+      "book": "李敖论人物",
+      "originalRows": 218,
+      "keptRows": 218,
+      "removedRows": 0
+    },
+    {
+      "fileName": "国民党研究_诗文格言歌谣引用.csv",
+      "book": "国民党研究",
+      "originalRows": 91,
+      "keptRows": 91,
+      "removedRows": 0
+    },
+    {
+      "fileName": "国民党研究续集_诗文格言歌谣引用.csv",
+      "book": "国民党研究续集",
+      "originalRows": 107,
+      "keptRows": 107,
+      "removedRows": 0
+    },
+    {
+      "fileName": "国民党臭史_诗文格言歌谣引用.csv",
+      "book": "国民党臭史",
+      "originalRows": 36,
+      "keptRows": 36,
+      "removedRows": 0
+    },
+    {
+      "fileName": "老贼臭史_诗文格言歌谣引用.csv",
+      "book": "老贼臭史",
+      "originalRows": 35,
+      "keptRows": 35,
+      "removedRows": 0
+    },
+    {
+      "fileName": "给国民党难看_诗文格言歌谣引用.csv",
+      "book": "给国民党难看",
+      "originalRows": 41,
+      "keptRows": 41,
+      "removedRows": 0
+    },
+    {
+      "fileName": "给外省人难看_诗文格言歌谣引用.csv",
+      "book": "给外省人难看",
+      "originalRows": 36,
+      "keptRows": 36,
+      "removedRows": 0
+    },
+    {
+      "fileName": "给台湾人难看_诗文格言歌谣引用.csv",
+      "book": "给台湾人难看",
+      "originalRows": 42,
+      "keptRows": 42,
+      "removedRows": 0
+    },
+    {
+      "fileName": "冷眼看台湾_诗文格言歌谣引用.csv",
+      "book": "冷眼看台湾",
+      "originalRows": 72,
+      "keptRows": 72,
+      "removedRows": 0
+    },
+    {
+      "fileName": "白眼看台湾_诗文格言歌谣引用.csv",
+      "book": "白眼看台湾",
+      "originalRows": 33,
+      "keptRows": 33,
+      "removedRows": 0
+    },
+    {
+      "fileName": "法眼看台湾_诗文格言歌谣引用.csv",
+      "book": "法眼看台湾",
+      "originalRows": 38,
+      "keptRows": 38,
+      "removedRows": 0
+    },
+    {
+      "fileName": "民进党研究_诗文格言歌谣引用.csv",
+      "book": "民进党研究",
+      "originalRows": 29,
+      "keptRows": 29,
+      "removedRows": 0
+    },
+    {
+      "fileName": "白色恐怖述奇_诗文格言歌谣引用.csv",
+      "book": "白色恐怖述奇",
+      "originalRows": 22,
+      "keptRows": 22,
       "removedRows": 0
     }
   ],
-  "rows": 10747,
+  "rows": 11922,
   "removedRows": 61,
-  "uniqueIds": 10747,
+  "uniqueIds": 11922,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

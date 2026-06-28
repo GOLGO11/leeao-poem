@@ -1,0 +1,23 @@
+李敖论人物 initial extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\027.李敖论人物
+sourceFilesForExport: 33
+quoteCandidates: 920
+uniqueQuoteTexts: 753
+keywordLines: 148
+reviewCandidates: 469
+selectedRows: 117
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by modern biographies and political-person essays; exclude direct modern party, regime, leader, president, military, war, revolution, national-identity, diplomacy, constitutional, human-rights, ideology, political-prisoner, torture, assassination, election, succession and anti/pro-Chiang quotations, while keeping independently reusable classical poetry/prose, idioms, proverbs, inscriptions, religious lines, literary quotations, academic/biographical maxims and non-political character judgments.
+
+selectedHighlights:
+- 001/003/004/005: 收翁同龢评蔡元培、《易经》、胡适传记文学格言、王勃诗句、梁实秋自述和包斯威尔夫人讽语；五四、国民党、政府、革命、思想统制和人权论战原话不收。
+- 006/007/008/009: 收方豪题辞、俗语化用、三字经/论语成句、宗教安慰语、殷海光相关处世格言和《大学》化用；教会攻防、出国政治程序和具体人物争执原话不收。
+- 012/016/018/020/023/025/026/027/028/029/030/033: 收古史文句、杜甫诗句、圣经文句、戏曲题名、郑板桥语、陈寅恪文句、孟子、蒙田、门肯、狱中诗和笛卡尔；孙案、江南案、郑南榕、刑求、台独、选举、统战和政党语录不收。
+
+excludedHighlights:
+- 陈独秀晚年民主/无产阶级独裁论述、胡适关于个人自由和国家自由的现代政治段落，首轮不收。
+- 立法院、李焕、陈诚、江南案、郑南榕、刘辰旦、李庆华、苦苓等章节里的党派、政权、选举、刑求、统独和国际法政治语录不收。
+- 目录项、普通书名、人名、机关名、媒体名、短称、单字评语和只靠上下文才有意义的对话不收。

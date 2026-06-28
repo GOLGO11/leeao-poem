@@ -1,0 +1,29 @@
+蒋经国研究 proofread extraction report
+generatedDate: 2026-06-28
+sourceDir: 《大李敖全集6.0》分章节\012.人物研究类\024.蒋经国研究
+sourceFilesForExport: 26
+quoteCandidates: 1597
+uniqueQuoteTexts: 1185
+keywordLines: 191
+reviewCandidates: 555
+initialSelectedRowsBeforeProofread: 55
+proofreadRemovedRows: 0
+proofreadAddedRows: 10
+selectedRows: 65
+missingQuotes: 0
+duplicateTexts: 0
+politicalHitRows: 0
+policy: this book is dominated by Chiang Ching-kuo/Chiang family studies, KMT/Taiwan party-state disputes, martial-law politics, secret-police materials, succession debates, Soviet experience, assassination and modern anti-Chiang/pro-Chiang polemics; exclude direct modern party, regime, leader, president, military, war, revolution, state, national-identity, diplomacy, constitutional, human-rights, ideological and succession quotations, while keeping independently reusable classical poetry/prose, ritual prose, idioms, proverbs, couplets, literary quotations and non-political maxims.
+
+selectedHighlights:
+- 缘起/004/005: 收“以子之矛，攻子之盾”、宋案叙述中的通用成语和《嵩高山记》异闻；李敖诉讼、总统暗杀和袁世凯政治攻防语录不收。
+- 006/007: 收《周礼》、邴原、《元史》、孔子、薛蕙、民事习惯文献、“为配王氏女合葬之，且为之立嗣”、“大宗无子，不可以绝”、糟糠成句和王安石诗句；蒋家过继、冥婚批评和现代政治人物身份语境不收。
+- 008/011/014: 收“诗以人传”、朱元璋咏菊诗、苏轼诗句、《周易》成句、“中学为体，西学为用”等；毛泽东词、斯大林名言、接班论和现代意识形态语录不收。
+- 015/017/018: 校对补入“一筹莫展”“顺水推舟”“情词恳切，应予照准。”“一语中的”；另收《三国演义》曹操哭郭嘉文句、曾国藩手书对联、卡内基格言、孟子句及若干通用成语；戴笠、吴国桢、蒋氏父子和国府政治评价语境不收。
+- 019/020/022: 校对补入“冷落异常，触景伤怀”“不羁之才”“叹为观止”；另收“大胆假设，小心求证”、梨园俗语、声乐成语、温莎公爵夫人文字和“当仁不让”；私人生活、接班和台湾政治体制语境不收。
+
+excludedHighlights:
+- 001/002/003/004: 诋毁元首、骂总统、总统任期、暗杀政敌等现代政治史料和政治讽刺语录不收。
+- 008/011/013/015/021/022/024/025: 毛泽东、斯大林、青年军口号、“有比无好，快比慢好，多比少好”、光复大陆、总统继任、接班人和蒋经国致母政治信件均从严不收。
+- 014/017/018/019: 蒋青天、戴笠不死、戴笠不死大陆不亡、国民大会法统、总统继任、蒋吴争斗、蒋家私生活与现代人物评价语录不收；只留可独立检索的诗文、成语、俗语、典故和非政治格言。
+- 024: Asiaweek 相关政权、总统、民主和法统评论语录，以及“实践是检验真理的标准”等现代政治/意识形态口号不收。

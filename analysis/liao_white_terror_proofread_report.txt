@@ -1,0 +1,57 @@
+{
+  "book": "白色恐怖述奇",
+  "generatedDate": "2026-06-28",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\005.白色恐怖述奇",
+  "sourceFiles": 28,
+  "candidatesJson": "analysis\\liao_white_terror_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_white_terror_review_candidates.tsv",
+  "selectedRows": 22,
+  "proofreadAddedRows": [
+    {
+      "id": "LABSKBSQ-007",
+      "quote_text": "爱人如己",
+      "source_file": "005.为李世杰先生安息礼拜追述生平.txt",
+      "line_start": 17
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source": "006.“太轻了，不算！”.txt:3",
+      "quote_text": "太轻了，不算！",
+      "reason": "现代刑求语境中的牢狱口语，不作为诗文格言保留"
+    },
+    {
+      "source": "008.国民党的强制悔过症.txt:9",
+      "quote_text": "我宁愿炸死狱中，实无过可悔。",
+      "reason": "现代政治犯语录，按政治语录排除"
+    },
+    {
+      "source": "020.彻查你自己吧！.txt:77",
+      "quote_text": "本案绝不可推诿给管理人手不足或设施不够等空洞的遁词，本案完全是管理不善发生的事情。",
+      "reason": "现代狱政/官员责任判断，不属于诗文格言"
+    },
+    {
+      "source": "028.写在龚德柏《蒋介石黑狱亲历记》的前面.txt:11",
+      "quote_text": "你们怕死，当然没有言论自由，我是不要命的，我有言论自由。",
+      "reason": "现代言论自由政治名言，按政治语录排除"
+    },
+    {
+      "source": "028.写在龚德柏《蒋介石黑狱亲历记》的前面.txt:123",
+      "quote_text": "孙科那样的人，我绝对反对，虽杀了我，我也是反对。",
+      "reason": "现代政治人物与副总统选举语境中的个人政治表态，不收"
+    },
+    {
+      "source": "028.写在龚德柏《蒋介石黑狱亲历记》的前面.txt:595",
+      "quote_text": "天网恢恢，诬蔑人者，自食其果了！",
+      "reason": "虽含老子成语与俗语，但本处直接嵌在现代政治人物训词反击中，校对轮暂不补入"
+    }
+  ],
+  "csvPath": "exports\\白色恐怖述奇_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\白色恐怖述奇_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_white_terror_selected_rows.json",
+  "reviewTsv": "analysis\\liao_white_terror_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_white_terror_proofread_audit.tsv"
+}
