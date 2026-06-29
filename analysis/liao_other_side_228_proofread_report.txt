@@ -1,0 +1,213 @@
+{
+  "book": "另一面的二二八",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\008.另一面的二二八",
+  "sourceFiles": 32,
+  "candidatesJson": "analysis\\liao_other_side_228_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_other_side_228_review_candidates.tsv",
+  "selectedRows": 118,
+  "proofreadAddedRows": [
+    {
+      "id": "LAOS228-010",
+      "quote_text": "金针度人",
+      "source_file": "003.《二二八研究》前言.txt",
+      "line_start": 15,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-012",
+      "quote_text": "毛骨悚然",
+      "source_file": "003.《二二八研究》前言.txt",
+      "line_start": 15,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-016",
+      "quote_text": "心惊肉跳",
+      "source_file": "003.《二二八研究》前言.txt",
+      "line_start": 15,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-019",
+      "quote_text": "众说纷陈",
+      "source_file": "003.《二二八研究》前言.txt",
+      "line_start": 15,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-036",
+      "quote_text": "得不偿失",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 9,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-037",
+      "quote_text": "望洋兴叹",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 9,
+      "category": "庄子成语"
+    },
+    {
+      "id": "LAOS228-038",
+      "quote_text": "丰衣足食",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 11,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-039",
+      "quote_text": "心满意足",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 11,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-040",
+      "quote_text": "衣锦还乡",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 11,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-041",
+      "quote_text": "以讹传讹",
+      "source_file": "012.陈仪不是恩人吗？.txt",
+      "line_start": 13,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-061",
+      "quote_text": "恍然大悟",
+      "source_file": "021.二二八与关公.txt",
+      "line_start": 11,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-063",
+      "quote_text": "一干二净",
+      "source_file": "021.二二八与关公.txt",
+      "line_start": 11,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-065",
+      "quote_text": "目光如豆",
+      "source_file": "021.二二八与关公.txt",
+      "line_start": 17,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-066",
+      "quote_text": "一厢情愿",
+      "source_file": "021.二二八与关公.txt",
+      "line_start": 17,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-067",
+      "quote_text": "自以为是",
+      "source_file": "021.二二八与关公.txt",
+      "line_start": 17,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-072",
+      "quote_text": "画蛇添足",
+      "source_file": "025.林荣三在二二八大杀台湾人？.txt",
+      "line_start": 59,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-073",
+      "quote_text": "自作聪明",
+      "source_file": "025.林荣三在二二八大杀台湾人？.txt",
+      "line_start": 59,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-074",
+      "quote_text": "叱咤风云",
+      "source_file": "026.将军坟.txt",
+      "line_start": 19,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-082",
+      "quote_text": "风生水起",
+      "source_file": "026.将军坟.txt",
+      "line_start": 23,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-094",
+      "quote_text": "语焉不详",
+      "source_file": "028.二二八中的留日特级流氓.txt",
+      "line_start": 7,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-095",
+      "quote_text": "理直气壮",
+      "source_file": "028.二二八中的留日特级流氓.txt",
+      "line_start": 15,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-103",
+      "quote_text": "平心静气",
+      "source_file": "030.从暴君历史学到暴民历史学.txt",
+      "line_start": 29,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-104",
+      "quote_text": "哗众取宠",
+      "source_file": "030.从暴君历史学到暴民历史学.txt",
+      "line_start": 31,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAOS228-105",
+      "quote_text": "恃宠而骄",
+      "source_file": "030.从暴君历史学到暴民历史学.txt",
+      "line_start": 31,
+      "category": "中文成语"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.俞国华找不到二二八的有关文件吗？.txt",
+      "line_start": 31,
+      "quote_text": "有关二二八事件的资料，行政院目前找不到任何有关文件，政府所有的资料也很少",
+      "reason": "现代政府声明与事件资料攻防，属于政治语录，不收。"
+    },
+    {
+      "source_file": "007.二二八的道歉问题.txt",
+      "line_start": 5,
+      "quote_text": "公开道歉，当然不是要你再召开一个记者会用河洛语北京语客家语各说一声对不起……",
+      "reason": "二二八道歉诉求与现实政治请愿文字，不收。"
+    },
+    {
+      "source_file": "020.二二八道歉中的怪现象.txt",
+      "line_start": 13,
+      "quote_text": "李登辉或国民党的现任党主席应向二二八受难者家属正式道歉。",
+      "reason": "现实政治人物/政党道歉主张，不收。"
+    },
+    {
+      "source_file": "032.二二八时外省人的被害文献.txt",
+      "line_start": 19,
+      "quote_text": "发挥同胞爱，消除仇恨心",
+      "reason": "事件后社会动员口号，虽有格言外形但政治情境过强，不收。"
+    }
+  ],
+  "csvPath": "exports\\另一面的二二八_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\另一面的二二八_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_other_side_228_selected_rows.json",
+  "reviewTsv": "analysis\\liao_other_side_228_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_other_side_228_proofread_audit.tsv"
+}

@@ -1,0 +1,114 @@
+{
+  "book": "李敖放刁集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\004.李敖放刁集",
+  "sourceFiles": 23,
+  "candidatesJson": "analysis\\liao_fangdiao_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_fangdiao_review_candidates.tsv",
+  "selectedRows": 107,
+  "proofreadAddedRows": [
+    {
+      "id": "LAFD-008",
+      "quote_text": "忍无可忍",
+      "source_file": "002.张桂贞控告张子源.txt",
+      "line_start": 5,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-010",
+      "quote_text": "功德圆满",
+      "source_file": "002.张桂贞控告张子源.txt",
+      "line_start": 9,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-011",
+      "quote_text": "滑天下之大稽",
+      "source_file": "002.张桂贞控告张子源.txt",
+      "line_start": 15,
+      "category": "中文熟语"
+    },
+    {
+      "id": "LAFD-021",
+      "quote_text": "无法无天",
+      "source_file": "003.驳斥台中市长林柏榕.txt",
+      "line_start": 179,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-022",
+      "quote_text": "美中不足",
+      "source_file": "003.驳斥台中市长林柏榕.txt",
+      "line_start": 181,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-023",
+      "quote_text": "千古传佳话",
+      "source_file": "003.驳斥台中市长林柏榕.txt",
+      "line_start": 181,
+      "category": "中文熟语"
+    },
+    {
+      "id": "LAFD-024",
+      "quote_text": "青史留名",
+      "source_file": "003.驳斥台中市长林柏榕.txt",
+      "line_start": 181,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-053",
+      "quote_text": "上下其手",
+      "source_file": "011.为王世杰诬谤李敖事控告吴大猷、张玉法、王纪五、王秋华.txt",
+      "line_start": 39,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAFD-063",
+      "quote_text": "一笑置之",
+      "source_file": "011.为王世杰诬谤李敖事控告吴大猷、张玉法、王纪五、王秋华.txt",
+      "line_start": 97,
+      "category": "中文成语"
+    }
+  ],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "千古独刁",
+      "reason": "小引中的临场题句与书名文字游戏，非李敖引录的诗文格言，校对轮从严删除。"
+    },
+    {
+      "quote_text": "以私人资格假行政处分为侵权手段者，受害人得请求回复原状，赔偿损害",
+      "reason": "大理院判例摘录，偏法律文书定义，不作为诗文格言收录。"
+    },
+    {
+      "quote_text": "凡以私人资格假行政官厅之处分为侵权行为之手段者，被害人得对于加害人向司法衙门提起民事诉讼",
+      "reason": "大理院解释摘录，偏法律文书定义，不作为诗文格言收录。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "009.为《孙中山研究》致检察官.txt",
+      "reason": "涉及现代政治人物与查禁争议，首轮只取稳定成语和《正气歌》化句；诉愿攻防、政治判断不收。"
+    },
+    {
+      "source_file": "010.大家逗乐一番，以悼“中华民国”也！.txt",
+      "reason": "全章政治符号与机构攻防密集，仅保留少量脱离语境仍可检索的成语熟语。"
+    },
+    {
+      "source_file": "011.为王世杰诬谤李敖事控告吴大猷、张玉法、王纪五、王秋华.txt",
+      "reason": "现代人物攻防、人名史事与党政评断密集；保留少量传统成语和古典格言，不收人物判断句。"
+    },
+    {
+      "source_file": "018.法官任鸣钜、郑景文、郭美杏怎样枉法开脱国民党大员秦孝仪？.txt",
+      "reason": "政治人物与司法个案高度纠缠，首轮只收能独立使用的语文/棋类/成语表达。"
+    }
+  ],
+  "csvPath": "exports\\李敖放刁集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖放刁集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_fangdiao_selected_rows.json",
+  "reviewTsv": "analysis\\liao_fangdiao_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_fangdiao_proofread_audit.tsv"
+}

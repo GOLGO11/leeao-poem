@@ -1,0 +1,168 @@
+const fs = require("fs");
+const path = require("path");
+const { TextDecoder } = require("util");
+
+const sourceDir = path.join(
+  "《大李敖全集6.0》分章节",
+  "016.李敖祸台五十年庆祝十书",
+  "003.李敖智慧书",
+);
+const totalCsv = path.join("exports", "总_诗文格言歌谣引用.csv");
+const outTsv = path.join("analysis", "liao_wisdom_book_first_pass_lexicon_hits.tsv");
+const decoder = new TextDecoder("gb18030");
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let value = "";
+  let inQuotes = false;
+  const cleanText = text.replace(/^\uFEFF/, "");
+
+  for (let index = 0; index < cleanText.length; index += 1) {
+    const char = cleanText[index];
+    const next = cleanText[index + 1];
+
+    if (inQuotes) {
+      if (char === '"' && next === '"') {
+        value += '"';
+        index += 1;
+      } else if (char === '"') {
+        inQuotes = false;
+      } else {
+        value += char;
+      }
+      continue;
+    }
+
+    if (char === '"') {
+      inQuotes = true;
+    } else if (char === ",") {
+      row.push(value);
+      value = "";
+    } else if (char === "\n") {
+      row.push(value.replace(/\r$/, ""));
+      rows.push(row);
+      row = [];
+      value = "";
+    } else {
+      value += char;
+    }
+  }
+
+  if (value.length > 0 || row.length > 0) {
+    row.push(value.replace(/\r$/, ""));
+    rows.push(row);
+  }
+
+  const header = rows.shift().map((name) => name.replace(/^\uFEFF/, ""));
+  return rows
+    .filter((cells) => cells.some((cell) => cell !== ""))
+    .map((cells) => Object.fromEntries(header.map((name, index) => [name, cells[index] ?? ""])));
+}
+
+function esc(value) {
+  return String(value ?? "").replace(/\t/g, " ").replace(/\r?\n/g, " ");
+}
+
+function excerpt(value, size = 320) {
+  const text = String(value ?? "").replace(/\s+/g, " ").trim();
+  return Array.from(text).slice(0, size).join("");
+}
+
+const badTerms = [
+  "一国两制",
+  "两岸",
+  "台独",
+  "台湾独立",
+  "国民党",
+  "民进党",
+  "共产党",
+  "中华民国",
+  "中华人民共和国",
+  "总统",
+  "选举",
+  "候选人",
+  "政党",
+  "政府",
+  "法院",
+  "法官",
+  "警察",
+  "宪法",
+  "诉讼",
+  "判决",
+  "国家",
+  "台湾",
+  "中国",
+  "自由",
+  "人权",
+  "民主",
+  "主权",
+  "统一",
+  "独立",
+  "政治",
+  "革命",
+  "党",
+  "军",
+  "司法",
+  "胡适",
+  "甘地",
+  "戴布兹",
+  "科尔",
+  "李远哲",
+  "中共",
+  "反共",
+];
+
+const totalRows = parseCsv(fs.readFileSync(totalCsv, "utf8"));
+const lexicon = [
+  ...new Set(
+    totalRows
+      .map((row) => row.quote_text)
+      .filter(Boolean)
+      .filter((text) => {
+        const length = Array.from(text).length;
+        return length >= 2 && length <= 18;
+      })
+      .filter((text) => !badTerms.some((term) => text.includes(term))),
+  ),
+].sort((a, b) => Array.from(b).length - Array.from(a).length || a.localeCompare(b, "zh-Hans-CN"));
+
+const files = fs
+  .readdirSync(sourceDir)
+  .filter((name) => name.endsWith(".txt") && !name.includes("目录"))
+  .sort((a, b) => a.localeCompare(b, "zh-Hans-CN"));
+
+const hits = [];
+for (const file of files) {
+  const lines = decoder.decode(fs.readFileSync(path.join(sourceDir, file))).split(/\r?\n/);
+  lines.forEach((line, index) => {
+    const found = lexicon.filter((term) => line.includes(term));
+    if (!found.length) return;
+    hits.push({
+      file,
+      line: index + 1,
+      terms: found.join(" | "),
+      context: excerpt(line),
+    });
+  });
+}
+
+const header = ["file", "line", "terms", "context"];
+fs.mkdirSync(path.dirname(outTsv), { recursive: true });
+fs.writeFileSync(
+  outTsv,
+  `${header.join("\t")}\n${hits.map((row) => header.map((key) => esc(row[key])).join("\t")).join("\n")}\n`,
+  "utf8",
+);
+
+console.log(
+  JSON.stringify(
+    {
+      lexiconSize: lexicon.length,
+      hits: hits.length,
+      outTsv,
+    },
+    null,
+    2,
+  ),
+);

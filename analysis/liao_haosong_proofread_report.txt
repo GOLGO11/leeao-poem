@@ -1,0 +1,187 @@
+{
+  "book": "李敖好讼集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\005.李敖好讼集",
+  "sourceFiles": 30,
+  "candidatesJson": "analysis\\liao_haosong_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_haosong_review_candidates.tsv",
+  "selectedRows": 159,
+  "proofreadAddedRows": [
+    {
+      "id": "LAHS-016",
+      "quote_text": "有宦官恃贵宠，放鹞不避人禾稼。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 137,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-017",
+      "quote_text": "朱小四你这厮，有人请唤，今日须当你这厮出头。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 139,
+      "category": "白话文学例句"
+    },
+    {
+      "id": "LAHS-018",
+      "quote_text": "故言富者‘皆’称陶朱公。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 143,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-019",
+      "quote_text": "周礼‘尽’在鲁矣！",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 145,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-020",
+      "quote_text": "萧何亦发关中老弱未传‘悉’诣荥阳。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 147,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-021",
+      "quote_text": "主之所极然，帅群臣而首乡之者，则‘举’义志也。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 149,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-022",
+      "quote_text": "群黎百姓，‘徧’为尔德。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 151,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-023",
+      "quote_text": "不可以‘并’立乎天下。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 153,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-024",
+      "quote_text": "尝劝上于征战地修寺及‘普’度僧尼。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 155,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-025",
+      "quote_text": "‘俱’著名字，为后世冠。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 157,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-026",
+      "quote_text": "西极大杨川望黄沙，犹若人委干构于地，‘都’不生草木。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 159,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-027",
+      "quote_text": "俾万姓‘咸’曰：‘大哉王言！’",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 161,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-028",
+      "quote_text": "数年间，民养子者千数，‘佥’曰：‘贾父所长。’",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 163,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-029",
+      "quote_text": "自四境之内执法以下至于长挽者故‘毕’曰：‘与嫪氏乎？与吕氏乎？’",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 165,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-030",
+      "quote_text": "大郡二千石，死官赋钦送葬者皆千万以上，妻子通‘共’受之。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 167,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-031",
+      "quote_text": "臣今‘通’计所在，百姓贫多富少。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 169,
+      "category": "古典文法例句"
+    },
+    {
+      "id": "LAHS-032",
+      "quote_text": "你要为我的情，就‘一总’送我二、三千两银子。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 171,
+      "category": "白话文学例句"
+    },
+    {
+      "id": "LAHS-033",
+      "quote_text": "一家人一齐跑出来说道：‘不好了！快些搬！’",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 173,
+      "category": "白话文学例句"
+    },
+    {
+      "id": "LAHS-034",
+      "quote_text": "他都要回太太，全放出去。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 175,
+      "category": "白话文学例句"
+    },
+    {
+      "id": "LAHS-035",
+      "quote_text": "这位又说怕冬至前后，总没个真着活儿。",
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "line_start": 177,
+      "category": "白话文学例句"
+    }
+  ],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "乱扯一通",
+      "reason": "临场口语化攻击，独立检索价值弱，校对轮从严删除。"
+    },
+    {
+      "quote_text": "神智不清",
+      "reason": "诉讼攻防中的人物评断，近于普通责骂，不作为诗文格言保留。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "reason": "全章政治史争辩、人名攻防和意识形态词汇密集；只保留苏轼、陶潜等明确引文及脱离语境仍能成立的成语熟语。"
+    },
+    {
+      "source_file": "005.控告胡秋原、梁肃戎诽谤.txt",
+      "reason": "诽谤清单和诉讼请求占主体，涉党政机构与人物攻防者不收，只保留少量中性成语。"
+    },
+    {
+      "source_file": "014.对所谓诬告的答辩.txt",
+      "reason": "判例原文和诬告构成要件偏法律文书，不作为诗文格言收录；仅留其中可独立检索的传统成语。"
+    },
+    {
+      "source_file": "023.质问三军总医院.txt",
+      "reason": "医院质问与责任追究文字不收，保留少量传统成语和医学语境中的李敖式仿成语。"
+    }
+  ],
+  "csvPath": "exports\\李敖好讼集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖好讼集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_haosong_selected_rows.json",
+  "reviewTsv": "analysis\\liao_haosong_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_haosong_proofread_audit.tsv"
+}

@@ -1,0 +1,14 @@
+{
+  "book": "恰似我的温柔",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\004.恰似我的温柔",
+  "sourceFileCount": 46,
+  "rows": 130,
+  "firstId": "TENDER-001",
+  "lastId": "TENDER-130",
+  "politicalQuoteTextHits": 0,
+  "outputs": {
+    "csv": "exports/恰似我的温柔_诗文格言歌谣引用.csv",
+    "txt": "exports/恰似我的温柔_诗文格言歌谣引用.txt",
+    "json": "analysis/liao_tenderness_selected_rows.json"
+  }
+}

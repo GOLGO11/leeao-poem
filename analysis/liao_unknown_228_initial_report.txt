@@ -1,0 +1,59 @@
+{
+  "book": "你不知道的二二八",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\007.你不知道的二二八",
+  "sourceFiles": 3,
+  "candidatesJson": "analysis\\liao_unknown_228_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_unknown_228_review_candidates.tsv",
+  "selectedRows": 31,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source": "001.《你不知道的二二八》序（一）李敖.txt:11",
+      "quote_text": "二二八事件是中国人民在毛主席和中国共产党领导下，反帝反封建反官僚资本主义的新民主主义的一部分。",
+      "reason": "现代政治意识形态定性，按政治语录排除。"
+    },
+    {
+      "source": "001.《你不知道的二二八》序（一）李敖.txt:37",
+      "quote_text": "惩凶赔款；不秋后算账",
+      "reason": "虽短而可口号化，但直接属于事件谈判条件与政治处置语境，首轮不收。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:143",
+      "quote_text": "总督威风受不了，长官凶焰更难当。除去犲狼来虎豹，脱离地狱跳火坑。颠沛未曾忘祖国，流离何处找中央？哀哀千万倒悬子，何日云开见太阳！",
+      "reason": "虽为诗歌，但内容直接是现代政治讽刺与国族诉求，首轮按政治歌谣排除。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:171",
+      "quote_text": "开口奴化，闭口奴化，卑躬屈膝，奴颜事仇，竟称独立自主。伸手要金，缩手要银，与民争利，唯利是图，也说为民服务。",
+      "reason": "对联直接讽刺现代政治与政府治理，政治语录色彩过重。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:195",
+      "quote_text": "实行三民取利；三眠主义；建设谋叛的台乱",
+      "reason": "现代政治口号改写，首轮不收。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:199",
+      "quote_text": "盼中央，望中央，中央来了更遭殃",
+      "reason": "民谣中直接指向中央政治权力，首轮按政治歌谣排除。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:203",
+      "quote_text": "轰炸惊天动地，光复欢天喜地，接收花天酒地，政治黑天黑地，人们呼天唤地。",
+      "reason": "直接含现代政治控诉和事件歌谣色彩，按政治歌谣排除。"
+    },
+    {
+      "source": "003.你不知道的二二八.txt:3679",
+      "quote_text": "工作是道德；忙碌是幸福；闲空是堕落；懒惰是罪恶。",
+      "reason": "虽名为格言，但属于陈仪用人教条，现代政治人物语录色彩较重，首轮不收。"
+    }
+  ],
+  "csvPath": "exports\\你不知道的二二八_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\你不知道的二二八_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_unknown_228_selected_rows.json",
+  "reviewTsv": "analysis\\liao_unknown_228_initial_review.tsv",
+  "auditTsv": "analysis\\liao_unknown_228_initial_audit.tsv"
+}

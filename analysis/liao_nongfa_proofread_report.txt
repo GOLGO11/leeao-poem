@@ -1,0 +1,106 @@
+{
+  "book": "李敖弄法集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\003.李敖弄法集",
+  "sourceFiles": 33,
+  "candidatesJson": "analysis\\liao_nongfa_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_nongfa_review_candidates.tsv",
+  "selectedRows": 146,
+  "proofreadAddedRows": [],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "一时一地",
+      "reason": "普通时地短语，离开本段梁启超法理讨论后检索价值弱。"
+    },
+    {
+      "quote_text": "其言也善",
+      "reason": "只取了古典成句片段，源文用于警察个案评论，校对轮从严删除。"
+    },
+    {
+      "quote_text": "前事不忘",
+      "reason": "未成完整熟语，源文只是叙述性提醒，独立格言性不足。"
+    },
+    {
+      "quote_text": "遁，逃也。",
+      "reason": "字典训释，不属于本项目要保留的诗文格言或成语俗语。"
+    },
+    {
+      "quote_text": "见不得人",
+      "reason": "普通描述短语，案情语境过强，独立检索价值弱。"
+    },
+    {
+      "quote_text": "千古妙文",
+      "reason": "李敖对判决文字的现场评语，非稳定成语或引用。"
+    },
+    {
+      "quote_text": "理屈",
+      "reason": "两字状态词，独立成条价值不足。"
+    },
+    {
+      "quote_text": "泪眼汪汪",
+      "reason": "现场描写感强，不作为诗文格言保留。"
+    },
+    {
+      "quote_text": "一应俱全",
+      "reason": "普通列举短语，源文为家庭成员与信仰分布叙述，格言性不足。"
+    },
+    {
+      "quote_text": "脱身事外",
+      "reason": "政治史论段落中的临场用语，稳定性和独立检索价值不足。"
+    },
+    {
+      "quote_text": "极尽侮蔑之能事",
+      "reason": "通讯社案情用语，非李敖引录的诗文格言。"
+    },
+    {
+      "quote_text": "情非得已",
+      "reason": "现代党派个案评论段落里的普通成语，政治语境过重。"
+    },
+    {
+      "quote_text": "等而下之",
+      "reason": "现代党派个案评论段落里的普通成语，政治语境过重。"
+    },
+    {
+      "quote_text": "按兵不动",
+      "reason": "司法新闻叙述中的普通成语，案情依附较强。"
+    },
+    {
+      "quote_text": "不出所料",
+      "reason": "司法新闻叙述中的普通成语，案情依附较强。"
+    },
+    {
+      "quote_text": "大吃一惊",
+      "reason": "司法新闻叙述中的普通成语，案情依附较强。"
+    },
+    {
+      "quote_text": "谎话连篇",
+      "reason": "个案攻击性叙述中的普通成语，独立保留价值弱。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "002.他们看司法黑暗.txt",
+      "reason": "主要为现代监察委员司法政治批评，虽然有普通描述语，首轮不作为诗文格言收录。"
+    },
+    {
+      "source_file": "013.从事先检查到不检即查.txt",
+      "reason": "鲁迅引文在本章服务于出版管制与党政执行批评，未抽成政治语境外的格言条目。"
+    },
+    {
+      "source_file": "028.所谓《台湾地区戒严时期出版物管制办法》.txt",
+      "reason": "全章以戒严出版物管制办法、宪法与法规争点为主，法条/政策判断不收。"
+    },
+    {
+      "source_file": "031.国民党如何跑了犯人也跑了法律.txt",
+      "reason": "仅保留梁启超法理格言和少量典故成语；党派攻防、入境通缉与个案判断不收。"
+    }
+  ],
+  "csvPath": "exports\\李敖弄法集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖弄法集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_nongfa_selected_rows.json",
+  "reviewTsv": "analysis\\liao_nongfa_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_nongfa_proofread_audit.tsv"
+}

@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-28",
+  "generatedDate": "2026-06-29",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -919,6 +919,111 @@
       "removedRows": 0
     },
     {
+      "fileName": "你不知道的二二八_诗文格言歌谣引用.csv",
+      "book": "你不知道的二二八",
+      "originalRows": 58,
+      "keptRows": 58,
+      "removedRows": 0
+    },
+    {
+      "fileName": "另一面的二二八_诗文格言歌谣引用.csv",
+      "book": "另一面的二二八",
+      "originalRows": 118,
+      "keptRows": 118,
+      "removedRows": 0
+    },
+    {
+      "fileName": "洗你的脑，掐他脖子_诗文格言歌谣引用.csv",
+      "book": "洗你的脑，掐他脖子",
+      "originalRows": 79,
+      "keptRows": 79,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖闹衙集_诗文格言歌谣引用.csv",
+      "book": "李敖闹衙集",
+      "originalRows": 113,
+      "keptRows": 113,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖刀笔集_诗文格言歌谣引用.csv",
+      "book": "李敖刀笔集",
+      "originalRows": 122,
+      "keptRows": 122,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖弄法集_诗文格言歌谣引用.csv",
+      "book": "李敖弄法集",
+      "originalRows": 146,
+      "keptRows": 146,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖放刁集_诗文格言歌谣引用.csv",
+      "book": "李敖放刁集",
+      "originalRows": 107,
+      "keptRows": 107,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖好讼集_诗文格言歌谣引用.csv",
+      "book": "李敖好讼集",
+      "originalRows": 159,
+      "keptRows": 159,
+      "removedRows": 0
+    },
+    {
+      "fileName": "你不知道的司法黑暗_诗文格言歌谣引用.csv",
+      "book": "你不知道的司法黑暗",
+      "originalRows": 145,
+      "keptRows": 145,
+      "removedRows": 0
+    },
+    {
+      "fileName": "笑傲五十年_诗文格言歌谣引用.csv",
+      "book": "笑傲五十年",
+      "originalRows": 250,
+      "keptRows": 250,
+      "removedRows": 0
+    },
+    {
+      "fileName": "第一流人的境界_诗文格言歌谣引用.csv",
+      "book": "第一流人的境界",
+      "originalRows": 248,
+      "keptRows": 248,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖智慧书_诗文格言歌谣引用.csv",
+      "book": "李敖智慧书",
+      "originalRows": 109,
+      "keptRows": 109,
+      "removedRows": 0
+    },
+    {
+      "fileName": "恰似我的温柔_诗文格言歌谣引用.csv",
+      "book": "恰似我的温柔",
+      "originalRows": 95,
+      "keptRows": 95,
+      "removedRows": 0
+    },
+    {
+      "fileName": "启发你的小故事_诗文格言歌谣引用.csv",
+      "book": "启发你的小故事",
+      "originalRows": 175,
+      "keptRows": 175,
+      "removedRows": 0
+    },
+    {
+      "fileName": "君子爱人以色_诗文格言歌谣引用.csv",
+      "book": "君子爱人以色",
+      "originalRows": 194,
+      "keptRows": 194,
+      "removedRows": 0
+    },
+    {
       "fileName": "冷眼看台湾_诗文格言歌谣引用.csv",
       "book": "冷眼看台湾",
       "originalRows": 72,
@@ -954,9 +1059,9 @@
       "removedRows": 0
     }
   ],
-  "rows": 11922,
+  "rows": 14040,
   "removedRows": 61,
-  "uniqueIds": 11922,
+  "uniqueIds": 14040,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

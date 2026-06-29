@@ -1,0 +1,35 @@
+{
+  "book": "李敖放刁集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\004.李敖放刁集",
+  "sourceFiles": 23,
+  "candidatesJson": "analysis\\liao_fangdiao_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_fangdiao_review_candidates.tsv",
+  "selectedRows": 101,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "009.为《孙中山研究》致检察官.txt",
+      "reason": "涉及现代政治人物与查禁争议，首轮只取稳定成语和《正气歌》化句；诉愿攻防、政治判断不收。"
+    },
+    {
+      "source_file": "010.大家逗乐一番，以悼“中华民国”也！.txt",
+      "reason": "全章政治符号与机构攻防密集，仅保留少量脱离语境仍可检索的成语熟语。"
+    },
+    {
+      "source_file": "011.为王世杰诬谤李敖事控告吴大猷、张玉法、王纪五、王秋华.txt",
+      "reason": "现代人物攻防、人名史事与党政评断密集；保留少量传统成语和古典格言，不收人物判断句。"
+    },
+    {
+      "source_file": "018.法官任鸣钜、郑景文、郭美杏怎样枉法开脱国民党大员秦孝仪？.txt",
+      "reason": "政治人物与司法个案高度纠缠，首轮只收能独立使用的语文/棋类/成语表达。"
+    }
+  ],
+  "csvPath": "exports\\李敖放刁集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖放刁集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_fangdiao_selected_rows.json",
+  "reviewTsv": "analysis\\liao_fangdiao_first_pass_review.tsv",
+  "auditTsv": "analysis\\liao_fangdiao_first_pass_audit.tsv"
+}

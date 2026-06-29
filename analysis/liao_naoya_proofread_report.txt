@@ -1,0 +1,77 @@
+{
+  "book": "李敖闹衙集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\001.李敖闹衙集",
+  "sourceFiles": 17,
+  "candidatesJson": "analysis\\liao_naoya_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_naoya_review_candidates.tsv",
+  "selectedRows": 113,
+  "proofreadAddedRows": [
+    {
+      "id": "LANY-044",
+      "quote_text": "房倒价烂",
+      "source_file": "009.跟国防部打笔仗.txt",
+      "line_start": 97,
+      "category": "中文俗语"
+    },
+    {
+      "id": "LANY-109",
+      "quote_text": "官样文章",
+      "source_file": "016.吴祺芳怎样作弄江鹏坚？.txt",
+      "line_start": 157,
+      "category": "中文成语"
+    }
+  ],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "有所本",
+      "reason": "只是上下文中的普通说明语，检索价值和格言性不足。"
+    },
+    {
+      "quote_text": "诚信公道",
+      "reason": "出自法律契约原则语境，更像法理用语，不作为诗文格言保留。"
+    },
+    {
+      "quote_text": "腾笑中外",
+      "reason": "过于依赖诉状语境且疑似用字变体，首轮校对从严删除。"
+    },
+    {
+      "quote_text": "吴代叶僵",
+      "reason": "以现代人物姓氏构成的现场文字游戏，政治人物语境过重。"
+    },
+    {
+      "quote_text": "官样文书",
+      "reason": "非通行成语，校对轮改收同段更标准的“官样文章”。"
+    },
+    {
+      "quote_text": "相应不理",
+      "reason": "现场讽刺性仿语，离开行政院答复语境后独立检索价值不足。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "《李敖闹衙集》小引.txt:3",
+      "reason": "小引中大量现代政府、机关、官衙攻防背景不收；只保留其中可独立检索的成语熟语。"
+    },
+    {
+      "source_file": "004.控告台北市政府四文件.txt",
+      "reason": "主要为法律文件、请求事项、法条与事实叙述，首轮不作诗文格言收录。"
+    },
+    {
+      "source_file": "009.跟国防部打笔仗.txt",
+      "reason": "大段国防部、银行、法院与法条叙述从严排除；仅取少量成语俗语，军政批评本身不收。"
+    },
+    {
+      "source_file": "016.吴祺芳怎样作弄江鹏坚？.txt",
+      "reason": "涉及行政院、政党、人物攻防的现代政治内容不收；只保留文中可独立检索的熟语和仿成语。"
+    }
+  ],
+  "csvPath": "exports\\李敖闹衙集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖闹衙集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_naoya_selected_rows.json",
+  "reviewTsv": "analysis\\liao_naoya_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_naoya_proofread_audit.tsv"
+}

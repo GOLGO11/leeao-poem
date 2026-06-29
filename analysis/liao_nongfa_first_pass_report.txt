@@ -1,0 +1,35 @@
+{
+  "book": "李敖弄法集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\003.李敖弄法集",
+  "sourceFiles": 33,
+  "candidatesJson": "analysis\\liao_nongfa_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_nongfa_review_candidates.tsv",
+  "selectedRows": 163,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "002.他们看司法黑暗.txt",
+      "reason": "主要为现代监察委员司法政治批评，虽然有普通描述语，首轮不作为诗文格言收录。"
+    },
+    {
+      "source_file": "013.从事先检查到不检即查.txt",
+      "reason": "鲁迅引文在本章服务于出版管制与党政执行批评，未抽成政治语境外的格言条目。"
+    },
+    {
+      "source_file": "028.所谓《台湾地区戒严时期出版物管制办法》.txt",
+      "reason": "全章以戒严出版物管制办法、宪法与法规争点为主，法条/政策判断不收。"
+    },
+    {
+      "source_file": "031.国民党如何跑了犯人也跑了法律.txt",
+      "reason": "仅保留梁启超法理格言和少量典故成语；党派攻防、入境通缉与个案判断不收。"
+    }
+  ],
+  "csvPath": "exports\\李敖弄法集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖弄法集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_nongfa_selected_rows.json",
+  "reviewTsv": "analysis\\liao_nongfa_first_pass_review.tsv",
+  "auditTsv": "analysis\\liao_nongfa_first_pass_audit.tsv"
+}

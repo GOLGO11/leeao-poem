@@ -1,0 +1,94 @@
+{
+  "book": "笑傲五十年",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\001.笑傲五十年",
+  "sourceFiles": 38,
+  "candidatesJson": "analysis\\liao_xiaoao50_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_xiaoao50_review_candidates.tsv",
+  "selectedRows": 250,
+  "proofreadAddedRows": [
+    "自知之明",
+    "玉石之美有五德",
+    "鸡有五德",
+    "管仲相桓公，霸诸侯，一匡天下，民到与今受其赐。",
+    "桓公九合诸侯，不以兵车，管仲之力也。如其仁！如其仁！",
+    "小心翼翼",
+    "望文生义",
+    "比拟不伦",
+    "自古以来，凡在哲学上和神学上的争论，十分之九都是名词之争。",
+    "剩下的那十分之一，其实也还是名词之争。",
+    "坐井观逻辑之天、闭门造方法之车"
+  ],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "祸兮福之所倚",
+      "reason": "与后文完整《老子》成句“祸兮福所倚，福兮祸所伏。”重复，校对轮保留完整形态。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "《笑傲五十年》题辞.txt",
+      "reason": "题辞中红白绿恐怖、党派与反政府叙述不收；只保留句子本体可独立成立的“泰山石敢当”。"
+    },
+    {
+      "source_file": "024.希金斯案的正义意义.txt",
+      "reason": "现代外交/反恐判断和里根、以色列官员政治表态不收；只保留《旧约》与莎士比亚文本本体。"
+    },
+    {
+      "source_file": "025.李敖论五四.txt",
+      "reason": "五四、政党、主义与现代政治史论不收；只保留《孟子》《礼记》等古典成句和可独立检索的成语。"
+    },
+    {
+      "source_file": "035.给书呆子上一课.txt / 036.给书呆子重修一课.txt",
+      "reason": "日本侵华、南京大屠杀、教材修辞等历史/政治论辩不收；仅保留咬文嚼字、瞒天过海等中性熟语成语。"
+    }
+  ],
+  "keptBoundaryRows": [
+    {
+      "quote_text": "泰山石敢当",
+      "reason": "虽在政治题辞段落中出现，但句子本体是传统民俗格言，可独立检索。"
+    },
+    {
+      "quote_text": "以伤还伤、以眼还眼、以牙还牙。",
+      "reason": "文章语境是现代国际事件，但所收为《旧约》文本本体，不收作者的现实政治结论。"
+    },
+    {
+      "quote_text": "天视自我民视，天听自我民听",
+      "reason": "段落用于个人价值/政治评论，但 quote_text 本体为《尚书》传统成句。"
+    },
+    {
+      "quote_text": "吾为卿，不复上凌烟阁矣！",
+      "reason": "用于唐太宗历史故事，保留其文学与典故检索价值。"
+    }
+  ],
+  "omittedRows": [
+    {
+      "quote_text": "红色恐怖 / 白色恐怖 / 绿色恐怖",
+      "reason": "现代政治语汇与党争语境，不属于诗文格言。"
+    },
+    {
+      "quote_text": "五十年来和五百年内，中国人写白话文的前三名是李敖、李敖、李敖……",
+      "reason": "现代自我宣传式语录，虽有传播性但不作为诗文格言收录。"
+    },
+    {
+      "quote_text": "对付恐怖分子的唯一方法就是以暴制暴，别无选择",
+      "reason": "现代政治/外交口号式表态，排除。"
+    },
+    {
+      "quote_text": "我所知道的就是我不是一个马克思主义者！",
+      "reason": "虽为名句，但属于现代意识形态论辩语境，本项目按政治语录排除。"
+    },
+    {
+      "quote_text": "生为帝国之民，死作共产之鬼",
+      "reason": "现代政治身份表述，排除。"
+    }
+  ],
+  "csvPath": "exports\\笑傲五十年_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\笑傲五十年_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_xiaoao50_selected_rows.json",
+  "reviewTsv": "analysis\\liao_xiaoao50_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_xiaoao50_proofread_audit.tsv"
+}

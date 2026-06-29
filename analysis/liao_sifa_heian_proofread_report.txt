@@ -1,0 +1,65 @@
+{
+  "book": "你不知道的司法黑暗",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\006.你不知道的司法黑暗",
+  "sourceFiles": 27,
+  "candidatesJson": "analysis\\liao_sifa_heian_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_sifa_heian_review_candidates.tsv",
+  "selectedRows": 145,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "proofreadAddedRows": [],
+  "proofreadRemovedRows": [],
+  "proofreadKeptBoundaryRows": [
+    {
+      "quote_text": "案重初供",
+      "reason": "短法律格言，已在相邻法律类校对轮中采用同类口径；保留格言本体，不收具体案件论断。"
+    },
+    {
+      "quote_text": "当事人不得兼证人。",
+      "reason": "短诉讼格言，句子可独立检索；保留格言本体，不扩展为法条或判例解释。"
+    },
+    {
+      "quote_text": "天不生‘李敖’，万古如长夜。",
+      "reason": "李敖式仿古成句，化用传统尊圣句式；虽带自指，但不是政治语录。"
+    }
+  ],
+  "proofreadOmittedRows": [
+    {
+      "quote_text": "法者，宪令著于官府，刑罚必于民心，赏存乎慎法，而罚加乎奸令者也。",
+      "reason": "韩非子长法理论述，虽为古文，但偏制度法理；本轮不补入。"
+    },
+    {
+      "quote_text": "口口声声",
+      "reason": "多处出现但词义普通，且多嵌在现代党政/司法攻防句中，校对轮不补入。"
+    },
+    {
+      "quote_text": "万岁",
+      "reason": "口号/感叹语境，不作为诗文格言收录。"
+    }
+  ],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.为司法黑暗发榜.txt",
+      "reason": "点名放榜、法院批判和政治背景叙述占主体；只取其中可脱离司法攻防语境独立成立的成语、俗语和古典成句。"
+    },
+    {
+      "source_file": "005.人间何处有青天.txt",
+      "reason": "武汉大旅社命案材料、刑求叙述和案件结论不收；仅收古诗化用、传统熟语及可检索成语。"
+    },
+    {
+      "source_file": "013.最高法院法官岂可有最低视野？.txt",
+      "reason": "出版自由、宪法和司法批判文字不收；保留王安石《登飞来峰》完整诗句及少量成语。"
+    },
+    {
+      "source_file": "027.质问施启扬和法官李炫德、黄清江、王锦村、庄秋桃.txt",
+      "reason": "对施启扬、法官和高雄市政府的质问文字不收；只保留句子本身中性的传统熟语。"
+    }
+  ],
+  "csvPath": "exports\\你不知道的司法黑暗_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\你不知道的司法黑暗_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_sifa_heian_selected_rows.json",
+  "reviewTsv": "analysis\\liao_sifa_heian_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_sifa_heian_proofread_audit.tsv"
+}

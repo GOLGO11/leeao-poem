@@ -1,0 +1,17 @@
+{
+  "book": "李敖智慧书",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\003.李敖智慧书",
+  "sourceFileCount": 45,
+  "rawRows": 122,
+  "removedInProofread": 13,
+  "rows": 109,
+  "firstId": "LAWIS-001",
+  "lastId": "LAWIS-109",
+  "politicalQuoteTextHits": 0,
+  "outputs": {
+    "csv": "exports/李敖智慧书_诗文格言歌谣引用.csv",
+    "txt": "exports/李敖智慧书_诗文格言歌谣引用.txt",
+    "json": "analysis/liao_wisdom_book_selected_rows.json",
+    "rejects": "analysis/liao_wisdom_book_proofread_rejects.json"
+  }
+}

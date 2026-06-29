@@ -1,0 +1,92 @@
+{
+  "book": "李敖刀笔集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\002.李敖刀笔集",
+  "sourceFiles": 26,
+  "candidatesJson": "analysis\\liao_daobi_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_daobi_review_candidates.tsv",
+  "selectedRows": 122,
+  "proofreadAddedRows": [
+    {
+      "id": "LADB-065",
+      "quote_text": "挡箭牌",
+      "source_file": "004.就一张台中地方法院的刑事裁定说说一个法官的法律知识.txt",
+      "line_start": 129,
+      "category": "中文熟语"
+    },
+    {
+      "id": "LADB-067",
+      "quote_text": "心血来潮",
+      "source_file": "004.就一张台中地方法院的刑事裁定说说一个法官的法律知识.txt",
+      "line_start": 189,
+      "category": "中文成语"
+    },
+    {
+      "id": "LADB-120",
+      "quote_text": "字面本身无诽谤性的，依各种不同环境而决定其是否具有诽谤性。",
+      "source_file": "019.质问吴伯雄市长.txt",
+      "line_start": 13,
+      "category": "西方法律格言"
+    }
+  ],
+  "proofreadRemovedRows": [
+    {
+      "quote_text": "斯文在兹，斯法在焉",
+      "reason": "小引中的临场对句和法律文字游戏，非李敖引录的诗文格言，校对轮从严删除。"
+    },
+    {
+      "quote_text": "能见人之所未见，言人之所不敢言",
+      "reason": "第三方报刊评语，离开人物评价语境后格言性不足。"
+    },
+    {
+      "quote_text": "不论亲疏",
+      "reason": "句中普通连接性短语，独立检索价值弱。"
+    },
+    {
+      "quote_text": "貌似谨严",
+      "reason": "现场描述语，不是稳定成语或格言。"
+    },
+    {
+      "quote_text": "三岁黄口小儿",
+      "reason": "校对轮规范为更通行、可检索的“黄口小儿”。"
+    },
+    {
+      "quote_text": "后天失调",
+      "reason": "与“先天不足”并列的临场骂语，单独成条价值不足。"
+    },
+    {
+      "quote_text": "自来荣辱标准，因人而异",
+      "reason": "现代法律论辩中的现场判断句，格言性不足。"
+    },
+    {
+      "quote_text": "目为奇耻",
+      "reason": "同段含近现代政治人物例证，且短语本体独立价值弱。"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "005.控徐复观的一些补充理由.txt",
+      "reason": "主要为诽谤案材料、人名攻防与证据说明；只取已在前文稳定出现的俗语，不重复收案情话语。"
+    },
+    {
+      "source_file": "018.《自由时报》被裁定诚意不足.txt",
+      "reason": "媒体争议与新闻评议材料中只保留新闻伦理短句和独立成语；报社、人物、处分、法条内容不收。"
+    },
+    {
+      "source_file": "023.“一国两制”说从头.txt",
+      "reason": "全章为政治制度与言论管制论辩，虽含普通成语，首轮按政治高密度章节从严排除。"
+    },
+    {
+      "source_file": "025.林洋港说话算数吗？.txt",
+      "reason": "只保留与具体党政攻防可分离的法谚和证据法则熟语；政治干涉司法叙述不收。"
+    }
+  ],
+  "csvPath": "exports\\李敖刀笔集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖刀笔集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_daobi_selected_rows.json",
+  "reviewTsv": "analysis\\liao_daobi_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_daobi_proofread_audit.tsv"
+}

@@ -1,0 +1,15 @@
+{
+  "book": "君子爱人以色",
+  "sourceDir": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/006.君子爱人以色",
+  "sourceFileCount": 43,
+  "rawRows": 245,
+  "removedRows": 51,
+  "rows": 194,
+  "firstId": "GENT-001",
+  "lastId": "GENT-194",
+  "politicalQuoteTextHits": [],
+  "outputCsv": "exports/君子爱人以色_诗文格言歌谣引用.csv",
+  "outputTxt": "exports/君子爱人以色_诗文格言歌谣引用.txt",
+  "outputJson": "analysis/liao_gentleman_color_selected_rows.json",
+  "rejectsJson": "analysis/liao_gentleman_color_proofread_rejects.json"
+}

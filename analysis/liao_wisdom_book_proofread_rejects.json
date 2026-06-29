@@ -1,0 +1,145 @@
+[
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "仁义道德",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "从反讽段落中保留成语本身。"
+  },
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "男盗女娼",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "从反讽段落中保留成语本身。"
+  },
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "弃甲曳兵",
+    "sourceOrOrigin": "《孟子》",
+    "category": "成语",
+    "note": "孟子语源成语。"
+  },
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "不苟言笑",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立性强的性情描写成语。"
+  },
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "忍俊不禁",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立性强的情态成语。"
+  },
+  {
+    "selector": "002",
+    "fileName": "002.要民主，先丑化.txt",
+    "chapter": "002.要民主，先丑化",
+    "lineStart": 15,
+    "lineEnd": 15,
+    "quoteText": "高高在上",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立性强的姿态成语。"
+  },
+  {
+    "selector": "005",
+    "fileName": "005.政治动物学.txt",
+    "chapter": "005.政治动物学",
+    "lineStart": 13,
+    "lineEnd": 13,
+    "quoteText": "青出于蓝",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立成语。"
+  },
+  {
+    "selector": "005",
+    "fileName": "005.政治动物学.txt",
+    "chapter": "005.政治动物学",
+    "lineStart": 13,
+    "lineEnd": 13,
+    "quoteText": "后来居上",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立成语。"
+  },
+  {
+    "selector": "005",
+    "fileName": "005.政治动物学.txt",
+    "chapter": "005.政治动物学",
+    "lineStart": 17,
+    "lineEnd": 17,
+    "quoteText": "勃然变色",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立成语。"
+  },
+  {
+    "selector": "005",
+    "fileName": "005.政治动物学.txt",
+    "chapter": "005.政治动物学",
+    "lineStart": 25,
+    "lineEnd": 25,
+    "quoteText": "江河日下",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立成语。"
+  },
+  {
+    "selector": "005",
+    "fileName": "005.政治动物学.txt",
+    "chapter": "005.政治动物学",
+    "lineStart": 25,
+    "lineEnd": 25,
+    "quoteText": "呜呼哀哉",
+    "sourceOrOrigin": "成语",
+    "category": "成语",
+    "note": "独立成语。"
+  },
+  {
+    "selector": "009",
+    "fileName": "009.三个臭皮党，诸葛怎样想.txt",
+    "chapter": "009.三个臭皮党，诸葛怎样想",
+    "lineStart": 17,
+    "lineEnd": 17,
+    "quoteText": "一篮烂苹果，没有什么好挑的",
+    "sourceOrOrigin": "莎士比亚",
+    "category": "格言",
+    "note": "以苹果作喻的文学性判断，未保留其选举语境。"
+  },
+  {
+    "selector": "042",
+    "fileName": "042.自取其辱，才遭开除.txt",
+    "chapter": "042.自取其辱，才遭开除",
+    "lineStart": 3,
+    "lineEnd": 3,
+    "quoteText": "杠上开花",
+    "sourceOrOrigin": "俗语",
+    "category": "俗语",
+    "note": "麻将俗语。"
+  }
+]

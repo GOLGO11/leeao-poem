@@ -1,0 +1,12 @@
+{
+  "book": "启发你的小故事",
+  "sourceDir": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/005.启发你的小故事",
+  "sourceFileCount": 55,
+  "rows": 230,
+  "firstId": "INSP-001",
+  "lastId": "INSP-230",
+  "politicalQuoteTextHits": [],
+  "outputCsv": "exports/启发你的小故事_诗文格言歌谣引用.csv",
+  "outputTxt": "exports/启发你的小故事_诗文格言歌谣引用.txt",
+  "outputJson": "analysis/liao_inspiring_stories_selected_rows.json"
+}

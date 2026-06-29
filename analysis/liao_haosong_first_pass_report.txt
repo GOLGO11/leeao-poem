@@ -1,0 +1,35 @@
+{
+  "book": "李敖好讼集",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\005.李敖好讼集",
+  "sourceFiles": 30,
+  "candidatesJson": "analysis\\liao_haosong_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_haosong_review_candidates.tsv",
+  "selectedRows": 141,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.打倒胡秋原谎话的二十个例子.txt",
+      "reason": "全章政治史争辩、人名攻防和意识形态词汇密集；只保留苏轼、陶潜等明确引文及脱离语境仍能成立的成语熟语。"
+    },
+    {
+      "source_file": "005.控告胡秋原、梁肃戎诽谤.txt",
+      "reason": "诽谤清单和诉讼请求占主体，涉党政机构与人物攻防者不收，只保留少量中性成语。"
+    },
+    {
+      "source_file": "014.对所谓诬告的答辩.txt",
+      "reason": "判例原文和诬告构成要件偏法律文书，不作为诗文格言收录；仅留其中可独立检索的传统成语。"
+    },
+    {
+      "source_file": "023.质问三军总医院.txt",
+      "reason": "医院质问与责任追究文字不收，保留少量传统成语和医学语境中的李敖式仿成语。"
+    }
+  ],
+  "csvPath": "exports\\李敖好讼集_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\李敖好讼集_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_haosong_selected_rows.json",
+  "reviewTsv": "analysis\\liao_haosong_first_pass_review.tsv",
+  "auditTsv": "analysis\\liao_haosong_first_pass_audit.tsv"
+}

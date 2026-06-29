@@ -1,0 +1,31 @@
+{
+  "book": "洗你的脑，掐他脖子",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\009.洗你的脑，掐他脖子",
+  "sourceFiles": 11,
+  "candidatesJson": "analysis\\liao_wash_brain_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_wash_brain_review_candidates.tsv",
+  "selectedRows": 69,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "002.“出卖台湾，买回大陆！”.txt",
+      "reason": "标题与正文围绕现代政治口号和两岸主张，未作首轮收录。"
+    },
+    {
+      "source_file": "008.邓小平论“一国两制”.txt",
+      "reason": "正文集中引用邓小平等现代政治论述，即便含实事求是等成语，也按政治语录排除。"
+    },
+    {
+      "source_file": "010.诺贝尔文学奖候选人李敖简介.txt:69-79",
+      "reason": "戴布兹阶级/监狱格言虽有格言形态，但社会政治色彩较重，首轮从严不收。"
+    }
+  ],
+  "csvPath": "exports\\洗你的脑，掐他脖子_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\洗你的脑，掐他脖子_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_wash_brain_selected_rows.json",
+  "reviewTsv": "analysis\\liao_wash_brain_initial_review.tsv",
+  "auditTsv": "analysis\\liao_wash_brain_initial_audit.tsv"
+}

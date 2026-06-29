@@ -1,0 +1,387 @@
+[
+  {
+    "quote_text": "验明正身",
+    "reason": "普通叙事词，格言/诗文检索价值弱。",
+    "filePrefix": "001.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "一穷二白",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "001.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "有目共睹",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "003.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "孤陋寡闻",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "007.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "谁是涂咪咪？",
+    "reason": "故事标题式问句，离开上下文价值弱。",
+    "filePrefix": "007.",
+    "category": "格言",
+    "source_attribution": "小故事问句"
+  },
+  {
+    "quote_text": "本末的倒置",
+    "reason": "现代评论语，且处在政治人物/情治语境中。",
+    "filePrefix": "008.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "滑稽",
+    "reason": "单词式评语，引用价值弱。",
+    "filePrefix": "008.",
+    "category": "格言",
+    "source_attribution": "常用语"
+  },
+  {
+    "quote_text": "大丈夫岂可火烧自己才讲话！",
+    "reason": "自焚抗议语境中的现代政治断语，校对轮从严排除。",
+    "filePrefix": "011.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "自有兄弟扶持",
+    "reason": "《西游记》故事片段，单独保留价值弱。",
+    "filePrefix": "012.",
+    "category": "格言",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "自有兄弟动手",
+    "reason": "仿拟故事片段，单独保留价值弱。",
+    "filePrefix": "012.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "又一个爷爷来了。",
+    "reason": "小说对白碎片，单独检索价值弱。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "有个什么齐天大圣，才来这里否？",
+    "reason": "小说对白碎片，单独检索价值弱。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "不曾见什么大圣，只有一个爷爷在里面查点哩。",
+    "reason": "小说对白碎片，单独检索价值弱。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "郎君不消嚷，庙宇已姓孙了。",
+    "reason": "小说对白碎片，单独检索价值弱。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "你到我家来，我到你家去",
+    "reason": "上下文依赖强，非稳定格言。",
+    "filePrefix": "012.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "等我丢下去打他一下。",
+    "reason": "小说对白碎片，单独检索价值弱。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "这个亡人！你不去妨家长，却来咬老孙！",
+    "reason": "小说骂语碎片，校对轮从严排除。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "《西游记》"
+  },
+  {
+    "quote_text": "你这个霉星高照的死鬼！不去使你主人倒霉，来咬我老孙干什么！",
+    "reason": "转述式骂语，校对轮从严排除。",
+    "filePrefix": "012.",
+    "category": "诗文",
+    "source_attribution": "李敖译述《西游记》语意"
+  },
+  {
+    "quote_text": "譬之畜狗，本取其吠",
+    "reason": "犬臣譬喻处在政治攻击语境中，校对轮从严排除。",
+    "filePrefix": "012.",
+    "category": "格言",
+    "source_attribution": "古语"
+  },
+  {
+    "quote_text": "作一看家恶犬",
+    "reason": "犬臣譬喻处在政治攻击语境中，校对轮从严排除。",
+    "filePrefix": "012.",
+    "category": "格言",
+    "source_attribution": "古语"
+  },
+  {
+    "quote_text": "共生",
+    "reason": "单词式概念，非诗文格言。",
+    "filePrefix": "013.",
+    "category": "格言",
+    "source_attribution": "symbiosis"
+  },
+  {
+    "quote_text": "官逼民反",
+    "reason": "政治反抗类俗语，校对轮按政治语境排除。",
+    "filePrefix": "014.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "人我两便",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "014.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "东张西望",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "014.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "失其常度",
+    "reason": "普通成语化短语，已保留更完整出处。",
+    "filePrefix": "016.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "坚忍不拔",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "016.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "越挫越奋",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "016.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "没有东西",
+    "reason": "英语格言译述碎片，保留完整英文句即可。",
+    "filePrefix": "017.",
+    "category": "格言",
+    "source_attribution": "李敖译述"
+  },
+  {
+    "quote_text": "有些东西",
+    "reason": "英语格言译述碎片，保留完整英文句即可。",
+    "filePrefix": "017.",
+    "category": "格言",
+    "source_attribution": "李敖译述"
+  },
+  {
+    "quote_text": "一个不可靠的朋友，就是一个敌人",
+    "reason": "现代政治人物语录，校对轮从严排除。",
+    "filePrefix": "019.",
+    "category": "格言",
+    "source_attribution": "列宁"
+  },
+  {
+    "quote_text": "人在江湖",
+    "reason": "普通俗语，未形成独立引用价值。",
+    "filePrefix": "022.",
+    "category": "格言",
+    "source_attribution": "俗语"
+  },
+  {
+    "quote_text": "侠盗罗宾汉",
+    "reason": "人物称谓，非诗文格言。",
+    "filePrefix": "024.",
+    "category": "格言",
+    "source_attribution": "Robin Hood"
+  },
+  {
+    "quote_text": "不团结就是力量",
+    "reason": "仿政治口号的现代断语，校对轮从严排除。",
+    "filePrefix": "025.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "祈战死",
+    "reason": "军事/战死题辞，校对轮从严排除。",
+    "filePrefix": "029.",
+    "category": "诗文",
+    "source_attribution": "旧题辞"
+  },
+  {
+    "quote_text": "鸟语人言",
+    "reason": "普通成语化短语，引用价值弱。",
+    "filePrefix": "030.",
+    "category": "格言",
+    "source_attribution": "成语化表述"
+  },
+  {
+    "quote_text": "忠孝仁爱信义和平",
+    "reason": "德目口号式排列，校对轮从严排除。",
+    "filePrefix": "032.",
+    "category": "格言",
+    "source_attribution": "传统德目"
+  },
+  {
+    "quote_text": "患有所不辟",
+    "reason": "已保留《孟子》完整句，短片语重复。",
+    "filePrefix": "032.",
+    "category": "格言",
+    "source_attribution": "《孟子》"
+  },
+  {
+    "quote_text": "见怪不怪",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "033.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "不亦宜乎",
+    "reason": "古文句式碎片，单独价值弱。",
+    "filePrefix": "033.",
+    "category": "格言",
+    "source_attribution": "古文句式"
+  },
+  {
+    "quote_text": "良非易事",
+    "reason": "古文句式碎片，单独价值弱。",
+    "filePrefix": "035.",
+    "category": "格言",
+    "source_attribution": "古文句式"
+  },
+  {
+    "quote_text": "胡说八道",
+    "reason": "普通俗语，未形成独立引用价值。",
+    "filePrefix": "037.",
+    "category": "格言",
+    "source_attribution": "俗语"
+  },
+  {
+    "quote_text": "披学术外衣",
+    "reason": "现代批评语，引用价值弱。",
+    "filePrefix": "037.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "奇字活现",
+    "reason": "临时造词，离开上下文价值弱。",
+    "filePrefix": "039.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "以君子之心度人",
+    "reason": "上下文依赖强，非稳定引用。",
+    "filePrefix": "044.",
+    "category": "格言",
+    "source_attribution": "成语化表述"
+  },
+  {
+    "quote_text": "积威约之势也！",
+    "reason": "已保留《报任少卿书》完整句，短片语重复。",
+    "filePrefix": "046.",
+    "category": "格言",
+    "source_attribution": "司马迁《报任少卿书》"
+  },
+  {
+    "quote_text": "有用之身",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "046.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "人情",
+    "reason": "单词式概念，非诗文格言。",
+    "filePrefix": "047.",
+    "category": "格言",
+    "source_attribution": "常用语"
+  },
+  {
+    "quote_text": "物情",
+    "reason": "单词式概念，非诗文格言。",
+    "filePrefix": "047.",
+    "category": "格言",
+    "source_attribution": "常用语"
+  },
+  {
+    "quote_text": "眼空四海",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "049.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "手下无情",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "049.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "愤世嫉俗",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "049.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "真是一针见血，字字击中要害",
+    "reason": "即时评论语，非稳定格言。",
+    "filePrefix": "050.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "字斟句酌",
+    "reason": "普通成语，未形成独立引用价值。",
+    "filePrefix": "050.",
+    "category": "格言",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "下马威",
+    "reason": "普通俗语，未形成独立引用价值。",
+    "filePrefix": "052.",
+    "category": "格言",
+    "source_attribution": "俗语"
+  },
+  {
+    "quote_text": "与子偕小",
+    "reason": "直接依附台湾/政党大小语境，校对轮从严排除。",
+    "filePrefix": "053.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  }
+]

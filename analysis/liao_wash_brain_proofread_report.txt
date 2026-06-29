@@ -1,0 +1,103 @@
+{
+  "book": "洗你的脑，掐他脖子",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\009.洗你的脑，掐他脖子",
+  "sourceFiles": 11,
+  "candidatesJson": "analysis\\liao_wash_brain_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_wash_brain_review_candidates.tsv",
+  "selectedRows": 79,
+  "proofreadAddedRows": [
+    {
+      "id": "LAXNDN-026",
+      "quote_text": "不可同日而语",
+      "source_file": "001.洗你的脑，掐他脖子.txt",
+      "line_start": 613,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAXNDN-027",
+      "quote_text": "司空见惯",
+      "source_file": "001.洗你的脑，掐他脖子.txt",
+      "line_start": 637,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAXNDN-028",
+      "quote_text": "削足适履",
+      "source_file": "001.洗你的脑，掐他脖子.txt",
+      "line_start": 641,
+      "category": "中文成语"
+    },
+    {
+      "id": "LAXNDN-029",
+      "quote_text": "哀莫大于心死",
+      "source_file": "002.“出卖台湾，买回大陆！”.txt",
+      "line_start": 37,
+      "category": "庄子成句"
+    },
+    {
+      "id": "LAXNDN-030",
+      "quote_text": "天要下雨，娘要嫁人",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 29,
+      "category": "中文俗语"
+    },
+    {
+      "id": "LAXNDN-031",
+      "quote_text": "金刚怒目",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 33,
+      "category": "佛教成语"
+    },
+    {
+      "id": "LAXNDN-032",
+      "quote_text": "烈士肝肠名士胆，杀人手段救人心",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 33,
+      "category": "近代诗联"
+    },
+    {
+      "id": "LAXNDN-033",
+      "quote_text": "菩萨低眉",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 33,
+      "category": "佛教成语"
+    },
+    {
+      "id": "LAXNDN-034",
+      "quote_text": "横眉冷对千夫指",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 59,
+      "category": "现代诗句"
+    },
+    {
+      "id": "LAXNDN-035",
+      "quote_text": "靖康耻，犹未雪，臣子恨，何时灭",
+      "source_file": "003.快意恩仇的李敖传奇.txt",
+      "line_start": 85,
+      "category": "宋词名句"
+    }
+  ],
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "002.“出卖台湾，买回大陆！”.txt",
+      "reason": "正文围绕现代政治口号和两岸主张；校对轮仅保留明言为古人说的庄子成句，其余政治主张不收。"
+    },
+    {
+      "source_file": "008.邓小平论“一国两制”.txt",
+      "reason": "正文集中引用邓小平等现代政治论述，即便含实事求是等成语，也按政治语录排除。"
+    },
+    {
+      "source_file": "010.诺贝尔文学奖候选人李敖简介.txt:69-79",
+      "reason": "戴布兹阶级/监狱格言虽有格言形态，但社会政治色彩较重，首轮从严不收。"
+    }
+  ],
+  "csvPath": "exports\\洗你的脑，掐他脖子_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\洗你的脑，掐他脖子_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_wash_brain_selected_rows.json",
+  "reviewTsv": "analysis\\liao_wash_brain_proofread_review.tsv",
+  "auditTsv": "analysis\\liao_wash_brain_proofread_audit.tsv"
+}

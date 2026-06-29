@@ -1,0 +1,43 @@
+{
+  "book": "另一面的二二八",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\014.台湾史政类\\008.另一面的二二八",
+  "sourceFiles": 32,
+  "candidatesJson": "analysis\\liao_other_side_228_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_other_side_228_review_candidates.tsv",
+  "selectedRows": 94,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.俞国华找不到二二八的有关文件吗？.txt",
+      "line_start": 31,
+      "quote_text": "有关二二八事件的资料，行政院目前找不到任何有关文件，政府所有的资料也很少",
+      "reason": "现代政府声明与事件资料攻防，属于政治语录，不收。"
+    },
+    {
+      "source_file": "007.二二八的道歉问题.txt",
+      "line_start": 5,
+      "quote_text": "公开道歉，当然不是要你再召开一个记者会用河洛语北京语客家语各说一声对不起……",
+      "reason": "二二八道歉诉求与现实政治请愿文字，不收。"
+    },
+    {
+      "source_file": "020.二二八道歉中的怪现象.txt",
+      "line_start": 13,
+      "quote_text": "李登辉或国民党的现任党主席应向二二八受难者家属正式道歉。",
+      "reason": "现实政治人物/政党道歉主张，不收。"
+    },
+    {
+      "source_file": "032.二二八时外省人的被害文献.txt",
+      "line_start": 19,
+      "quote_text": "发挥同胞爱，消除仇恨心",
+      "reason": "事件后社会动员口号，虽有格言外形但政治情境过强，不收。"
+    }
+  ],
+  "csvPath": "exports\\另一面的二二八_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\另一面的二二八_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_other_side_228_selected_rows.json",
+  "reviewTsv": "analysis\\liao_other_side_228_initial_review.tsv",
+  "auditTsv": "analysis\\liao_other_side_228_initial_audit.tsv"
+}

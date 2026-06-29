@@ -1,0 +1,35 @@
+{
+  "book": "你不知道的司法黑暗",
+  "generatedDate": "2026-06-29",
+  "sourceDir": "《大李敖全集6.0》分章节\\015.雷霆法律类\\006.你不知道的司法黑暗",
+  "sourceFiles": 27,
+  "candidatesJson": "analysis\\liao_sifa_heian_quote_candidates.json",
+  "reviewCandidatesTsv": "analysis\\liao_sifa_heian_review_candidates.tsv",
+  "selectedRows": 145,
+  "missingQuotes": [],
+  "politicalHits": [],
+  "duplicateQuotes": [],
+  "omittedBoundaryExamples": [
+    {
+      "source_file": "001.为司法黑暗发榜.txt",
+      "reason": "点名放榜、法院批判和政治背景叙述占主体；只取其中可脱离司法攻防语境独立成立的成语、俗语和古典成句。"
+    },
+    {
+      "source_file": "005.人间何处有青天.txt",
+      "reason": "武汉大旅社命案材料、刑求叙述和案件结论不收；仅收古诗化用、传统熟语及可检索成语。"
+    },
+    {
+      "source_file": "013.最高法院法官岂可有最低视野？.txt",
+      "reason": "出版自由、宪法和司法批判文字不收；保留王安石《登飞来峰》完整诗句及少量成语。"
+    },
+    {
+      "source_file": "027.质问施启扬和法官李炫德、黄清江、王锦村、庄秋桃.txt",
+      "reason": "对施启扬、法官和高雄市政府的质问文字不收；只保留句子本身中性的传统熟语。"
+    }
+  ],
+  "csvPath": "exports\\你不知道的司法黑暗_诗文格言歌谣引用.csv",
+  "txtPath": "exports\\你不知道的司法黑暗_诗文格言歌谣引用.txt",
+  "selectedJson": "analysis\\liao_sifa_heian_selected_rows.json",
+  "reviewTsv": "analysis\\liao_sifa_heian_first_pass_review.tsv",
+  "auditTsv": "analysis\\liao_sifa_heian_first_pass_audit.tsv"
+}

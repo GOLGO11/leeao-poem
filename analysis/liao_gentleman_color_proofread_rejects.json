@@ -1,0 +1,359 @@
+[
+  {
+    "quote_text": "察言观色",
+    "reason": "普通成语，题辞色字铺排中出现，校对轮不单列。",
+    "filePrefix": "preface",
+    "category": "成语",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "不动声色",
+    "reason": "普通成语，题辞色字铺排中出现，校对轮不单列。",
+    "filePrefix": "preface",
+    "category": "成语",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "唯灵论",
+    "reason": "宗教哲学术语，非诗文格言。",
+    "filePrefix": "001.",
+    "category": "术语",
+    "source_attribution": "宗教哲学术语"
+  },
+  {
+    "quote_text": "灵魂至上论",
+    "reason": "宗教哲学术语，非诗文格言。",
+    "filePrefix": "001.",
+    "category": "术语",
+    "source_attribution": "宗教哲学术语"
+  },
+  {
+    "quote_text": "崇灵贬肉论",
+    "reason": "概念名词，非稳定诗文格言。",
+    "filePrefix": "001.",
+    "category": "术语",
+    "source_attribution": "李敖概括"
+  },
+  {
+    "quote_text": "眼不见心不烦",
+    "reason": "普通俗语，已保留《老子》原句。",
+    "filePrefix": "002.",
+    "category": "俗语",
+    "source_attribution": "俗语"
+  },
+  {
+    "quote_text": "钗头凤",
+    "reason": "词牌和文学事件名，非引文格言。",
+    "filePrefix": "003.",
+    "category": "文学典故",
+    "source_attribution": "陆游唐婉典故"
+  },
+  {
+    "quote_text": "颠倒鸳鸯",
+    "reason": "印文片语，上下文依赖强。",
+    "filePrefix": "003.",
+    "category": "典故",
+    "source_attribution": "刘声木《苌楚斋四笔》"
+  },
+  {
+    "quote_text": "佯信",
+    "reason": "心理术语碎片，非诗文格言。",
+    "filePrefix": "004.",
+    "category": "术语",
+    "source_attribution": "make-believe"
+  },
+  {
+    "quote_text": "make-believe",
+    "reason": "外文术语碎片，非诗文格言。",
+    "filePrefix": "004.",
+    "category": "外文术语",
+    "source_attribution": "英文术语"
+  },
+  {
+    "quote_text": "自我陷溺",
+    "reason": "心理术语碎片，非诗文格言。",
+    "filePrefix": "004.",
+    "category": "术语",
+    "source_attribution": "self-absorption"
+  },
+  {
+    "quote_text": "self-absorption",
+    "reason": "外文术语碎片，非诗文格言。",
+    "filePrefix": "004.",
+    "category": "外文术语",
+    "source_attribution": "英文术语"
+  },
+  {
+    "quote_text": "霸王硬上弓",
+    "reason": "普通俗语且处于性犯罪论述中，校对轮不单列。",
+    "filePrefix": "005.",
+    "category": "俗语",
+    "source_attribution": "俗语"
+  },
+  {
+    "quote_text": "“真”“善”“美”",
+    "reason": "普通哲学三分名词，非引文格言。",
+    "filePrefix": "007.",
+    "category": "格言",
+    "source_attribution": "哲学常语"
+  },
+  {
+    "quote_text": "不证自明的",
+    "reason": "术语碎片，非诗文格言。",
+    "filePrefix": "008.",
+    "category": "术语",
+    "source_attribution": "self-evident"
+  },
+  {
+    "quote_text": "self-evident",
+    "reason": "外文术语碎片，非诗文格言。",
+    "filePrefix": "008.",
+    "category": "外文术语",
+    "source_attribution": "英文术语"
+  },
+  {
+    "quote_text": "神不守舍",
+    "reason": "普通成语，已保留更完整医学引文。",
+    "filePrefix": "009.",
+    "category": "成语",
+    "source_attribution": "方贤《奇效良方》"
+  },
+  {
+    "quote_text": "女曰观乎！",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "士曰既且。",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "洵訏且乐",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "伊其将谑",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "赠之以勺药",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "女曰观乎？士曰既且",
+    "reason": "已收入《溱洧》整章，短句重复。",
+    "filePrefix": "010.",
+    "category": "诗句",
+    "source_attribution": "《诗经·郑风·溱洧》"
+  },
+  {
+    "quote_text": "中学为体，西学为用",
+    "reason": "近代政治文化口号，校对轮从严排除。",
+    "filePrefix": "010.",
+    "category": "格言",
+    "source_attribution": "晚清常语"
+  },
+  {
+    "quote_text": "公直老人",
+    "reason": "《笑林广记》题名，已保留完整笑话。",
+    "filePrefix": "011.",
+    "category": "典故",
+    "source_attribution": "《笑林广记》"
+  },
+  {
+    "quote_text": "不肯徇私",
+    "reason": "完整笑话中的短语，单列价值弱。",
+    "filePrefix": "011.",
+    "category": "格言",
+    "source_attribution": "《笑林广记》"
+  },
+  {
+    "quote_text": "中立不倚，守正不阿，\n中正中正，唯我鸡巴。",
+    "reason": "办报语境中的讽谑诗，政治/新闻语境较重。",
+    "filePrefix": "011.",
+    "category": "诗文",
+    "source_attribution": "李敖《办报要如鸡巴中正颂》"
+  },
+  {
+    "quote_text": "死心塌地",
+    "reason": "普通成语，新闻叙事中出现，未形成独立引用价值。",
+    "filePrefix": "012.",
+    "category": "成语",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "无地自容",
+    "reason": "普通成语，新闻叙事中出现，未形成独立引用价值。",
+    "filePrefix": "012.",
+    "category": "成语",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "古已有之",
+    "reason": "普通成语，附录中说明性用语。",
+    "filePrefix": "017.",
+    "category": "成语",
+    "source_attribution": "成语"
+  },
+  {
+    "quote_text": "过犹不及",
+    "reason": "普通成语，附录中说明性用语。",
+    "filePrefix": "017.",
+    "category": "成语",
+    "source_attribution": "《论语》成语"
+  },
+  {
+    "quote_text": "Never on Sunday",
+    "reason": "作品/题名式外文片语，非诗文格言。",
+    "filePrefix": "020.",
+    "category": "外文典故",
+    "source_attribution": "小说电影题名"
+  },
+  {
+    "quote_text": "汗流满面",
+    "reason": "旧约片语过短，单列价值弱。",
+    "filePrefix": "020.",
+    "category": "宗教语",
+    "source_attribution": "《创世纪》"
+  },
+  {
+    "quote_text": "泪流满面",
+    "reason": "普通成语化短语，文中调侃片段。",
+    "filePrefix": "020.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "好老的包皮！",
+    "reason": "即时调侃语，非稳定格言。",
+    "filePrefix": "020.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "羊真倒霉！",
+    "reason": "即时调侃语，非稳定格言。",
+    "filePrefix": "020.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "古之弗洛伊德",
+    "reason": "临时类比短语，非稳定格言。",
+    "filePrefix": "020.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "疑妻行淫试验之法",
+    "reason": "旧约小标题式概念，非诗文格言。",
+    "filePrefix": "020.",
+    "category": "宗教律法",
+    "source_attribution": "《民数记》"
+  },
+  {
+    "quote_text": "许愿之例",
+    "reason": "旧约小标题式概念，非诗文格言。",
+    "filePrefix": "020.",
+    "category": "宗教律法",
+    "source_attribution": "《民数记》"
+  },
+  {
+    "quote_text": "烈士肝肠名士胆，杀人手段救人心",
+    "reason": "杀人/烈士政治色彩强，校对轮从严排除。",
+    "filePrefix": "024.",
+    "category": "对联",
+    "source_attribution": "彭玉麟"
+  },
+  {
+    "quote_text": "名士肝肠烈士胆，救人手段杀人心",
+    "reason": "现代政论自况，校对轮从严排除。",
+    "filePrefix": "024.",
+    "category": "对联",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "愤世之外，又能玩世；骂世之外，又能讽世",
+    "reason": "出自现代政治人物攻击篇，校对轮从严排除。",
+    "filePrefix": "024.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "此中之乐，俗蛋不知也！",
+    "reason": "出自现代政治人物攻击篇，且独立引用价值弱。",
+    "filePrefix": "024.",
+    "category": "格言",
+    "source_attribution": "李敖"
+  },
+  {
+    "quote_text": "怪、力、乱、神",
+    "reason": "已保留《论语》完整句，短片语重复。",
+    "filePrefix": "026.",
+    "category": "古文",
+    "source_attribution": "《论语》"
+  },
+  {
+    "quote_text": "穷极丑怪",
+    "reason": "评语碎片，单列价值弱。",
+    "filePrefix": "029.",
+    "category": "评语",
+    "source_attribution": "《故都文物略》"
+  },
+  {
+    "quote_text": "贪看",
+    "reason": "单词式文学片语，非诗文格言。",
+    "filePrefix": "035.",
+    "category": "文学语",
+    "source_attribution": "《西厢记》"
+  },
+  {
+    "quote_text": "看破红尘",
+    "reason": "普通佛教成语，校对轮不单列。",
+    "filePrefix": "039.",
+    "category": "成语",
+    "source_attribution": "佛教成语"
+  },
+  {
+    "quote_text": "四大皆空",
+    "reason": "普通佛教成语，校对轮不单列。",
+    "filePrefix": "039.",
+    "category": "成语",
+    "source_attribution": "佛教成语"
+  },
+  {
+    "quote_text": "诸行无常",
+    "reason": "普通佛教术语，校对轮不单列。",
+    "filePrefix": "039.",
+    "category": "佛教语",
+    "source_attribution": "佛教常语"
+  },
+  {
+    "quote_text": "自了汉",
+    "reason": "佛教名词，非独立格言。",
+    "filePrefix": "039.",
+    "category": "佛教语",
+    "source_attribution": "佛教常语"
+  },
+  {
+    "quote_text": "死去活来",
+    "reason": "普通成语，校对轮不单列。",
+    "filePrefix": "039.",
+    "category": "成语",
+    "source_attribution": "成语"
+  }
+]
