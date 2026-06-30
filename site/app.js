@@ -39,7 +39,8 @@
     search: "",
     book: "",
     type: "",
-    visible: 80,
+    page: 1,
+    pageSize: 80,
   };
 
   const els = {
@@ -53,7 +54,9 @@
     resultCount: document.getElementById("resultCount"),
     exportButton: document.getElementById("exportButton"),
     quoteList: document.getElementById("quoteList"),
-    showMoreButton: document.getElementById("showMoreButton"),
+    prevPageButton: document.getElementById("prevPageButton"),
+    nextPageButton: document.getElementById("nextPageButton"),
+    pageInfo: document.getElementById("pageInfo"),
   };
 
   const collator = new Intl.Collator("zh-Hans-CN");
@@ -148,7 +151,16 @@
   }
 
   async function copyQuote(row, button) {
-    const text = `${row.quote_text}\n\n${row.book}｜${row.chapter}\n${row.source_or_origin}\n${sourceLine(row)}`;
+    const parts = [
+      row.quote_text,
+      `描述：${row.summary || "未注明"}`,
+      row.notes ? `备注：${row.notes}` : "",
+      `书名：${row.book}`,
+      `章节：${row.chapter}`,
+      `出处：${row.source_or_origin || "未注明"}`,
+      `位置：${sourceLine(row)}`,
+    ].filter(Boolean);
+    const text = parts.join("\n\n");
     try {
       await navigator.clipboard.writeText(text);
       button.textContent = "已复制";
@@ -204,7 +216,10 @@
 
   function render() {
     const filtered = getFilteredRows();
-    const visibleRows = filtered.slice(0, state.visible);
+    const totalPages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+    if (state.page > totalPages) state.page = totalPages;
+    const start = (state.page - 1) * state.pageSize;
+    const visibleRows = filtered.slice(start, start + state.pageSize);
 
     els.resultCount.textContent = formatNumber(filtered.length);
     els.quoteList.textContent = "";
@@ -217,7 +232,9 @@
       els.quoteList.append(fragment);
     }
 
-    els.showMoreButton.hidden = state.visible >= filtered.length;
+    els.pageInfo.textContent = filtered.length ? `第 ${state.page} / ${totalPages} 页` : "第 0 / 0 页";
+    els.prevPageButton.disabled = !filtered.length || state.page <= 1;
+    els.nextPageButton.disabled = !filtered.length || state.page >= totalPages;
   }
 
   function toCsvValue(value) {
@@ -262,32 +279,37 @@
     "input",
     debounce((event) => {
       state.search = event.target.value.trim();
-      state.visible = 80;
+      state.page = 1;
       render();
     }, 120),
   );
   els.bookSelect.addEventListener("change", (event) => {
     state.book = event.target.value;
-    state.visible = 80;
+    state.page = 1;
     render();
   });
   els.typeSelect.addEventListener("change", (event) => {
     state.type = event.target.value;
-    state.visible = 80;
+    state.page = 1;
     render();
   });
   els.resetButton.addEventListener("click", () => {
     state.search = "";
     state.book = "";
     state.type = "";
-    state.visible = 80;
+    state.page = 1;
     els.searchInput.value = "";
     els.bookSelect.value = "";
     els.typeSelect.value = "";
     render();
   });
-  els.showMoreButton.addEventListener("click", () => {
-    state.visible += 80;
+  els.prevPageButton.addEventListener("click", () => {
+    if (state.page <= 1) return;
+    state.page -= 1;
+    render();
+  });
+  els.nextPageButton.addEventListener("click", () => {
+    state.page += 1;
     render();
   });
   els.exportButton.addEventListener("click", exportCurrent);

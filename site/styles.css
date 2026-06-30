@@ -236,18 +236,40 @@ select {
   text-align: center;
 }
 
-.show-more {
-  width: 100%;
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   margin-top: 14px;
+}
+
+.pagination span {
+  min-width: 120px;
+  color: var(--muted);
+  font-family: "Inter", "Microsoft YaHei", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.pagination button {
+  min-width: 96px;
   background: var(--text);
   border-color: var(--text);
   color: #fff;
 }
 
-.show-more:hover {
+.pagination button:hover {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  background: var(--surface-soft);
+  border-color: var(--line);
+  color: var(--muted);
 }
 
 @media (max-width: 980px) {
@@ -288,9 +310,15 @@ select {
   }
 
   .summary-row,
-  .quote-meta {
+  .quote-meta,
+  .pagination {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .pagination span,
+  .pagination button {
+    width: 100%;
   }
 
   .quote-text {
