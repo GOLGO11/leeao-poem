@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const generatedDate = "2026-06-29";
+const generatedDate = "2026-06-30";
 
 const bookExports = [
   "李敖自传与回忆_诗词名言引用.csv",
@@ -150,6 +150,10 @@ const bookExports = [
   "恰似我的温柔_诗文格言歌谣引用.csv",
   "启发你的小故事_诗文格言歌谣引用.csv",
   "君子爱人以色_诗文格言歌谣引用.csv",
+  "只爱一点点_诗文格言歌谣引用.csv",
+  "从万宝囊到臭屎堆_诗文格言歌谣引用.csv",
+  "我们没有明天_诗文格言歌谣引用.csv",
+  "李敖生死书_诗文格言歌谣引用.csv",
   "冷眼看台湾_诗文格言歌谣引用.csv",
   "白眼看台湾_诗文格言歌谣引用.csv",
   "法眼看台湾_诗文格言歌谣引用.csv",

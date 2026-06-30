@@ -1,0 +1,13 @@
+{
+  "generatedDate": "2026-06-30",
+  "book": "李敖生死书",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\010.李敖生死书",
+  "rows": 25,
+  "firstId": "LIFEDEATH-001",
+  "lastId": "LIFEDEATH-025",
+  "politicalQuoteTextHits": [],
+  "duplicateQuoteTexts": [],
+  "csvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\李敖生死书_诗文格言歌谣引用.csv",
+  "txtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\李敖生死书_诗文格言歌谣引用.txt",
+  "selectedJson": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\analysis\\liao_life_death_selected_rows.json"
+}

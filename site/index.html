@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>李敖引用诗文格言</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="data/quotes-data.js" defer></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <p class="eyebrow">大李敖全集 6.0</p>
+        <h1>李敖引用诗文格言</h1>
+      </div>
+      <div class="stats" aria-label="数据概览">
+        <div><strong id="totalCount">0</strong><span>条</span></div>
+        <div><strong id="bookCount">0</strong><span>本</span></div>
+        <div><strong id="categoryCount">0</strong><span>类</span></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="toolbar" aria-label="筛选">
+        <label class="search-box">
+          <span>搜索</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="诗句、出处、书名、摘要" />
+        </label>
+        <label>
+          <span>书名</span>
+          <select id="bookSelect"></select>
+        </label>
+        <label>
+          <span>类型</span>
+          <select id="typeSelect"></select>
+        </label>
+        <button id="resetButton" type="button">重置</button>
+      </section>
+
+      <section class="summary-row" aria-label="当前结果">
+        <p><strong id="resultCount">0</strong> 条结果</p>
+        <button id="exportButton" type="button">导出当前结果</button>
+      </section>
+
+      <section class="layout">
+        <section class="results" aria-label="引用列表">
+          <div id="quoteList" class="quote-list"></div>
+          <button id="showMoreButton" class="show-more" type="button">加载更多</button>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

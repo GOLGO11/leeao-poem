@@ -1,0 +1,25 @@
+{
+  "generatedDate": "2026-06-30",
+  "book": "我们没有明天",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\009.我们没有明天",
+  "rawRows": 27,
+  "removedRows": 1,
+  "rows": 26,
+  "firstId": "NOMORROW-001",
+  "lastId": "NOMORROW-026",
+  "politicalQuoteTextHits": [],
+  "duplicateQuoteTexts": [
+    {
+      "quote_text": "总该先给人家一点输入英国原版的时间",
+      "count": 2
+    },
+    {
+      "quote_text": "我觉得很难为情，你教育我们的青年人，而我们却盗印你的书。有朝一日，我们会有比较完善的法律，也许你们会采用我们的法律。",
+      "count": 2
+    }
+  ],
+  "csvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\我们没有明天_诗文格言歌谣引用.csv",
+  "txtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\我们没有明天_诗文格言歌谣引用.txt",
+  "selectedJson": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\analysis\\liao_no_tomorrow_selected_rows.json",
+  "rejectsJson": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\analysis\\liao_no_tomorrow_proofread_rejects.json"
+}

@@ -1,0 +1,21 @@
+{
+  "book": "只爱一点点",
+  "sourceDir": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/007.只爱一点点",
+  "sourceFileCount": 45,
+  "rawRows": 155,
+  "removedRows": 23,
+  "rows": 132,
+  "firstId": "LITTLE-001",
+  "lastId": "LITTLE-132",
+  "politicalQuoteTextHits": [],
+  "quoteAidStats": {
+    "quoteLines": 383,
+    "quotedPhrases": 829
+  },
+  "outputCsv": "exports/只爱一点点_诗文格言歌谣引用.csv",
+  "outputTxt": "exports/只爱一点点_诗文格言歌谣引用.txt",
+  "outputJson": "analysis/liao_love_a_little_selected_rows.json",
+  "rejectsJson": "analysis/liao_love_a_little_proofread_rejects.json",
+  "quoteLinesTsv": "analysis/liao_love_a_little_quote_lines.tsv",
+  "quotedPhrasesTsv": "analysis/liao_love_a_little_quoted_phrases.tsv"
+}

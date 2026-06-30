@@ -1,0 +1,163 @@
+[
+  {
+    "quote_text": "纸上罗曼斯",
+    "reason": "文学术语短语，单列引用价值弱。",
+    "filePrefix": "005",
+    "category": "爱情文学短语",
+    "source_attribution": "萧伯纳"
+  },
+  {
+    "quote_text": "不打话",
+    "reason": "短碎片，依赖霸王/公鸭上下文。",
+    "filePrefix": "005",
+    "category": "俗语短语",
+    "source_attribution": "李敖论霸王与公鸭"
+  },
+  {
+    "quote_text": "硬上弓",
+    "reason": "普通俗语且与前书已排除同类，校对轮不单列。",
+    "filePrefix": "005",
+    "category": "俗语短语",
+    "source_attribution": "李敖论霸王与公鸭"
+  },
+  {
+    "quote_text": "真正的恋爱时节",
+    "reason": "文学片语过短，离开歌德语境后引用价值弱。",
+    "filePrefix": "005",
+    "category": "外国文学短语",
+    "source_attribution": "歌德"
+  },
+  {
+    "quote_text": "彼有酒器",
+    "reason": "简雍故事中的设置短句，单列价值弱。",
+    "filePrefix": "008",
+    "category": "古典轶事语",
+    "source_attribution": "简雍故事"
+  },
+  {
+    "quote_text": "彼有淫具",
+    "reason": "简雍故事中的笑话包袱，单列价值弱。",
+    "filePrefix": "008",
+    "category": "古典轶事语",
+    "source_attribution": "简雍故事"
+  },
+  {
+    "quote_text": "你们看，我赢了！我的最大。",
+    "reason": "黄色笑话包袱，非诗文格言。",
+    "filePrefix": "011",
+    "category": "笑话语录",
+    "source_attribution": "《比大小》笑话"
+  },
+  {
+    "quote_text": "我的比你的大。",
+    "reason": "黄色笑话包袱，非诗文格言。",
+    "filePrefix": "011",
+    "category": "笑话语录",
+    "source_attribution": "驴笑话"
+  },
+  {
+    "quote_text": "毁掉我一个人算了！少毁一个吧！",
+    "reason": "私人司法证词中的即时表态，非稳定诗文格言。",
+    "filePrefix": "016",
+    "category": "李敖语录",
+    "source_attribution": "李敖证词"
+  },
+  {
+    "quote_text": "我的官职比前更大了。",
+    "reason": "古笑话设置短句，单列价值弱。",
+    "filePrefix": "030",
+    "category": "古典笑话语",
+    "source_attribution": "《笑林广记》笑话"
+  },
+  {
+    "quote_text": "官大，不知此物亦大否？",
+    "reason": "古笑话设置短句，单列价值弱。",
+    "filePrefix": "030",
+    "category": "古典笑话语",
+    "source_attribution": "《笑林广记》笑话"
+  },
+  {
+    "quote_text": "难道老爷升了官职，奶奶还是照旧不成？少不得我的大，你的也大。",
+    "reason": "古笑话包袱，黄色语境较强，校对轮不单列。",
+    "filePrefix": "030",
+    "category": "古典笑话语",
+    "source_attribution": "《笑林广记》笑话"
+  },
+  {
+    "quote_text": "有鳏在下",
+    "reason": "短碎片，且处于政治犯坐牢自嘲语境中。",
+    "filePrefix": "032",
+    "category": "古典引文",
+    "source_attribution": "孔子语"
+  },
+  {
+    "quote_text": "非法出精",
+    "reason": "佛教术语碎片，且处于政治犯坐牢自嘲语境中。",
+    "filePrefix": "032",
+    "category": "佛学术语",
+    "source_attribution": "佛说"
+  },
+  {
+    "quote_text": "老大惹祸，老二遭殃",
+    "reason": "政治犯坐牢自嘲语，语境依赖强。",
+    "filePrefix": "032",
+    "category": "李敖谐语",
+    "source_attribution": "李敖自嘲语"
+  },
+  {
+    "quote_text": "大头惹祸，小头遭殃",
+    "reason": "政治犯坐牢自嘲语，语境依赖强。",
+    "filePrefix": "032",
+    "category": "李敖谐语",
+    "source_attribution": "李敖自嘲语"
+  },
+  {
+    "quote_text": "老二惹祸，老大遭殃",
+    "reason": "政治犯坐牢自嘲语，语境依赖强。",
+    "filePrefix": "032",
+    "category": "李敖谐语",
+    "source_attribution": "李敖自嘲语"
+  },
+  {
+    "quote_text": "我做了这么大的官，竟赶不上一根鸡巴！",
+    "reason": "古笑话包袱，黄色语境较强，校对轮不单列。",
+    "filePrefix": "034",
+    "category": "笑话语录",
+    "source_attribution": "古笑话"
+  },
+  {
+    "quote_text": "光屁股坐凳子——有板有眼",
+    "reason": "普通歇后语，许晓丹政治/司法话题中出现，校对轮不单列。",
+    "filePrefix": "036",
+    "category": "俗语",
+    "source_attribution": "歇后语"
+  },
+  {
+    "quote_text": "金玉其中，虽败絮其外，又何伤哉？",
+    "reason": "临场化用句，依赖许晓丹政治/司法语境。",
+    "filePrefix": "036",
+    "category": "文学谐语",
+    "source_attribution": "李敖化用"
+  },
+  {
+    "quote_text": "智慧愈多，烦恼愈多",
+    "reason": "已保留所罗门原文，此处是概括短语，重复且单列价值弱。",
+    "filePrefix": "044",
+    "category": "哲学短语",
+    "source_attribution": "李敖概括所罗门思想"
+  },
+  {
+    "quote_text": "娱乐无用",
+    "reason": "已保留所罗门原文，此处是概括短语，重复且单列价值弱。",
+    "filePrefix": "044",
+    "category": "哲学短语",
+    "source_attribution": "李敖概括所罗门思想"
+  },
+  {
+    "quote_text": "人生乏味",
+    "reason": "已保留所罗门原文，此处是概括短语，重复且单列价值弱。",
+    "filePrefix": "044",
+    "category": "哲学短语",
+    "source_attribution": "李敖概括所罗门思想"
+  }
+]

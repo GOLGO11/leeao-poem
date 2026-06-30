@@ -1,5 +1,5 @@
 {
-  "generatedDate": "2026-06-29",
+  "generatedDate": "2026-06-30",
   "books": [
     {
       "fileName": "李敖自传与回忆_诗词名言引用.csv",
@@ -1024,6 +1024,34 @@
       "removedRows": 0
     },
     {
+      "fileName": "只爱一点点_诗文格言歌谣引用.csv",
+      "book": "只爱一点点",
+      "originalRows": 132,
+      "keptRows": 132,
+      "removedRows": 0
+    },
+    {
+      "fileName": "从万宝囊到臭屎堆_诗文格言歌谣引用.csv",
+      "book": "从万宝囊到臭屎堆",
+      "originalRows": 18,
+      "keptRows": 18,
+      "removedRows": 0
+    },
+    {
+      "fileName": "我们没有明天_诗文格言歌谣引用.csv",
+      "book": "我们没有明天",
+      "originalRows": 26,
+      "keptRows": 26,
+      "removedRows": 0
+    },
+    {
+      "fileName": "李敖生死书_诗文格言歌谣引用.csv",
+      "book": "李敖生死书",
+      "originalRows": 25,
+      "keptRows": 25,
+      "removedRows": 0
+    },
+    {
       "fileName": "冷眼看台湾_诗文格言歌谣引用.csv",
       "book": "冷眼看台湾",
       "originalRows": 72,
@@ -1059,9 +1087,9 @@
       "removedRows": 0
     }
   ],
-  "rows": 14040,
+  "rows": 14241,
   "removedRows": 61,
-  "uniqueIds": 14040,
+  "uniqueIds": 14241,
   "removedByCategory": {
     "现代政治语录": 12,
     "现代人物语录": 10,

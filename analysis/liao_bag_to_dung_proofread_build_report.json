@@ -1,0 +1,15 @@
+{
+  "generatedDate": "2026-06-30",
+  "book": "从万宝囊到臭屎堆",
+  "sourceDir": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\《大李敖全集6.0》分章节\\016.李敖祸台五十年庆祝十书\\008.从万宝囊到臭屎堆",
+  "rawRows": 22,
+  "removedRows": 4,
+  "rows": 18,
+  "firstId": "BAGDUNG-001",
+  "lastId": "BAGDUNG-018",
+  "politicalQuoteTextHits": [],
+  "csvPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\从万宝囊到臭屎堆_诗文格言歌谣引用.csv",
+  "txtPath": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\exports\\从万宝囊到臭屎堆_诗文格言歌谣引用.txt",
+  "selectedJson": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\analysis\\liao_bag_to_dung_selected_rows.json",
+  "rejectsJson": "C:\\Users\\zzy87\\Desktop\\project\\leeao-poem\\analysis\\liao_bag_to_dung_proofread_rejects.json"
+}

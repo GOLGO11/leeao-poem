@@ -1,0 +1,46 @@
+[
+  {
+    "draft_id": "BAGDUNG-003",
+    "quote_text": "银样镴枪头",
+    "category": "成语俗语",
+    "source_or_origin": "传统俗语",
+    "chapter": "刘家昌与亚运名称",
+    "source_file": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/008.从万宝囊到臭屎堆/006.刘家昌与亚运名称.txt",
+    "line_start": 13,
+    "line_end": 13,
+    "reason": "普通俗语，出现在亚运名称政治攻防和粗俗讽刺语境中，校对轮不单列。"
+  },
+  {
+    "draft_id": "BAGDUNG-009",
+    "quote_text": "养兵千日，用在一朝",
+    "category": "成语俗语",
+    "source_or_origin": "传统俗语",
+    "chapter": "不平更在不平外",
+    "source_file": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/008.从万宝囊到臭屎堆/027.不平更在不平外.txt",
+    "line_start": 7,
+    "line_end": 7,
+    "reason": "普通军事俗语，嵌在老兵政治待遇申诉长引文中，独立诗文格言价值弱。"
+  },
+  {
+    "draft_id": "BAGDUNG-010",
+    "quote_text": "罄竹难书",
+    "category": "成语",
+    "source_or_origin": "传统成语",
+    "chapter": "不平更在不平外",
+    "source_file": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/008.从万宝囊到臭屎堆/027.不平更在不平外.txt",
+    "line_start": 9,
+    "line_end": 9,
+    "reason": "普通成语，嵌在私人政治待遇申诉中，单列检索价值弱。"
+  },
+  {
+    "draft_id": "BAGDUNG-022",
+    "quote_text": "空手入白刃",
+    "category": "成语",
+    "source_or_origin": "传统成语",
+    "chapter": "论背后开枪",
+    "source_file": "《大李敖全集6.0》分章节/016.李敖祸台五十年庆祝十书/008.从万宝囊到臭屎堆/033.论背后开枪.txt",
+    "line_start": 145,
+    "line_end": 145,
+    "reason": "普通成语，嵌在警察/司法个案批评中，校对轮不单列。"
+  }
+]
